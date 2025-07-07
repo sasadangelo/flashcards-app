@@ -1,12 +1,14 @@
 [
     {
         "id": "1",
+        "name": "cat",
         "image": "cat.jpg",
-        "back": "cat"
+        "back": "Cat"
     },
     {
         "id": "2",
+        "name": "dog",
         "image": "dog.jpg",
-        "back": "dog"
+        "back": "Dog"
     }
 ]

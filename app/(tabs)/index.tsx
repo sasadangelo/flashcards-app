@@ -6,7 +6,7 @@ export default function HomeScreen() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>📚 English Flashcards</Text>
+      <Text style={styles.title}>📚 English Flashcards - 100 Most Frequent Words</Text>
       <Button title="Start Studying" onPress={() => router.push('/study')} />
     </View>
   );

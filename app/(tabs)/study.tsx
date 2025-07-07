@@ -1,44 +1,156 @@
 import { imageMap } from '@/utils/imageMap';
-import { useState } from 'react';
-import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import React, { useEffect, useState } from 'react';
+import { Button, Image, StyleSheet, Text, View } from 'react-native';
 import deck from '../data/deck.json';
 
+type Card = {
+    id: string;
+    image: string;
+    back: string;
+    name: string;
+};
+
+function calculateNextReviewDate(difficulty: 'again' | 'hard' | 'good' | 'easy'): Date {
+    const date = new Date();
+    switch (difficulty) {
+        case 'again':
+            date.setDate(date.getDate() + 1);
+            break;
+        case 'hard':
+            date.setDate(date.getDate() + 2);
+            break;
+        case 'good':
+            date.setDate(date.getDate() + 4);
+            break;
+        case 'easy':
+            date.setDate(date.getDate() + 7);
+            break;
+    }
+    return date;
+}
+
+async function filterCardsToStudy(deck: Card[]): Promise<Card[]> {
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+
+    const result: Card[] = [];
+
+    for (const card of deck) {
+        const nextReviewStr = await AsyncStorage.getItem(`card_${card.name}_nextReview`);
+        if (!nextReviewStr) {
+            result.push(card); // mai studiata
+        } else {
+            const nextReview = new Date(nextReviewStr);
+            if (nextReview <= today) {
+                result.push(card); // da rivedere
+            }
+        }
+    }
+
+    return result;
+}
+
 export default function StudyScreen() {
-    const [index, setIndex] = useState(0);
+    const [cardsToStudy, setCardsToStudy] = useState<Card[]>([]);
+    const [currentIndex, setCurrentIndex] = useState(0);
     const [showBack, setShowBack] = useState(false);
+    const [isDone, setIsDone] = useState(false);
+    const [hasStarted, setHasStarted] = useState(false);
 
-    const card = deck[index];
+    useEffect(() => {
+        async function load() {
+            const filtered = await filterCardsToStudy(deck);
+            setCardsToStudy(filtered);
+            if (filtered.length > 0) {
+                setHasStarted(true); // 👈 utente ha iniziato sessione
+            }
+        }
+        load();
+    }, []);
 
-    const handleNext = () => {
+    // 👇 gestione messaggi vuoto / fine sessione
+    if (cardsToStudy.length === 0) {
+        return (
+            <View style={styles.container}>
+                <Text style={styles.word}>
+                    {hasStarted
+                        ? '🎉 Hai completato tutte le carte di oggi!'
+                        : '🎉 Non ci sono carte da studiare oggi!'}
+                </Text>
+            </View>
+        );
+    }
+
+    const card = cardsToStudy[currentIndex];
+
+    const handleAnswer = async (difficulty: 'again' | 'hard' | 'good' | 'easy') => {
+        const nextReviewDate = calculateNextReviewDate(difficulty);
+
+        console.log(`Carta ${card.name} evaluated like: ${difficulty}, next review: ${nextReviewDate.toISOString()}`);
+
+        await AsyncStorage.setItem(`card_${card.name}_difficulty`, difficulty);
+        await AsyncStorage.setItem(`card_${card.name}_nextReview`, nextReviewDate.toISOString());
+
         setShowBack(false);
-        setIndex((prev) => (prev + 1) % deck.length);
+
+        const updatedCards = await filterCardsToStudy(deck);
+
+        if (updatedCards.length === 0) {
+            setCardsToStudy([]);
+            setIsDone(true);
+        } else {
+            setCardsToStudy(updatedCards);
+            setCurrentIndex(0); // ricomincia dalla prima carta da studiare
+        }
     };
 
     return (
         <View style={styles.container}>
-            <Text style={styles.counter}>Card {index + 1} / {deck.length}</Text>
-            <TouchableOpacity onPress={() => setShowBack(!showBack)} style={styles.card}>
-                {showBack ? (
-                    <Text style={styles.backText}>{card.back}</Text>
-                ) : (
+            <Text style={styles.counter}>{currentIndex + 1} / {cardsToStudy.length}</Text>
+            <View style={styles.card}>
+                {!showBack ? (
                     <Image source={imageMap[card.image]} style={styles.image} />
+                ) : (
+                    <Text style={styles.word}>{card.back}</Text>
                 )}
-            </TouchableOpacity>
+            </View>
+            <Button title={showBack ? "Show Front" : "Show Back"} onPress={() => setShowBack(!showBack)} />
             {showBack && (
-                <TouchableOpacity onPress={handleNext} style={styles.nextBtn}>
-                    <Text style={styles.nextText}>➡️ Prossima</Text>
-                </TouchableOpacity>
+                <View style={styles.buttons}>
+                    <Button title="Again" onPress={() => handleAnswer('again')} color="#e74c3c" />
+                    <Button title="Hard" onPress={() => handleAnswer('hard')} color="#f39c12" />
+                    <Button title="Good" onPress={() => handleAnswer('good')} color="#27ae60" />
+                    <Button title="Easy" onPress={() => handleAnswer('easy')} color="#2ecc71" />
+                </View>
             )}
         </View>
     );
 }
 
 const styles = StyleSheet.create({
-    container: { flex: 1, alignItems: 'center', paddingTop: 60 },
-    counter: { fontSize: 16, marginBottom: 20 },
-    card: { padding: 20, borderWidth: 1, borderRadius: 10, marginBottom: 20 },
-    image: { width: 200, height: 200, resizeMode: 'contain' },
-    backText: { fontSize: 36 },
-    nextBtn: { backgroundColor: '#007AFF', padding: 10, borderRadius: 8 },
-    nextText: { color: 'white', fontSize: 18 },
+    container: { flex: 1, justifyContent: 'center', alignItems: 'center', padding: 20 },
+    card: {
+        backgroundColor: 'white',
+        width: 300,
+        height: 300,
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginBottom: 10,
+        borderWidth: 1,
+        borderRadius: 8,
+        borderColor: '#ccc',
+    },
+    image: { width: 250, height: 250, resizeMode: 'contain' },
+    word: { fontSize: 32, fontWeight: 'bold', textAlign: 'center' },
+    buttons: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        marginTop: 10,
+        width: '90%',
+    },
+    counter: {
+        marginBottom: 10,
+        fontSize: 18,
+    },
 });
