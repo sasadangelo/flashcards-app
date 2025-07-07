@@ -1,7 +1,9 @@
+import { audioMap } from '@/utils/audioMap';
 import { imageMap } from '@/utils/imageMap';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import React, { useEffect, useState } from 'react';
-import { Button, Image, StyleSheet, Text, View } from 'react-native';
+import { Audio } from 'expo-av';
+import React, { useEffect, useRef, useState } from 'react';
+import { Button, Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import deck from '../data/deck.json';
 
 type Card = {
@@ -57,17 +59,52 @@ export default function StudyScreen() {
     const [showBack, setShowBack] = useState(false);
     const [isDone, setIsDone] = useState(false);
     const [hasStarted, setHasStarted] = useState(false);
+    const soundRef = useRef<Audio.Sound | null>(null);
 
     useEffect(() => {
         async function load() {
             const filtered = await filterCardsToStudy(deck);
             setCardsToStudy(filtered);
-            if (filtered.length > 0) {
-                setHasStarted(true); // 👈 utente ha iniziato sessione
-            }
+            if (filtered.length > 0) setHasStarted(true);
         }
         load();
+
+        return () => {
+            // Cleanup audio on unmount
+            if (soundRef.current) {
+                soundRef.current.unloadAsync();
+            }
+        };
     }, []);
+
+    useEffect(() => {
+        // Autoplay audio when back is shown
+        if (showBack) {
+            playSound();
+        } else {
+            // Stop audio when front is shown
+            if (soundRef.current) {
+                soundRef.current.stopAsync();
+            }
+        }
+    }, [showBack]);
+
+    const playSound = async () => {
+        const card = cardsToStudy[currentIndex];
+        if (!card) return;
+
+        // Se c'è un suono caricato, scaricalo prima
+        if (soundRef.current) {
+            await soundRef.current.unloadAsync();
+            soundRef.current = null;
+        }
+
+        // Carica nuovo audio per la parola corrente
+        const { sound } = await Audio.Sound.createAsync(audioMap[card.name]);
+
+        soundRef.current = sound;
+        await sound.playAsync();
+    };
 
     // 👇 gestione messaggi vuoto / fine sessione
     if (cardsToStudy.length === 0) {
@@ -105,6 +142,7 @@ export default function StudyScreen() {
         }
     };
 
+
     return (
         <View style={styles.container}>
             <Text style={styles.counter}>{currentIndex + 1} / {cardsToStudy.length}</Text>
@@ -112,7 +150,12 @@ export default function StudyScreen() {
                 {!showBack ? (
                     <Image source={imageMap[card.name]} style={styles.image} />
                 ) : (
-                    <Text style={styles.word}>{card.back}</Text>
+                    <>
+                        <Text style={styles.word}>{card.back}</Text>
+                        <TouchableOpacity onPress={playSound} style={styles.playButton}>
+                            <Text style={{ color: 'blue' }}>▶️</Text>
+                        </TouchableOpacity>
+                    </>
                 )}
             </View>
             <Button title={showBack ? "Show Front" : "Show Back"} onPress={() => setShowBack(!showBack)} />
@@ -140,9 +183,13 @@ const styles = StyleSheet.create({
         borderWidth: 1,
         borderRadius: 8,
         borderColor: '#ccc',
+        padding: 10,
     },
     image: { width: 250, height: 250, resizeMode: 'contain' },
-    word: { fontSize: 32, fontWeight: 'bold', textAlign: 'center' },
+    word: { fontSize: 32, fontWeight: 'bold', textAlign: 'center', marginBottom: 10 },
+    playButton: {
+        marginTop: 10,
+    },
     buttons: {
         flexDirection: 'row',
         justifyContent: 'space-between',

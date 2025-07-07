@@ -5,7 +5,6 @@ import time
 import requests
 from dotenv import load_dotenv
 
-API_KEY = "LA_TUA_API_KEY_PIXABAY"
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
 OUTPUT_DIR = os.path.join(BASE_DIR, "assets/images")
