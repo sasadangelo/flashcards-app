@@ -3,602 +3,600 @@
         "id": "1",
         "name": "cat",
         "image": "cat.jpg",
-        "back": "cat"
+        "back": "Cat"
     },
     {
         "id": "2",
         "name": "dog",
         "image": "dog.jpg",
-        "back": "dog"
+        "back": "Dog"
     },
     {
         "id": "3",
         "name": "fish",
         "image": "fish.jpg",
-        "back": "fish"
+        "back": "Fish"
     },
     {
         "id": "4",
         "name": "bird",
         "image": "bird.jpg",
-        "back": "bird"
+        "back": "Bird"
     },
     {
         "id": "5",
         "name": "horse",
         "image": "horse.jpg",
-        "back": "horse"
+        "back": "Horse"
     },
     {
         "id": "6",
         "name": "cow",
         "image": "cow.jpg",
-        "back": "cow"
+        "back": "Cow"
     },
     {
         "id": "7",
         "name": "pig",
         "image": "pig.jpg",
-        "back": "pig"
+        "back": "Pig"
     },
     {
         "id": "8",
         "name": "sheep",
         "image": "sheep.jpg",
-        "back": "sheep"
+        "back": "Sheep"
     },
     {
         "id": "9",
         "name": "duck",
         "image": "duck.jpg",
-        "back": "duck"
+        "back": "Duck"
     },
     {
         "id": "10",
         "name": "chicken",
         "image": "chicken.jpg",
-        "back": "chicken"
+        "back": "Chicken"
     },
     {
         "id": "11",
         "name": "rabbit",
         "image": "rabbit.jpg",
-        "back": "rabbit"
+        "back": "Rabbit"
     },
     {
         "id": "12",
         "name": "frog",
         "image": "frog.jpg",
-        "back": "frog"
+        "back": "Frog"
     },
     {
         "id": "13",
         "name": "bear",
         "image": "bear.jpg",
-        "back": "bear"
+        "back": "Bear"
     },
     {
         "id": "14",
         "name": "lion",
         "image": "lion.jpg",
-        "back": "lion"
+        "back": "Lion"
     },
     {
         "id": "15",
         "name": "tiger",
         "image": "tiger.jpg",
-        "back": "tiger"
+        "back": "Tiger"
     },
     {
         "id": "16",
         "name": "monkey",
         "image": "monkey.jpg",
-        "back": "monkey"
+        "back": "Monkey"
     },
     {
         "id": "17",
         "name": "elephant",
         "image": "elephant.jpg",
-        "back": "elephant"
+        "back": "Elephant"
     },
     {
         "id": "18",
         "name": "snake",
         "image": "snake.jpg",
-        "back": "snake"
+        "back": "Snake"
     },
     {
         "id": "19",
         "name": "mouse",
         "image": "mouse.jpg",
-        "back": "mouse"
+        "back": "Mouse"
     },
     {
         "id": "20",
         "name": "goat",
         "image": "goat.jpg",
-        "back": "goat"
+        "back": "Goat"
     },
     {
         "id": "21",
         "name": "apple",
         "image": "apple.jpg",
-        "back": "apple"
+        "back": "Apple"
     },
     {
         "id": "22",
         "name": "banana",
         "image": "banana.jpg",
-        "back": "banana"
+        "back": "Banana"
     },
     {
         "id": "23",
         "name": "orange_fruit",
         "image": "orange_fruit.jpg",
-        "back": "orange"
+        "back": "Orange"
     },
     {
         "id": "24",
         "name": "grape",
         "image": "grape.jpg",
-        "back": "grape"
+        "back": "Grape"
     },
     {
         "id": "25",
         "name": "carrot",
         "image": "carrot.jpg",
-        "back": "carrot"
+        "back": "Carrot"
     },
     {
         "id": "26",
         "name": "potato",
         "image": "potato.jpg",
-        "back": "potato"
+        "back": "Potato"
     },
     {
         "id": "27",
         "name": "tomato",
         "image": "tomato.jpg",
-        "back": "tomato"
+        "back": "Tomato"
     },
     {
         "id": "28",
         "name": "bread",
         "image": "bread.jpg",
-        "back": "bread"
+        "back": "Bread"
     },
     {
         "id": "29",
         "name": "cheese",
         "image": "cheese.jpg",
-        "back": "cheese"
+        "back": "Cheese"
     },
     {
         "id": "30",
         "name": "egg",
         "image": "egg.jpg",
-        "back": "egg"
+        "back": "Egg"
     },
     {
         "id": "31",
         "name": "milk",
         "image": "milk.jpg",
-        "back": "milk"
+        "back": "Milk"
     },
     {
         "id": "32",
         "name": "water",
         "image": "water.jpg",
-        "back": "water"
+        "back": "Water"
     },
     {
         "id": "33",
         "name": "meat",
         "image": "meat.jpg",
-        "back": "meat"
+        "back": "Meat"
     },
     {
         "id": "34",
         "name": "rice",
         "image": "rice.jpg",
-        "back": "rice"
+        "back": "Rice"
     },
     {
         "id": "35",
         "name": "pasta",
         "image": "pasta.jpg",
-        "back": "pasta"
+        "back": "Pasta"
     },
     {
         "id": "36",
         "name": "soup",
         "image": "soup.jpg",
-        "back": "soup"
+        "back": "Soup"
     },
     {
         "id": "37",
         "name": "cake",
         "image": "cake.jpg",
-        "back": "cake"
+        "back": "Cake"
     },
     {
         "id": "38",
         "name": "cookie",
         "image": "cookie.jpg",
-        "back": "cookie"
+        "back": "Cookie"
     },
     {
         "id": "39",
         "name": "butter",
         "image": "butter.jpg",
-        "back": "butter"
+        "back": "Butter"
     },
     {
         "id": "40",
         "name": "ice cream",
         "image": "icecream.jpg",
-        "back": "ice cream"
+        "back": "Ice cream"
     },
     {
         "id": "41",
         "name": "one",
         "image": "one.jpg",
-        "back": "one"
+        "back": "One"
     },
     {
         "id": "42",
         "name": "two",
         "image": "two.jpg",
-        "back": "two"
+        "back": "Two"
     },
     {
         "id": "43",
         "name": "three",
         "image": "three.jpg",
-        "back": "three"
+        "back": "Three"
     },
     {
         "id": "44",
         "name": "four",
         "image": "four.jpg",
-        "back": "four"
+        "back": "Four"
     },
     {
         "id": "45",
         "name": "five",
         "image": "five.jpg",
-        "back": "five"
+        "back": "Five"
     },
     {
         "id": "46",
         "name": "six",
         "image": "six.jpg",
-        "back": "six"
+        "back": "Six"
     },
     {
         "id": "47",
         "name": "seven",
         "image": "seven.jpg",
-        "back": "seven"
+        "back": "Seven"
     },
     {
         "id": "48",
         "name": "eight",
         "image": "eight.jpg",
-        "back": "eight"
+        "back": "Eight"
     },
     {
         "id": "49",
         "name": "nine",
         "image": "nine.jpg",
-        "back": "nine"
+        "back": "Nine"
     },
     {
         "id": "50",
         "name": "ten",
         "image": "ten.jpg",
-        "back": "ten"
+        "back": "Ten"
     },
     {
         "id": "51",
         "name": "red",
         "image": "red.jpg",
-        "back": "red"
+        "back": "Red"
     },
     {
         "id": "52",
         "name": "blue",
         "image": "blue.jpg",
-        "back": "blue"
+        "back": "Blue"
     },
     {
         "id": "53",
         "name": "green",
         "image": "green.jpg",
-        "back": "green"
+        "back": "Green"
     },
     {
         "id": "54",
         "name": "yellow",
         "image": "yellow.jpg",
-        "back": "yellow"
+        "back": "Yellow"
     },
     {
         "id": "55",
         "name": "black",
         "image": "black.jpg",
-        "back": "black"
+        "back": "Black"
     },
     {
         "id": "56",
         "name": "white",
         "image": "white.jpg",
-        "back": "white"
+        "back": "White"
     },
     {
         "id": "57",
         "name": "brown",
         "image": "brown.jpg",
-        "back": "brown"
+        "back": "Brown"
     },
     {
         "id": "58",
         "name": "pink",
         "image": "pink.jpg",
-        "back": "pink"
+        "back": "Pink"
     },
     {
         "id": "59",
         "name": "orange_color",
         "image": "orange_color.jpg",
-        "back": "orange"
+        "back": "Orange"
     },
     {
         "id": "60",
         "name": "purple",
         "image": "purple.jpg",
-        "back": "purple"
+        "back": "Purple"
     },
     {
         "id": "61",
         "name": "boy",
         "image": "boy.jpg",
-        "back": "boy"
+        "back": "Boy"
     },
     {
         "id": "62",
         "name": "girl",
         "image": "girl.jpg",
-        "back": "girl"
+        "back": "Girl"
     },
     {
         "id": "63",
         "name": "man",
         "image": "man.jpg",
-        "back": "man"
+        "back": "Man"
     },
     {
         "id": "64",
         "name": "woman",
         "image": "woman.jpg",
-        "back": "woman"
+        "back": "Woman"
     },
     {
         "id": "65",
         "name": "baby",
         "image": "baby.jpg",
-        "back": "baby"
+        "back": "Baby"
     },
     {
         "id": "66",
         "name": "mother",
         "image": "mother.jpg",
-        "back": "mother"
+        "back": "Mother"
     },
     {
         "id": "67",
         "name": "father",
         "image": "father.jpg",
-        "back": "father"
+        "back": "Father"
     },
     {
         "id": "68",
         "name": "friend",
         "image": "friend.jpg",
-        "back": "friend"
+        "back": "Friend"
     },
     {
         "id": "69",
         "name": "teacher",
         "image": "teacher.jpg",
-        "back": "teacher"
+        "back": "Teacher"
     },
     {
         "id": "70",
         "name": "child",
         "image": "child.jpg",
-        "back": "child"
+        "back": "Child"
     },
     {
         "id": "71",
         "name": "table",
         "image": "table.jpg",
-        "back": "table"
+        "back": "Table"
     },
     {
         "id": "72",
         "name": "chair",
         "image": "chair.jpg",
-        "back": "chair"
+        "back": "Chair"
     },
     {
         "id": "73",
         "name": "bed",
         "image": "bed.jpg",
-        "back": "bed"
+        "back": "Bed"
     },
     {
         "id": "74",
         "name": "door",
         "image": "door.jpg",
-        "back": "door"
+        "back": "Door"
     },
     {
         "id": "75",
         "name": "window",
         "image": "window.jpg",
-        "back": "window"
+        "back": "Window"
     },
     {
         "id": "76",
         "name": "car",
         "image": "car.jpg",
-        "back": "car"
+        "back": "Car"
     },
     {
         "id": "77",
         "name": "bike",
         "image": "bike.jpg",
-        "back": "bike"
+        "back": "Bike"
     },
     {
         "id": "78",
         "name": "phone",
         "image": "phone.jpg",
-        "back": "phone"
+        "back": "Phone"
     },
     {
         "id": "79",
         "name": "book",
         "image": "book.jpg",
-        "back": "book"
+        "back": "Book"
     },
     {
         "id": "80",
         "name": "pen",
         "image": "pen.jpg",
-        "back": "pen"
+        "back": "Pen"
     },
     {
         "id": "81",
         "name": "cup",
         "image": "cup.jpg",
-        "back": "cup"
+        "back": "Cup"
     },
     {
         "id": "82",
         "name": "plate",
         "image": "plate.jpg",
-        "back": "plate"
+        "back": "Plate"
     },
     {
         "id": "83",
         "name": "spoon",
         "image": "spoon.jpg",
-        "back": "spoon"
+        "back": "Spoon"
     },
     {
         "id": "84",
         "name": "fork",
         "image": "fork.jpg",
-        "back": "fork"
+        "back": "Fork"
     },
     {
         "id": "85",
         "name": "key",
         "image": "key.jpg",
-        "back": "key"
+        "back": "Key"
     },
     {
         "id": "86",
         "name": "bag",
         "image": "bag.jpg",
-        "back": "bag"
+        "back": "Bag"
     },
     {
         "id": "87",
         "name": "clock",
         "image": "clock.jpg",
-        "back": "clock"
+        "back": "Clock"
     },
     {
         "id": "88",
         "name": "lamp",
         "image": "lamp.jpg",
-        "back": "lamp"
+        "back": "Lamp"
     },
     {
         "id": "89",
         "name": "shoe",
         "image": "shoe.jpg",
-        "back": "shoe"
+        "back": "Shoe"
     },
     {
         "id": "90",
         "name": "hat",
         "image": "hat.jpg",
-        "back": "hat"
+        "back": "Hat"
     },
-    [
-        {
-            "id": "91",
-            "name": "tree",
-            "image": "tree.jpg",
-            "back": "tree"
-        },
-        {
-            "id": "92",
-            "name": "flower",
-            "image": "flower.jpg",
-            "back": "flower"
-        },
-        {
-            "id": "93",
-            "name": "grass",
-            "image": "grass.jpg",
-            "back": "grass"
-        },
-        {
-            "id": "94",
-            "name": "sun",
-            "image": "sun.jpg",
-            "back": "sun"
-        },
-        {
-            "id": "95",
-            "name": "moon",
-            "image": "moon.jpg",
-            "back": "moon"
-        },
-        {
-            "id": "96",
-            "name": "star",
-            "image": "star.jpg",
-            "back": "star"
-        },
-        {
-            "id": "97",
-            "name": "rain",
-            "image": "rain.jpg",
-            "back": "rain"
-        },
-        {
-            "id": "98",
-            "name": "snow",
-            "image": "snow.jpg",
-            "back": "snow"
-        },
-        {
-            "id": "99",
-            "name": "cloud",
-            "image": "cloud.jpg",
-            "back": "cloud"
-        },
-        {
-            "id": "100",
-            "name": "fire",
-            "image": "fire.jpg",
-            "back": "fire"
-        }
-    ]
+    {
+        "id": "91",
+        "name": "tree",
+        "image": "tree.jpg",
+        "back": "Tree"
+    },
+    {
+        "id": "92",
+        "name": "flower",
+        "image": "flower.jpg",
+        "back": "Flower"
+    },
+    {
+        "id": "93",
+        "name": "grass",
+        "image": "grass.jpg",
+        "back": "Grass"
+    },
+    {
+        "id": "94",
+        "name": "sun",
+        "image": "sun.jpg",
+        "back": "Sun"
+    },
+    {
+        "id": "95",
+        "name": "moon",
+        "image": "moon.jpg",
+        "back": "Moon"
+    },
+    {
+        "id": "96",
+        "name": "star",
+        "image": "star.jpg",
+        "back": "Star"
+    },
+    {
+        "id": "97",
+        "name": "rain",
+        "image": "rain.jpg",
+        "back": "Rain"
+    },
+    {
+        "id": "98",
+        "name": "snow",
+        "image": "snow.jpg",
+        "back": "Snow"
+    },
+    {
+        "id": "99",
+        "name": "cloud",
+        "image": "cloud.jpg",
+        "back": "Cloud"
+    },
+    {
+        "id": "100",
+        "name": "fire",
+        "image": "fire.jpg",
+        "back": "Fire"
+    }
 ]
