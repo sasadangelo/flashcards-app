@@ -110,7 +110,7 @@ export default function StudyScreen() {
             <Text style={styles.counter}>{currentIndex + 1} / {cardsToStudy.length}</Text>
             <View style={styles.card}>
                 {!showBack ? (
-                    <Image source={imageMap[card.image]} style={styles.image} />
+                    <Image source={imageMap[card.name]} style={styles.image} />
                 ) : (
                     <Text style={styles.word}>{card.back}</Text>
                 )}
