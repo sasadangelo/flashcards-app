@@ -63,12 +63,10 @@ export default function StudyScreen() {
         if (session.isDone) {
             setSession(null);
         } else {
-            const updatedSession = new StudySession(session.deck);
-            await updatedSession.load();
-            setSession(updatedSession);
+            // Non ricreare una nuova sessione, aggiorna semplicemente lo state con la stessa istanza aggiornata
+            setSession(session);
         }
     };
-
     if (!session || !session.currentCard) {
         return (
             <View style={styles.container}>

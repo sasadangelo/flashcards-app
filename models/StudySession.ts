@@ -1,13 +1,16 @@
 import { Card } from './Card';
 import { Deck } from './Deck';
+import { SRS } from './SRS';
 
 export class StudySession {
     deck: Deck;
     cardsToStudy: Card[] = [];
     currentIndex: number = 0;
+    srs: SRS;
 
     constructor(deck: Deck) {
         this.deck = deck;
+        this.srs = new SRS();
     }
 
     async load() {
@@ -22,7 +25,7 @@ export class StudySession {
         const card = this.currentCard;
         if (!card) return;
 
-        await card.setReviewResult(difficulty);
+        await this.srs.handleAnswer(card, difficulty);
 
         this.cardsToStudy = await this.deck.getCardsToStudy();
         this.currentIndex = 0;
