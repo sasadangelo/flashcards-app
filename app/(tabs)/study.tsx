@@ -1,5 +1,6 @@
 import { audioMap } from '@/utils/audioMap';
 import { imageMap } from '@/utils/imageMap';
+import { Ionicons } from '@expo/vector-icons';
 import { Audio } from 'expo-av';
 import React, { useEffect, useRef, useState } from 'react';
 import { Button, Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
@@ -89,7 +90,7 @@ export default function StudyScreen() {
                     <>
                         <Text style={styles.word}>{card.back}</Text>
                         <TouchableOpacity onPress={playSound} style={styles.playButton}>
-                            <Text style={{ color: 'blue' }}>▶️</Text>
+                            <Ionicons name="volume-high" size={28} color="lightgrey" />
                         </TouchableOpacity>
                     </>
                 )}
