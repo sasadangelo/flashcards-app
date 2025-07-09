@@ -24,13 +24,14 @@ def main():
         deck = json.load(f)
 
     for card in deck:
-        word = card["name"]
-        filename = f"{word}.mp3"
+        word_name = card["name"]
+        word_back = card["back"].lower()
+        filename = f"{word_name}.mp3"
         output_path = os.path.join(OUTPUT_DIR, filename)
         if not os.path.exists(output_path):
-            generate_audio_for_word(word, output_path)
+            generate_audio_for_word(word_back, output_path)
         else:
-            print(f"Audio for '{word}' already exists, skipping.")
+            print(f"Audio for '{word_back}' already exists, skipping.")
 
 
 if __name__ == "__main__":
