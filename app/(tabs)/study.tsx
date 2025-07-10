@@ -79,10 +79,21 @@ export default function StudyScreen() {
     }
 
     const card = session.currentCard;
+    const cardType = session.currentType;
 
     return (
         <View style={styles.container}>
-            <Text style={styles.counter}>{session.currentIndex + 1} / {session.cardsToStudy.length}</Text>
+            {cardType && (
+                <Text style={styles.badge}>
+                    {cardType === 'new' ? '🆕 Nuova' : '🔁 Ripasso'}
+                </Text>
+            )}
+
+            <Text style={styles.counter}>
+                {session.currentIndex + 1} /{' '}
+                {cardType === 'review' ? session.reviewCardsToStudy.length : session.newCardsToStudy.length}
+            </Text>
+
             <View style={styles.card}>
                 {!showBack ? (
                     <Image source={imageMap[card.name]} style={styles.image} />
@@ -95,7 +106,9 @@ export default function StudyScreen() {
                     </>
                 )}
             </View>
+
             <Button title={showBack ? 'Show Front' : 'Show Back'} onPress={() => setShowBack(!showBack)} />
+
             {showBack && (
                 <View style={styles.buttons}>
                     <Button title="Again" onPress={() => handleAnswer('again')} color="#e74c3c" />
@@ -132,4 +145,9 @@ const styles = StyleSheet.create({
         width: '90%',
     },
     counter: { marginBottom: 10, fontSize: 18 },
+    badge: {
+        fontSize: 18,
+        marginBottom: 5,
+        color: '#888',
+    },
 });

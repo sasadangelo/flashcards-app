@@ -8,19 +8,34 @@ export class Deck {
         this.cards = data.map(c => new Card(c));
     }
 
-    async getCardsToStudy(): Promise<Card[]> {
+    // Carte da rivedere: hanno una data di review nel passato o oggi
+    async getReviewCards(limit: number): Promise<Card[]> {
         const today = new Date();
         today.setHours(0, 0, 0, 0);
 
-        const cardsToStudy: Card[] = [];
+        const reviewCards: Card[] = [];
 
         for (const card of this.cards) {
             const reviewDate = await card.getNextReviewDate();
-            if (!reviewDate || reviewDate <= today) {
-                cardsToStudy.push(card);
+            if (reviewDate && reviewDate <= today) {
+                reviewCards.push(card);
             }
         }
 
-        return cardsToStudy;
+        return reviewCards.slice(0, limit);
+    }
+
+    // Carte nuove: mai viste (nessun dato memorizzato)
+    async getNewCards(limit: number): Promise<Card[]> {
+        const newCards: Card[] = [];
+
+        for (const card of this.cards) {
+            const reviewDate = await card.getNextReviewDate();
+            if (!reviewDate) {
+                newCards.push(card);
+            }
+        }
+
+        return newCards.slice(0, limit);
     }
 }
