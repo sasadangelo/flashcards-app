@@ -2,23 +2,34 @@ import { audioMap } from '@/utils/audioMap';
 import { imageMap } from '@/utils/imageMap';
 import { Ionicons } from '@expo/vector-icons';
 import { Audio } from 'expo-av';
+import { useLocalSearchParams } from 'expo-router';
 import React, { useEffect, useRef, useState } from 'react';
 import { Button, Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { Deck } from '../../models/Deck';
 import { StudySession } from '../../models/StudySession';
 
+type Difficulty = 'again' | 'hard' | 'good' | 'easy';
+
 export default function StudyScreen() {
+    const { mode } = useLocalSearchParams<{ mode: 'new' | 'review' }>();
     const [session, setSession] = useState<StudySession | null>(null);
     const [showBack, setShowBack] = useState(false);
     const [hasStarted, setHasStarted] = useState(false);
     const soundRef = useRef<Audio.Sound | null>(null);
+    const [totalCards, setTotalCards] = useState(0);
+    const [newStudiedCount, setNewStudiedCount] = useState(0);
+    const [reviewStudiedCount, setReviewStudiedCount] = useState(0);
 
     useEffect(() => {
         const setup = async () => {
-            const deck = new Deck(); // Carica deck.json
-            const studySession = new StudySession(deck);
+            if (mode !== 'new' && mode !== 'review') return;
+
+            const deck = new Deck();
+            const studySession = new StudySession(deck, mode);
             await studySession.load();
             setSession(studySession);
+            // Salva il totale delle carte da studiare al momento del caricamento
+            setTotalCards(studySession.cardsToStudy.length);
             setHasStarted(true);
         };
 
@@ -27,9 +38,10 @@ export default function StudyScreen() {
         return () => {
             if (soundRef.current) {
                 soundRef.current.unloadAsync();
+                soundRef.current = null;
             }
         };
-    }, []);
+    }, [mode]);
 
     useEffect(() => {
         if (showBack) {
@@ -55,31 +67,43 @@ export default function StudyScreen() {
         await sound.playAsync();
     };
 
-    const handleAnswer = async (difficulty: 'again' | 'hard' | 'good' | 'easy') => {
+    const handleAnswer = async (difficulty: Difficulty) => {
         if (!session) return;
 
         await session.answer(difficulty);
         setShowBack(false);
 
-        if (session.isDone) {
-            setSession(null);
-        } else {
-            // Non ricreare una nuova sessione, aggiorna semplicemente lo state con la stessa istanza aggiornata
-            setSession(session);
+        console.log("Difficulty: ", difficulty)
+
+        if (difficulty !== 'again') {
+            if (mode === 'new') {
+                setNewStudiedCount(prev => prev + 1);
+            } else if (mode === 'review') {
+                setReviewStudiedCount(prev => prev + 1);
+            }
+
+            if (session.isDone) {
+                setSession(null);
+            } else {
+                setSession(session);
+            }
         }
     };
+
     if (!session || !session.currentCard) {
         return (
             <View style={styles.container}>
                 <Text style={styles.word}>
-                    {hasStarted ? '🎉 Hai completato tutte le carte di oggi!' : '🎉 Non ci sono carte da studiare oggi!'}
+                    {hasStarted
+                        ? '🎉 Hai completato tutte le carte di oggi!'
+                        : '🎉 Non ci sono carte da studiare oggi!'}
                 </Text>
             </View>
         );
     }
 
     const card = session.currentCard;
-    const cardType = session.currentType;
+    const cardType = session.mode;
 
     return (
         <View style={styles.container}>
@@ -90,8 +114,9 @@ export default function StudyScreen() {
             )}
 
             <Text style={styles.counter}>
-                {session.currentIndex + 1} /{' '}
-                {cardType === 'review' ? session.reviewCardsToStudy.length : session.newCardsToStudy.length}
+                {mode === 'new'
+                    ? `${newStudiedCount} / ${totalCards} nuove`
+                    : `${reviewStudiedCount} / ${totalCards} ripassi`}
             </Text>
 
             <View style={styles.card}>

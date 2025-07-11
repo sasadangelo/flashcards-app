@@ -3,13 +3,11 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 export class Card {
     id: string;
     name: string;
-    image: string;
     back: string;
 
-    constructor({ id, name, image, back }: { id: string; name: string; image: string; back: string }) {
+    constructor({ id, name, back }: { id: string; name: string; back: string }) {
         this.id = id;
         this.name = name;
-        this.image = image;
         this.back = back;
     }
 
@@ -18,16 +16,22 @@ export class Card {
         return dateStr ? new Date(dateStr) : null;
     }
 
-    async setReviewResult(difficulty: 'again' | 'hard' | 'good' | 'easy') {
-        const nextDate = Card.calculateNextReviewDate(difficulty);
-        await AsyncStorage.setItem(`card_${this.name}_difficulty`, difficulty);
-        await AsyncStorage.setItem(`card_${this.name}_nextReview`, nextDate.toISOString());
-    }
+    async getReviewData(): Promise<{
+        reps: number;
+        interval: number;
+        easeFactor: number;
+        nextReview: Date | null;
+    }> {
+        const repsStr = await AsyncStorage.getItem(`card_${this.name}_reps`);
+        const intervalStr = await AsyncStorage.getItem(`card_${this.name}_interval`);
+        const easeStr = await AsyncStorage.getItem(`card_${this.name}_ease`);
+        const nextStr = await AsyncStorage.getItem(`card_${this.name}_nextReview`);
 
-    static calculateNextReviewDate(difficulty: 'again' | 'hard' | 'good' | 'easy'): Date {
-        const date = new Date();
-        const daysMap = { again: 1, hard: 2, good: 4, easy: 7 };
-        date.setDate(date.getDate() + daysMap[difficulty]);
-        return date;
+        return {
+            reps: repsStr ? parseInt(repsStr, 10) : 0,
+            interval: intervalStr ? parseInt(intervalStr, 10) : 0,
+            easeFactor: easeStr ? parseFloat(easeStr) : 2.5,
+            nextReview: nextStr ? new Date(nextStr) : null,
+        };
     }
 }

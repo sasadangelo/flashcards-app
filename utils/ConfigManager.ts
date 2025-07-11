@@ -1,4 +1,5 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import Constants from 'expo-constants';
 
 export type CardOrder = 'sequential' | 'random';
 
@@ -7,11 +8,12 @@ export type AppConfig = {
     reviewLimit: number;
     autoAudio: boolean;
     cardOrder: CardOrder;
+    mockDate?: string | null; // ISO string
 };
 
 const DEFAULT_CONFIG: AppConfig = {
-    dailyLimit: 20,
-    reviewLimit: 100,
+    dailyLimit: 5,
+    reviewLimit: 20,
     autoAudio: true,
     cardOrder: 'sequential',
 };
@@ -51,5 +53,26 @@ export class ConfigManager {
     static async resetAll() {
         await this.resetConfig();
         await this.resetProgress();
+    }
+
+    // Recupera la data simulata (null se disattiva o in produzione)
+    static getMockDate(): Date {
+        const { MOCK_DATE } = Constants.expoConfig?.extra || {};
+        let date = new Date();
+
+        if (this.isDevMode && MOCK_DATE) {
+            const parsed = new Date(MOCK_DATE);
+            if (!isNaN(parsed.getTime())) {
+                date = parsed;
+            }
+        }
+
+        date.setHours(0, 0, 0, 0);
+        return date;
+    }
+
+    static get isDevMode(): boolean {
+        const { APP_ENV } = Constants.expoConfig?.extra || {};
+        return APP_ENV === 'development';
     }
 }

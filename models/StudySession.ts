@@ -1,63 +1,79 @@
 import { ConfigManager } from '../utils/ConfigManager';
+import { ProgressTracker } from '../utils/ProgressTracker';
 import { Card } from './Card';
 import { Deck } from './Deck';
 import { SRS } from './SRS';
 
 export class StudySession {
     deck: Deck;
-    reviewCardsToStudy: Card[] = [];
-    newCardsToStudy: Card[] = [];
+    mode: 'new' | 'review';
+
+    cardsToStudy: Card[] = [];
     currentIndex = 0;
-    currentList: 'review' | 'new' = 'review';
     srs = new SRS();
 
-    constructor(deck: Deck) {
+    constructor(deck: Deck, mode: 'new' | 'review') {
         this.deck = deck;
+        this.mode = mode;
     }
 
     async load() {
         const config = await ConfigManager.getConfig();
 
-        this.reviewCardsToStudy = await this.deck.getReviewCards(config.reviewLimit);
-        this.newCardsToStudy = await this.deck.getNewCards(config.dailyLimit);
+        if (this.mode === 'review') {
+            const alreadyStudied = await ProgressTracker.getReviewCardsStudiedToday();
+            const remaining = Math.max(0, config.reviewLimit - alreadyStudied);
+            this.cardsToStudy = remaining > 0 ? await this.deck.getReviewCards(remaining) : [];
+        } else {
+            const alreadyStudied = await ProgressTracker.getNewCardsStudiedToday();
+            const remaining = Math.max(0, config.dailyLimit - alreadyStudied);
+            this.cardsToStudy = remaining > 0 ? await this.deck.getNewCards(remaining) : [];
+        }
 
         this.currentIndex = 0;
-        this.currentList = this.reviewCardsToStudy.length > 0 ? 'review' : 'new';
     }
 
     get currentCard(): Card | null {
-        const list = this.currentList === 'review' ? this.reviewCardsToStudy : this.newCardsToStudy;
-        return list[this.currentIndex] ?? null;
-    }
-
-    get currentType(): 'review' | 'new' | null {
-        return this.currentCard ? this.currentList : null;
+        return this.cardsToStudy[this.currentIndex] ?? null;
     }
 
     async answer(difficulty: 'again' | 'hard' | 'good' | 'easy') {
-        const list = this.currentList === 'review' ? this.reviewCardsToStudy : this.newCardsToStudy;
-        const card = list[this.currentIndex];
+        const card = this.currentCard;
         if (!card) return;
 
         await this.srs.handleAnswer(card, difficulty);
 
-        // Rimuovi la carta appena studiata
-        list.splice(this.currentIndex, 1);
 
-        // Se siamo alla fine della lista, passa all’altra lista se possibile
-        if (this.currentIndex >= list.length) {
-            if (this.currentList === 'review' && this.newCardsToStudy.length > 0) {
-                this.currentList = 'new';
+        if (difficulty === 'again') {
+            // Sposta la carta corrente in fondo all'array
+            this.cardsToStudy.splice(this.currentIndex, 1); // rimuovi carta corrente
+            this.cardsToStudy.push(card); // aggiungi in fondo
+
+            // Nota: currentIndex rimane invariato perché la carta successiva ora è all'indice corrente
+            if (this.currentIndex >= this.cardsToStudy.length) {
                 this.currentIndex = 0;
-            } else {
-                this.currentIndex = 0; // Reset indice se non ci sono più carte
             }
+            return;
+        }
+
+        // Incrementa solo se la risposta non è "again"
+        if (this.mode === 'new') {
+            await ProgressTracker.incrementNewCardsStudied();
+        } else {
+            await ProgressTracker.incrementReviewCardsStudied();
+        }
+
+        // Rimuove la carta appena studiata dall'elenco
+        this.cardsToStudy.splice(this.currentIndex, 1);
+
+        // Aggiorna l'indice corrente
+        if (this.currentIndex >= this.cardsToStudy.length) {
+            this.currentIndex = 0;
         }
     }
 
     next() {
-        const list = this.currentList === 'review' ? this.reviewCardsToStudy : this.newCardsToStudy;
-        if (this.currentIndex < list.length - 1) {
+        if (this.currentIndex < this.cardsToStudy.length - 1) {
             this.currentIndex++;
         }
     }
@@ -69,10 +85,6 @@ export class StudySession {
     }
 
     get isDone(): boolean {
-        return this.reviewCardsToStudy.length === 0 && this.newCardsToStudy.length === 0;
-    }
-
-    getTotalCount(): number {
-        return this.reviewCardsToStudy.length + this.newCardsToStudy.length;
+        return this.cardsToStudy.length === 0;
     }
 }
