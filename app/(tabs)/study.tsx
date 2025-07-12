@@ -1,17 +1,20 @@
 import { audioMap } from '@/utils/audioMap';
 import { imageMap } from '@/utils/imageMap';
 import { Ionicons } from '@expo/vector-icons';
+import { useFocusEffect } from '@react-navigation/native';
 import { Audio } from 'expo-av';
 import { useLocalSearchParams } from 'expo-router';
 import React, { useEffect, useRef, useState } from 'react';
 import { Button, Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { Deck } from '../../models/Deck';
 import { StudySession } from '../../models/StudySession';
+import { ConfigManager } from '../../utils/ConfigManager';
 
 type Difficulty = 'again' | 'hard' | 'good' | 'easy';
 
 export default function StudyScreen() {
-    const { mode } = useLocalSearchParams<{ mode: 'new' | 'review' }>();
+    const { mode: rawMode } = useLocalSearchParams<{ mode?: 'new' | 'review' }>();
+    const mode = rawMode === 'review' ? 'review' : 'new';  // default 'new'
     const [session, setSession] = useState<StudySession | null>(null);
     const [showBack, setShowBack] = useState(false);
     const [hasStarted, setHasStarted] = useState(false);
@@ -19,6 +22,18 @@ export default function StudyScreen() {
     const [totalCards, setTotalCards] = useState(0);
     const [newStudiedCount, setNewStudiedCount] = useState(0);
     const [reviewStudiedCount, setReviewStudiedCount] = useState(0);
+    const [autoAudio, setAutoAudio] = useState(true);
+
+
+    useFocusEffect(
+        React.useCallback(() => {
+            const loadConfig = async () => {
+                const config = await ConfigManager.getConfig();
+                setAutoAudio(config.autoAudio);
+            };
+            loadConfig();
+        }, [])
+    );
 
     useEffect(() => {
         const setup = async () => {
@@ -45,13 +60,15 @@ export default function StudyScreen() {
 
     useEffect(() => {
         if (showBack) {
-            playSound();
+            if (autoAudio) {      // SOLO se autoAudio è true fai partire il suono
+                playSound();
+            }
         } else {
             if (soundRef.current) {
                 soundRef.current.stopAsync();
             }
         }
-    }, [showBack]);
+    }, [showBack, autoAudio]);
 
     const playSound = async () => {
         const card = session?.currentCard;
