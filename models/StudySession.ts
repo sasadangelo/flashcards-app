@@ -17,6 +17,7 @@ export class StudySession {
         this.mode = mode;
     }
 
+
     async load() {
         const config = await ConfigManager.getConfig();
 
@@ -28,6 +29,11 @@ export class StudySession {
             const alreadyStudied = await ProgressTracker.getNewCardsStudiedToday();
             const remaining = Math.max(0, config.dailyLimit - alreadyStudied);
             this.cardsToStudy = remaining > 0 ? await this.deck.getNewCards(remaining) : [];
+        }
+
+        // Applica shuffle se la configurazione lo richiede
+        if (config.cardOrder === 'random') {
+            this.shuffle(this.cardsToStudy);
         }
 
         this.currentIndex = 0;
@@ -86,5 +92,13 @@ export class StudySession {
 
     get isDone(): boolean {
         return this.cardsToStudy.length === 0;
+    }
+
+    private shuffle<T>(array: T[]): T[] {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
     }
 }

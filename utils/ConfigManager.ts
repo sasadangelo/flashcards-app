@@ -12,10 +12,10 @@ export type AppConfig = {
 };
 
 const DEFAULT_CONFIG: AppConfig = {
-    dailyLimit: 5,
-    reviewLimit: 20,
+    dailyLimit: 20,
+    reviewLimit: 50,
     autoAudio: true,
-    cardOrder: 'sequential',
+    cardOrder: 'random',
 };
 
 export class ConfigManager {
@@ -44,8 +44,17 @@ export class ConfigManager {
     static async resetProgress() {
         const keys = await AsyncStorage.getAllKeys();
         const cardKeys = keys.filter(key => key.startsWith('card_'));
-        if (cardKeys.length > 0) {
-            await AsyncStorage.multiRemove(cardKeys);
+        // Chiavi dei contatori giornalieri da rimuovere
+        const progressKeys = [
+            'newCardsStudiedCount',
+            'newCardsStudiedDate',
+            'reviewCardsStudiedCount',
+            'reviewCardsStudiedDate',
+        ];
+        const keysToRemove = [...cardKeys, ...progressKeys];
+        console.log('Chiavi da rimuovere:', keysToRemove);
+        if (keysToRemove.length > 0) {
+            await AsyncStorage.multiRemove(keysToRemove);
         }
     }
 

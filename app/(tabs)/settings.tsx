@@ -1,4 +1,3 @@
-import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Picker } from '@react-native-picker/picker';
 import React, { useEffect, useState } from 'react';
 import { Alert, Button, StyleSheet, Switch, Text, TextInput, View } from 'react-native';
@@ -36,14 +35,12 @@ export default function SettingsScreen() {
     };
 
     const resetProgress = async () => {
-        // Rimuove tutte le chiavi delle carte nello storage
         try {
-            const allKeys = await AsyncStorage.getAllKeys();
-            const cardKeys = allKeys.filter(k => k.startsWith('card_'));
-            await AsyncStorage.multiRemove(cardKeys);
+            await ConfigManager.resetProgress();
             Alert.alert('Progressi resettati');
         } catch (e) {
             Alert.alert('Errore nel resettare i progressi');
+            console.error('Errore nel resetProgress:', e);
         }
     };
 
