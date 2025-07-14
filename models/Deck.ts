@@ -1,12 +1,24 @@
-import rawDeck from '../app/data/deck.json'; // Assuming you have this deck file
 import { Clock } from '../utils/Clock';
-import { Card } from './Card';
+import { Card, CardData } from './Card';
+
+interface DeckData {
+    group: string;
+    name: string;
+    cards: CardData[];
+}
 
 export class Deck {
+    group: string;
+    name: string;
     cards: Card[];
 
-    constructor(data = rawDeck) {
-        this.cards = data.map((c) => new Card(c));
+    constructor(data: DeckData) {
+        console.log('************')
+        console.log(data)
+        console.log('************')
+        this.group = data.group;
+        this.name = data.name;
+        this.cards = data.cards.map(c => new Card(c));
     }
 
     // Carte da rivedere: hanno una data di review nel passato o oggi
@@ -65,4 +77,3 @@ export class Deck {
         return reviewCards.length;
     }
 }
-
