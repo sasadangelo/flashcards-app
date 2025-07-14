@@ -1,0 +1,255 @@
+
+Human
+Job
+Team
+Race
+Prison
+Price
+Song
+Instrument
+Art
+Beer
+Science
+Scooter
+Letter
+Slide
+(to) Watch
+(to) Stand
+(to) Sleep
+(to) Ride
+(to) Look
+(to) Find
+(to) Cook
+(to) Dance
+(to) Drink
+(to) Go
+(to) Laugh
+(to) Listen
+(to) Paint
+(to) Read
+(to) See
+(to) Sing
+(to) Sit
+(to) Surf
+(to) Think
+(to) Wake up
+(to) Work
+(to) Write
+Waiter
+Pain
+(To) Count
+Wet
+(To) Kiss
+(To) Touch
+Marriage
+(To) Cry
+(To) Love
+Cold
+(To) Buy
+(To) Sell
+apartment
+town
+Farm
+Gas
+University
+Library
+Country
+Location
+Suit
+President
+Neighbor
+Person
+Patient
+Secretary
+Priest
+Soldier
+West
+South
+North
+Clothes
+East
+Dust
+Dream
+Cup
+Corn
+Camera
+Air
+Club
+Parent
+Beef
+Dinner
+Lock
+Lunch
+Needle
+Note
+Page
+Photograph
+Pool
+Pork
+Seed
+Soap
+Soup
+Sugar
+Tools
+Fan
+Network
+Laptop
+Screen
+Television
+Radio
+Tongue
+Sweat
+Voice
+Skin
+Sea
+Ocean
+Mountain
+Forest
+Root
+Valley
+Lake
+Grass
+Leaf
+Sand
+Wave
+Fire
+Island
+Hill
+Heat
+Nature
+Beach
+Soil
+Glass
+Metal
+Plastic
+Wood
+Stone
+Clay
+Gold
+Silver
+Copper
+Materials
+Meter
+Centimeter
+Kilogram
+Inch
+Foot
+Half
+Temperature
+Date
+Weight
+Corner
+Consonant
+Vowel
+Light
+Sound
+Injury
+Hole
+Noun
+Verb
+Top
+Bottom
+Side
+Front
+Inside
+Down
+Left
+Straight
+Directions
+Back
+Outside
+Up
+Right
+January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December
+Monday
+Tuesday
+Wedensday
+Thursday
+Friday
+Saturday
+Sunday
+Seconds
+(to) Beat
+(to) Bend
+(to) Break
+(to) Build
+(to) Burn
+(to) Call
+(to) Catch
+(to) Close
+(to) Cut
+(to) Die
+(to) Drive
+(to) Explode
+(to) Fall
+(to) Feed
+(to) Fight
+(to) Fly
+(to) Follow
+(to) Hang
+(to) Learn
+(to) Lift
+(to) Lose
+(to) Marry
+(to) Mix
+(to) Open
+(to) Pass
+(to) Pay
+(to) Pray
+(to) Pull
+(to) Push
+(to) Shake
+(to) Shoot
+(to) Smell
+(to) Smile
+(to) Speak
+(to) Swim
+(to) Taste
+(to) Teach
+(to) Throw
+(to) Turn
+(to) Wash
+(to) Win
+(to) Grow
+Beautiful
+Clean
+Cool
+Dark
+Female
+Hard
+Heavy
+High
+Hot
+(to) Dig
+Dirty
+Light
+Light
+Loose
+Loud
+Low
+Male
+Nice
+Poor
+Quiet
+Rich
+Sick
+Slow
+Soft
+Strong
+Tall
+Thick
+Ugly
+Warm
+Weak
+Strawberry

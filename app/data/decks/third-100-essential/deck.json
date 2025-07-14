@@ -1,0 +1,519 @@
+{
+  "group": "English Flashcards",
+  "name": "Third 100 Essential",
+  "slug": "third-100-essential",
+  "cards": [
+    {
+      "id": "201",
+      "name": "dinosaur",
+      "back": "Dinosaur"
+    },
+    {
+      "id": "202",
+      "name": "beard",
+      "back": "Beard"
+    },
+    {
+      "id": "203",
+      "name": "toast",
+      "back": "Toast"
+    },
+    {
+      "id": "204",
+      "name": "bathroom",
+      "back": "Bathroom"
+    },
+    {
+      "id": "205",
+      "name": "box",
+      "back": "Box"
+    },
+    {
+      "id": "206",
+      "name": "computer",
+      "back": "Computer"
+    },
+    {
+      "id": "207",
+      "name": "room",
+      "back": "Room"
+    },
+    {
+      "id": "208",
+      "name": "autumn",
+      "back": "Autumn",
+      "front_description": "The season after Summer"
+    },
+    {
+      "id": "209",
+      "name": "oil",
+      "back": "Oil"
+    },
+    {
+      "id": "210",
+      "name": "bridge",
+      "back": "Bridge"
+    },
+    {
+      "id": "211",
+      "name": "bone",
+      "back": "Bone"
+    },
+    {
+      "id": "212",
+      "name": "bar",
+      "back": "Bar"
+    },
+    {
+      "id": "213",
+      "name": "daughter",
+      "back": "Daughter",
+      "front_description": "A female child in a Family"
+    },
+    {
+      "id": "214",
+      "name": "winter",
+      "back": "Winter",
+      "front_description": "The season after Autumn"
+    },
+    {
+      "id": "215",
+      "name": "family",
+      "back": "Family"
+    },
+    {
+      "id": "216",
+      "name": "spring",
+      "back": "Spring",
+      "front_description": "The season after Winter"
+    },
+    {
+      "id": "217",
+      "name": "food",
+      "back": "Food"
+    },
+    {
+      "id": "218",
+      "name": "grandmother",
+      "back": "Grandmother",
+      "front_description": "The mother of your parent"
+    },
+    {
+      "id": "219",
+      "name": "grandfather",
+      "back": "Grandfather",
+      "front_description": "The father of your parent"
+    },
+    {
+      "id": "220",
+      "name": "bedroom",
+      "back": "Bedroom"
+    },
+    {
+      "id": "221",
+      "name": "paper",
+      "back": "Paper"
+    },
+    {
+      "id": "222",
+      "name": "hotel",
+      "back": "Hotel"
+    },
+    {
+      "id": "223",
+      "name": "hospital",
+      "back": "Hospital"
+    },
+    {
+      "id": "224",
+      "name": "husband",
+      "back": "Husband",
+      "front_description": "A man in a marriage"
+    },
+    {
+      "id": "225",
+      "name": "school",
+      "back": "School",
+      "front_description": "A place where children study"
+    },
+    {
+      "id": "226",
+      "name": "knife",
+      "back": "Knife"
+    },
+    {
+      "id": "227",
+      "name": "summer",
+      "back": "Summer",
+      "front_description": "The season after Spring"
+    },
+    {
+      "id": "228",
+      "name": "juice",
+      "back": "Juice"
+    },
+    {
+      "id": "229",
+      "name": "kitchen",
+      "back": "Kitchen"
+    },
+    {
+      "id": "230",
+      "name": "fork",
+      "back": "Fork"
+    },
+    {
+      "id": "231",
+      "name": "roof",
+      "back": "Roof"
+    },
+    {
+      "id": "232",
+      "name": "floor",
+      "back": "Floor"
+    },
+    {
+      "id": "233",
+      "name": "season",
+      "back": "Season",
+      "front_description": "Spring, summer, autumn, or winter"
+    },
+    {
+      "id": "234",
+      "name": "restaurant",
+      "back": "Restaurant"
+    },
+    {
+      "id": "235",
+      "name": "policeman",
+      "back": "Policeman"
+    },
+    {
+      "id": "236",
+      "name": "salt",
+      "back": "Salt"
+    },
+    {
+      "id": "237",
+      "name": "tshirt",
+      "back": "Tshirt"
+    },
+    {
+      "id": "238",
+      "name": "livingroom",
+      "back": "Livingroom"
+    },
+    {
+      "id": "239",
+      "name": "student",
+      "back": "Student"
+    },
+    {
+      "id": "240",
+      "name": "son",
+      "back": "Son",
+      "front_description": "A male child in a Family"
+    },
+    {
+      "id": "241",
+      "name": "tea",
+      "back": "Tea"
+    },
+    {
+      "id": "242",
+      "name": "doctor",
+      "back": "Doctor"
+    },
+    {
+      "id": "243",
+      "name": "coffee",
+      "back": "Coffee"
+    },
+    {
+      "id": "244",
+      "name": "thirty",
+      "back": "Thirty"
+    },
+    {
+      "id": "245",
+      "name": "fourty",
+      "back": "Fourty"
+    },
+    {
+      "id": "246",
+      "name": "fifty",
+      "back": "Fifty"
+    },
+    {
+      "id": "247",
+      "name": "sixty",
+      "back": "Sixty"
+    },
+    {
+      "id": "248",
+      "name": "eighty",
+      "back": "Eighty"
+    },
+    {
+      "id": "249",
+      "name": "ninety",
+      "back": "Ninety"
+    },
+    {
+      "id": "250",
+      "name": "one_hundred",
+      "back": "One hundred"
+    },
+    {
+      "id": "251",
+      "name": "twenty_one",
+      "back": "Twenty one"
+    },
+    {
+      "id": "252",
+      "name": "twenty_two",
+      "back": "Twenty two"
+    },
+    {
+      "id": "253",
+      "name": "thirty_one",
+      "back": "Thirty one"
+    },
+    {
+      "id": "254",
+      "name": "thirty_two",
+      "back": "Thirty two"
+    },
+    {
+      "id": "255",
+      "name": "fourty_one",
+      "back": "Fourty one"
+    },
+    {
+      "id": "256",
+      "name": "fourty_two",
+      "back": "Fourty two"
+    },
+    {
+      "id": "257",
+      "name": "fifty_one",
+      "back": "Fifty one"
+    },
+    {
+      "id": "258",
+      "name": "fifty_two",
+      "back": "Fifty two"
+    },
+    {
+      "id": "259",
+      "name": "sixty_one",
+      "back": "Sixty one"
+    },
+    {
+      "id": "260",
+      "name": "sixty_two",
+      "back": "Sixty two"
+    },
+    {
+      "id": "261",
+      "name": "seventy_one",
+      "back": "Seventy one"
+    },
+    {
+      "id": "262",
+      "name": "seventy_two",
+      "back": "Seventy two"
+    },
+    {
+      "id": "263",
+      "name": "eighty_one",
+      "back": "Eighty one"
+    },
+    {
+      "id": "264",
+      "name": "eighty_two",
+      "back": "Eighty two"
+    },
+    {
+      "id": "265",
+      "name": "ninety_one",
+      "back": "Ninety one"
+    },
+    {
+      "id": "266",
+      "name": "ninety_two",
+      "back": "Ninety two"
+    },
+    {
+      "id": "267",
+      "name": "shirt",
+      "back": "Shirt"
+    },
+    {
+      "id": "268",
+      "name": "pyjamas",
+      "back": "Pyjamas"
+    },
+    {
+      "id": "269",
+      "name": "coat",
+      "back": "Coat"
+    },
+    {
+      "id": "270",
+      "name": "balloon",
+      "back": "Balloon"
+    },
+    {
+      "id": "271",
+      "name": "christmas_tree",
+      "back": "Christmas tree"
+    },
+    {
+      "id": "272",
+      "name": "santa_claus",
+      "back": "Santa claus"
+    },
+    {
+      "id": "273",
+      "name": "chocolate",
+      "back": "Chocolate"
+    },
+    {
+      "id": "274",
+      "name": "umbrella",
+      "back": "Umbrella"
+    },
+    {
+      "id": "275",
+      "name": "map",
+      "back": "Map"
+    },
+    {
+      "id": "276",
+      "name": "princess",
+      "back": "Princess"
+    },
+    {
+      "id": "277",
+      "name": "long",
+      "back": "Long"
+    },
+    {
+      "id": "278",
+      "name": "insects",
+      "back": "Insects"
+    },
+    {
+      "id": "279",
+      "name": "short",
+      "back": "Short"
+    },
+    {
+      "id": "280",
+      "name": "old",
+      "back": "Old"
+    },
+    {
+      "id": "281",
+      "name": "new",
+      "back": "New"
+    },
+    {
+      "id": "282",
+      "name": "tablespoon",
+      "back": "Tablespoon"
+    },
+    {
+      "id": "283",
+      "name": "glass",
+      "back": "Glass"
+    },
+    {
+      "id": "284",
+      "name": "wall",
+      "back": "Wall"
+    },
+    {
+      "id": "285",
+      "name": "space",
+      "back": "Space"
+    },
+    {
+      "id": "286",
+      "name": "money",
+      "back": "Money"
+    },
+    {
+      "id": "287",
+      "name": "movie",
+      "back": "Movie"
+    },
+    {
+      "id": "288",
+      "name": "day",
+      "back": "Day"
+    },
+    {
+      "id": "289",
+      "name": "night",
+      "back": "Night"
+    },
+    {
+      "id": "290",
+      "name": "big",
+      "back": "Big"
+    },
+    {
+      "id": "291",
+      "name": "small",
+      "back": "Small"
+    },
+    {
+      "id": "292",
+      "name": "butterfly",
+      "back": "Butterfly"
+    },
+    {
+      "id": "293",
+      "name": "chips",
+      "back": "Chips"
+    },
+    {
+      "id": "294",
+      "name": "seventy",
+      "back": "Seventy"
+    },
+    {
+      "id": "295",
+      "name": "sandwich",
+      "back": "Sandwich"
+    },
+    {
+      "id": "296",
+      "name": "prince",
+      "back": "Prince"
+    },
+    {
+      "id": "297",
+      "name": "queen",
+      "back": "Queen"
+    },
+    {
+      "id": "298",
+      "name": "jacket",
+      "back": "Jacket"
+    },
+    {
+      "id": "299",
+      "name": "plant",
+      "back": "Plant"
+    },
+    {
+      "id": "300",
+      "name": "morning",
+      "back": "Morning",
+      "front_description": "When the sun rises"
+    }
+  ]
+}

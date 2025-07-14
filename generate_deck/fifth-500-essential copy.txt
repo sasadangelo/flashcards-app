@@ -1,0 +1,336 @@
+
+begin
+,,,read,refrigerator,ride,ring
+problem,process,produce,product,program,project,pull,push,question,
+quick,quiet,,,,,reader,reason,record,,relation,religion,reporter,return,,,road,robot,rock,root,
+rose,rule,run,sad,salad,sand,saturday,save,say,school,science,screen,sea,seat,second,secretary,seed,see,sell,sentence,
+sex,shake,shark,shape,shave,sheep,shirt,shoe,shoot,
+shop,short,should,shout,shower,sick,side,sight,sign,silent,
+silver,sing,singer,sink,sister,sit,six,sixteen,sixty,size,
+skate,skin,sky,sleep,slide,slow,small,smell,smile,snow,soap,
+soccer,sofa,soft,soldier,some,song,soon,sound,soup,south,space,
+speak,special,spend,sport,square,stairs,stamp,stand,star,start,
+station,stay,steal,still,stone,stop,store,story,straight,
+strawberry,strong,student,study,stupid,subject,success,such,sugar,
+summer,sun,sunday,supermarket,surf,suit,swallow,swear,sweat,swim,
+swing,swan,table,tail,take,talk,tall,taste,taxi,teach,team,
+technology,television,tell,temperature,ten,tent,test,than,thank,
+that,theater,their,them,then,there,they,thick,thin,thing,
+think,third,thirteen,thirty,this,those,thought,thousand,three,
+throat,through,throw,thumb,thursday,ticket,time,tired,toilet,
+tongue,tool,tools,top,touch,tower,town,toy,train,transportation,
+travel,tree,triangle,trip,truck,true,try,tuesday,turn,twelve,
+twenty,two,ugly,uncle,university,up,use,vacation,valley,vegetable,
+vehicle,verb,village,violin,visit,voice,vowel,wait,waiter,wake up,
+walk,wall,want,warm,wash,watch,water,wave,way,we,weak,
+weather,wednesday,week,weekend,weight,well,west,wet,what,when,
+where,which,while,white,who,why,wife,win,wind,window,wine,
+winter,wish,with,woman,word,work,world,would,writer,writing,
+yard,year,yell,yellow,yes,yogurt,young,your,zebra
+
+
+
+
+
+
+
+adult,airport,afternoon,ant,apartment,art,armchair,beer,beautiful,back,baseball,basketball,beach,beef,
+bill,blackboard,blood,breakfast,building,business,button,camera
+camp,can,candle,card,career,carpet,castle,ceiling,chalk,chemistry,church,cinema,
+class,classroom,club,coat,crocodile,cold,college,comb,concert,conversation,cook,corn,country,
+day,desk,dictionary,dinner,direction,dolphin,dragon,drink,driver,drop,earth,east,eat,elevator
+energy,engine,evening,exam,exercise,farm,feather,feeling,festival,field,fight,finger,flag
+fly,football,footstep,forest,front,fruit,gate,gold,government
+guitar,gun,hammer,happy,health,heat,heaven,hill,hippo,hobby,holiday
+hospital,hour,idea,insect,island,jacket,jeans,job,jump,kangaroo,king,lake,language,laptop,leaf
+letter,library,life,light,line,lip,list,literature,liver,lizard,lock,log,look,lunch,machine,magazine,manager
+market,math,medicine,meeting,memory,metal,mind,minute,mirror,money,month,moon,move
+name,needle,nephew,noise,nurse,object,ocean,office,oil,old,one thousand,open,operation,orange,order,organ,page
+paint,part,party,pass,patient,people,pepper,person,photo,piano,picture
+play,pocket,police,pool,post,power,practice,present,price,printer,prison,problem,project,puzzle,raincoat,rat,reader,reason,record
+refrigerator,relation,religion,rock,root,rose,rule,run,sad,salad,sand,science
+sea,seat,second,secretary,seed,sentence,sex,shape,shark,shop,shoot,sleep,smile
+soap,sofa,soldier,song,sound,sport,square,stairs,station,stone,stop,store
+story,study,sugar,supermarket,swim,tail,talk,taxi,team,television,temperature,tennis,tent
+test,theater,thing,thought,thumb,ticket,time,tongue,town,triangle,trip,truck,Tuesday,turn,uncle
+university,vacation,valley,vegetable,vehicle,village,violin,visit,voice,walk,watch,wave,way,weather,Wednesday,week,weekend,weight
+wine,winter,wood,word,work,world,writer,writing,yard,year,yogurt,young,Ground,Ring,Transportation,Stain,Fast,Beverage,
+One hundred one,One hundred two,One hundred ten,Ten thousands,One hundred thousands,One million,One billion,Adult,Wife,Manager
+Reporter,Human,Player,Fan,Job,Religion,Heaven,Hell,Death,Medicine,Dollar,Bill,Team,Race,Sex,Prison
+Technology,Peace,Magazine,Newspaper,Gun,Exercise,Price,God,Song,Instrument,Art,Wine,Beer,Science,Salad
+Raincoat
+Nuts
+Clothes
+Shapes
+Nurse
+Scooter
+Fat
+Thin
+Desk
+Boot
+Napkin
+Mushroom
+Letter
+Draw
+Tower
+Ant
+Blackboard
+(to) Stop
+Sofa
+Armchair
+Fridge
+Shower
+Bath
+Toilet
+Slide
+Tail
+Feather
+Stairs
+Whale
+Motorbike
+Robot
+Garage
+Swan
+(to) Watch
+(to) Stand
+(to) Sleep
+(to) Ride
+(to) Look
+(to) Find
+(to) Cook
+(to) Climb
+(to) Clean
+(to) Carry
+(to) Dance
+(to) Drink
+(to) Go
+(to) Laugh
+(to) Listen
+(to) Paint
+(to) Read
+(to) See
+(to) Sing
+(to) Sit
+(to) Surf
+(to) Think
+(to) Wake up
+(to) Work
+(to) Write
+Waiter
+Pain
+(To) Count
+Wet
+(To) Kiss
+(To) Touch
+Marriage
+(To) Cry
+(To) Love
+Cold
+(To) Buy
+(To) Sell
+apartment
+town
+Farm
+Gas
+University
+Library
+Country
+Location
+Suit
+President
+Neighbor
+Person
+Patient
+Secretary
+Priest
+Soldier
+West
+South
+North
+Clothes
+East
+Dust
+Dream
+Cup
+Corn
+Camera
+Air
+Club
+Parent
+Beef
+Dinner
+Lock
+Lunch
+Needle
+Note
+Page
+Photograph
+Pool
+Pork
+Seed
+Soap
+Soup
+Sugar
+Tools
+Fan
+Network
+Laptop
+Screen
+Television
+Radio
+Tongue
+Sweat
+Voice
+Skin
+Sea
+Ocean
+Mountain
+Forest
+Root
+Valley
+Lake
+Grass
+Leaf
+Sand
+Wave
+Fire
+Island
+Hill
+Heat
+Nature
+Beach
+Soil
+Glass
+Metal
+Plastic
+Wood
+Stone
+Clay
+Gold
+Silver
+Copper
+Materials
+Meter
+Centimeter
+Kilogram
+Inch
+Foot
+Half
+Temperature
+Date
+Weight
+Corner
+Consonant
+Vowel
+Light
+Sound
+Injury
+Hole
+Noun
+Verb
+Top
+Bottom
+Side
+Front
+Inside
+Down
+Left
+Straight
+Directions
+Back
+Outside
+Up
+Right
+January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December
+Monday
+Tuesday
+Wedensday
+Thursday
+Friday
+Saturday
+Sunday
+Seconds
+(to) Beat
+(to) Bend
+(to) Break
+(to) Build
+(to) Burn
+(to) Call
+(to) Catch
+(to) Close
+(to) Cut
+(to) Die
+(to) Drive
+(to) Explode
+(to) Fall
+(to) Feed
+(to) Fight
+(to) Fly
+(to) Follow
+(to) Hang
+(to) Learn
+(to) Lift
+(to) Lose
+(to) Marry
+(to) Mix
+(to) Open
+(to) Pass
+(to) Pay
+(to) Pray
+(to) Pull
+(to) Push
+(to) Shake
+(to) Shoot
+(to) Smell
+(to) Smile
+(to) Speak
+(to) Swim
+(to) Taste
+(to) Teach
+(to) Throw
+(to) Turn
+(to) Wash
+(to) Win
+(to) Grow
+Beautiful
+Clean
+Cool
+Dark
+Female
+Hard
+Heavy
+High
+Hot
+(to) Dig
+Dirty
+Light
+Light
+Loose
+Loud
+Low
+Male
+Nice
+Poor
+Quiet
+Rich
+Sick
+Slow
+Soft
+Strong
+Tall
+Thick
+Ugly
+Warm
+Weak
+Strawberry

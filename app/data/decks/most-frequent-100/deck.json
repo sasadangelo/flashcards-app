@@ -1,0 +1,510 @@
+{
+  "group": "English Flashcards",
+  "name": "Most Frequent 100 Words",
+  "slug": "most-frequent-100",
+  "cards": [
+    {
+      "id": "1",
+      "name": "apple",
+      "back": "Apple",
+      "front_description": "Opposite of yes"
+    },
+    {
+      "id": "2",
+      "name": "baby",
+      "back": "Baby"
+    },
+    {
+      "id": "3",
+      "name": "bag",
+      "back": "Bag"
+    },
+    {
+      "id": "4",
+      "name": "banana",
+      "back": "Banana"
+    },
+    {
+      "id": "5",
+      "name": "bear",
+      "back": "Bear"
+    },
+    {
+      "id": "6",
+      "name": "bed",
+      "back": "Bed"
+    },
+    {
+      "id": "7",
+      "name": "bike",
+      "back": "Bike"
+    },
+    {
+      "id": "8",
+      "name": "bird",
+      "back": "Bird"
+    },
+    {
+      "id": "9",
+      "name": "black",
+      "back": "Black"
+    },
+    {
+      "id": "10",
+      "name": "blue",
+      "back": "Blue",
+      "front_description": "Opposite of yes"
+    },
+    {
+      "id": "11",
+      "name": "book",
+      "back": "Book"
+    },
+    {
+      "id": "12",
+      "name": "boy",
+      "back": "Boy"
+    },
+    {
+      "id": "13",
+      "name": "bread",
+      "back": "Bread"
+    },
+    {
+      "id": "14",
+      "name": "brown",
+      "back": "Brown"
+    },
+    {
+      "id": "15",
+      "name": "butter",
+      "back": "Butter"
+    },
+    {
+      "id": "16",
+      "name": "cake",
+      "back": "Cake"
+    },
+    {
+      "id": "17",
+      "name": "car",
+      "back": "Car"
+    },
+    {
+      "id": "18",
+      "name": "carrot",
+      "back": "Carrot",
+      "front_description": "Opposite of yes"
+    },
+    {
+      "id": "19",
+      "name": "cat",
+      "back": "Cat"
+    },
+    {
+      "id": "20",
+      "name": "chair",
+      "back": "Chair"
+    },
+    {
+      "id": "21",
+      "name": "cheese",
+      "back": "Cheese"
+    },
+    {
+      "id": "22",
+      "name": "chicken",
+      "back": "Chicken"
+    },
+    {
+      "id": "23",
+      "name": "child",
+      "back": "Child"
+    },
+    {
+      "id": "24",
+      "name": "clock",
+      "back": "Clock"
+    },
+    {
+      "id": "25",
+      "name": "cloud",
+      "back": "Cloud"
+    },
+    {
+      "id": "26",
+      "name": "cookie",
+      "back": "Cookie"
+    },
+    {
+      "id": "27",
+      "name": "cow",
+      "back": "Cow"
+    },
+    {
+      "id": "28",
+      "name": "cup",
+      "back": "Cup"
+    },
+    {
+      "id": "29",
+      "name": "dog",
+      "back": "Dog"
+    },
+    {
+      "id": "30",
+      "name": "door",
+      "back": "Door"
+    },
+    {
+      "id": "31",
+      "name": "duck",
+      "back": "Duck"
+    },
+    {
+      "id": "32",
+      "name": "egg",
+      "back": "Egg"
+    },
+    {
+      "id": "33",
+      "name": "eight",
+      "back": "Eight"
+    },
+    {
+      "id": "34",
+      "name": "elephant",
+      "back": "Elephant"
+    },
+    {
+      "id": "35",
+      "name": "father",
+      "back": "Father"
+    },
+    {
+      "id": "36",
+      "name": "fire",
+      "back": "Fire"
+    },
+    {
+      "id": "37",
+      "name": "fish",
+      "back": "Fish"
+    },
+    {
+      "id": "38",
+      "name": "five",
+      "back": "Five"
+    },
+    {
+      "id": "39",
+      "name": "flower",
+      "back": "Flower"
+    },
+    {
+      "id": "40",
+      "name": "fork",
+      "back": "Fork"
+    },
+    {
+      "id": "41",
+      "name": "four",
+      "back": "Four"
+    },
+    {
+      "id": "42",
+      "name": "friend",
+      "back": "Friend"
+    },
+    {
+      "id": "43",
+      "name": "frog",
+      "back": "Frog"
+    },
+    {
+      "id": "44",
+      "name": "girl",
+      "back": "Girl"
+    },
+    {
+      "id": "45",
+      "name": "goat",
+      "back": "Goat"
+    },
+    {
+      "id": "46",
+      "name": "grape",
+      "back": "Grape"
+    },
+    {
+      "id": "47",
+      "name": "grass",
+      "back": "Grass"
+    },
+    {
+      "id": "48",
+      "name": "green",
+      "back": "Green"
+    },
+    {
+      "id": "49",
+      "name": "hat",
+      "back": "Hat"
+    },
+    {
+      "id": "50",
+      "name": "horse",
+      "back": "Horse"
+    },
+    {
+      "id": "51",
+      "name": "ice cream",
+      "back": "Ice cream"
+    },
+    {
+      "id": "52",
+      "name": "key",
+      "back": "Key"
+    },
+    {
+      "id": "53",
+      "name": "lamp",
+      "back": "Lamp"
+    },
+    {
+      "id": "54",
+      "name": "lion",
+      "back": "Lion"
+    },
+    {
+      "id": "55",
+      "name": "man",
+      "back": "Man"
+    },
+    {
+      "id": "56",
+      "name": "meat",
+      "back": "Meat"
+    },
+    {
+      "id": "57",
+      "name": "milk",
+      "back": "Milk"
+    },
+    {
+      "id": "58",
+      "name": "monkey",
+      "back": "Monkey"
+    },
+    {
+      "id": "59",
+      "name": "moon",
+      "back": "Moon"
+    },
+    {
+      "id": "60",
+      "name": "mother",
+      "back": "Mother"
+    },
+    {
+      "id": "61",
+      "name": "mouse",
+      "back": "Mouse"
+    },
+    {
+      "id": "62",
+      "name": "nine",
+      "back": "Nine"
+    },
+    {
+      "id": "63",
+      "name": "one",
+      "back": "One"
+    },
+    {
+      "id": "64",
+      "name": "orange_color",
+      "back": "Orange"
+    },
+    {
+      "id": "65",
+      "name": "orange_fruit",
+      "back": "Orange"
+    },
+    {
+      "id": "66",
+      "name": "pasta",
+      "back": "Pasta"
+    },
+    {
+      "id": "67",
+      "name": "pen",
+      "back": "Pen"
+    },
+    {
+      "id": "68",
+      "name": "phone",
+      "back": "Phone"
+    },
+    {
+      "id": "69",
+      "name": "pig",
+      "back": "Pig"
+    },
+    {
+      "id": "70",
+      "name": "pink",
+      "back": "Pink"
+    },
+    {
+      "id": "71",
+      "name": "plate",
+      "back": "Plate"
+    },
+    {
+      "id": "72",
+      "name": "potato",
+      "back": "Potato"
+    },
+    {
+      "id": "73",
+      "name": "purple",
+      "back": "Purple"
+    },
+    {
+      "id": "74",
+      "name": "rabbit",
+      "back": "Rabbit"
+    },
+    {
+      "id": "75",
+      "name": "rain",
+      "back": "Rain"
+    },
+    {
+      "id": "76",
+      "name": "red",
+      "back": "Red"
+    },
+    {
+      "id": "77",
+      "name": "rice",
+      "back": "Rice"
+    },
+    {
+      "id": "78",
+      "name": "seven",
+      "back": "Seven"
+    },
+    {
+      "id": "79",
+      "name": "sheep",
+      "back": "Sheep"
+    },
+    {
+      "id": "80",
+      "name": "shoe",
+      "back": "Shoe"
+    },
+    {
+      "id": "81",
+      "name": "six",
+      "back": "Six"
+    },
+    {
+      "id": "82",
+      "name": "snake",
+      "back": "Snake"
+    },
+    {
+      "id": "83",
+      "name": "snow",
+      "back": "Snow"
+    },
+    {
+      "id": "84",
+      "name": "soup",
+      "back": "Soup"
+    },
+    {
+      "id": "85",
+      "name": "spoon",
+      "back": "Spoon"
+    },
+    {
+      "id": "86",
+      "name": "star",
+      "back": "Star"
+    },
+    {
+      "id": "87",
+      "name": "sun",
+      "back": "Sun"
+    },
+    {
+      "id": "88",
+      "name": "table",
+      "back": "Table"
+    },
+    {
+      "id": "89",
+      "name": "teacher",
+      "back": "Teacher"
+    },
+    {
+      "id": "90",
+      "name": "ten",
+      "back": "Ten"
+    },
+    {
+      "id": "91",
+      "name": "three",
+      "back": "Three"
+    },
+    {
+      "id": "92",
+      "name": "tiger",
+      "back": "Tiger"
+    },
+    {
+      "id": "93",
+      "name": "tomato",
+      "back": "Tomato"
+    },
+    {
+      "id": "94",
+      "name": "tree",
+      "back": "Tree"
+    },
+    {
+      "id": "95",
+      "name": "two",
+      "back": "Two"
+    },
+    {
+      "id": "96",
+      "name": "water",
+      "back": "Water"
+    },
+    {
+      "id": "97",
+      "name": "white",
+      "back": "White"
+    },
+    {
+      "id": "98",
+      "name": "window",
+      "back": "Window"
+    },
+    {
+      "id": "99",
+      "name": "woman",
+      "back": "Woman"
+    },
+    {
+      "id": "100",
+      "name": "yellow",
+      "back": "Yellow"
+    }
+  ]
+}

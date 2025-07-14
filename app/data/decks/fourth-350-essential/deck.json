@@ -1,0 +1,1757 @@
+{
+  "group": "English Flashcards",
+  "name": "Fourth 350 Essential",
+  "slug": "fourth-350-essential",
+  "cards": [
+    {
+      "id": "301",
+      "name": "adult",
+      "back": "Adult"
+    },
+    {
+      "id": "302",
+      "name": "afternoon",
+      "back": "Afternoon"
+    },
+    {
+      "id": "303",
+      "name": "air",
+      "back": "Air"
+    },
+    {
+      "id": "304",
+      "name": "airport",
+      "back": "Airport"
+    },
+    {
+      "id": "305",
+      "name": "ant",
+      "back": "Ant"
+    },
+    {
+      "id": "306",
+      "name": "apartment",
+      "back": "Apartment"
+    },
+    {
+      "id": "307",
+      "name": "april",
+      "back": "April"
+    },
+    {
+      "id": "308",
+      "name": "armchair",
+      "back": "Armchair"
+    },
+    {
+      "id": "309",
+      "name": "art",
+      "back": "Art"
+    },
+    {
+      "id": "310",
+      "name": "august",
+      "back": "August"
+    },
+    {
+      "id": "311",
+      "name": "back",
+      "back": "Back"
+    },
+    {
+      "id": "312",
+      "name": "baseball",
+      "back": "Baseball"
+    },
+    {
+      "id": "313",
+      "name": "basketball",
+      "back": "Basketball"
+    },
+    {
+      "id": "314",
+      "name": "bath",
+      "back": "Bath"
+    },
+    {
+      "id": "315",
+      "name": "beat",
+      "back": "Beat"
+    },
+    {
+      "id": "316",
+      "name": "beer",
+      "back": "Beer"
+    },
+    {
+      "id": "317",
+      "name": "beverages",
+      "back": "Beverages"
+    },
+    {
+      "id": "318",
+      "name": "bill",
+      "back": "Bill"
+    },
+    {
+      "id": "319",
+      "name": "blackboard",
+      "back": "Blackboard"
+    },
+    {
+      "id": "320",
+      "name": "blood",
+      "back": "Blood"
+    },
+    {
+      "id": "321",
+      "name": "blueberry",
+      "back": "Blueberry"
+    },
+    {
+      "id": "322",
+      "name": "boot",
+      "back": "Boot"
+    },
+    {
+      "id": "323",
+      "name": "bottom",
+      "back": "Bottom"
+    },
+    {
+      "id": "324",
+      "name": "brain",
+      "back": "Brain"
+    },
+    {
+      "id": "325",
+      "name": "break",
+      "back": "Break"
+    },
+    {
+      "id": "326",
+      "name": "breakfast",
+      "back": "Breakfast"
+    },
+    {
+      "id": "327",
+      "name": "build",
+      "back": "Build"
+    },
+    {
+      "id": "328",
+      "name": "building",
+      "back": "Building"
+    },
+    {
+      "id": "329",
+      "name": "burn",
+      "back": "Burn"
+    },
+    {
+      "id": "330",
+      "name": "business",
+      "back": "Business"
+    },
+    {
+      "id": "331",
+      "name": "button",
+      "back": "Button"
+    },
+    {
+      "id": "332",
+      "name": "buy",
+      "back": "Buy"
+    },
+    {
+      "id": "333",
+      "name": "call",
+      "back": "Call"
+    },
+    {
+      "id": "334",
+      "name": "camera",
+      "back": "Camera"
+    },
+    {
+      "id": "335",
+      "name": "camp",
+      "back": "Camp"
+    },
+    {
+      "id": "336",
+      "name": "can",
+      "back": "Can"
+    },
+    {
+      "id": "337",
+      "name": "candle",
+      "back": "Candle"
+    },
+    {
+      "id": "338",
+      "name": "card",
+      "back": "Card"
+    },
+    {
+      "id": "339",
+      "name": "carpet",
+      "back": "Carpet"
+    },
+    {
+      "id": "340",
+      "name": "carry",
+      "back": "Carry"
+    },
+    {
+      "id": "341",
+      "name": "castle",
+      "back": "Castle"
+    },
+    {
+      "id": "342",
+      "name": "catch",
+      "back": "Catch"
+    },
+    {
+      "id": "343",
+      "name": "ceiling",
+      "back": "Ceiling"
+    },
+    {
+      "id": "344",
+      "name": "centimeter",
+      "back": "Centimeter"
+    },
+    {
+      "id": "345",
+      "name": "chalk",
+      "back": "Chalk"
+    },
+    {
+      "id": "346",
+      "name": "chat",
+      "back": "Chat"
+    },
+    {
+      "id": "347",
+      "name": "chemistry",
+      "back": "Chemistry"
+    },
+    {
+      "id": "348",
+      "name": "chocolate",
+      "back": "Chocolate"
+    },
+    {
+      "id": "349",
+      "name": "church",
+      "back": "Church"
+    },
+    {
+      "id": "350",
+      "name": "cinema",
+      "back": "Cinema"
+    },
+    {
+      "id": "351",
+      "name": "classroom",
+      "back": "Classroom"
+    },
+    {
+      "id": "352",
+      "name": "clay",
+      "back": "Clay"
+    },
+    {
+      "id": "353",
+      "name": "clean",
+      "back": "Clean"
+    },
+    {
+      "id": "354",
+      "name": "climb",
+      "back": "Climb"
+    },
+    {
+      "id": "355",
+      "name": "close",
+      "back": "Close"
+    },
+    {
+      "id": "356",
+      "name": "clothes",
+      "back": "Clothes"
+    },
+    {
+      "id": "357",
+      "name": "college",
+      "back": "College"
+    },
+    {
+      "id": "358",
+      "name": "comb",
+      "back": "Comb"
+    },
+    {
+      "id": "359",
+      "name": "come",
+      "back": "Come"
+    },
+    {
+      "id": "360",
+      "name": "concert",
+      "back": "Concert"
+    },
+    {
+      "id": "361",
+      "name": "cook",
+      "back": "Cook"
+    },
+    {
+      "id": "362",
+      "name": "cool",
+      "back": "Cool"
+    },
+    {
+      "id": "363",
+      "name": "corn",
+      "back": "Corn"
+    },
+    {
+      "id": "364",
+      "name": "corner",
+      "back": "Corner"
+    },
+    {
+      "id": "365",
+      "name": "country",
+      "back": "Country"
+    },
+    {
+      "id": "366",
+      "name": "cover",
+      "back": "Cover"
+    },
+    {
+      "id": "367",
+      "name": "crash",
+      "back": "Crash"
+    },
+    {
+      "id": "368",
+      "name": "crocodile",
+      "back": "Crocodile"
+    },
+    {
+      "id": "369",
+      "name": "cry",
+      "back": "Cry"
+    },
+    {
+      "id": "370",
+      "name": "cut",
+      "back": "Cut"
+    },
+    {
+      "id": "371",
+      "name": "dark",
+      "back": "Dark"
+    },
+    {
+      "id": "372",
+      "name": "day",
+      "back": "Day"
+    },
+    {
+      "id": "373",
+      "name": "death",
+      "back": "Death"
+    },
+    {
+      "id": "374",
+      "name": "december",
+      "back": "December"
+    },
+    {
+      "id": "375",
+      "name": "deep",
+      "back": "Deep"
+    },
+    {
+      "id": "376",
+      "name": "desk",
+      "back": "Desk"
+    },
+    {
+      "id": "377",
+      "name": "dictionary",
+      "back": "Dictionary"
+    },
+    {
+      "id": "378",
+      "name": "die",
+      "back": "Die"
+    },
+    {
+      "id": "379",
+      "name": "dig",
+      "back": "Dig"
+    },
+    {
+      "id": "380",
+      "name": "dinner",
+      "back": "Dinner"
+    },
+    {
+      "id": "381",
+      "name": "direction",
+      "back": "Direction"
+    },
+    {
+      "id": "382",
+      "name": "dirty",
+      "back": "Dirty"
+    },
+    {
+      "id": "383",
+      "name": "distance",
+      "back": "Distance"
+    },
+    {
+      "id": "384",
+      "name": "dollar",
+      "back": "Dollar"
+    },
+    {
+      "id": "385",
+      "name": "down",
+      "back": "Down"
+    },
+    {
+      "id": "386",
+      "name": "dragon",
+      "back": "Dragon"
+    },
+    {
+      "id": "387",
+      "name": "draw",
+      "back": "Draw"
+    },
+    {
+      "id": "388",
+      "name": "dream",
+      "back": "Dream"
+    },
+    {
+      "id": "389",
+      "name": "drink",
+      "back": "Drink"
+    },
+    {
+      "id": "390",
+      "name": "drive",
+      "back": "Drive"
+    },
+    {
+      "id": "391",
+      "name": "drop",
+      "back": "Drop"
+    },
+    {
+      "id": "392",
+      "name": "dry",
+      "back": "Dry"
+    },
+    {
+      "id": "393",
+      "name": "dust",
+      "back": "Dust"
+    },
+    {
+      "id": "394",
+      "name": "earth",
+      "back": "Earth"
+    },
+    {
+      "id": "395",
+      "name": "east",
+      "back": "East"
+    },
+    {
+      "id": "396",
+      "name": "eat",
+      "back": "Eat"
+    },
+    {
+      "id": "397",
+      "name": "edge",
+      "back": "Edge"
+    },
+    {
+      "id": "398",
+      "name": "elevator",
+      "back": "Elevator"
+    },
+    {
+      "id": "399",
+      "name": "empty",
+      "back": "Empty"
+    },
+    {
+      "id": "400",
+      "name": "engine",
+      "back": "Engine"
+    },
+    {
+      "id": "401",
+      "name": "evening",
+      "back": "Evening"
+    },
+    {
+      "id": "402",
+      "name": "exam",
+      "back": "Exam"
+    },
+    {
+      "id": "403",
+      "name": "exercise",
+      "back": "Exercise"
+    },
+    {
+      "id": "404",
+      "name": "explode",
+      "back": "Explode"
+    },
+    {
+      "id": "405",
+      "name": "fan",
+      "back": "Fan"
+    },
+    {
+      "id": "406",
+      "name": "farm",
+      "back": "Farm"
+    },
+    {
+      "id": "407",
+      "name": "fast",
+      "back": "Fast"
+    },
+    {
+      "id": "408",
+      "name": "fat",
+      "back": "Fat"
+    },
+    {
+      "id": "409",
+      "name": "feather",
+      "back": "Feather"
+    },
+    {
+      "id": "410",
+      "name": "february",
+      "back": "February"
+    },
+    {
+      "id": "411",
+      "name": "feed",
+      "back": "Feed"
+    },
+    {
+      "id": "412",
+      "name": "female",
+      "back": "Female"
+    },
+    {
+      "id": "413",
+      "name": "festival",
+      "back": "Festival"
+    },
+    {
+      "id": "414",
+      "name": "field",
+      "back": "Field"
+    },
+    {
+      "id": "415",
+      "name": "fight",
+      "back": "Fight"
+    },
+    {
+      "id": "416",
+      "name": "find",
+      "back": "Find"
+    },
+    {
+      "id": "417",
+      "name": "finger",
+      "back": "Finger"
+    },
+    {
+      "id": "418",
+      "name": "first",
+      "back": "First"
+    },
+    {
+      "id": "419",
+      "name": "flag",
+      "back": "Flag"
+    },
+    {
+      "id": "420",
+      "name": "fly",
+      "back": "Fly"
+    },
+    {
+      "id": "421",
+      "name": "foot",
+      "back": "Foot"
+    },
+    {
+      "id": "422",
+      "name": "football",
+      "back": "Football"
+    },
+    {
+      "id": "423",
+      "name": "footstep",
+      "back": "Footstep"
+    },
+    {
+      "id": "424",
+      "name": "forest",
+      "back": "Forest"
+    },
+    {
+      "id": "425",
+      "name": "form",
+      "back": "Form"
+    },
+    {
+      "id": "426",
+      "name": "friday",
+      "back": "Friday"
+    },
+    {
+      "id": "427",
+      "name": "fridge",
+      "back": "Fridge"
+    },
+    {
+      "id": "428",
+      "name": "front",
+      "back": "Front"
+    },
+    {
+      "id": "429",
+      "name": "fruit",
+      "back": "Fruit"
+    },
+    {
+      "id": "430",
+      "name": "full",
+      "back": "Full"
+    },
+    {
+      "id": "431",
+      "name": "future",
+      "back": "Future"
+    },
+    {
+      "id": "432",
+      "name": "garage",
+      "back": "Garage"
+    },
+    {
+      "id": "433",
+      "name": "gas",
+      "back": "Gas"
+    },
+    {
+      "id": "434",
+      "name": "gate",
+      "back": "Gate"
+    },
+    {
+      "id": "435",
+      "name": "give",
+      "back": "Give"
+    },
+    {
+      "id": "436",
+      "name": "go",
+      "back": "Go"
+    },
+    {
+      "id": "437",
+      "name": "god",
+      "back": "God"
+    },
+    {
+      "id": "438",
+      "name": "gold",
+      "back": "Gold"
+    },
+    {
+      "id": "439",
+      "name": "government",
+      "back": "Government"
+    },
+    {
+      "id": "440",
+      "name": "ground",
+      "back": "Ground"
+    },
+    {
+      "id": "441",
+      "name": "group",
+      "back": "Group"
+    },
+    {
+      "id": "442",
+      "name": "grow",
+      "back": "Grow"
+    },
+    {
+      "id": "443",
+      "name": "guitar",
+      "back": "Guitar"
+    },
+    {
+      "id": "444",
+      "name": "gun",
+      "back": "Gun"
+    },
+    {
+      "id": "445",
+      "name": "half",
+      "back": "Half"
+    },
+    {
+      "id": "446",
+      "name": "hammer",
+      "back": "Hammer"
+    },
+    {
+      "id": "447",
+      "name": "happy",
+      "back": "Happy"
+    },
+    {
+      "id": "448",
+      "name": "hard",
+      "back": "Hard"
+    },
+    {
+      "id": "449",
+      "name": "health",
+      "back": "Health"
+    },
+    {
+      "id": "450",
+      "name": "heart",
+      "back": "Heart"
+    },
+    {
+      "id": "451",
+      "name": "heat",
+      "back": "Heat"
+    },
+    {
+      "id": "452",
+      "name": "heaven",
+      "back": "Heaven"
+    },
+    {
+      "id": "453",
+      "name": "heavy",
+      "back": "Heavy"
+    },
+    {
+      "id": "454",
+      "name": "hell",
+      "back": "Hell"
+    },
+    {
+      "id": "455",
+      "name": "help",
+      "back": "Help"
+    },
+    {
+      "id": "456",
+      "name": "hill",
+      "back": "Hill"
+    },
+    {
+      "id": "457",
+      "name": "hippo",
+      "back": "Hippo"
+    },
+    {
+      "id": "458",
+      "name": "hobby",
+      "back": "Hobby"
+    },
+    {
+      "id": "459",
+      "name": "hole",
+      "back": "Hole"
+    },
+    {
+      "id": "460",
+      "name": "holiday",
+      "back": "Holiday"
+    },
+    {
+      "id": "461",
+      "name": "hot",
+      "back": "Hot"
+    },
+    {
+      "id": "462",
+      "name": "hour",
+      "back": "Hour"
+    },
+    {
+      "id": "463",
+      "name": "idea",
+      "back": "Idea"
+    },
+    {
+      "id": "464",
+      "name": "inch",
+      "back": "Inch"
+    },
+    {
+      "id": "465",
+      "name": "inside",
+      "back": "Inside"
+    },
+    {
+      "id": "466",
+      "name": "internet",
+      "back": "Internet"
+    },
+    {
+      "id": "467",
+      "name": "invention",
+      "back": "Invention"
+    },
+    {
+      "id": "468",
+      "name": "island",
+      "back": "Island"
+    },
+    {
+      "id": "469",
+      "name": "jail",
+      "back": "Jail"
+    },
+    {
+      "id": "470",
+      "name": "january",
+      "back": "January"
+    },
+    {
+      "id": "471",
+      "name": "jeans",
+      "back": "Jeans"
+    },
+    {
+      "id": "472",
+      "name": "job",
+      "back": "Job"
+    },
+    {
+      "id": "473",
+      "name": "july",
+      "back": "July"
+    },
+    {
+      "id": "474",
+      "name": "jump",
+      "back": "Jump"
+    },
+    {
+      "id": "475",
+      "name": "june",
+      "back": "June"
+    },
+    {
+      "id": "476",
+      "name": "kangaroo",
+      "back": "Kangaroo"
+    },
+    {
+      "id": "477",
+      "name": "kick",
+      "back": "Kick"
+    },
+    {
+      "id": "478",
+      "name": "kid",
+      "back": "Kid"
+    },
+    {
+      "id": "479",
+      "name": "kill",
+      "back": "Kill"
+    },
+    {
+      "id": "480",
+      "name": "kilogram",
+      "back": "Kilogram"
+    },
+    {
+      "id": "481",
+      "name": "kiss",
+      "back": "Kiss"
+    },
+    {
+      "id": "482",
+      "name": "kitchen",
+      "back": "Kitchen"
+    },
+    {
+      "id": "483",
+      "name": "lake",
+      "back": "Lake"
+    },
+    {
+      "id": "484",
+      "name": "laptop",
+      "back": "Laptop"
+    },
+    {
+      "id": "485",
+      "name": "laugh",
+      "back": "Laugh"
+    },
+    {
+      "id": "486",
+      "name": "leaf",
+      "back": "Leaf"
+    },
+    {
+      "id": "487",
+      "name": "left",
+      "back": "Left"
+    },
+    {
+      "id": "488",
+      "name": "letter",
+      "back": "Letter"
+    },
+    {
+      "id": "489",
+      "name": "library",
+      "back": "Library"
+    },
+    {
+      "id": "490",
+      "name": "lift",
+      "back": "Lift"
+    },
+    {
+      "id": "491",
+      "name": "light",
+      "back": "Light"
+    },
+    {
+      "id": "492",
+      "name": "line",
+      "back": "Line"
+    },
+    {
+      "id": "493",
+      "name": "listen",
+      "back": "Listen"
+    },
+    {
+      "id": "494",
+      "name": "liver",
+      "back": "Liver"
+    },
+    {
+      "id": "495",
+      "name": "lizard",
+      "back": "Lizard"
+    },
+    {
+      "id": "496",
+      "name": "lock",
+      "back": "Lock"
+    },
+    {
+      "id": "497",
+      "name": "log",
+      "back": "Log"
+    },
+    {
+      "id": "498",
+      "name": "lunch",
+      "back": "Lunch"
+    },
+    {
+      "id": "499",
+      "name": "machine",
+      "back": "Machine"
+    },
+    {
+      "id": "500",
+      "name": "magazine",
+      "back": "Magazine"
+    },
+    {
+      "id": "501",
+      "name": "male",
+      "back": "Male"
+    },
+    {
+      "id": "502",
+      "name": "manager",
+      "back": "Manager"
+    },
+    {
+      "id": "503",
+      "name": "march",
+      "back": "March"
+    },
+    {
+      "id": "504",
+      "name": "market",
+      "back": "Market"
+    },
+    {
+      "id": "505",
+      "name": "marriage",
+      "back": "Marriage"
+    },
+    {
+      "id": "506",
+      "name": "materials",
+      "back": "Materials"
+    },
+    {
+      "id": "507",
+      "name": "mathematics",
+      "back": "Mathematics"
+    },
+    {
+      "id": "508",
+      "name": "may",
+      "back": "May"
+    },
+    {
+      "id": "509",
+      "name": "meal",
+      "back": "Meal"
+    },
+    {
+      "id": "510",
+      "name": "medicine",
+      "back": "Medicine"
+    },
+    {
+      "id": "511",
+      "name": "meeting",
+      "back": "Meeting"
+    },
+    {
+      "id": "512",
+      "name": "minute",
+      "back": "Minute"
+    },
+    {
+      "id": "513",
+      "name": "mirror",
+      "back": "Mirror"
+    },
+    {
+      "id": "514",
+      "name": "monday",
+      "back": "Monday"
+    },
+    {
+      "id": "515",
+      "name": "month",
+      "back": "Month"
+    },
+    {
+      "id": "516",
+      "name": "motorbike",
+      "back": "Motorbike"
+    },
+    {
+      "id": "517",
+      "name": "mushroom",
+      "back": "Mushroom"
+    },
+    {
+      "id": "518",
+      "name": "napkin",
+      "back": "Napkin"
+    },
+    {
+      "id": "519",
+      "name": "nature",
+      "back": "Nature"
+    },
+    {
+      "id": "520",
+      "name": "needle",
+      "back": "Needle"
+    },
+    {
+      "id": "521",
+      "name": "network",
+      "back": "Network"
+    },
+    {
+      "id": "522",
+      "name": "newspaper",
+      "back": "Newspaper"
+    },
+    {
+      "id": "523",
+      "name": "noise",
+      "back": "Noise"
+    },
+    {
+      "id": "524",
+      "name": "north",
+      "back": "North"
+    },
+    {
+      "id": "525",
+      "name": "note",
+      "back": "Note"
+    },
+    {
+      "id": "526",
+      "name": "november",
+      "back": "November"
+    },
+    {
+      "id": "527",
+      "name": "nurse",
+      "back": "Nurse"
+    },
+    {
+      "id": "528",
+      "name": "nuts",
+      "back": "Nuts"
+    },
+    {
+      "id": "529",
+      "name": "ocean",
+      "back": "Ocean"
+    },
+    {
+      "id": "530",
+      "name": "october",
+      "back": "October"
+    },
+    {
+      "id": "531",
+      "name": "office",
+      "back": "Office"
+    },
+    {
+      "id": "532",
+      "name": "old",
+      "back": "Old"
+    },
+    {
+      "id": "533",
+      "name": "one billion",
+      "back": "One billion"
+    },
+    {
+      "id": "534",
+      "name": "one hundred one",
+      "back": "One hundred one"
+    },
+    {
+      "id": "535",
+      "name": "one hundred ten",
+      "back": "One hundred ten"
+    },
+    {
+      "id": "536",
+      "name": "one hundred thousands",
+      "back": "One hundred thousands"
+    },
+    {
+      "id": "537",
+      "name": "one hundred two",
+      "back": "One hundred two"
+    },
+    {
+      "id": "538",
+      "name": "one million",
+      "back": "One million"
+    },
+    {
+      "id": "539",
+      "name": "one thousand",
+      "back": "One thousand"
+    },
+    {
+      "id": "540",
+      "name": "open",
+      "back": "Open"
+    },
+    {
+      "id": "541",
+      "name": "organ",
+      "back": "Organ"
+    },
+    {
+      "id": "542",
+      "name": "outside",
+      "back": "Outside"
+    },
+    {
+      "id": "543",
+      "name": "oven",
+      "back": "Oven"
+    },
+    {
+      "id": "544",
+      "name": "page",
+      "back": "Page"
+    },
+    {
+      "id": "545",
+      "name": "pain",
+      "back": "Pain"
+    },
+    {
+      "id": "546",
+      "name": "paint",
+      "back": "Paint"
+    },
+    {
+      "id": "547",
+      "name": "party",
+      "back": "Party"
+    },
+    {
+      "id": "548",
+      "name": "patient",
+      "back": "Patient"
+    },
+    {
+      "id": "549",
+      "name": "peace",
+      "back": "Peace"
+    },
+    {
+      "id": "550",
+      "name": "pepper",
+      "back": "Pepper"
+    },
+    {
+      "id": "551",
+      "name": "photo",
+      "back": "Photo"
+    },
+    {
+      "id": "552",
+      "name": "piano",
+      "back": "Piano"
+    },
+    {
+      "id": "553",
+      "name": "picture",
+      "back": "Picture"
+    },
+    {
+      "id": "554",
+      "name": "plastic",
+      "back": "Plastic"
+    },
+    {
+      "id": "555",
+      "name": "play",
+      "back": "Play"
+    },
+    {
+      "id": "556",
+      "name": "player",
+      "back": "Player"
+    },
+    {
+      "id": "557",
+      "name": "pocket",
+      "back": "Pocket"
+    },
+    {
+      "id": "558",
+      "name": "police",
+      "back": "Police"
+    },
+    {
+      "id": "559",
+      "name": "pool",
+      "back": "Pool"
+    },
+    {
+      "id": "560",
+      "name": "poor",
+      "back": "Poor"
+    },
+    {
+      "id": "561",
+      "name": "pork",
+      "back": "Pork"
+    },
+    {
+      "id": "562",
+      "name": "pray",
+      "back": "Pray"
+    },
+    {
+      "id": "563",
+      "name": "present",
+      "back": "Present"
+    },
+    {
+      "id": "564",
+      "name": "president",
+      "back": "President"
+    },
+    {
+      "id": "565",
+      "name": "priest",
+      "back": "Priest"
+    },
+    {
+      "id": "566",
+      "name": "printer",
+      "back": "Printer"
+    },
+    {
+      "id": "567",
+      "name": "pull",
+      "back": "Pull"
+    },
+    {
+      "id": "568",
+      "name": "push",
+      "back": "Push"
+    },
+    {
+      "id": "569",
+      "name": "radio",
+      "back": "Radio"
+    },
+    {
+      "id": "570",
+      "name": "raincoat",
+      "back": "Raincoat"
+    },
+    {
+      "id": "571",
+      "name": "rat",
+      "back": "Rat"
+    },
+    {
+      "id": "572",
+      "name": "read",
+      "back": "Read"
+    },
+    {
+      "id": "573",
+      "name": "religion",
+      "back": "Religion"
+    },
+    {
+      "id": "574",
+      "name": "reporter",
+      "back": "Reporter"
+    },
+    {
+      "id": "575",
+      "name": "rich",
+      "back": "Rich"
+    },
+    {
+      "id": "576",
+      "name": "ride",
+      "back": "Ride"
+    },
+    {
+      "id": "577",
+      "name": "right",
+      "back": "Right"
+    },
+    {
+      "id": "578",
+      "name": "ring",
+      "back": "Ring"
+    },
+    {
+      "id": "579",
+      "name": "robot",
+      "back": "Robot"
+    },
+    {
+      "id": "580",
+      "name": "run",
+      "back": "Run"
+    },
+    {
+      "id": "581",
+      "name": "salad",
+      "back": "Salad"
+    },
+    {
+      "id": "582",
+      "name": "sand",
+      "back": "Sand"
+    },
+    {
+      "id": "583",
+      "name": "saturday",
+      "back": "Saturday"
+    },
+    {
+      "id": "584",
+      "name": "science",
+      "back": "Science"
+    },
+    {
+      "id": "585",
+      "name": "screen",
+      "back": "Screen"
+    },
+    {
+      "id": "586",
+      "name": "sea",
+      "back": "Sea"
+    },
+    {
+      "id": "587",
+      "name": "secretary",
+      "back": "Secretary"
+    },
+    {
+      "id": "588",
+      "name": "seed",
+      "back": "Seed"
+    },
+    {
+      "id": "589",
+      "name": "september",
+      "back": "September"
+    },
+    {
+      "id": "590",
+      "name": "sex",
+      "back": "Sex"
+    },
+    {
+      "id": "591",
+      "name": "shallow",
+      "back": "Shallow"
+    },
+    {
+      "id": "592",
+      "name": "shapes",
+      "back": "Shapes"
+    },
+    {
+      "id": "593",
+      "name": "shark",
+      "back": "Shark"
+    },
+    {
+      "id": "594",
+      "name": "shop",
+      "back": "Shop"
+    },
+    {
+      "id": "595",
+      "name": "short",
+      "back": "Short"
+    },
+    {
+      "id": "596",
+      "name": "shower",
+      "back": "Shower"
+    },
+    {
+      "id": "597",
+      "name": "sick",
+      "back": "Sick"
+    },
+    {
+      "id": "598",
+      "name": "silver",
+      "back": "Silver"
+    },
+    {
+      "id": "599",
+      "name": "sleep",
+      "back": "Sleep"
+    },
+    {
+      "id": "600",
+      "name": "slow",
+      "back": "Slow"
+    },
+    {
+      "id": "601",
+      "name": "smile",
+      "back": "Smile"
+    },
+    {
+      "id": "602",
+      "name": "soap",
+      "back": "Soap"
+    },
+    {
+      "id": "603",
+      "name": "sofa",
+      "back": "Sofa"
+    },
+    {
+      "id": "604",
+      "name": "soft",
+      "back": "Soft"
+    },
+    {
+      "id": "605",
+      "name": "soldier",
+      "back": "Soldier"
+    },
+    {
+      "id": "606",
+      "name": "south",
+      "back": "South"
+    },
+    {
+      "id": "607",
+      "name": "speak",
+      "back": "Speak"
+    },
+    {
+      "id": "608",
+      "name": "sport",
+      "back": "Sport"
+    },
+    {
+      "id": "609",
+      "name": "stain",
+      "back": "Stain"
+    },
+    {
+      "id": "610",
+      "name": "stairs",
+      "back": "Stairs"
+    },
+    {
+      "id": "611",
+      "name": "stone",
+      "back": "Stone"
+    },
+    {
+      "id": "612",
+      "name": "stop",
+      "back": "Stop"
+    },
+    {
+      "id": "613",
+      "name": "strawberry",
+      "back": "Strawberry"
+    },
+    {
+      "id": "614",
+      "name": "strong",
+      "back": "Strong"
+    },
+    {
+      "id": "615",
+      "name": "sunday",
+      "back": "Sunday"
+    },
+    {
+      "id": "616",
+      "name": "swan",
+      "back": "Swan"
+    },
+    {
+      "id": "617",
+      "name": "swim",
+      "back": "Swim"
+    },
+    {
+      "id": "618",
+      "name": "tail",
+      "back": "Tail"
+    },
+    {
+      "id": "619",
+      "name": "tall",
+      "back": "Tall"
+    },
+    {
+      "id": "620",
+      "name": "taxi",
+      "back": "Taxi"
+    },
+    {
+      "id": "621",
+      "name": "technology",
+      "back": "Technology"
+    },
+    {
+      "id": "622",
+      "name": "television",
+      "back": "Television"
+    },
+    {
+      "id": "623",
+      "name": "thin",
+      "back": "Thin"
+    },
+    {
+      "id": "624",
+      "name": "thursday",
+      "back": "Thursday"
+    },
+    {
+      "id": "625",
+      "name": "time",
+      "back": "Time"
+    },
+    {
+      "id": "626",
+      "name": "toilet",
+      "back": "Toilet"
+    },
+    {
+      "id": "627",
+      "name": "tongue",
+      "back": "Tongue"
+    },
+    {
+      "id": "628",
+      "name": "tool",
+      "back": "Tool"
+    },
+    {
+      "id": "629",
+      "name": "top",
+      "back": "Top"
+    },
+    {
+      "id": "630",
+      "name": "tower",
+      "back": "Tower"
+    },
+    {
+      "id": "631",
+      "name": "truck",
+      "back": "Truck"
+    },
+    {
+      "id": "632",
+      "name": "tuesday",
+      "back": "Tuesday"
+    },
+    {
+      "id": "633",
+      "name": "up",
+      "back": "Up"
+    },
+    {
+      "id": "634",
+      "name": "waiter",
+      "back": "Waiter"
+    },
+    {
+      "id": "635",
+      "name": "warm",
+      "back": "Warm"
+    },
+    {
+      "id": "636",
+      "name": "wave",
+      "back": "Wave"
+    },
+    {
+      "id": "637",
+      "name": "weak",
+      "back": "Weak"
+    },
+    {
+      "id": "638",
+      "name": "weak up",
+      "back": "Weak up"
+    },
+    {
+      "id": "639",
+      "name": "wednesday",
+      "back": "Wednesday"
+    },
+    {
+      "id": "640",
+      "name": "week",
+      "back": "Week"
+    },
+    {
+      "id": "641",
+      "name": "weight",
+      "back": "Weight"
+    },
+    {
+      "id": "642",
+      "name": "west",
+      "back": "West"
+    },
+    {
+      "id": "643",
+      "name": "wet",
+      "back": "Wet"
+    },
+    {
+      "id": "644",
+      "name": "whale",
+      "back": "Whale"
+    },
+    {
+      "id": "645",
+      "name": "wine",
+      "back": "Wine"
+    },
+    {
+      "id": "646",
+      "name": "wood",
+      "back": "Wood"
+    },
+    {
+      "id": "647",
+      "name": "work",
+      "back": "Work"
+    },
+    {
+      "id": "648",
+      "name": "write",
+      "back": "Write"
+    },
+    {
+      "id": "649",
+      "name": "year",
+      "back": "Year"
+    },
+    {
+      "id": "650",
+      "name": "young",
+      "back": "Young"
+    }
+  ]
+}
