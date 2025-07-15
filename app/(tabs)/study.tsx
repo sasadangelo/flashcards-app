@@ -1,5 +1,5 @@
-import { audioMap } from '@/utils/audioMap';
-import { imageMap } from '@/utils/imageMap';
+import { audioMap } from '@/app/data/decks/most-frequent-100/audioMap';
+import { imageMap } from '@/app/data/decks/most-frequent-100/imageMap';
 import { Ionicons } from '@expo/vector-icons';
 import { useFocusEffect } from '@react-navigation/native';
 import { Audio } from 'expo-av';

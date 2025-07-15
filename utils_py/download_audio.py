@@ -1,16 +1,9 @@
+import argparse
 import json
 import os
+import time
 
 from gtts import gTTS
-
-# Percorsi (modifica se serve)
-BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-
-OUTPUT_DIR = os.path.join(BASE_DIR, "assets/audio")
-DECK_JSON_PATH = os.path.join(BASE_DIR, "app/data/deck.json")
-
-# Crea la cartella audio se non esiste
-os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 
 def generate_audio_for_word(word: str, output_path: str):
@@ -20,16 +13,39 @@ def generate_audio_for_word(word: str, output_path: str):
 
 
 def main():
-    with open(DECK_JSON_PATH, "r", encoding="utf-8") as f:
+    parser = argparse.ArgumentParser(description="Generate audio files from deck JSON")
+    parser.add_argument(
+        "-i", "--input", required=True, help="Path to the deck JSON file"
+    )
+    parser.add_argument(
+        "-o",
+        "--output",
+        required=True,
+        help="Directory where audio files will be saved",
+    )
+
+    args = parser.parse_args()
+    input_path = os.path.abspath(args.input)
+    output_dir = os.path.abspath(args.output)
+
+    # Crea la cartella output se non esiste
+    os.makedirs(output_dir, exist_ok=True)
+
+    # Carica il file JSON
+    with open(input_path, "r", encoding="utf-8") as f:
         deck = json.load(f)
 
-    for card in deck:
+    cards = deck.get("cards", deck)  # Supporta sia {"cards": [...]} che [...] puro
+
+    for card in cards:
         word_name = card["name"]
         word_back = card["back"].lower()
         filename = f"{word_name}.mp3"
-        output_path = os.path.join(OUTPUT_DIR, filename)
+        output_path = os.path.join(output_dir, filename)
+
         if not os.path.exists(output_path):
             generate_audio_for_word(word_back, output_path)
+            time.sleep(0.5)
         else:
             print(f"Audio for '{word_back}' already exists, skipping.")
 
