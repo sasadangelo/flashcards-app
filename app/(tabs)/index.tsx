@@ -10,6 +10,9 @@ import { ProgressTracker } from '../../utils/ProgressTracker';
 import deckData1 from '../data/decks/most-frequent-100/deck.json';
 import deckData2 from '../data/decks/next-100-essential/deck.json';
 
+import { StudySessionManager } from '../../models/StudySessionManager';
+import { useStudySession } from '../contexts/StudySessionContext';
+
 type DeckCounts = {
   newCount: number;
   reviewCount: number;
@@ -17,42 +20,54 @@ type DeckCounts = {
 
 export default function HomeScreen() {
   const router = useRouter();
+  const { manager, setManager, setCurrentSession } = useStudySession();
 
-  // Creo i due deck statici
-  const decks = [
-    new Deck(deckData1),
-    new Deck(deckData2)
-  ];
-
-  // Prendo il nome del gruppo dal primo deck (tutti sono nello stesso gruppo)
+  // Initialize decks
+  const decks = [new Deck(deckData1), new Deck(deckData2)];
   const groupName = decks[0].group;
 
   const [counts, setCounts] = useState<Record<string, DeckCounts>>({});
 
   const loadCounts = async () => {
+    console.log('Loading counts...');
     const config = await ConfigManager.getConfig();
+    console.log('Config:', config);
 
     const newDone = await ProgressTracker.getNewCardsStudiedToday();
     const reviewDone = await ProgressTracker.getReviewCardsStudiedToday();
 
-    // Qui tengo traccia di quante carte rimangono da assegnare
+    console.log('New cards studied today:', newDone);
+    console.log('Review cards studied today:', reviewDone);
+
     let remainingNew = Math.max(0, config.dailyLimit - newDone);
     let remainingReview = Math.max(0, config.reviewLimit - reviewDone);
+
+    console.log('Remaining new:', remainingNew, 'Remaining review:', remainingReview);
+
+    const newManager = new StudySessionManager(decks, {
+      dailyLimit: remainingNew,
+      reviewLimit: remainingReview,
+    });
+
+    await newManager.loadAllSessions();
+
+    setManager(newManager);
 
     const countsTemp: Record<string, DeckCounts> = {};
 
     for (const deck of decks) {
-      const newCards = await deck.getNewCards(remainingNew);
-      const reviewCards = await deck.getReviewCards(remainingReview);
+      const sessions = newManager.getSessions().filter(s => s.deck.name === deck.name);
+      const newCount = sessions
+        .filter(s => s.mode === 'new')
+        .reduce((acc, s) => acc + s.cardsToStudy.length, 0);
 
-      countsTemp[deck.name] = {
-        newCount: newCards.length,
-        reviewCount: reviewCards.length,
-      };
+      const reviewCount = sessions
+        .filter(s => s.mode === 'review')
+        .reduce((acc, s) => acc + s.cardsToStudy.length, 0);
 
-      // Aggiorno le carte residue
-      remainingNew -= newCards.length;
-      remainingReview -= reviewCards.length;
+      countsTemp[deck.name] = { newCount, reviewCount };
+
+      console.log(`Deck ${deck.name} - New: ${newCount}, Review: ${reviewCount}`);
     }
 
     setCounts(countsTemp);
@@ -63,6 +78,25 @@ export default function HomeScreen() {
       loadCounts();
     }, [])
   );
+
+  const handleStartSession = (deckName: string, mode: 'new' | 'review') => {
+    if (!manager) {
+      console.warn('No manager available');
+      return;
+    }
+
+    const session = manager.getSessions().find(
+      s => s.deck.name === deckName && s.mode === mode
+    );
+
+    if (session) {
+      console.log(`Starting session for deck ${deckName}, mode ${mode}`);
+      setCurrentSession(session);
+      router.push('/study');
+    } else {
+      console.warn(`No session found for deck ${deckName} mode ${mode}`);
+    }
+  };
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
@@ -75,17 +109,13 @@ export default function HomeScreen() {
           <View style={styles.buttonsRow}>
             <Button
               title={`🆕 ${counts[deck.name]?.newCount ?? 0}`}
-              onPress={() =>
-                router.push(`/study?mode=new&deck=${encodeURIComponent(deck.name)}`)
-              }
+              onPress={() => handleStartSession(deck.name, 'new')}
               disabled={!counts[deck.name] || counts[deck.name].newCount === 0}
               color="#3498db"
             />
             <Button
               title={`🔁 ${counts[deck.name]?.reviewCount ?? 0}`}
-              onPress={() =>
-                router.push(`/study?mode=review&deck=${encodeURIComponent(deck.name)}`)
-              }
+              onPress={() => handleStartSession(deck.name, 'review')}
               disabled={!counts[deck.name] || counts[deck.name].reviewCount === 0}
               color="#2ecc71"
             />

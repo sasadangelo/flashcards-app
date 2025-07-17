@@ -1,6 +1,7 @@
 {
   "group": "English Flashcards",
   "name": "Most Frequent 100 Words",
+  "slug": "most-frequent-100",
   "cards": [
     {
       "id": "1",

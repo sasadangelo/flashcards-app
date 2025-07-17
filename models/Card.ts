@@ -4,6 +4,7 @@ export interface CardData {
     id: string;
     name: string;
     back: string;
+    deckSlug: string;
 }
 
 
@@ -11,16 +12,26 @@ export class Card {
     id: string;
     name: string;
     back: string;
+    deckSlug: string;
 
-    constructor({ id, name, back }: { id: string; name: string; back: string }) {
+    constructor({ id, name, back, deckSlug }: CardData) {
         this.id = id;
         this.name = name;
         this.back = back;
+        this.deckSlug = deckSlug;
     }
 
     async getNextReviewDate(): Promise<Date | null> {
-        const dateStr = await AsyncStorage.getItem(`card_${this.name}_nextReview`);
-        return dateStr ? new Date(dateStr) : null;
+        try {
+            const key = `card_${this.name}_nextReview`;
+            const dateStr = await AsyncStorage.getItem(key);
+            const result = dateStr ? new Date(dateStr) : null;
+            console.log(`[Card:getNextReviewDate] ${this.name} -> ${result}`);
+            return result;
+        } catch (error) {
+            console.error(`[Card:getNextReviewDate] Error for card ${this.name}:`, error);
+            return null;
+        }
     }
 
     async getReviewData(): Promise<{
@@ -29,16 +40,31 @@ export class Card {
         easeFactor: number;
         nextReview: Date | null;
     }> {
-        const repsStr = await AsyncStorage.getItem(`card_${this.name}_reps`);
-        const intervalStr = await AsyncStorage.getItem(`card_${this.name}_interval`);
-        const easeStr = await AsyncStorage.getItem(`card_${this.name}_ease`);
-        const nextStr = await AsyncStorage.getItem(`card_${this.name}_nextReview`);
+        try {
+            const [repsStr, intervalStr, easeStr, nextStr] = await Promise.all([
+                AsyncStorage.getItem(`card_${this.name}_reps`),
+                AsyncStorage.getItem(`card_${this.name}_interval`),
+                AsyncStorage.getItem(`card_${this.name}_ease`),
+                AsyncStorage.getItem(`card_${this.name}_nextReview`)
+            ]);
 
-        return {
-            reps: repsStr ? parseInt(repsStr, 10) : 0,
-            interval: intervalStr ? parseInt(intervalStr, 10) : 0,
-            easeFactor: easeStr ? parseFloat(easeStr) : 2.5,
-            nextReview: nextStr ? new Date(nextStr) : null,
-        };
+            const reviewData = {
+                reps: repsStr ? parseInt(repsStr, 10) : 0,
+                interval: intervalStr ? parseInt(intervalStr, 10) : 0,
+                easeFactor: easeStr ? parseFloat(easeStr) : 2.5,
+                nextReview: nextStr ? new Date(nextStr) : null,
+            };
+
+            console.log(`[Card:getReviewData] ${this.name}`, reviewData);
+            return reviewData;
+        } catch (error) {
+            console.error(`[Card:getReviewData] Error for card ${this.name}:`, error);
+            return {
+                reps: 0,
+                interval: 0,
+                easeFactor: 2.5,
+                nextReview: null,
+            };
+        }
     }
 }

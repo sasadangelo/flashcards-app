@@ -70,9 +70,9 @@ export class SRS {
         // Costruisci la stringa completa con ora
         const nextDateStr = `${year}-${month}-${day}T${hours}:${minutes}:${seconds}`;
 
-        console.log('SRS today: ', today)
-        console.log('SRS new interval: ', newInterval)
-        console.log('SRS next date: ', nextDateStr)
+        console.log('[SRS:handleAnswer] SRS today: ', today)
+        console.log('[SRS:handleAnswer] SRS new interval: ', newInterval)
+        console.log('[SRS:handleAnswer] SRS next date: ', nextDateStr)
 
         // Salva tutti i dati in AsyncStorage in modo atomico
         await AsyncStorage.multiSet([
@@ -81,10 +81,11 @@ export class SRS {
             [`${keyBase}_ease`, newEase.toFixed(4)],
             [`${keyBase}_nextReview`, nextDateStr],
             [`${keyBase}_difficulty`, difficulty],
+            [`${keyBase}_deckSlug`, card.deckSlug],
         ]);
 
         console.log(
-            `${card.name} → reps: ${newReps}, ease: ${newEase}, next: ${nextDateStr}`
+            `[SRS:handleAnswer] ${card.name} → reps: ${newReps}, ease: ${newEase}, next: ${nextDateStr}, deck: ${card.deckSlug}`
         );
     }
 }

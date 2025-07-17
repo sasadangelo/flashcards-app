@@ -4,76 +4,67 @@ import { Card, CardData } from './Card';
 interface DeckData {
     group: string;
     name: string;
+    slug: string;
     cards: CardData[];
 }
 
 export class Deck {
     group: string;
     name: string;
+    slug: string;
     cards: Card[];
 
     constructor(data: DeckData) {
-        console.log('************')
-        console.log(data)
-        console.log('************')
         this.group = data.group;
         this.name = data.name;
+        this.slug = data.slug;
         this.cards = data.cards.map(c => new Card(c));
+        console.log(`[Deck:constructor] Initialized deck "${this.name}" with ${this.cards.length} cards`);
     }
 
-    // Carte da rivedere: hanno una data di review nel passato o oggi
+    private async getCardsWithReviewDates(): Promise<{ card: Card; reviewDate: Date | null }[]> {
+        console.log(`[Deck:getCardsWithReviewDates] Calculating review dates for ${this.cards.length} cards...`);
+        const results = await Promise.all(
+            this.cards.map(async card => {
+                const reviewDate = await card.getNextReviewDate();
+                return { card, reviewDate };
+            })
+        );
+        console.log(`[Deck:getCardsWithReviewDates] Completed review date calculation`);
+        return results;
+    }
+
     async getReviewCards(limit: number): Promise<Card[]> {
+        console.log(`[Deck:getReviewCards] Getting review cards with limit ${limit}`);
         const today = Clock.today();
 
-        const reviewCards: Card[] = [];
-
-        // Parallel fetching delle date di review per ogni carta
-        const cardsWithDates = await Promise.all(
-            this.cards.map(async (card) => ({
-                card,
-                reviewDate: await card.getNextReviewDate(),
-            }))
-        );
-
-        // Filtra le carte che hanno una data di review nel passato o oggi
-        const reviewCardsFiltered = cardsWithDates
+        const reviewCards = (await this.getCardsWithReviewDates())
             .filter(({ reviewDate }) => reviewDate && reviewDate <= today)
             .map(({ card }) => card);
 
-        // Restituisce solo il numero di carte richieste
-        return reviewCardsFiltered.slice(0, limit);
+        console.log(`[Deck:getReviewCards] Found ${reviewCards.length} review cards`);
+        return reviewCards.slice(0, limit);
     }
 
-    // Carte nuove: non hanno mai avuto una data di review
     async getNewCards(limit: number): Promise<Card[]> {
-        const newCards: Card[] = [];
-
-        // Parallel fetching delle date di review per ogni carta
-        const cardsWithDates = await Promise.all(
-            this.cards.map(async (card) => ({
-                card,
-                reviewDate: await card.getNextReviewDate(),
-            }))
-        );
-
-        // Filtra le carte che non hanno mai avuto una data di review
-        const newCardsFiltered = cardsWithDates
+        console.log(`[Deck:getNewCards] Getting new cards with limit ${limit}`);
+        const newCards = (await this.getCardsWithReviewDates())
             .filter(({ reviewDate }) => reviewDate === null)
             .map(({ card }) => card);
 
-        // Restituisce solo il numero di carte richieste
-        return newCardsFiltered.slice(0, limit);
+        console.log(`[Deck:getNewCards] Found ${newCards.length} new cards`);
+        return newCards.slice(0, limit);
     }
 
-    // Restituisce il numero totale di carte nuove (non ancora viste)
     async getTotalNewCards(): Promise<number> {
-        const newCards = await this.getNewCards(Number.MAX_VALUE); // Ottieni tutte le carte nuove
-        return newCards.length;
+        const total = await this.getNewCards(Number.MAX_VALUE);
+        console.log(`[Deck:getTotalNewCards] Total new cards: ${total.length}`);
+        return total.length;
     }
 
-    // Restituisce il numero totale di carte da ripasso
     async getTotalReviewCards(): Promise<number> {
-        const reviewCards = await this.getReviewCards(Number.MAX_VALUE); // Ottieni tutte le carte da ripasso
-        return reviewCards.length;
+        const total = await this.getReviewCards(Number.MAX_VALUE);
+        console.log(`[Deck:getTotalReviewCards] Total review cards: ${total.length}`);
+        return total.length;
     }
 }

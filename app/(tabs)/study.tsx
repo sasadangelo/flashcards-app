@@ -3,19 +3,16 @@ import { imageMap } from '@/app/data/decks/most-frequent-100/imageMap';
 import { Ionicons } from '@expo/vector-icons';
 import { useFocusEffect } from '@react-navigation/native';
 import { Audio } from 'expo-av';
-import { useLocalSearchParams } from 'expo-router';
 import React, { useEffect, useRef, useState } from 'react';
 import { Button, Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
-import { Deck } from '../../models/Deck';
-import { StudySession } from '../../models/StudySession';
 import { ConfigManager } from '../../utils/ConfigManager';
+import { useStudySession } from '../contexts/StudySessionContext';
 
 type Difficulty = 'again' | 'hard' | 'good' | 'easy';
 
 export default function StudyScreen() {
-    const { mode: rawMode } = useLocalSearchParams<{ mode?: 'new' | 'review' }>();
-    const mode = rawMode === 'review' ? 'review' : 'new';  // default 'new'
-    const [session, setSession] = useState<StudySession | null>(null);
+    const { currentSession: session, setCurrentSession } = useStudySession();
+
     const [showBack, setShowBack] = useState(false);
     const [hasStarted, setHasStarted] = useState(false);
     const soundRef = useRef<Audio.Sound | null>(null);
@@ -36,19 +33,10 @@ export default function StudyScreen() {
     );
 
     useEffect(() => {
-        const setup = async () => {
-            if (mode !== 'new' && mode !== 'review') return;
-
-            const deck = new Deck();
-            const studySession = new StudySession(deck, mode);
-            await studySession.load();
-            setSession(studySession);
-            // Salva il totale delle carte da studiare al momento del caricamento
-            setTotalCards(studySession.cardsToStudy.length);
+        if (session) {
+            setTotalCards(session.cardsToStudy.length);
             setHasStarted(true);
-        };
-
-        setup();
+        }
 
         return () => {
             if (soundRef.current) {
@@ -56,13 +44,11 @@ export default function StudyScreen() {
                 soundRef.current = null;
             }
         };
-    }, [mode]);
+    }, [session]);
 
     useEffect(() => {
-        if (showBack) {
-            if (autoAudio) {      // SOLO se autoAudio è true fai partire il suono
-                playSound();
-            }
+        if (showBack && autoAudio) {
+            playSound();
         } else {
             if (soundRef.current) {
                 soundRef.current.stopAsync();
@@ -93,16 +79,14 @@ export default function StudyScreen() {
         console.log("Difficulty: ", difficulty)
 
         if (difficulty !== 'again') {
-            if (mode === 'new') {
+            if (session.mode === 'new') {
                 setNewStudiedCount(prev => prev + 1);
-            } else if (mode === 'review') {
+            } else {
                 setReviewStudiedCount(prev => prev + 1);
             }
 
             if (session.isDone) {
-                setSession(null);
-            } else {
-                setSession(session);
+                setCurrentSession(null);
             }
         }
     };
@@ -131,7 +115,7 @@ export default function StudyScreen() {
             )}
 
             <Text style={styles.counter}>
-                {mode === 'new'
+                {cardType === 'new'
                     ? `${newStudiedCount} / ${totalCards} nuove`
                     : `${reviewStudiedCount} / ${totalCards} ripassi`}
             </Text>
