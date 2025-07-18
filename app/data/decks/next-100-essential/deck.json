@@ -23,7 +23,8 @@
     {
       "id": "105",
       "name": "bad",
-      "back": "Bad"
+      "back": "Bad",
+      "front_description": "Opposite of good"
     },
     {
       "id": "106",
@@ -188,32 +189,38 @@
     {
       "id": "138",
       "name": "good",
-      "back": "Good"
+      "back": "Good",
+      "front_description": "Opposite of bad"
     },
     {
       "id": "139",
       "name": "good afternoon",
-      "back": "Good afternoon"
+      "back": "Good afternoon",
+      "front_description": "Greet someone between lunch and early evening"
     },
     {
       "id": "140",
       "name": "good evening",
-      "back": "Good evening"
+      "back": "Good evening",
+      "front_description": "Greet someone after 6 PM until nighttime"
     },
     {
       "id": "141",
       "name": "good morning",
-      "back": "Good morning"
+      "back": "Good morning",
+      "front_description": "Greet someone early in the day"
     },
     {
       "id": "142",
       "name": "good night",
-      "back": "Good Night"
+      "back": "Good Night",
+      "front_description": "Greet someone late in the evening before sleeping"
     },
     {
       "id": "143",
       "name": "goodbye",
-      "back": "Goodbye"
+      "back": "Goodbye",
+      "front_description": "A polite way to say farewell or see you later"
     },
     {
       "id": "144",
@@ -308,7 +315,8 @@
     {
       "id": "162",
       "name": "no",
-      "back": "No"
+      "back": "No",
+      "front_description": "Opposite of yes"
     },
     {
       "id": "163",
@@ -498,7 +506,8 @@
     {
       "id": "200",
       "name": "yes",
-      "back": "Yes"
+      "back": "Yes",
+      "front_description": "Opposite of no"
     }
   ],
   "group": "English Flashcards",

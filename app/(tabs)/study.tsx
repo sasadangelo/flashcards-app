@@ -122,7 +122,12 @@ export default function StudyScreen() {
 
             <View style={styles.card}>
                 {!showBack ? (
-                    <Image source={imageMap[card.name]} style={styles.image} />
+                    <>
+                        <Image source={imageMap[card.name]} style={styles.image} />
+                        {card.front_description && (
+                            <Text style={styles.frontDescription}>{card.front_description}</Text>
+                        )}
+                    </>
                 ) : (
                     <>
                         <Text style={styles.word}>{card.back}</Text>
@@ -163,6 +168,13 @@ const styles = StyleSheet.create({
     },
     image: { width: 250, height: 250, resizeMode: 'contain' },
     word: { fontSize: 32, fontWeight: 'bold', textAlign: 'center', marginBottom: 10 },
+    frontDescription: {
+        fontSize: 18,
+        color: '#333',
+        textAlign: 'center',
+        marginTop: 10,
+        paddingHorizontal: 10,
+    },
     playButton: { marginTop: 10 },
     buttons: {
         flexDirection: 'row',
