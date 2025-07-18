@@ -1,5 +1,6 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Clock } from '../utils/Clock';
+import log from '../utils/logger';
 import { Card } from './Card';
 
 type Difficulty = 'again' | 'hard' | 'good' | 'easy';
@@ -10,6 +11,8 @@ const difficultyMap: Record<Difficulty, number> = {
     good: 4,
     easy: 5,
 };
+
+const logger = log.extend('SRS');
 
 export class SRS {
     // Ottieni la base della chiave per una card
@@ -70,9 +73,9 @@ export class SRS {
         // Costruisci la stringa completa con ora
         const nextDateStr = `${year}-${month}-${day}T${hours}:${minutes}:${seconds}`;
 
-        console.log('[SRS:handleAnswer] SRS today: ', today)
-        console.log('[SRS:handleAnswer] SRS new interval: ', newInterval)
-        console.log('[SRS:handleAnswer] SRS next date: ', nextDateStr)
+        logger.debug('[SRS:handleAnswer] SRS today: ', today)
+        logger.debug('[SRS:handleAnswer] SRS new interval: ', newInterval)
+        logger.debug('[SRS:handleAnswer] SRS next date: ', nextDateStr)
 
         // Salva tutti i dati in AsyncStorage in modo atomico
         await AsyncStorage.multiSet([
@@ -81,11 +84,10 @@ export class SRS {
             [`${keyBase}_ease`, newEase.toFixed(4)],
             [`${keyBase}_nextReview`, nextDateStr],
             [`${keyBase}_difficulty`, difficulty],
-            [`${keyBase}_deckSlug`, card.deckSlug],
         ]);
 
-        console.log(
-            `[SRS:handleAnswer] ${card.name} → reps: ${newReps}, ease: ${newEase}, next: ${nextDateStr}, deck: ${card.deckSlug}`
+        logger.debug(
+            `[SRS:handleAnswer] ${card.name} → reps: ${newReps}, ease: ${newEase}, next: ${nextDateStr}`
         );
     }
 }

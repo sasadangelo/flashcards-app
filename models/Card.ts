@@ -1,24 +1,24 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import log from '../utils/logger';
 
+// Dati base letti da JSON, senza deckSlug
 export interface CardData {
     id: string;
     name: string;
     back: string;
-    deckSlug: string;
 }
 
+const logger = log.extend('Card');
 
 export class Card {
     id: string;
     name: string;
     back: string;
-    deckSlug: string;
 
-    constructor({ id, name, back, deckSlug }: CardData) {
+    constructor({ id, name, back }: CardData) {
         this.id = id;
         this.name = name;
         this.back = back;
-        this.deckSlug = deckSlug;
     }
 
     async getNextReviewDate(): Promise<Date | null> {
@@ -26,10 +26,10 @@ export class Card {
             const key = `card_${this.name}_nextReview`;
             const dateStr = await AsyncStorage.getItem(key);
             const result = dateStr ? new Date(dateStr) : null;
-            console.log(`[Card:getNextReviewDate] ${this.name} -> ${result}`);
+            logger.debug(`${this.name} -> ${result}`);
             return result;
         } catch (error) {
-            console.error(`[Card:getNextReviewDate] Error for card ${this.name}:`, error);
+            console.error(`Error for card ${this.name}:`, error);
             return null;
         }
     }
@@ -55,10 +55,10 @@ export class Card {
                 nextReview: nextStr ? new Date(nextStr) : null,
             };
 
-            console.log(`[Card:getReviewData] ${this.name}`, reviewData);
+            logger.debug(`${this.name} ${JSON.stringify(reviewData)}`);
             return reviewData;
         } catch (error) {
-            console.error(`[Card:getReviewData] Error for card ${this.name}:`, error);
+            logger.error(`Error for card ${this.name}: ${error}`);
             return {
                 reps: 0,
                 interval: 0,
