@@ -41,7 +41,8 @@
     {
       "id": "208",
       "name": "autumn",
-      "back": "Autumn"
+      "back": "Autumn",
+      "front_description": "The season after Summer"
     },
     {
       "id": "209",
@@ -66,12 +67,14 @@
     {
       "id": "213",
       "name": "daughter",
-      "back": "Daughter"
+      "back": "Daughter",
+      "front_description": "A female child in a Family"
     },
     {
       "id": "214",
       "name": "winter",
-      "back": "Winter"
+      "back": "Winter",
+      "front_description": "The season after Autumn"
     },
     {
       "id": "215",
@@ -81,7 +84,8 @@
     {
       "id": "216",
       "name": "spring",
-      "back": "Spring"
+      "back": "Spring",
+      "front_description": "The season after Winter"
     },
     {
       "id": "217",
@@ -91,12 +95,14 @@
     {
       "id": "218",
       "name": "grandmother",
-      "back": "Grandmother"
+      "back": "Grandmother",
+      "front_description": "The mother of your parent"
     },
     {
       "id": "219",
       "name": "grandfather",
-      "back": "Grandfather"
+      "back": "Grandfather",
+      "front_description": "The father of your parent"
     },
     {
       "id": "220",
@@ -121,12 +127,14 @@
     {
       "id": "224",
       "name": "husband",
-      "back": "Husband"
+      "back": "Husband",
+      "front_description": "A man in a marriage"
     },
     {
       "id": "225",
       "name": "school",
-      "back": "School"
+      "back": "School",
+      "front_description": "A place where children study"
     },
     {
       "id": "226",
@@ -136,7 +144,8 @@
     {
       "id": "227",
       "name": "summer",
-      "back": "Summer"
+      "back": "Summer",
+      "front_description": "The season after Spring"
     },
     {
       "id": "228",
@@ -166,7 +175,8 @@
     {
       "id": "233",
       "name": "season",
-      "back": "Season"
+      "back": "Season",
+      "front_description": "Spring, summer, autumn, or winter"
     },
     {
       "id": "234",
@@ -201,7 +211,8 @@
     {
       "id": "240",
       "name": "son",
-      "back": "Son"
+      "back": "Son",
+      "front_description": "A male child in a Family"
     },
     {
       "id": "241",
@@ -501,7 +512,8 @@
     {
       "id": "300",
       "name": "morning",
-      "back": "Morning"
+      "back": "Morning",
+      "front_description": "When the sun rises"
     }
   ]
 }
