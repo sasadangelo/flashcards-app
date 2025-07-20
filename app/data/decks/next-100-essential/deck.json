@@ -1,4 +1,7 @@
 {
+  "group": "English Flashcards",
+  "name": "Next 100 Essential Words",
+  "slug": "next-100-essential",
   "cards": [
     {
       "id": "101",
@@ -509,8 +512,5 @@
       "back": "Yes",
       "front_description": "Opposite of no"
     }
-  ],
-  "group": "English Flashcards",
-  "name": "Next 100 Essential Words",
-  "slug": "next-100-essential"
+  ]
 }

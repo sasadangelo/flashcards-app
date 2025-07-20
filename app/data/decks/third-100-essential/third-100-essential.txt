@@ -1,0 +1,5 @@
+dinosaur,beard,toast,bathroom,box,computer,room,autumn,oil,bridge,bone,bar,daughter,winter,family,spring,food,grandmother,grandfather,bedroom,
+paper,hotel,hospital,husband,school,knife,summer,juice,kitchen,fork,roof,floor,season,restaurant,policeman,salt,tshirt,livingroom,student,son,
+tea,doctor,coffee,thirty,fourty,fifty,sixty,eighty,ninety,one_hundred,twenty_one,twenty_two,thirty_one,thirty_two,fourty_one,fourty_two,fifty_one,fifty_two,sixty_one,sixty_two,
+seventy_one,seventy_two,eighty_one,eighty_two,ninety_one,ninety_two,shirt,pyjamas,coat,balloon,christmas_tree,santa_claus,chocolate,umbrella,map,princess,long,insects,short,old,
+new,tablespoon,glass,wall,space,money,movie,day,night,big,small,butterfly,chips,seventy,sandwich,prince,queen,jacket,plant,morning

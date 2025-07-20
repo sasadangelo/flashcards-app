@@ -9,6 +9,7 @@ import { ProgressTracker } from '../../utils/ProgressTracker';
 
 import deckData1 from '../data/decks/most-frequent-100/deck.json';
 import deckData2 from '../data/decks/next-100-essential/deck.json';
+import deckData3 from '../data/decks/third-100-essential/deck.json';
 
 import { StudySessionManager } from '../../models/StudySessionManager';
 import { useStudySession } from '../contexts/StudySessionContext';
@@ -23,7 +24,7 @@ export default function HomeScreen() {
   const { manager, setManager, setCurrentSession } = useStudySession();
 
   // Initialize decks
-  const decks = [new Deck(deckData1), new Deck(deckData2)];
+  const decks = [new Deck(deckData1), new Deck(deckData2), new Deck(deckData3)];
   const groupName = decks[0].group;
 
   const [counts, setCounts] = useState<Record<string, DeckCounts>>({});
