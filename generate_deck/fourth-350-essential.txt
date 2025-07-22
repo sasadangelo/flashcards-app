@@ -1,1 +1,18 @@
-picture,world,king,lizard,sad,dolphin,shark,helicopter,castle,puzzle,hippo,run,play,jump,crocodile,eat,walk,young,sport,evening,happy,yogurt
+adult,afternoon,air,airport,ant,apartment,april,armchair,art,august,back,baseball,basketball,bath,beautiful,beat,beer,beverage,bill,blackboard
+blood,boot,bottom,break,breakfast,build,building,burn,business,button,buy,call,camera,camp,can,candle,card,carpet,carry,castle
+catch,ceiling,centimeter,chalk,chat,chemistry,church,cinema,classroom,clean,climb,clothes
+college,comb,concert,conversation,cook,cool,corn,corner,country,count,cover,crash,create,cry,cut,dark,date,day,death
+december,deep,desk,dictionary,die,dig,dinner,direction,dirty,discuss,distance,divide,dollar,dragon,draw,dream,drink,drive,drop,dry
+dust,earth,east,eat,edge,education,effect,elevator,energy,engine,evening,exam,exercise,explode,fan,farm,fast,fat,feather,feed
+feel,feeling,festival,field,fight,find,finger,first,flag,flat,fly,follow,foot,football,footstep,forest,forget,form,friday,fridge
+front,fruit,full,fun,future,garage,gas,gate,general,give,go,god,gold,government,ground,group,grow,guitar,gun,half
+hammer,happy,hard,health,hear,heart,heat,heaven,heavy,hell,help,hill,hippo,hobby,holiday,hole,hope,hot,hour
+human,idea,inch,include,inside,instrument,internet,invention,island,january,jeans,job,join,joke,july,jump,june,kangaroo,keep,kick
+kid,kill,kilogram,kiss,kitchen,know,lake,language,laptop,laugh,leaf,learn,left,letter,library,life,lift,light,line,listen
+literature,live,liver,lizard,lock,look,lose,love,low,lunch,machine,magazine,make,male,manager,march,market,marry,materials,math
+may,meal,measure,medicine,meeting,memory,metal,meter,middle,mind,minute,mirror,mix,monday,month,motorbike,move,mushroom,must,name
+napkin,nature,near,needle,neighbor,network,newspaper,nice,night,noise,noun,november,nurse,nuts,object,ocean,october,off,office,one billion
+one hundred one,one hundred ten,one hundred thousands,one hundred two,one million,one thousand,open,order,organ,outside,over,page,pain,paint,parent,part,party,pass,past,patient
+pay,peace,pepper,perfect,person,photograph,photo,piano,picture,place,plastic,play,player,please,pocket,poem,poet,point,police,pool
+poor,pork,power,practice,pray,present,president,price,printer,prison,radio,raincoat,rat,religion,ring,saturday,september,shop,stain,strong,taxi
+team,thin,thursday,time,truck,wash,wave,weak,wednesday,week,wet,weightwhale,wife,win,wine,wood,year

@@ -24,7 +24,7 @@ def generate_image(word: str, prompt: str, save_dir: str, width: int = 640, heig
     prompt_unique = f"{prompt}-{uuid.uuid4()}"
     prompt_encoded = quote(prompt_unique)
     seed_num = random.randint(0, 999999)
-    url = f"https://image.pollinations.ai/prompt/{prompt_encoded}?width={width}&height={height}&nologo=true&seed={seed_num}&model=turbo&enache=true"
+    url = f"https://image.pollinations.ai/prompt/{prompt_encoded}?width={width}&height={height}&nologo=true&seed={seed_num}"
 
     try:
         resp = requests.get(url)
@@ -121,7 +121,6 @@ def generate_audio_files_from_deck(deck_json_path: str, audio_folder: str):
     cards = deck.get("cards", deck)
 
     for card in cards:
-        print(card)
         word_name = card["name"]
         word_back = card["back"].lower()
         filename = f"{word_name}.mp3"
