@@ -7,12 +7,12 @@ dust,earth,east,eat,edge,effect,elevator,empty,engine,evening,exam,exercise,expl
 feel,festival,field,fight,find,finger,first,flag,fly,foot,football,footstep,forest,form,friday,fridge
 front,fruit,full,future,garage,gas,gate,general,give,go,god,gold,government,ground,group,grow,guitar,gun,half
 hammer,happy,hard,health,hear,heart,heat,heaven,heavy,hell,help,hill,hippo,hobby,holiday,hole,hot,hour
-human,idea,inch,include,inside,instrument,internet,invention,island,january,jeans,job,join,joke,july,jump,june,kangaroo,keep,kick
+idea,inch,internet,invention,island,january,jeans,job,july,jump,june,kangaroo,kick
 kid,kill,kilogram,kiss,kitchen,know,lake,language,laptop,laugh,leaf,learn,left,letter,library,life,lift,light,line,listen
 literature,live,liver,lizard,lock,look,lose,love,low,lunch,machine,magazine,make,male,manager,march,market,marry,materials,math
 may,meal,measure,medicine,meeting,memory,metal,meter,middle,mind,minute,mirror,mix,monday,month,motorbike,move,mushroom,must,name
 napkin,nature,near,needle,neighbor,network,newspaper,nice,night,noise,north,november,nurse,nuts,object,ocean,october,off,office,old,one billion
 one hundred one,one hundred ten,one hundred thousands,one hundred two,one million,one thousand,open,order,organ,outside,over,page,pain,paint,parent,part,party,pass,past,patient
 pay,peace,pepper,perfect,person,photograph,photo,piano,picture,place,plastic,play,player,please,pocket,poem,poet,point,police,pool
-poor,pork,power,practice,pray,present,president,price,printer,prison,radio,raincoat,rat,religion,ring,run,saturday,september,shallow,shark,shop,slow,sport,soft,south,stain,strong,taxi
-team,thin,thursday,time,truck,wash,wave,weak,wednesday,week,wet,weight,west,whale,wife,win,wine,wood,work,year,young
+poor,pork,power,practice,pray,present,president,price,printer,prison,radio,raincoat,rat,religion,ring,run,saturday,september,shallow,shark,shop,short,slow,sport,soft,south,stain,strong,tail,taxi
+team,technology,television,thin,thursday,time,toilet,tongue,truck,waiter,wash,wave,weak,wednesday,week,wet,weight,west,whale,wife,win,wine,wood,work,year,young
