@@ -14,5 +14,5 @@ may,meal,measure,medicine,meeting,memory,metal,meter,middle,mind,minute,mirror,m
 napkin,nature,near,needle,neighbor,network,newspaper,nice,night,noise,north,november,nurse,nuts,object,ocean,october,off,office,old,one billion
 one hundred one,one hundred ten,one hundred thousands,one hundred two,one million,one thousand,open,order,organ,outside,over,page,pain,paint,parent,part,party,pass,past,patient
 pay,peace,pepper,perfect,person,photograph,photo,piano,picture,place,plastic,play,player,please,pocket,poem,poet,point,police,pool
-poor,pork,power,practice,pray,present,president,price,printer,prison,radio,raincoat,rat,religion,ring,run,saturday,september,shallow,shark,shop,slow,sport,south,stain,strong,taxi
+poor,pork,power,practice,pray,present,president,price,printer,prison,radio,raincoat,rat,religion,ring,run,saturday,september,shallow,shark,shop,slow,sport,soft,south,stain,strong,taxi
 team,thin,thursday,time,truck,wash,wave,weak,wednesday,week,wet,weight,west,whale,wife,win,wine,wood,work,year,young
