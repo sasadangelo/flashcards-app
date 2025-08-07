@@ -102,7 +102,7 @@ def create_map_ts_file(words, base_path, filename, ext):
     with open(os.path.join(base_path, filename), "w") as f:
         f.write(f"export const {export_name}: {{ [key: string]: any }} = {{\n")
         for word in words:
-            f.write(f"  {word.lower()}: require('./{folder}/{word.lower()}.{ext}'),\n")
+            f.write(f"  \"{word.lower()}\": require('./{folder}/{word.lower()}.{ext}'),\n")
         f.write("};\n")
 
 

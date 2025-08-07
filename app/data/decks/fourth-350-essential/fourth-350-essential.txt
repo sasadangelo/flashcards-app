@@ -9,10 +9,10 @@ group,grow,guitar,gun,half,hammer,happy,hard,health,heart,heat,heaven,heavy,hell
 hot,hour,idea,inch,inside,internet,invention,island,jail,january,jeans,job,july,jump,june,kangaroo,kick,kid,kill,kilogram,
 kiss,kitchen,lake,laptop,laugh,leaf,left,letter,library,lift,light,line,listen,liver,lizard,lock,log,lunch,machine,magazine,
 male,manager,march,market,marriage,materials,mathematics,may,meal,medicine,meeting,minute,mirror,monday,month,motorbike,mushroom,napkin,nature,needle,
-network,newspaper,noise,north,note,november,nurse,nuts,ocean,october,office,old,one billion,one hundred one,one hundred ten,one hundred thousands,one hundred two,one million,one thousand,open,
+network,newspaper,noise,north,note,november,nurse,nuts,ocean,october,office,old,one_billion,one_hundred_one,one_hundred_ten,one_hundred_thousands,one_hundred_two,one_million,one_thousand,open,
 organ,outside,oven,page,pain,paint,party,patient,peace,pepper,photo,piano,picture,plastic,play,player,pocket,police,pool,poor,
 pork,pray,present,president,priest,printer,pull,push,radio,raincoat,rat,read,religion,reporter,rich,ride,right,ring,robot,run,
 salad,sand,saturday,science,screen,sea,secretary,seed,september,sex,shallow,shapes,shark,shop,short,shower,sick,silver,sleep,slow,
 smile,soap,sofa,soft,soldier,south,speak,sport,stain,stairs,stone,stop,strawberry,strong,sunday,swan,swim,tail,tall,taxi,
-technology,television,thin,thursday,time,toilet,tongue,tool,top,tower,truck,tuesday,up,waiter,warm,wave,weak,weak up,wednesday,week,
+technology,television,thin,thursday,time,toilet,tongue,tool,top,tower,truck,tuesday,up,waiter,warm,wave,weak,weak_up,wednesday,week,
 weight,west,wet,whale,wine,wood,work,write,year,young

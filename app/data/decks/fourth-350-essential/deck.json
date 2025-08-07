@@ -1165,37 +1165,37 @@
     },
     {
       "id": "533",
-      "name": "one billion",
+      "name": "one_billion",
       "back": "One billion"
     },
     {
       "id": "534",
-      "name": "one hundred one",
+      "name": "one_hundred_one",
       "back": "One hundred one"
     },
     {
       "id": "535",
-      "name": "one hundred ten",
+      "name": "one_hundred_ten",
       "back": "One hundred ten"
     },
     {
       "id": "536",
-      "name": "one hundred thousands",
+      "name": "one_hundred_thousands",
       "back": "One hundred thousands"
     },
     {
       "id": "537",
-      "name": "one hundred two",
+      "name": "one_hundred_two",
       "back": "One hundred two"
     },
     {
       "id": "538",
-      "name": "one million",
+      "name": "one_million",
       "back": "One million"
     },
     {
       "id": "539",
-      "name": "one thousand",
+      "name": "one_thousand",
       "back": "One thousand"
     },
     {
@@ -1690,7 +1690,7 @@
     },
     {
       "id": "638",
-      "name": "weak up",
+      "name": "weak_up",
       "back": "Weak up"
     },
     {
