@@ -6,8 +6,7 @@
     {
       "id": "1",
       "name": "apple",
-      "back": "Apple",
-      "front_description": "Opposite of yes"
+      "back": "Apple"
     },
     {
       "id": "2",
@@ -52,8 +51,7 @@
     {
       "id": "10",
       "name": "blue",
-      "back": "Blue",
-      "front_description": "Opposite of yes"
+      "back": "Blue"
     },
     {
       "id": "11",
@@ -93,8 +91,7 @@
     {
       "id": "18",
       "name": "carrot",
-      "back": "Carrot",
-      "front_description": "Opposite of yes"
+      "back": "Carrot"
     },
     {
       "id": "19",
