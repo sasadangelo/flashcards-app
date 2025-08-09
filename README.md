@@ -6,6 +6,10 @@ WordBuddy is an English vocabulary learning app focused on the **650 most freque
 - Uses **images and sounds** to stimulate memory and aid recall.
 - Implements **Spaced Repetition System (SRS)** — a scientifically proven method to help transfer vocabulary from short-term to long-term memory by reviewing words at optimal intervals.
 
+You can install the app on your phone [using this link.](https://expo.dev/accounts/sasadangelo/projects/word-buddy/builds/8fdbada9-b23e-4ffa-816c-a099e27937d1) or using the following QR Code:
+
+![Word Buddy QR Code](docs/img/WordBuddy-QR-Code.png)
+
 ## Key Features
 
 - Learn and practice the 650 most common English words
