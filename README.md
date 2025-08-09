@@ -1,16 +1,19 @@
-# Flashcards App - English Vocabulary
+# WordBuddy – English Vocabulary Builder App
 
-This is a simple React Native / Expo app to study English words using flashcards with an image on the front and the word on the back.
+WordBuddy is an English vocabulary learning app focused on the **650 most frequent and useful English words**. It helps learners build a solid vocabulary foundation through images, sounds, and repeated practice.
+
+- **Not a translation app:** WordBuddy prioritizes **correct pronunciation** and auditory memory over direct translation.
+- Uses **images and sounds** to stimulate memory and aid recall.
+- Implements **Spaced Repetition System (SRS)** — a scientifically proven method to help transfer vocabulary from short-term to long-term memory by reviewing words at optimal intervals.
 
 ## Key Features
 
-- Displays flashcards with an image and corresponding English word
-- Navigate through the cards
-- Basic foundation for future spaced repetition system
-- Modular structure with images managed via a static map
-- Built with Expo and React Native using TypeScript
+- Learn and practice the 650 most common English words
+- Enhance your listening and pronunciation skills
+- Visual and auditory association to improve retention
+- Smart repetition scheduling via SRS to maximize memory consolidation
 
-## How to Run Locally
+## Running WordBuddy Locally
 
 ### Prerequisites
 
@@ -18,7 +21,9 @@ This is a simple React Native / Expo app to study English words using flashcards
 - npm or yarn
 - Expo CLI (optional, you can use `npx`)
 
-### Setup and Start
+[Check out here how](docs/Pre-Requisites.md) to install them.
+
+### Setup and Run WordBuddy Locally
 
 1. Clone the repository:
 
@@ -38,9 +43,15 @@ yarn install
 3. Start the app:
 
 ```bash
-npm start
-# or
-yarn start
+npx expo start
 ```
 
-4. Open the Expo Go app on your mobile device or use an emulator to run the app.
+### Run WordBuddy on a Phone
+
+1. On your phone (Android or iOS), install the Expo Go app.
+2. Scan the QR code displayed in the terminal or browser to open WordBuddy on your device.
+
+**Notes**:
+- Your phone and computer must be on the same local network to connect.
+- This mode is intended for development and testing, with live reload enabled.
+- For production or standalone app installs, use EAS Build to generate APK/AAB files.

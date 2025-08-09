@@ -6,7 +6,7 @@ import { AppConfig, CardOrder, ConfigManager } from '../../utils/ConfigManager';
 export default function SettingsScreen() {
     const [config, setConfig] = useState<AppConfig>({
         dailyLimit: 20,
-        reviewLimit: 100,
+        reviewLimit: 50,
         autoAudio: true,
         cardOrder: 'sequential',
     });

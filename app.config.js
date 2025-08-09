@@ -5,11 +5,16 @@ export default {
         name: "WordBuddy",       // cambia con il nome della tua app
         slug: "word-buddy",    // cambia con lo slug
         version: "1.0.0",
-        // altre configurazioni Expo che già hai...
+        android: {
+            package: "org.code4projects.wordbuddy"
+        },
 
         extra: {
             APP_ENV: process.env.APP_ENV || 'production',
             MOCK_DATE: process.env.MOCK_DATE || '',
+            eas: {
+                projectId: "774f60d4-74ad-4d87-a577-5ba7a565d477"
+            }
         },
     },
 };

@@ -138,14 +138,14 @@ export default function StudyScreen() {
                 )}
             </View>
 
-            <Button title={showBack ? 'Show Front' : 'Show Back'} onPress={() => setShowBack(!showBack)} />
+            <Button title={showBack ? 'Mostra fronte' : 'Mostra retro'} onPress={() => setShowBack(!showBack)} />
 
             {showBack && (
                 <View style={styles.buttons}>
-                    <Button title="Again" onPress={() => handleAnswer('again')} color="#e74c3c" />
-                    <Button title="Hard" onPress={() => handleAnswer('hard')} color="#f39c12" />
-                    <Button title="Good" onPress={() => handleAnswer('good')} color="#27ae60" />
-                    <Button title="Easy" onPress={() => handleAnswer('easy')} color="#2ecc71" />
+                    <Button title="Ripeti" onPress={() => handleAnswer('again')} color="#e74c3c" />
+                    <Button title="Difficile" onPress={() => handleAnswer('hard')} color="#f39c12" />
+                    <Button title="Buono" onPress={() => handleAnswer('good')} color="#27ae60" />
+                    <Button title="Facile" onPress={() => handleAnswer('easy')} color="#2ecc71" />
                 </View>
             )}
         </View>

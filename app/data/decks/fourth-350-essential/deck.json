@@ -36,7 +36,8 @@
     {
       "id": "307",
       "name": "april",
-      "back": "April"
+      "back": "April",
+      "front_description": "The 4th Month of the Year"
     },
     {
       "id": "308",
@@ -46,12 +47,14 @@
     {
       "id": "309",
       "name": "art",
-      "back": "Art"
+      "back": "Art",
+      "front_description": "She is making ________"
     },
     {
       "id": "310",
       "name": "august",
-      "back": "August"
+      "back": "August",
+      "front_description": "The 8th Month of the Year"
     },
     {
       "id": "311",
@@ -361,7 +364,8 @@
     {
       "id": "372",
       "name": "day",
-      "back": "Day"
+      "back": "Day",
+      "front_description": "24 Hours = 1 ________"
     },
     {
       "id": "373",
@@ -371,7 +375,8 @@
     {
       "id": "374",
       "name": "december",
-      "back": "December"
+      "back": "December",
+      "front_description": "The 12th Month of the Year"
     },
     {
       "id": "375",
@@ -551,7 +556,8 @@
     {
       "id": "410",
       "name": "february",
-      "back": "February"
+      "back": "February",
+      "front_description": "The 2nd Month of the Year"
     },
     {
       "id": "411",
@@ -631,7 +637,8 @@
     {
       "id": "426",
       "name": "friday",
-      "back": "Friday"
+      "back": "Friday",
+      "front_description": "The 5th Day of the Week"
     },
     {
       "id": "427",
@@ -811,7 +818,8 @@
     {
       "id": "462",
       "name": "hour",
-      "back": "Hour"
+      "back": "Hour",
+      "front_description": "60 Minutes = 1 ________"
     },
     {
       "id": "463",
@@ -851,7 +859,8 @@
     {
       "id": "470",
       "name": "january",
-      "back": "January"
+      "back": "January",
+      "front_description": "The 1st Month of the Year"
     },
     {
       "id": "471",
@@ -866,7 +875,8 @@
     {
       "id": "473",
       "name": "july",
-      "back": "July"
+      "back": "July",
+      "front_description": "The 7th Month of the Year"
     },
     {
       "id": "474",
@@ -876,7 +886,8 @@
     {
       "id": "475",
       "name": "june",
-      "back": "June"
+      "back": "June",
+      "front_description": "The 6th Month of the Year"
     },
     {
       "id": "476",
@@ -1016,7 +1027,8 @@
     {
       "id": "503",
       "name": "march",
-      "back": "March"
+      "back": "March",
+      "front_description": "The 3rd Month of the Year"
     },
     {
       "id": "504",
@@ -1041,7 +1053,8 @@
     {
       "id": "508",
       "name": "may",
-      "back": "May"
+      "back": "May",
+      "front_description": "The 5th month of the Year"
     },
     {
       "id": "509",
@@ -1061,7 +1074,8 @@
     {
       "id": "512",
       "name": "minute",
-      "back": "Minute"
+      "back": "Minute",
+      "front_description": "60 Seconds = 1 ________"
     },
     {
       "id": "513",
@@ -1071,12 +1085,14 @@
     {
       "id": "514",
       "name": "monday",
-      "back": "Monday"
+      "back": "Monday",
+      "front_description": "The 1st Day of the Week"
     },
     {
       "id": "515",
       "name": "month",
-      "back": "Month"
+      "back": "Month",
+      "front_description": "30 Days = 1 ________"
     },
     {
       "id": "516",
@@ -1131,7 +1147,8 @@
     {
       "id": "526",
       "name": "november",
-      "back": "November"
+      "back": "November",
+      "front_description": "The 11th Month of the Year"
     },
     {
       "id": "527",
@@ -1151,7 +1168,8 @@
     {
       "id": "530",
       "name": "october",
-      "back": "October"
+      "back": "October",
+      "front_description": "The 10th Month of the Year"
     },
     {
       "id": "531",
@@ -1416,7 +1434,8 @@
     {
       "id": "583",
       "name": "saturday",
-      "back": "Saturday"
+      "back": "Saturday",
+      "front_description": "The 6th Day of the Week"
     },
     {
       "id": "584",
@@ -1446,7 +1465,8 @@
     {
       "id": "589",
       "name": "september",
-      "back": "September"
+      "back": "September",
+      "front_description": "The 9th Month of the Year"
     },
     {
       "id": "590",
@@ -1576,7 +1596,8 @@
     {
       "id": "615",
       "name": "sunday",
-      "back": "Sunday"
+      "back": "Sunday",
+      "front_description": "The 7th Day of the Week"
     },
     {
       "id": "616",
@@ -1621,7 +1642,8 @@
     {
       "id": "624",
       "name": "thursday",
-      "back": "Thursday"
+      "back": "Thursday",
+      "front_description": "The 4th Day of the Week"
     },
     {
       "id": "625",
@@ -1661,7 +1683,8 @@
     {
       "id": "632",
       "name": "tuesday",
-      "back": "Tuesday"
+      "back": "Tuesday",
+      "front_description": "The 2nd Day of the Week"
     },
     {
       "id": "633",
@@ -1696,12 +1719,14 @@
     {
       "id": "639",
       "name": "wednesday",
-      "back": "Wednesday"
+      "back": "Wednesday",
+      "front_description": "The 3rd Day of the Week"
     },
     {
       "id": "640",
       "name": "week",
-      "back": "Week"
+      "back": "Week",
+      "front_description": "7 Days = 1 ________"
     },
     {
       "id": "641",
