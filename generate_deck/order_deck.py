@@ -3,9 +3,7 @@ import json
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-i", "--input", required=True, help="Path to input .json file")
-parser.add_argument(
-    "-o", "--output", default="deck_sorted.json", help="Path to output .json file"
-)
+parser.add_argument("-o", "--output", default="deck_sorted.json", help="Path to output .json file")
 
 args = parser.parse_args()
 

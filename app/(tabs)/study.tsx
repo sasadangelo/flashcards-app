@@ -1,5 +1,13 @@
-import { audioMap } from '@/app/data/decks/most-frequent-100/audioMap';
-import { imageMap } from '@/app/data/decks/most-frequent-100/imageMap';
+import { audiosMap as fourth350Audio } from '@/app/data/decks/fourth-350-essential/audiosMap';
+import { audiosMap as mf100Audio } from '@/app/data/decks/most-frequent-100/audiosMap';
+import { audiosMap as next100Audio } from '@/app/data/decks/next-100-essential/audiosMap';
+import { audiosMap as third100Audio } from '@/app/data/decks/third-100-essential/audiosMap';
+
+import { imagesMap as fourth350Image } from '@/app/data/decks/fourth-350-essential/imagesMap';
+import { imagesMap as mf100Image } from '@/app/data/decks/most-frequent-100/imagesMap';
+import { imagesMap as next100Image } from '@/app/data/decks/next-100-essential/imagesMap';
+import { imagesMap as third100Image } from '@/app/data/decks/third-100-essential/imagesMap';
+
 import { Ionicons } from '@expo/vector-icons';
 import { useFocusEffect } from '@react-navigation/native';
 import { Audio } from 'expo-av';
@@ -7,6 +15,20 @@ import React, { useEffect, useRef, useState } from 'react';
 import { Button, Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { ConfigManager } from '../../utils/ConfigManager';
 import { useStudySession } from '../contexts/StudySessionContext';
+
+export const audiosMaps: Record<string, any> = {
+    'most-frequent-100': mf100Audio,
+    'next-100-essential': next100Audio,
+    'third-100-essential': third100Audio,
+    'fourth-350-essential': fourth350Audio,
+};
+
+export const imagesMaps: Record<string, any> = {
+    'most-frequent-100': mf100Image,
+    'next-100-essential': next100Image,
+    'third-100-essential': third100Image,
+    'fourth-350-essential': fourth350Image,
+};
 
 type Difficulty = 'again' | 'hard' | 'good' | 'easy';
 
@@ -20,7 +42,6 @@ export default function StudyScreen() {
     const [newStudiedCount, setNewStudiedCount] = useState(0);
     const [reviewStudiedCount, setReviewStudiedCount] = useState(0);
     const [autoAudio, setAutoAudio] = useState(true);
-
 
     useFocusEffect(
         React.useCallback(() => {
@@ -58,37 +79,20 @@ export default function StudyScreen() {
 
     const playSound = async () => {
         const card = session?.currentCard;
-        if (!card) return;
+        if (!card || !session) return;
 
         if (soundRef.current) {
             await soundRef.current.unloadAsync();
             soundRef.current = null;
         }
 
-        const { sound } = await Audio.Sound.createAsync(audioMap[card.name]);
+        // Usa slug per la mappa corretta
+        const audioSource = audiosMaps[session.deck.slug]?.[card.name];
+        if (!audioSource) return;
+
+        const { sound } = await Audio.Sound.createAsync(audioSource);
         soundRef.current = sound;
         await sound.playAsync();
-    };
-
-    const handleAnswer = async (difficulty: Difficulty) => {
-        if (!session) return;
-
-        await session.answer(difficulty);
-        setShowBack(false);
-
-        console.log("Difficulty: ", difficulty)
-
-        if (difficulty !== 'again') {
-            if (session.mode === 'new') {
-                setNewStudiedCount(prev => prev + 1);
-            } else {
-                setReviewStudiedCount(prev => prev + 1);
-            }
-
-            if (session.isDone) {
-                setCurrentSession(null);
-            }
-        }
     };
 
     if (!session || !session.currentCard) {
@@ -106,12 +110,27 @@ export default function StudyScreen() {
     const card = session.currentCard;
     const cardType = session.mode;
 
+    // DEBUG
+    console.log('Deck slug:', session.deck.slug);
+    console.log('Available decks:', Object.keys(imagesMaps));
+    console.log('Image source:', imagesMaps[session.deck.slug]?.[card.name]);
+    console.log('Card name:', card.name);
+    console.log('Keys in imageMap for this deck:', Object.keys(imagesMaps[session.deck.slug] || {}));
+
+    // Prendi immagine corretta per la carta con slug
+    const imageSource = imagesMaps[session.deck.slug]?.[card.name];
+    if (!imageSource) {
+        return (
+            <View style={styles.container}>
+                <Text style={styles.word}>⏳ Caricamento risorse...</Text>
+            </View>
+        );
+    }
+
     return (
         <View style={styles.container}>
             {cardType && (
-                <Text style={styles.badge}>
-                    {cardType === 'new' ? '🆕 Nuova' : '🔁 Ripasso'}
-                </Text>
+                <Text style={styles.badge}>{cardType === 'new' ? '🆕 Nuova' : '🔁 Ripasso'}</Text>
             )}
 
             <Text style={styles.counter}>
@@ -123,7 +142,7 @@ export default function StudyScreen() {
             <View style={styles.card}>
                 {!showBack ? (
                     <>
-                        <Image source={imageMap[card.name]} style={styles.image} />
+                        <Image source={imageSource} style={styles.image} />
                         {card.front_description && (
                             <Text style={styles.frontDescription}>{card.front_description}</Text>
                         )}
@@ -138,7 +157,10 @@ export default function StudyScreen() {
                 )}
             </View>
 
-            <Button title={showBack ? 'Mostra fronte' : 'Mostra retro'} onPress={() => setShowBack(!showBack)} />
+            <Button
+                title={showBack ? 'Mostra fronte' : 'Mostra retro'}
+                onPress={() => setShowBack(!showBack)}
+            />
 
             {showBack && (
                 <View style={styles.buttons}>
@@ -150,6 +172,27 @@ export default function StudyScreen() {
             )}
         </View>
     );
+
+    async function handleAnswer(difficulty: Difficulty) {
+        if (!session) return;
+
+        await session.answer(difficulty);
+        setShowBack(false);
+
+        console.log('Difficulty: ', difficulty);
+
+        if (difficulty !== 'again') {
+            if (session.mode === 'new') {
+                setNewStudiedCount((prev) => prev + 1);
+            } else {
+                setReviewStudiedCount((prev) => prev + 1);
+            }
+
+            if (session.isDone) {
+                setCurrentSession(null);
+            }
+        }
+    }
 }
 
 const styles = StyleSheet.create({

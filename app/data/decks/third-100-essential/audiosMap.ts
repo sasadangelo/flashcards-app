@@ -1,4 +1,4 @@
-export const audioMap: { [key: string]: any } = {
+export const audiosMap: { [key: string]: any } = {
   "autumn": require('./audio/autumn.mp3'),
   "balloon": require('./audio/balloon.mp3'),
   "bar": require('./audio/bar.mp3'),

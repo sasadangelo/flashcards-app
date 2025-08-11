@@ -1,4 +1,4 @@
-export const imageMap: { [key: string]: any } = {
+export const imagesMap: { [key: string]: any } = {
     cat: require('./images/cat.png'),
     dog: require('./images/dog.png'),
     fish: require('./images/fish.png'),
@@ -38,7 +38,7 @@ export const imageMap: { [key: string]: any } = {
     cake: require('./images/cake.png'),
     cookie: require('./images/cookie.png'),
     butter: require('./images/butter.png'),
-    "ice cream": require('./images/icecream.png'),
+    ice_cream: require('./images/ice_cream.png'),
     one: require('./images/one.png'),
     two: require('./images/two.png'),
     three: require('./images/three.png'),
@@ -66,7 +66,7 @@ export const imageMap: { [key: string]: any } = {
     baby: require('./images/baby.png'),
     mother: require('./images/mother.png'),
     father: require('./images/father.png'),
-    friend: require('./images/friend.png'),
+    friends: require('./images/friends.png'),
     teacher: require('./images/teacher.png'),
     child: require('./images/child.png'),
     table: require('./images/table.png'),

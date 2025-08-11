@@ -1,6 +1,6 @@
 {
   "group": "English Flashcards",
-  "name": "Most Frequent 100 Words",
+  "name": "Most Frequent 100",
   "slug": "most-frequent-100",
   "cards": [
     {
@@ -210,8 +210,8 @@
     },
     {
       "id": "42",
-      "name": "friend",
-      "back": "Friend"
+      "name": "friends",
+      "back": "Friends"
     },
     {
       "id": "43",
@@ -255,8 +255,8 @@
     },
     {
       "id": "51",
-      "name": "ice cream",
-      "back": "Ice cream"
+      "name": "ice_cream",
+      "back": "Ice Cream"
     },
     {
       "id": "52",
@@ -321,12 +321,12 @@
     {
       "id": "64",
       "name": "orange_color",
-      "back": "Orange"
+      "back": "Orange color"
     },
     {
       "id": "65",
       "name": "orange_fruit",
-      "back": "Orange"
+      "back": "Orange fruit"
     },
     {
       "id": "66",

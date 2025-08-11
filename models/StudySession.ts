@@ -10,6 +10,8 @@ const logger = log.extend('StudySession');
 export class StudySession {
     deck: Deck;
     mode: 'new' | 'review';
+    audioMap?: Record<string, any>;
+    imageMap?: Record<string, any>;
 
     cardsToStudy: Card[] = [];
     currentIndex = 0;

@@ -14,5 +14,5 @@ organ,outside,oven,page,pain,paint,party,patient,peace,pepper,photo,piano,pictur
 pork,pray,present,president,priest,printer,pull,push,radio,raincoat,rat,read,religion,reporter,rich,ride,right,ring,robot,run,
 salad,sand,saturday,science,screen,sea,secretary,seed,september,sex,shallow,shapes,shark,shop,short,shower,sick,silver,sleep,slow,
 smile,soap,sofa,soft,soldier,south,speak,sport,stain,stairs,stone,stop,strawberry,strong,sunday,swan,swim,tail,tall,taxi,
-technology,television,thin,thursday,time,toilet,tongue,tool,top,tower,truck,tuesday,up,waiter,warm,wave,weak,weak_up,wednesday,week,
+technology,television,thin,thursday,time,toilet,tongue,tool,top,tower,truck,tuesday,up,waiter,warm,wave,weak,wake_up,wednesday,week,
 weight,west,wet,whale,wine,wood,work,write,year,young

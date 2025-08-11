@@ -1,4 +1,4 @@
-export const audioMap: { [key: string]: any } = {
+export const audiosMap: { [key: string]: any } = {
   "adult": require('./audio/adult.mp3'),
   "afternoon": require('./audio/afternoon.mp3'),
   "air": require('./audio/air.mp3'),
@@ -336,7 +336,7 @@ export const audioMap: { [key: string]: any } = {
   "warm": require('./audio/warm.mp3'),
   "wave": require('./audio/wave.mp3'),
   "weak": require('./audio/weak.mp3'),
-  "weak_up": require('./audio/weak_up.mp3'),
+  "wake_up": require('./audio/wake_up.mp3'),
   "wednesday": require('./audio/wednesday.mp3'),
   "week": require('./audio/week.mp3'),
   "weight": require('./audio/weight.mp3'),

@@ -197,26 +197,26 @@
     },
     {
       "id": "139",
-      "name": "good afternoon",
+      "name": "good_afternoon",
       "back": "Good afternoon",
       "front_description": "Greet someone between lunch and early evening"
     },
     {
       "id": "140",
-      "name": "good evening",
+      "name": "good_evening",
       "back": "Good evening",
       "front_description": "Greet someone after 6 PM until nighttime"
     },
     {
       "id": "141",
-      "name": "good morning",
+      "name": "good_morning",
       "back": "Good morning",
       "front_description": "Greet someone early in the day"
     },
     {
       "id": "142",
-      "name": "good night",
-      "back": "Good Night",
+      "name": "good_night",
+      "back": "Good night",
       "front_description": "Greet someone late in the evening before sleeping"
     },
     {
@@ -358,7 +358,7 @@
     },
     {
       "id": "170",
-      "name": "pencil case",
+      "name": "pencil_case",
       "back": "Pencil case"
     },
     {
@@ -449,7 +449,8 @@
     {
       "id": "188",
       "name": "song",
-      "back": "Song"
+      "back": "Song",
+      "front_description": "She is singing a ________"
     },
     {
       "id": "189",

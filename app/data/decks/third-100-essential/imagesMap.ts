@@ -1,4 +1,4 @@
-export const imageMap: { [key: string]: any } = {
+export const imagesMap: { [key: string]: any } = {
   "autumn": require('./images/autumn.png'),
   "balloon": require('./images/balloon.png'),
   "bar": require('./images/bar.png'),

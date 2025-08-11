@@ -1,4 +1,4 @@
-export const imageMap: { [key: string]: any } = {
+export const imagesMap: { [key: string]: any } = {
   "adult": require('./images/adult.png'),
   "afternoon": require('./images/afternoon.png'),
   "air": require('./images/air.png'),
@@ -336,7 +336,7 @@ export const imageMap: { [key: string]: any } = {
   "warm": require('./images/warm.png'),
   "wave": require('./images/wave.png'),
   "weak": require('./images/weak.png'),
-  "weak_up": require('./images/weak_up.png'),
+  "wake_up": require('./images/wake_up.png'),
   "wednesday": require('./images/wednesday.png'),
   "week": require('./images/week.png'),
   "weight": require('./images/weight.png'),

@@ -1,0 +1,5 @@
+apple,baby,bag,banana,bear,bed,bike,bird,black,blue,book,boy,bread,brown,butter,cake,car,carrot,cat,chair,
+cheese,chicken,child,clock,cloud,cookie,cow,cup,dog,door,duck,egg,eight,elephant,father,fire,fish,five,flower,fork,
+four,friends,frog,girl,goat,grape,grass,green,hat,horse,ice_cream,key,lamp,lion,man,meat,milk,monkey,moon,mother,
+mouse,nine,one,orange_color,orange_fruit,pasta,pen,phone,pig,pink,plate,potato,purple,rabbit,rain,red,rice,seven,sheep,shoe,
+six,snake,snow,soup,spoon,star,sun,table,teacher,ten,three,tiger,tomato,tree,two,water,white,window,woman,yellow

@@ -1,4 +1,4 @@
-export const audioMap: { [key: string]: any } = {
+export const audiosMap: { [key: string]: any } = {
     cat: require('./audio/cat.mp3'),
     dog: require('./audio/dog.mp3'),
     fish: require('./audio/fish.mp3'),
@@ -38,7 +38,7 @@ export const audioMap: { [key: string]: any } = {
     cake: require('./audio/cake.mp3'),
     cookie: require('./audio/cookie.mp3'),
     butter: require('./audio/butter.mp3'),
-    'ice cream': require('./audio/icecream.mp3'),
+    ice_cream: require('./audio/ice_cream.mp3'),
     one: require('./audio/one.mp3'),
     two: require('./audio/two.mp3'),
     three: require('./audio/three.mp3'),
@@ -66,7 +66,7 @@ export const audioMap: { [key: string]: any } = {
     baby: require('./audio/baby.mp3'),
     mother: require('./audio/mother.mp3'),
     father: require('./audio/father.mp3'),
-    friend: require('./audio/friend.mp3'),
+    friends: require('./audio/friends.mp3'),
     teacher: require('./audio/teacher.mp3'),
     child: require('./audio/child.mp3'),
     table: require('./audio/table.mp3'),

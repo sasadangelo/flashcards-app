@@ -156,8 +156,8 @@ def main():
 
     create_directories(base_path)
     create_deck_json(words, base_path, deck_slug, deck_name, start_id=args.start_id)
-    create_map_ts_file(words, base_path, "audioMaps.ts", "mp3")
-    create_map_ts_file(words, base_path, "imageMaps.ts", "png")
+    create_map_ts_file(words, base_path, "audioMap.ts", "mp3")
+    create_map_ts_file(words, base_path, "imageMap.ts", "png")
 
     deck_json_path = os.path.join(base_path, "deck.json")
     audio_folder = os.path.join(base_path, "audio")
