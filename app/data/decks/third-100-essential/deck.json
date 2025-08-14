@@ -1,6 +1,6 @@
 {
-  "group": "English Flashcards",
-  "name": "Third 100 Essential",
+  "group": "Flashcard Inglese",
+  "name": "Terze 100 parole essenziali",
   "slug": "third-100-essential",
   "cards": [
     {
@@ -252,7 +252,7 @@
       "id": "249",
       "name": "morning",
       "back": "Morning",
-      "front_description": "When the sun rises"
+      "front_description": "Part of the day between 6:00 AM and 12:00 PM"
     },
     {
       "id": "250",
@@ -267,7 +267,8 @@
     {
       "id": "252",
       "name": "night",
-      "back": "Night"
+      "back": "Night",
+      "front_description": "Part of the day between 9: 00 PM and 6: 00 AM"
     },
     {
       "id": "253",
@@ -451,8 +452,9 @@
     },
     {
       "id": "288",
-      "name": "tablespoon",
-      "back": "Tablespoon"
+      "name": "teaspoon",
+      "back": "Teaspoon",
+      "front_description": "A small spoon used for stirring tea or coffee"
     },
     {
       "id": "289",
@@ -486,8 +488,8 @@
     },
     {
       "id": "295",
-      "name": "tshirt",
-      "back": "Tshirt"
+      "name": "t-shirt",
+      "back": "T-Shirt"
     },
     {
       "id": "296",

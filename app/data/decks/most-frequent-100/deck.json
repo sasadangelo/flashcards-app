@@ -1,6 +1,6 @@
 {
-  "group": "English Flashcards",
-  "name": "Most Frequent 100",
+  "group": "Flashcard Inglese",
+  "name": "Le 100 parole più frequenti",
   "slug": "most-frequent-100",
   "cards": [
     {
@@ -35,8 +35,8 @@
     },
     {
       "id": "7",
-      "name": "bike",
-      "back": "Bike"
+      "name": "bicycle",
+      "back": "Bicycle"
     },
     {
       "id": "8",
@@ -321,12 +321,12 @@
     {
       "id": "64",
       "name": "orange_color",
-      "back": "Orange color"
+      "back": "Orange"
     },
     {
       "id": "65",
       "name": "orange_fruit",
-      "back": "Orange fruit"
+      "back": "Orange"
     },
     {
       "id": "66",
@@ -340,8 +340,8 @@
     },
     {
       "id": "68",
-      "name": "phone",
-      "back": "Phone"
+      "name": "telephone",
+      "back": "Telephone"
     },
     {
       "id": "69",
@@ -426,7 +426,8 @@
     {
       "id": "85",
       "name": "spoon",
-      "back": "Spoon"
+      "back": "Spoon",
+      "front_description": "A general eating utensil with a shallow bowl and a handle"
     },
     {
       "id": "86",

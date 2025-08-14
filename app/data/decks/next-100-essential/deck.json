@@ -1,6 +1,6 @@
 {
-  "group": "English Flashcards",
-  "name": "Next 100 Essential Words",
+  "group": "Flashcard Inglese",
+  "name": "Le successive 100 parole essenziali",
   "slug": "next-100-essential",
   "cards": [
     {
@@ -258,7 +258,8 @@
     {
       "id": "150",
       "name": "hello",
-      "back": "Hello"
+      "back": "Hello",
+      "front_description": "Greeting between friends"
     },
     {
       "id": "151",

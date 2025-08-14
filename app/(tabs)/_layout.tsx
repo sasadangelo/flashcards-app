@@ -41,6 +41,12 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => <Ionicons name="settings" size={24} color={color} />,
         }}
       />
+      <Tabs.Screen
+        name="study"
+        options={{
+          tabBarButton: () => null, // Nasconde il tab dalla barra
+        }}
+      />
     </Tabs>
   );
 }
