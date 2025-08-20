@@ -257,7 +257,8 @@
     {
       "id": "250",
       "name": "movie",
-      "back": "Movie"
+      "back": "Movie",
+      "front_description": "A film or story shown on a screen"
     },
     {
       "id": "251",
@@ -333,7 +334,8 @@
     {
       "id": "265",
       "name": "queen",
-      "back": "Queen"
+      "back": "Queen",
+      "front_description": "________ Elizabeth"
     },
     {
       "id": "266",

@@ -11,7 +11,8 @@
     {
       "id": "102",
       "name": "animal",
-      "back": "Animal"
+      "back": "Animal",
+      "front_description": "A living creature like a giraffe, elephant, or tiger"
     },
     {
       "id": "103",
@@ -137,7 +138,8 @@
     {
       "id": "127",
       "name": "face",
-      "back": "Face"
+      "back": "Face",
+      "front_description": "The front part of the head showing eyes, nose, mouth, and expression"
     },
     {
       "id": "128",
@@ -243,7 +245,8 @@
     {
       "id": "147",
       "name": "head",
-      "back": "Head"
+      "back": "Head",
+      "front_description": "The top part of the body that holds the brain, eyes, ears, nose, and mouth"
     },
     {
       "id": "148",
@@ -380,7 +383,8 @@
     {
       "id": "174",
       "name": "road",
-      "back": "Road"
+      "back": "Road",
+      "front_description": "Path connecting places, town or countryside"
     },
     {
       "id": "175",
@@ -461,7 +465,8 @@
     {
       "id": "190",
       "name": "street",
-      "back": "Street"
+      "back": "Street",
+      "front_description": "Road in a town with buildings"
     },
     {
       "id": "191",
@@ -506,7 +511,8 @@
     {
       "id": "199",
       "name": "wind",
-      "back": "Wind"
+      "back": "Wind",
+      "front_description": "Air in motion"
     },
     {
       "id": "200",

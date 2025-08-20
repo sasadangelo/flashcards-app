@@ -56,6 +56,8 @@ export default function StudyScreen() {
     useEffect(() => {
         if (session) {
             setTotalCards(session.cardsToStudy.length);
+            setNewStudiedCount(0);       // reset nuovo
+            setReviewStudiedCount(0);    // reset ripassi
             setHasStarted(true);
         }
 
@@ -199,8 +201,8 @@ const styles = StyleSheet.create({
     container: { flex: 1, justifyContent: 'center', alignItems: 'center', padding: 20 },
     card: {
         backgroundColor: 'white',
-        width: 300,
-        height: 300,
+        width: 350,
+        height: 350,
         justifyContent: 'center',
         alignItems: 'center',
         marginBottom: 10,
@@ -212,10 +214,11 @@ const styles = StyleSheet.create({
     image: { width: 250, height: 250, resizeMode: 'contain' },
     word: { fontSize: 32, fontWeight: 'bold', textAlign: 'center', marginBottom: 10 },
     frontDescription: {
-        fontSize: 18,
+        fontSize: 14,
         color: '#333',
         textAlign: 'center',
         marginTop: 10,
+        marginBottom: 10,
         paddingHorizontal: 10,
     },
     playButton: { marginTop: 10 },
