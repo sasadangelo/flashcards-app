@@ -32,7 +32,7 @@ You can install the app on your phone [using this link.](https://expo.dev/accoun
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/flashcards-app.git
+git clone https://github.com/sasadangelo/flashcards-app.git
 cd flashcards-app
 ```
 
