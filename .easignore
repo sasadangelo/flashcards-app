@@ -1,0 +1,11 @@
+node_modules
+.git
+*.log
+*.md
+**/android/build/
+**/ios/build/
+**/__tests__/
+**/*.bak
+*.zip
+docs/
+generate_deck
