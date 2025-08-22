@@ -4,7 +4,7 @@ export default {
     expo: {
         name: "WordBuddy",       // cambia con il nome della tua app
         slug: "word-buddy",    // cambia con lo slug
-        version: "1.0.0",
+        version: "0.0.3",
         android: {
             package: "org.code4projects.wordbuddy"
         },
