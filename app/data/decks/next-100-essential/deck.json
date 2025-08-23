@@ -4,518 +4,418 @@
   "slug": "next-100-essential",
   "cards": [
     {
-      "id": "101",
       "name": "airplane",
       "back": "Airplane"
     },
     {
-      "id": "102",
       "name": "animal",
       "back": "Animal",
       "front_description": "A living creature like a giraffe, elephant, or tiger"
     },
     {
-      "id": "103",
       "name": "arm",
       "back": "Arm"
     },
     {
-      "id": "104",
       "name": "back",
       "back": "Back"
     },
     {
-      "id": "105",
       "name": "bad",
       "back": "Bad",
       "front_description": "Opposite of good"
     },
     {
-      "id": "106",
       "name": "ball",
       "back": "Ball"
     },
     {
-      "id": "107",
       "name": "bat",
       "back": "Bat"
     },
     {
-      "id": "108",
       "name": "bee",
       "back": "Bee"
     },
     {
-      "id": "109",
       "name": "bell",
       "back": "Bell"
     },
     {
-      "id": "110",
       "name": "boat",
       "back": "Boat"
     },
     {
-      "id": "111",
       "name": "body",
       "back": "Body"
     },
     {
-      "id": "112",
       "name": "bottle",
       "back": "Bottle"
     },
     {
-      "id": "113",
       "name": "brother",
       "back": "Brother"
     },
     {
-      "id": "114",
       "name": "bus",
       "back": "Bus"
     },
     {
-      "id": "115",
       "name": "chick",
       "back": "Chick"
     },
     {
-      "id": "116",
       "name": "city",
       "back": "City"
     },
     {
-      "id": "117",
       "name": "color",
       "back": "Color"
     },
     {
-      "id": "118",
       "name": "cricket",
       "back": "Cricket"
     },
     {
-      "id": "119",
       "name": "cupboard",
       "back": "Cupboard"
     },
     {
-      "id": "120",
       "name": "dance",
       "back": "Dance"
     },
     {
-      "id": "121",
       "name": "dress",
       "back": "Dress"
     },
     {
-      "id": "122",
       "name": "drum",
       "back": "Drum"
     },
     {
-      "id": "123",
       "name": "ear",
       "back": "Ear"
     },
     {
-      "id": "124",
       "name": "eighteen",
       "back": "Eighteen"
     },
     {
-      "id": "125",
       "name": "eleven",
       "back": "Eleven"
     },
     {
-      "id": "126",
       "name": "eye",
       "back": "Eye"
     },
     {
-      "id": "127",
       "name": "face",
       "back": "Face",
       "front_description": "The front part of the head showing eyes, nose, mouth, and expression"
     },
     {
-      "id": "128",
       "name": "fifteen",
       "back": "Fifteen"
     },
     {
-      "id": "129",
       "name": "finger",
       "back": "Finger"
     },
     {
-      "id": "130",
       "name": "foot",
       "back": "Foot"
     },
     {
-      "id": "131",
       "name": "fourteen",
       "back": "Fourteen"
     },
     {
-      "id": "132",
       "name": "fox",
       "back": "Fox"
     },
     {
-      "id": "133",
       "name": "game",
       "back": "Game"
     },
     {
-      "id": "134",
       "name": "garden",
       "back": "Garden"
     },
     {
-      "id": "135",
       "name": "giraffe",
       "back": "Giraffe"
     },
     {
-      "id": "136",
       "name": "glasses",
       "back": "Glasses"
     },
     {
-      "id": "137",
       "name": "glove",
       "back": "Glove"
     },
     {
-      "id": "138",
       "name": "good",
       "back": "Good",
       "front_description": "Opposite of bad"
     },
     {
-      "id": "139",
       "name": "good_afternoon",
       "back": "Good afternoon",
       "front_description": "Greet someone between lunch and early evening"
     },
     {
-      "id": "140",
       "name": "good_evening",
       "back": "Good evening",
       "front_description": "Greet someone after 6 PM until nighttime"
     },
     {
-      "id": "141",
       "name": "good_morning",
       "back": "Good morning",
       "front_description": "Greet someone early in the day"
     },
     {
-      "id": "142",
       "name": "good_night",
       "back": "Good night",
       "front_description": "Greet someone late in the evening before sleeping"
     },
     {
-      "id": "143",
       "name": "goodbye",
       "back": "Goodbye",
       "front_description": "A polite way to say farewell or see you later"
     },
     {
-      "id": "144",
       "name": "grey",
       "back": "Grey"
     },
     {
-      "id": "145",
       "name": "hair",
       "back": "Hair"
     },
     {
-      "id": "146",
       "name": "hand",
       "back": "Hand"
     },
     {
-      "id": "147",
       "name": "head",
       "back": "Head",
       "front_description": "The top part of the body that holds the brain, eyes, ears, nose, and mouth"
     },
     {
-      "id": "148",
       "name": "heart",
       "back": "Heart"
     },
     {
-      "id": "149",
       "name": "helicopter",
       "back": "Helicopter"
     },
     {
-      "id": "150",
       "name": "hello",
       "back": "Hello",
       "front_description": "Greeting between friends"
     },
     {
-      "id": "151",
       "name": "house",
       "back": "House"
     },
     {
-      "id": "152",
       "name": "ice",
       "back": "Ice"
     },
     {
-      "id": "153",
       "name": "knee",
       "back": "Knee"
     },
     {
-      "id": "154",
       "name": "leg",
       "back": "Leg"
     },
     {
-      "id": "155",
       "name": "lemon",
       "back": "Lemon"
     },
     {
-      "id": "156",
       "name": "marker",
       "back": "Marker"
     },
     {
-      "id": "157",
       "name": "mountain",
       "back": "Mountain"
     },
     {
-      "id": "158",
       "name": "mouth",
       "back": "Mouth"
     },
     {
-      "id": "159",
       "name": "music",
       "back": "Music"
     },
     {
-      "id": "160",
       "name": "neck",
       "back": "Neck"
     },
     {
-      "id": "161",
       "name": "nineteen",
       "back": "Nineteen"
     },
     {
-      "id": "162",
       "name": "no",
       "back": "No",
       "front_description": "Opposite of yes"
     },
     {
-      "id": "163",
       "name": "nose",
       "back": "Nose"
     },
     {
-      "id": "164",
       "name": "notebook",
       "back": "Notebook"
     },
     {
-      "id": "165",
       "name": "pants",
       "back": "Pants"
     },
     {
-      "id": "166",
       "name": "park",
       "back": "Park"
     },
     {
-      "id": "167",
       "name": "parrot",
       "back": "Parrot"
     },
     {
-      "id": "168",
       "name": "pear",
       "back": "Pear"
     },
     {
-      "id": "169",
       "name": "pencil",
       "back": "Pencil"
     },
     {
-      "id": "170",
       "name": "pencil_case",
       "back": "Pencil case"
     },
     {
-      "id": "171",
       "name": "pizza",
       "back": "Pizza"
     },
     {
-      "id": "172",
       "name": "rainbow",
       "back": "Rainbow"
     },
     {
-      "id": "173",
       "name": "river",
       "back": "River"
     },
     {
-      "id": "174",
       "name": "road",
       "back": "Road",
       "front_description": "Path connecting places, town or countryside"
     },
     {
-      "id": "175",
       "name": "rubber",
       "back": "Rubber"
     },
     {
-      "id": "176",
       "name": "ruler",
       "back": "Ruler"
     },
     {
-      "id": "177",
       "name": "seventeen",
       "back": "Seventeen"
     },
     {
-      "id": "178",
       "name": "sharpener",
       "back": "Sharpener"
     },
     {
-      "id": "179",
       "name": "ship",
       "back": "Ship"
     },
     {
-      "id": "180",
       "name": "shirt",
       "back": "Shirt"
     },
     {
-      "id": "181",
       "name": "shoe",
       "back": "Shoe"
     },
     {
-      "id": "182",
       "name": "shoulder",
       "back": "Shoulder"
     },
     {
-      "id": "183",
       "name": "sister",
       "back": "Sister"
     },
     {
-      "id": "184",
       "name": "sixteen",
       "back": "Sixteen"
     },
     {
-      "id": "185",
       "name": "skirt",
       "back": "Skirt"
     },
     {
-      "id": "186",
       "name": "sky",
       "back": "Sky"
     },
     {
-      "id": "187",
       "name": "sock",
       "back": "Sock"
     },
     {
-      "id": "188",
       "name": "song",
       "back": "Song",
       "front_description": "She is singing a ________"
     },
     {
-      "id": "189",
       "name": "spider",
       "back": "Spider"
     },
     {
-      "id": "190",
       "name": "street",
       "back": "Street",
       "front_description": "Road in a town with buildings"
     },
     {
-      "id": "191",
       "name": "thirteen",
       "back": "Thirteen"
     },
     {
-      "id": "192",
       "name": "toe",
       "back": "Toe"
     },
     {
-      "id": "193",
       "name": "tooth",
       "back": "Tooth"
     },
     {
-      "id": "194",
       "name": "toy",
       "back": "Toy"
     },
     {
-      "id": "195",
       "name": "train",
       "back": "Train"
     },
     {
-      "id": "196",
       "name": "turtle",
       "back": "Turtle"
     },
     {
-      "id": "197",
       "name": "twelve",
       "back": "Twelve"
     },
     {
-      "id": "198",
       "name": "twenty",
       "back": "Twenty"
     },
     {
-      "id": "199",
       "name": "wind",
       "back": "Wind",
       "front_description": "Air in motion"
     },
     {
-      "id": "200",
       "name": "yes",
       "back": "Yes",
       "front_description": "Opposite of no"

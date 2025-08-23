@@ -75,12 +75,11 @@ def create_directories(base_path):
     os.makedirs(images_path, exist_ok=True)
 
 
-def create_deck_json(words, base_path, deck_slug, deck_name, start_id=1):
+def create_deck_json(words, base_path, deck_slug, deck_name):
     cards = []
-    for idx, word in enumerate(words, start=start_id):
+    for word in words:
         cards.append(
             {
-                "id": str(idx),
                 "name": word.lower(),
                 "back": word.replace("_", " ").capitalize(),
             }
@@ -136,13 +135,6 @@ def generate_audio_files_from_deck(deck_json_path: str, audio_folder: str):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("-i", "--input", required=True, help="Path to input .txt file")
-    parser.add_argument(
-        "-s",
-        "--start_id",
-        type=int,
-        default=1,
-        help="Starting ID for cards (default 1)",
-    )
     args = parser.parse_args()
 
     words = parse_input_file(args.input)
@@ -155,7 +147,7 @@ def main():
     base_path = os.path.join(project_root, "app", "data", "decks", deck_slug)
 
     create_directories(base_path)
-    create_deck_json(words, base_path, deck_slug, deck_name, start_id=args.start_id)
+    create_deck_json(words, base_path, deck_slug, deck_name)
     create_map_ts_file(words, base_path, "audioMap.ts", "mp3")
     create_map_ts_file(words, base_path, "imageMap.ts", "png")
 

@@ -119,21 +119,13 @@ Heat
 Nature
 Beach
 Soil
-Glass
 Metal
-Plastic
 Wood
 Stone
 Clay
-Gold
-Silver
 Copper
 Materials
 Meter
-Centimeter
-Kilogram
-Inch
-Foot
 Half
 Temperature
 Date
@@ -147,8 +139,6 @@ Injury
 Hole
 Noun
 Verb
-Top
-Bottom
 Side
 Front
 Inside
@@ -160,26 +150,6 @@ Back
 Outside
 Up
 Right
-January
-February
-March
-April
-May
-June
-July
-August
-September
-October
-November
-December
-Monday
-Tuesday
-Wedensday
-Thursday
-Friday
-Saturday
-Sunday
-Seconds
 (to) Beat
 (to) Bend
 (to) Break
@@ -195,20 +165,14 @@ Seconds
 (to) Fall
 (to) Feed
 (to) Fight
-(to) Fly
 (to) Follow
 (to) Hang
 (to) Learn
-(to) Lift
 (to) Lose
 (to) Marry
 (to) Mix
-(to) Open
 (to) Pass
 (to) Pay
-(to) Pray
-(to) Pull
-(to) Push
 (to) Shake
 (to) Shoot
 (to) Smell
@@ -223,31 +187,14 @@ Seconds
 (to) Win
 (to) Grow
 Beautiful
-Clean
-Cool
-Dark
-Female
-Hard
-Heavy
 High
-Hot
 (to) Dig
-Dirty
-Light
-Light
 Loose
 Loud
 Low
-Male
 Nice
-Poor
 Quiet
-Rich
 Sick
-Slow
-Soft
-Strong
-Tall
 Thick
 Ugly
 Warm

@@ -4,1810 +4,1460 @@
   "slug": "fourth-350-essential",
   "cards": [
     {
-      "id": "301",
       "name": "adult",
       "back": "Adult"
     },
     {
-      "id": "302",
       "name": "afternoon",
       "back": "Afternoon",
       "front_description": "Part of the day between 12:00 PM and 6:00 PM"
     },
     {
-      "id": "303",
       "name": "air",
       "back": "Air",
       "front_description": "________ fills space around us"
     },
     {
-      "id": "304",
       "name": "airport",
       "back": "Airport"
     },
     {
-      "id": "305",
       "name": "ant",
       "back": "Ant"
     },
     {
-      "id": "306",
       "name": "apartment",
       "back": "Apartment",
       "front_description": "A set of rooms in a building for living"
     },
     {
-      "id": "307",
       "name": "april",
       "back": "April",
       "front_description": "The 4th Month of the Year"
     },
     {
-      "id": "308",
       "name": "armchair",
       "back": "Armchair"
     },
     {
-      "id": "309",
       "name": "art",
       "back": "Art",
       "front_description": "She is making ________ (three letters)"
     },
     {
-      "id": "310",
       "name": "august",
       "back": "August",
       "front_description": "The 8th Month of the Year"
     },
     {
-      "id": "311",
       "name": "back",
       "back": "Back"
     },
     {
-      "id": "312",
       "name": "baseball",
       "back": "Baseball"
     },
     {
-      "id": "313",
       "name": "basketball",
       "back": "Basketball"
     },
     {
-      "id": "314",
       "name": "bath",
       "back": "Bath"
     },
     {
-      "id": "315",
       "name": "beat",
       "back": "Beat"
     },
     {
-      "id": "316",
       "name": "beer",
       "back": "Beer"
     },
     {
-      "id": "317",
       "name": "beverages",
       "back": "Beverages"
     },
     {
-      "id": "318",
       "name": "bill",
       "back": "Bill"
     },
     {
-      "id": "319",
       "name": "blackboard",
       "back": "Blackboard"
     },
     {
-      "id": "320",
       "name": "blood",
       "back": "Blood"
     },
     {
-      "id": "321",
       "name": "blueberry",
       "back": "Blueberry"
     },
     {
-      "id": "322",
       "name": "boot",
       "back": "Boot"
     },
     {
-      "id": "323",
       "name": "bottom",
       "back": "Bottom"
     },
     {
-      "id": "324",
       "name": "brain",
       "back": "Brain"
     },
     {
-      "id": "325",
       "name": "break",
       "back": "Break"
     },
     {
-      "id": "326",
       "name": "breakfast",
       "back": "Breakfast",
       "front_description": "Morning meal"
     },
     {
-      "id": "327",
       "name": "build",
       "back": "Build"
     },
     {
-      "id": "328",
       "name": "building",
       "back": "Building"
     },
     {
-      "id": "329",
       "name": "burn",
       "back": "Burn"
     },
     {
-      "id": "330",
       "name": "business",
       "back": "Business"
     },
     {
-      "id": "331",
       "name": "button",
       "back": "Button"
     },
     {
-      "id": "332",
       "name": "buy",
       "back": "Buy"
     },
     {
-      "id": "333",
       "name": "call",
       "back": "Call"
     },
     {
-      "id": "334",
       "name": "camera",
       "back": "Camera"
     },
     {
-      "id": "335",
       "name": "camp",
       "back": "Camp"
     },
     {
-      "id": "336",
       "name": "can",
       "back": "Can"
     },
     {
-      "id": "337",
       "name": "candle",
       "back": "Candle"
     },
     {
-      "id": "338",
       "name": "card",
       "back": "Card"
     },
     {
-      "id": "339",
       "name": "carpet",
       "back": "Carpet"
     },
     {
-      "id": "340",
       "name": "carry",
       "back": "Carry"
     },
     {
-      "id": "341",
       "name": "castle",
       "back": "Castle"
     },
     {
-      "id": "342",
       "name": "catch",
       "back": "Catch"
     },
     {
-      "id": "343",
       "name": "ceiling",
       "back": "Ceiling"
     },
     {
-      "id": "344",
       "name": "centimeter",
       "back": "Centimeter",
       "front_description": "1 __________ = 0.01 meter"
     },
     {
-      "id": "345",
       "name": "chalk",
       "back": "Chalk"
     },
     {
-      "id": "346",
       "name": "chat",
       "back": "Chat"
     },
     {
-      "id": "347",
       "name": "chemistry",
       "back": "Chemistry"
     },
     {
-      "id": "348",
       "name": "chocolate",
       "back": "Chocolate"
     },
     {
-      "id": "349",
       "name": "church",
       "back": "Church"
     },
     {
-      "id": "350",
       "name": "cinema",
       "back": "Cinema",
       "front_description": "A place where people go to watch movies"
     },
     {
-      "id": "351",
       "name": "classroom",
       "back": "Classroom"
     },
     {
-      "id": "352",
       "name": "clay",
       "back": "Clay"
     },
     {
-      "id": "353",
       "name": "clean",
       "back": "Clean"
     },
     {
-      "id": "354",
       "name": "climb",
       "back": "Climb"
     },
     {
-      "id": "355",
       "name": "close",
       "back": "Close"
     },
     {
-      "id": "356",
       "name": "clothes",
       "back": "Clothes"
     },
     {
-      "id": "357",
       "name": "comb",
       "back": "Comb"
     },
     {
-      "id": "358",
       "name": "come",
       "back": "Come"
     },
     {
-      "id": "359",
       "name": "concert",
       "back": "Concert"
     },
     {
-      "id": "360",
       "name": "cook",
       "back": "Cook"
     },
     {
-      "id": "361",
       "name": "cool",
       "back": "Cool"
     },
     {
-      "id": "362",
       "name": "corn",
       "back": "Corn"
     },
     {
-      "id": "363",
       "name": "corner",
       "back": "Corner"
     },
     {
-      "id": "364",
       "name": "country",
       "back": "Country",
       "front_description": "Nation with land and government"
     },
     {
-      "id": "365",
       "name": "cover",
       "back": "Cover"
     },
     {
-      "id": "366",
       "name": "crash",
       "back": "Crash"
     },
     {
-      "id": "367",
       "name": "crocodile",
       "back": "Crocodile"
     },
     {
-      "id": "368",
       "name": "cry",
       "back": "Cry"
     },
     {
-      "id": "369",
       "name": "cut",
       "back": "Cut"
     },
     {
-      "id": "370",
       "name": "dark",
       "back": "Dark"
     },
     {
-      "id": "371",
       "name": "day",
       "back": "Day",
       "front_description": "1 ________ = 24 hours"
     },
     {
-      "id": "372",
       "name": "death",
       "back": "Death"
     },
     {
-      "id": "373",
       "name": "december",
       "back": "December",
       "front_description": "The 12th Month of the Year"
     },
     {
-      "id": "374",
       "name": "deep",
       "back": "Deep"
     },
     {
-      "id": "375",
       "name": "desk",
       "back": "Desk"
     },
     {
-      "id": "376",
       "name": "dictionary",
       "back": "Dictionary"
     },
     {
-      "id": "377",
       "name": "die",
       "back": "Die"
     },
     {
-      "id": "378",
       "name": "dig",
       "back": "Dig"
     },
     {
-      "id": "379",
       "name": "dinner",
       "back": "Dinner",
       "front_description": "Evening meal"
     },
     {
-      "id": "380",
       "name": "direction",
       "back": "Direction"
     },
     {
-      "id": "381",
       "name": "dirty",
       "back": "Dirty"
     },
     {
-      "id": "382",
       "name": "distance",
       "back": "Distance"
     },
     {
-      "id": "383",
       "name": "dollar",
       "back": "Dollar"
     },
     {
-      "id": "384",
       "name": "down",
       "back": "Down"
     },
     {
-      "id": "385",
       "name": "dragon",
       "back": "Dragon"
     },
     {
-      "id": "386",
       "name": "draw",
       "back": "Draw"
     },
     {
-      "id": "387",
       "name": "dream",
       "back": "Dream"
     },
     {
-      "id": "388",
       "name": "drink",
       "back": "Drink"
     },
     {
-      "id": "389",
       "name": "drive",
       "back": "Drive"
     },
     {
-      "id": "390",
       "name": "drop",
       "back": "Drop"
     },
     {
-      "id": "391",
       "name": "dry",
       "back": "Dry"
     },
     {
-      "id": "392",
       "name": "dust",
       "back": "Dust"
     },
     {
-      "id": "393",
       "name": "earth",
       "back": "Earth"
     },
     {
-      "id": "394",
       "name": "east",
       "back": "East"
     },
     {
-      "id": "395",
       "name": "eat",
       "back": "Eat"
     },
     {
-      "id": "396",
       "name": "edge",
       "back": "Edge"
     },
     {
-      "id": "397",
       "name": "elevator",
       "back": "Elevator"
     },
     {
-      "id": "398",
       "name": "empty",
       "back": "Empty"
     },
     {
-      "id": "399",
       "name": "engine",
       "back": "Engine"
     },
     {
-      "id": "400",
       "name": "evening",
       "back": "Evening",
       "front_description": "Part of the day between 6:00 PM and 9:00 PM"
     },
     {
-      "id": "401",
       "name": "exam",
       "back": "Exam"
     },
     {
-      "id": "402",
       "name": "exercise",
       "back": "Exercise"
     },
     {
-      "id": "403",
       "name": "explode",
       "back": "Explode"
     },
     {
-      "id": "404",
       "name": "fan",
       "back": "Fan"
     },
     {
-      "id": "405",
       "name": "farm",
       "back": "Farm"
     },
     {
-      "id": "406",
       "name": "fast",
       "back": "Fast"
     },
     {
-      "id": "407",
       "name": "fat",
       "back": "Fat"
     },
     {
-      "id": "408",
       "name": "feather",
       "back": "Feather"
     },
     {
-      "id": "409",
       "name": "february",
       "back": "February",
       "front_description": "The 2nd Month of the Year"
     },
     {
-      "id": "410",
       "name": "feed",
       "back": "Feed"
     },
     {
-      "id": "411",
       "name": "female",
       "back": "Female"
     },
     {
-      "id": "412",
       "name": "festival",
       "back": "Festival"
     },
     {
-      "id": "413",
       "name": "field",
       "back": "Field",
       "front_description": "Soccer ________"
     },
     {
-      "id": "414",
       "name": "fight",
       "back": "Fight"
     },
     {
-      "id": "415",
       "name": "find",
       "back": "Find"
     },
     {
-      "id": "416",
       "name": "finger",
       "back": "Finger"
     },
     {
-      "id": "417",
       "name": "first",
       "back": "First"
     },
     {
-      "id": "418",
       "name": "flag",
       "back": "Flag"
     },
     {
-      "id": "419",
       "name": "fly",
       "back": "Fly"
     },
     {
-      "id": "420",
       "name": "foot",
       "back": "Foot"
     },
     {
-      "id": "421",
       "name": "football",
       "back": "Football"
     },
     {
-      "id": "422",
       "name": "footstep",
       "back": "Footstep"
     },
     {
-      "id": "423",
       "name": "forest",
       "back": "Forest"
     },
     {
-      "id": "424",
       "name": "form",
       "back": "Form"
     },
     {
-      "id": "425",
       "name": "friday",
       "back": "Friday",
       "front_description": "The 5th Day of the Week"
     },
     {
-      "id": "426",
       "name": "fridge",
       "back": "Fridge"
     },
     {
-      "id": "427",
       "name": "front",
       "back": "Front"
     },
     {
-      "id": "428",
       "name": "fruit",
       "back": "Fruit"
     },
     {
-      "id": "429",
       "name": "full",
       "back": "Full"
     },
     {
-      "id": "430",
       "name": "future",
       "back": "Future"
     },
     {
-      "id": "431",
       "name": "garage",
       "back": "Garage"
     },
     {
-      "id": "432",
       "name": "gas",
       "back": "Gas"
     },
     {
-      "id": "433",
       "name": "gate",
       "back": "Gate"
     },
     {
-      "id": "434",
       "name": "give",
       "back": "Give"
     },
     {
-      "id": "435",
       "name": "go",
       "back": "Go"
     },
     {
-      "id": "436",
       "name": "god",
       "back": "God"
     },
     {
-      "id": "437",
       "name": "gold",
       "back": "Gold"
     },
     {
-      "id": "438",
       "name": "government",
       "back": "Government",
       "front_description": "Palace's ________"
     },
     {
-      "id": "439",
       "name": "ground",
       "back": "Ground"
     },
     {
-      "id": "440",
       "name": "group",
       "back": "Group"
     },
     {
-      "id": "441",
       "name": "grow",
       "back": "Grow"
     },
     {
-      "id": "442",
       "name": "guitar",
       "back": "Guitar"
     },
     {
-      "id": "443",
       "name": "gun",
       "back": "Gun"
     },
     {
-      "id": "444",
       "name": "half",
       "back": "Half"
     },
     {
-      "id": "445",
       "name": "hammer",
       "back": "Hammer"
     },
     {
-      "id": "446",
       "name": "happy",
       "back": "Happy"
     },
     {
-      "id": "447",
       "name": "hard",
       "back": "Hard"
     },
     {
-      "id": "448",
       "name": "health",
       "back": "Health"
     },
     {
-      "id": "449",
       "name": "heart",
       "back": "Heart"
     },
     {
-      "id": "450",
       "name": "heat",
       "back": "Heat",
       "front_description": "The energy that makes the air and objects very warm"
     },
     {
-      "id": "451",
       "name": "heaven",
       "back": "Heaven",
       "front_description": "Place of God and angels"
     },
     {
-      "id": "452",
       "name": "heavy",
       "back": "Heavy"
     },
     {
-      "id": "453",
       "name": "hell",
       "back": "Hell"
     },
     {
-      "id": "454",
       "name": "help",
       "back": "Help"
     },
     {
-      "id": "455",
       "name": "hill",
       "back": "Hill"
     },
     {
-      "id": "456",
       "name": "hippo",
       "back": "Hippo"
     },
     {
-      "id": "457",
       "name": "hobby",
       "back": "Hobby",
       "front_description": "An activity you enjoy doing in your free time"
     },
     {
-      "id": "458",
       "name": "hole",
       "back": "Hole"
     },
     {
-      "id": "459",
       "name": "holiday",
       "back": "Holiday"
     },
     {
-      "id": "460",
       "name": "hot",
       "back": "Hot",
       "front_description": "The temperature is ________"
     },
     {
-      "id": "461",
       "name": "hour",
       "back": "Hour",
       "front_description": "1 ________ = 60 minutes"
     },
     {
-      "id": "462",
       "name": "idea",
       "back": "Idea"
     },
     {
-      "id": "463",
       "name": "inch",
       "back": "Inch",
       "front_description": "1 ________ = 2,54 cm"
     },
     {
-      "id": "464",
       "name": "inside",
       "back": "Inside"
     },
     {
-      "id": "465",
       "name": "internet",
       "back": "Internet"
     },
     {
-      "id": "466",
       "name": "invention",
       "back": "Invention"
     },
     {
-      "id": "467",
       "name": "island",
       "back": "Island",
       "front_description": "Land surrounded by water"
     },
     {
-      "id": "468",
       "name": "jail",
       "back": "Jail"
     },
     {
-      "id": "469",
       "name": "january",
       "back": "January",
       "front_description": "The 1st Month of the Year"
     },
     {
-      "id": "470",
       "name": "jeans",
       "back": "Jeans"
     },
     {
-      "id": "471",
       "name": "job",
       "back": "Job",
       "front_description": "Work done to earn money"
     },
     {
-      "id": "472",
       "name": "july",
       "back": "July",
       "front_description": "The 7th Month of the Year"
     },
     {
-      "id": "473",
       "name": "jump",
       "back": "Jump"
     },
     {
-      "id": "474",
       "name": "june",
       "back": "June",
       "front_description": "The 6th Month of the Year"
     },
     {
-      "id": "475",
       "name": "kangaroo",
       "back": "Kangaroo"
     },
     {
-      "id": "476",
       "name": "kick",
       "back": "Kick"
     },
     {
-      "id": "477",
       "name": "kid",
       "back": "Kid",
       "front_description": "A child, young person"
     },
     {
-      "id": "478",
       "name": "kill",
       "back": "Kill"
     },
     {
-      "id": "479",
       "name": "kilogram",
       "back": "Kilogram"
     },
     {
-      "id": "480",
       "name": "kiss",
       "back": "Kiss"
     },
     {
-      "id": "481",
       "name": "kitchen",
       "back": "Kitchen"
     },
     {
-      "id": "482",
       "name": "lake",
       "back": "Lake"
     },
     {
-      "id": "483",
       "name": "laptop",
       "back": "Laptop"
     },
     {
-      "id": "484",
       "name": "laugh",
       "back": "Laugh"
     },
     {
-      "id": "485",
       "name": "leaf",
       "back": "Leaf"
     },
     {
-      "id": "486",
       "name": "left",
       "back": "Left"
     },
     {
-      "id": "487",
       "name": "letter",
       "back": "Letter",
       "front_description": "A written message sent to someone by mail"
     },
     {
-      "id": "488",
       "name": "library",
       "back": "Library"
     },
     {
-      "id": "489",
       "name": "lift",
       "back": "Lift"
     },
     {
-      "id": "490",
       "name": "light",
       "back": "Light"
     },
     {
-      "id": "491",
       "name": "line",
       "back": "Line"
     },
     {
-      "id": "492",
       "name": "listen",
       "back": "Listen"
     },
     {
-      "id": "493",
       "name": "liver",
       "back": "Liver"
     },
     {
-      "id": "494",
       "name": "lizard",
       "back": "Lizard"
     },
     {
-      "id": "495",
       "name": "lock",
       "back": "Lock"
     },
     {
-      "id": "496",
       "name": "log",
       "back": "Log"
     },
     {
-      "id": "497",
       "name": "lunch",
       "back": "Lunch",
       "front_description": "Midday meal"
     },
     {
-      "id": "498",
       "name": "machine",
       "back": "Machine"
     },
     {
-      "id": "499",
       "name": "magazine",
       "back": "Magazine",
       "front_description": "A weekly or monthly publication with articles and pictures"
     },
     {
-      "id": "500",
       "name": "male",
       "back": "Male"
     },
     {
-      "id": "501",
       "name": "manager",
       "back": "Manager"
     },
     {
-      "id": "502",
       "name": "march",
       "back": "March",
       "front_description": "The 3rd Month of the Year"
     },
     {
-      "id": "503",
       "name": "market",
       "back": "Market",
       "front_description": "Place to buy and sell goods"
     },
     {
-      "id": "504",
       "name": "marriage",
       "back": "Marriage"
     },
     {
-      "id": "505",
       "name": "materials",
       "back": "Materials",
       "front_description": "Substances for creating or constructing objects"
     },
     {
-      "id": "506",
       "name": "mathematics",
       "back": "Mathematics"
     },
     {
-      "id": "507",
       "name": "may",
       "back": "May",
       "front_description": "The 5th Month of the Year"
     },
     {
-      "id": "508",
       "name": "meal",
       "back": "Meal",
       "front_description": "Breakfast, Lunch, Dinner are ________"
     },
     {
-      "id": "509",
       "name": "medicine",
       "back": "Medicine"
     },
     {
-      "id": "510",
       "name": "meeting",
       "back": "Meeting"
     },
     {
-      "id": "511",
       "name": "minute",
       "back": "Minute",
       "front_description": "1 ________ = 60 seconds"
     },
     {
-      "id": "512",
       "name": "mirror",
       "back": "Mirror"
     },
     {
-      "id": "513",
       "name": "monday",
       "back": "Monday",
       "front_description": "The 1st Day of the Week"
     },
     {
-      "id": "514",
       "name": "month",
       "back": "Month",
       "front_description": "1 ________ = 30 days"
     },
     {
-      "id": "515",
       "name": "motorbike",
       "back": "Motorbike"
     },
     {
-      "id": "516",
       "name": "mushroom",
       "back": "Mushroom"
     },
     {
-      "id": "517",
       "name": "napkin",
       "back": "Napkin"
     },
     {
-      "id": "518",
       "name": "nature",
       "back": "Nature",
       "front_description": "Plants, animals, and land are part of the ________"
     },
     {
-      "id": "519",
       "name": "needle",
       "back": "Needle"
     },
     {
-      "id": "520",
       "name": "network",
       "back": "Network"
     },
     {
-      "id": "521",
       "name": "newspaper",
       "back": "Newspaper"
     },
     {
-      "id": "522",
       "name": "noise",
       "back": "Noise"
     },
     {
-      "id": "523",
       "name": "north",
       "back": "North"
     },
     {
-      "id": "524",
       "name": "note",
       "back": "Note"
     },
     {
-      "id": "525",
       "name": "november",
       "back": "November",
       "front_description": "The 11th Month of the Year"
     },
     {
-      "id": "526",
       "name": "nurse",
       "back": "Nurse"
     },
     {
-      "id": "527",
       "name": "nuts",
       "back": "Nuts"
     },
     {
-      "id": "528",
       "name": "ocean",
       "back": "Ocean",
       "front_description": ""
     },
     {
-      "id": "529",
       "name": "october",
       "back": "October",
       "front_description": "The 10th Month of the Year"
     },
     {
-      "id": "530",
       "name": "office",
       "back": "Office"
     },
     {
-      "id": "531",
       "name": "old",
       "back": "Old"
     },
     {
-      "id": "532",
       "name": "one_billion",
       "back": "One billion"
     },
     {
-      "id": "533",
       "name": "one_hundred_one",
       "back": "One hundred one"
     },
     {
-      "id": "534",
       "name": "one_hundred_ten",
       "back": "One hundred ten"
     },
     {
-      "id": "535",
       "name": "one_hundred_thousands",
       "back": "One hundred thousands"
     },
     {
-      "id": "536",
       "name": "one_hundred_two",
       "back": "One hundred two"
     },
     {
-      "id": "537",
       "name": "one_million",
       "back": "One million"
     },
     {
-      "id": "538",
       "name": "one_thousand",
       "back": "One thousand"
     },
     {
-      "id": "539",
       "name": "open",
       "back": "Open"
     },
     {
-      "id": "540",
       "name": "organ",
       "back": "Organ"
     },
     {
-      "id": "541",
       "name": "outside",
       "back": "Outside"
     },
     {
-      "id": "542",
       "name": "oven",
       "back": "Oven"
     },
     {
-      "id": "543",
       "name": "page",
       "back": "Page"
     },
     {
-      "id": "544",
       "name": "pain",
       "back": "Pain"
     },
     {
-      "id": "545",
       "name": "paint",
       "back": "Paint"
     },
     {
-      "id": "546",
       "name": "party",
       "back": "Party"
     },
     {
-      "id": "547",
       "name": "patient",
       "back": "Patient"
     },
     {
-      "id": "548",
       "name": "peace",
       "back": "Peace"
     },
     {
-      "id": "549",
       "name": "pepper",
       "back": "Pepper"
     },
     {
-      "id": "550",
       "name": "photo",
       "back": "Photo"
     },
     {
-      "id": "551",
       "name": "piano",
       "back": "Piano"
     },
     {
-      "id": "552",
       "name": "picture",
       "back": "Picture"
     },
     {
-      "id": "553",
       "name": "plastic",
       "back": "Plastic",
       "front_description": "________ objects"
     },
     {
-      "id": "554",
       "name": "play",
       "back": "Play"
     },
     {
-      "id": "555",
       "name": "player",
       "back": "Player"
     },
     {
-      "id": "556",
       "name": "pocket",
       "back": "Pocket"
     },
     {
-      "id": "557",
       "name": "police",
       "back": "Police",
       "front_description": "________ officer"
     },
     {
-      "id": "558",
       "name": "pool",
       "back": "Pool"
     },
     {
-      "id": "559",
       "name": "poor",
       "back": "Poor"
     },
     {
-      "id": "560",
       "name": "pork",
       "back": "Pork"
     },
     {
-      "id": "561",
       "name": "pray",
       "back": "Pray"
     },
     {
-      "id": "562",
       "name": "present",
       "back": "Present"
     },
     {
-      "id": "563",
       "name": "president",
       "back": "President"
     },
     {
-      "id": "564",
       "name": "priest",
       "back": "Priest"
     },
     {
-      "id": "565",
       "name": "printer",
       "back": "Printer"
     },
     {
-      "id": "566",
       "name": "pull",
       "back": "Pull"
     },
     {
-      "id": "567",
       "name": "push",
       "back": "Push"
     },
     {
-      "id": "568",
       "name": "radio",
       "back": "Radio"
     },
     {
-      "id": "569",
       "name": "raincoat",
       "back": "Raincoat"
     },
     {
-      "id": "570",
       "name": "rat",
       "back": "Rat"
     },
     {
-      "id": "571",
       "name": "read",
       "back": "Read"
     },
     {
-      "id": "572",
       "name": "religion",
       "back": "Religion"
     },
     {
-      "id": "573",
       "name": "reporter",
       "back": "Reporter"
     },
     {
-      "id": "574",
       "name": "rich",
       "back": "Rich"
     },
     {
-      "id": "575",
       "name": "ride",
       "back": "Ride"
     },
     {
-      "id": "576",
       "name": "right",
       "back": "Right"
     },
     {
-      "id": "577",
       "name": "ring",
       "back": "Ring"
     },
     {
-      "id": "578",
       "name": "robot",
       "back": "Robot"
     },
     {
-      "id": "579",
       "name": "run",
       "back": "Run"
     },
     {
-      "id": "580",
       "name": "salad",
       "back": "Salad"
     },
     {
-      "id": "581",
       "name": "sand",
       "back": "Sand"
     },
     {
-      "id": "582",
       "name": "saturday",
       "back": "Saturday",
       "front_description": "The 6th Day of the Week"
     },
     {
-      "id": "583",
       "name": "science",
       "back": "Science"
     },
     {
-      "id": "584",
       "name": "screen",
       "back": "Screen"
     },
     {
-      "id": "585",
       "name": "sea",
       "back": "Sea"
     },
     {
-      "id": "586",
       "name": "secretary",
       "back": "Secretary"
     },
     {
-      "id": "587",
       "name": "seed",
       "back": "Seed"
     },
     {
-      "id": "588",
       "name": "september",
       "back": "September",
       "front_description": "The 9th Month of the Year"
     },
     {
-      "id": "589",
       "name": "sex",
       "back": "Sex"
     },
     {
-      "id": "590",
       "name": "shallow",
       "back": "Shallow"
     },
     {
-      "id": "591",
       "name": "shapes",
       "back": "Shapes"
     },
     {
-      "id": "592",
       "name": "shark",
       "back": "Shark"
     },
     {
-      "id": "593",
       "name": "shop",
       "back": "Shop"
     },
     {
-      "id": "594",
       "name": "short",
       "back": "Short"
     },
     {
-      "id": "595",
       "name": "shower",
       "back": "Shower"
     },
     {
-      "id": "596",
       "name": "sick",
       "back": "Sick"
     },
     {
-      "id": "597",
       "name": "silver",
       "back": "Silver"
     },
     {
-      "id": "598",
       "name": "sleep",
       "back": "Sleep"
     },
     {
-      "id": "599",
       "name": "slow",
       "back": "Slow"
     },
     {
-      "id": "600",
       "name": "smile",
       "back": "Smile"
     },
     {
-      "id": "601",
       "name": "soap",
       "back": "Soap"
     },
     {
-      "id": "602",
       "name": "sofa",
       "back": "Sofa"
     },
     {
-      "id": "603",
       "name": "soft",
       "back": "Soft"
     },
     {
-      "id": "604",
       "name": "soldier",
       "back": "Soldier"
     },
     {
-      "id": "605",
       "name": "south",
       "back": "South"
     },
     {
-      "id": "606",
       "name": "speak",
       "back": "Speak"
     },
     {
-      "id": "607",
       "name": "sport",
       "back": "Sport"
     },
     {
-      "id": "608",
       "name": "stain",
       "back": "Stain"
     },
     {
-      "id": "609",
       "name": "stairs",
       "back": "Stairs"
     },
     {
-      "id": "610",
       "name": "stone",
       "back": "Stone"
     },
     {
-      "id": "611",
       "name": "stop",
       "back": "Stop"
     },
     {
-      "id": "612",
       "name": "strawberry",
       "back": "Strawberry"
     },
     {
-      "id": "613",
       "name": "strong",
       "back": "Strong"
     },
     {
-      "id": "614",
       "name": "sunday",
       "back": "Sunday",
       "front_description": "The 7th Day of the Week"
     },
     {
-      "id": "615",
       "name": "swan",
       "back": "Swan"
     },
     {
-      "id": "616",
       "name": "swim",
       "back": "Swim"
     },
     {
-      "id": "617",
       "name": "tail",
       "back": "Tail"
     },
     {
-      "id": "618",
       "name": "tall",
       "back": "Tall"
     },
     {
-      "id": "619",
       "name": "taxi",
       "back": "Taxi"
     },
     {
-      "id": "620",
       "name": "technology",
       "back": "Technology",
       "front_description": "Use of science to make tools"
     },
     {
-      "id": "621",
       "name": "television",
       "back": "Television"
     },
     {
-      "id": "622",
       "name": "thin",
       "back": "Thin"
     },
     {
-      "id": "623",
       "name": "thursday",
       "back": "Thursday",
       "front_description": "The 4th Day of the Week"
     },
     {
-      "id": "624",
       "name": "time",
       "back": "Time",
       "front_description": "Continuous passing of moments"
     },
     {
-      "id": "625",
       "name": "toilet",
       "back": "Toilet"
     },
     {
-      "id": "626",
       "name": "tongue",
       "back": "Tongue"
     },
     {
-      "id": "627",
       "name": "tool",
       "back": "Tool"
     },
     {
-      "id": "628",
       "name": "top",
       "back": "Top"
     },
     {
-      "id": "629",
       "name": "tower",
       "back": "Tower"
     },
     {
-      "id": "630",
       "name": "truck",
       "back": "Truck"
     },
     {
-      "id": "631",
       "name": "tuesday",
       "back": "Tuesday",
       "front_description": "The 2nd Day of the Week"
     },
     {
-      "id": "632",
       "name": "up",
       "back": "Up"
     },
     {
-      "id": "633",
       "name": "university",
       "back": "University",
       "front_description": "Place of study after high school"
     },
     {
-      "id": "634",
       "name": "waiter",
       "back": "Waiter"
     },
     {
-      "id": "635",
       "name": "warm",
       "back": "Warm"
     },
     {
-      "id": "636",
       "name": "wave",
       "back": "Wave"
     },
     {
-      "id": "637",
       "name": "weak",
       "back": "Weak"
     },
     {
-      "id": "638",
       "name": "wake_up",
       "back": "Wake up"
     },
     {
-      "id": "639",
       "name": "wednesday",
       "back": "Wednesday",
       "front_description": "The 3rd Day of the Week"
     },
     {
-      "id": "640",
       "name": "week",
       "back": "Week",
       "front_description": "1 ________ = 7 days"
     },
     {
-      "id": "641",
       "name": "weight",
       "back": "Weight"
     },
     {
-      "id": "642",
       "name": "west",
       "back": "West"
     },
     {
-      "id": "643",
       "name": "wet",
       "back": "Wet"
     },
     {
-      "id": "644",
       "name": "whale",
       "back": "Whale"
     },
     {
-      "id": "645",
       "name": "wine",
       "back": "Wine"
     },
     {
-      "id": "646",
       "name": "wood",
       "back": "Wood"
     },
     {
-      "id": "647",
       "name": "work",
       "back": "Work"
     },
     {
-      "id": "648",
       "name": "write",
       "back": "Write"
     },
     {
-      "id": "649",
       "name": "year",
       "back": "Year",
       "front_description": "1 ________ = 12 months"
     },
     {
-      "id": "650",
       "name": "young",
       "back": "Young"
     }

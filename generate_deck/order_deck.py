@@ -14,11 +14,6 @@ with open(args.input, "r", encoding="utf-8") as f:
 # Ordina cards alfabeticamente per 'name'
 sorted_cards = sorted(data["cards"], key=lambda card: card["name"])
 
-# Riassegna gli id a partire da 201
-start_id = 201
-for i, card in enumerate(sorted_cards):
-    card["id"] = str(start_id + i)
-
 data["cards"] = sorted_cards
 
 # Salva su file di output

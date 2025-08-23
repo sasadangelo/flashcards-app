@@ -4,517 +4,417 @@
   "slug": "third-100-essential",
   "cards": [
     {
-      "id": "201",
       "name": "autumn",
       "back": "Autumn",
       "front_description": "The season after Summer"
     },
     {
-      "id": "202",
       "name": "balloon",
       "back": "Balloon"
     },
     {
-      "id": "203",
       "name": "bar",
       "back": "Bar"
     },
     {
-      "id": "204",
       "name": "bathroom",
       "back": "Bathroom"
     },
     {
-      "id": "205",
       "name": "beard",
       "back": "Beard"
     },
     {
-      "id": "206",
       "name": "bedroom",
       "back": "Bedroom"
     },
     {
-      "id": "207",
       "name": "big",
       "back": "Big"
     },
     {
-      "id": "208",
       "name": "bone",
       "back": "Bone"
     },
     {
-      "id": "209",
       "name": "box",
       "back": "Box"
     },
     {
-      "id": "210",
       "name": "bridge",
       "back": "Bridge"
     },
     {
-      "id": "211",
       "name": "butterfly",
       "back": "Butterfly"
     },
     {
-      "id": "212",
       "name": "coat",
       "back": "Coat"
     },
     {
-      "id": "213",
       "name": "chocolate",
       "back": "Chocolate"
     },
     {
-      "id": "214",
       "name": "chips",
       "back": "Chips"
     },
     {
-      "id": "215",
       "name": "christmas_tree",
       "back": "Christmas tree"
     },
     {
-      "id": "216",
       "name": "coffee",
       "back": "Coffee"
     },
     {
-      "id": "217",
       "name": "computer",
       "back": "Computer"
     },
     {
-      "id": "218",
       "name": "day",
       "back": "Day"
     },
     {
-      "id": "219",
       "name": "daughter",
       "back": "Daughter",
       "front_description": "A female child in a Family"
     },
     {
-      "id": "220",
       "name": "dinosaur",
       "back": "Dinosaur"
     },
     {
-      "id": "221",
       "name": "doctor",
       "back": "Doctor"
     },
     {
-      "id": "222",
       "name": "eighty",
       "back": "Eighty"
     },
     {
-      "id": "223",
       "name": "eighty_one",
       "back": "Eighty one"
     },
     {
-      "id": "224",
       "name": "eighty_two",
       "back": "Eighty two"
     },
     {
-      "id": "225",
       "name": "family",
       "back": "Family"
     },
     {
-      "id": "226",
       "name": "fifty",
       "back": "Fifty"
     },
     {
-      "id": "227",
       "name": "fifty_one",
       "back": "Fifty one"
     },
     {
-      "id": "228",
       "name": "fifty_two",
       "back": "Fifty two"
     },
     {
-      "id": "229",
       "name": "floor",
       "back": "Floor"
     },
     {
-      "id": "230",
       "name": "food",
       "back": "Food"
     },
     {
-      "id": "231",
       "name": "fourty",
       "back": "Fourty"
     },
     {
-      "id": "232",
       "name": "fourty_one",
       "back": "Fourty one"
     },
     {
-      "id": "233",
       "name": "fourty_two",
       "back": "Fourty two"
     },
     {
-      "id": "234",
       "name": "glass",
       "back": "Glass"
     },
     {
-      "id": "235",
       "name": "grandfather",
       "back": "Grandfather",
       "front_description": "The father of your parent"
     },
     {
-      "id": "236",
       "name": "grandmother",
       "back": "Grandmother",
       "front_description": "The mother of your parent"
     },
     {
-      "id": "237",
       "name": "hospital",
       "back": "Hospital"
     },
     {
-      "id": "238",
       "name": "hotel",
       "back": "Hotel"
     },
     {
-      "id": "239",
       "name": "husband",
       "back": "Husband",
       "front_description": "A man in a marriage"
     },
     {
-      "id": "240",
       "name": "insects",
       "back": "Insects"
     },
     {
-      "id": "241",
       "name": "jacket",
       "back": "Jacket"
     },
     {
-      "id": "242",
       "name": "juice",
       "back": "Juice"
     },
     {
-      "id": "243",
       "name": "kitchen",
       "back": "Kitchen"
     },
     {
-      "id": "244",
       "name": "knife",
       "back": "Knife"
     },
     {
-      "id": "245",
       "name": "livingroom",
       "back": "Livingroom"
     },
     {
-      "id": "246",
       "name": "long",
       "back": "Long"
     },
     {
-      "id": "247",
       "name": "map",
       "back": "Map"
     },
     {
-      "id": "248",
       "name": "money",
       "back": "Money"
     },
     {
-      "id": "249",
       "name": "morning",
       "back": "Morning",
       "front_description": "Part of the day between 6:00 AM and 12:00 PM"
     },
     {
-      "id": "250",
       "name": "movie",
       "back": "Movie",
       "front_description": "A film or story shown on a screen"
     },
     {
-      "id": "251",
       "name": "new",
       "back": "New"
     },
     {
-      "id": "252",
       "name": "night",
       "back": "Night",
       "front_description": "Part of the day between 9: 00 PM and 6: 00 AM"
     },
     {
-      "id": "253",
       "name": "ninety",
       "back": "Ninety"
     },
     {
-      "id": "254",
       "name": "ninety_one",
       "back": "Ninety one"
     },
     {
-      "id": "255",
       "name": "ninety_two",
       "back": "Ninety two"
     },
     {
-      "id": "256",
       "name": "oil",
       "back": "Oil"
     },
     {
-      "id": "257",
       "name": "old",
       "back": "Old"
     },
     {
-      "id": "258",
       "name": "one_hundred",
       "back": "One hundred"
     },
     {
-      "id": "259",
       "name": "paper",
       "back": "Paper"
     },
     {
-      "id": "260",
       "name": "plant",
       "back": "Plant"
     },
     {
-      "id": "261",
       "name": "policeman",
       "back": "Policeman"
     },
     {
-      "id": "262",
       "name": "prince",
       "back": "Prince"
     },
     {
-      "id": "263",
       "name": "princess",
       "back": "Princess"
     },
     {
-      "id": "264",
       "name": "pyjamas",
       "back": "Pyjamas"
     },
     {
-      "id": "265",
       "name": "queen",
       "back": "Queen",
       "front_description": "________ Elizabeth"
     },
     {
-      "id": "266",
       "name": "restaurant",
       "back": "Restaurant"
     },
     {
-      "id": "267",
       "name": "roof",
       "back": "Roof"
     },
     {
-      "id": "268",
       "name": "room",
       "back": "Room"
     },
     {
-      "id": "269",
       "name": "salt",
       "back": "Salt"
     },
     {
-      "id": "270",
       "name": "sandwich",
       "back": "Sandwich"
     },
     {
-      "id": "271",
       "name": "santa_claus",
       "back": "Santa claus"
     },
     {
-      "id": "272",
       "name": "school",
       "back": "School",
       "front_description": "A place where children study"
     },
     {
-      "id": "273",
       "name": "season",
       "back": "Season",
       "front_description": "Spring, summer, autumn, or winter"
     },
     {
-      "id": "274",
       "name": "seventy",
       "back": "Seventy"
     },
     {
-      "id": "275",
       "name": "seventy_one",
       "back": "Seventy one"
     },
     {
-      "id": "276",
       "name": "seventy_two",
       "back": "Seventy two"
     },
     {
-      "id": "277",
       "name": "shirt",
       "back": "Shirt"
     },
     {
-      "id": "278",
       "name": "short",
       "back": "Short"
     },
     {
-      "id": "279",
       "name": "sixty",
       "back": "Sixty"
     },
     {
-      "id": "280",
       "name": "sixty_one",
       "back": "Sixty one"
     },
     {
-      "id": "281",
       "name": "sixty_two",
       "back": "Sixty two"
     },
     {
-      "id": "282",
       "name": "small",
       "back": "Small"
     },
     {
-      "id": "283",
       "name": "son",
       "back": "Son",
       "front_description": "A male child in a Family"
     },
     {
-      "id": "284",
       "name": "space",
       "back": "Space"
     },
     {
-      "id": "285",
       "name": "spring",
       "back": "Spring",
       "front_description": "The season after Winter"
     },
     {
-      "id": "286",
       "name": "student",
       "back": "Student"
     },
     {
-      "id": "287",
       "name": "summer",
       "back": "Summer",
       "front_description": "The season after Spring"
     },
     {
-      "id": "288",
       "name": "teaspoon",
       "back": "Teaspoon",
       "front_description": "A small spoon used for stirring tea or coffee"
     },
     {
-      "id": "289",
       "name": "tea",
       "back": "Tea"
     },
     {
-      "id": "290",
       "name": "thirty",
       "back": "Thirty"
     },
     {
-      "id": "291",
       "name": "thirty_one",
       "back": "Thirty one"
     },
     {
-      "id": "292",
       "name": "thirty_two",
       "back": "Thirty two"
     },
     {
-      "id": "293",
       "name": "transportation",
       "back": "Transportation"
     },
     {
-      "id": "294",
       "name": "toast",
       "back": "Toast"
     },
     {
-      "id": "295",
       "name": "t-shirt",
       "back": "T-Shirt"
     },
     {
-      "id": "296",
       "name": "twenty_one",
       "back": "Twenty one"
     },
     {
-      "id": "297",
       "name": "twenty_two",
       "back": "Twenty two"
     },
     {
-      "id": "298",
       "name": "umbrella",
       "back": "Umbrella"
     },
     {
-      "id": "299",
       "name": "wall",
       "back": "Wall"
     },
     {
-      "id": "300",
       "name": "winter",
       "back": "Winter",
       "front_description": "The season after Autumn"
