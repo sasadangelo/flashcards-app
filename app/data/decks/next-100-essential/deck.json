@@ -13,7 +13,7 @@
     {
       "name": "animal",
       "back": "Animal",
-      "front_description": "A living creature like a giraffe, elephant, or tiger",
+      "front_note": "A living creature like a giraffe, elephant, or tiger",
       "categories": [
         "Animals"
       ]
@@ -28,7 +28,7 @@
     {
       "name": "bad",
       "back": "Bad",
-      "front_description": "Opposite of good",
+      "front_note": "Opposite of good",
       "categories": [
         "Adjectives"
       ]
@@ -190,7 +190,7 @@
     {
       "name": "face",
       "back": "Face",
-      "front_description": "The front part of the head showing eyes, nose, mouth, and expression",
+      "front_note": "The front part of the head showing eyes, nose, mouth, and expression",
       "categories": [
         "Body"
       ]
@@ -268,7 +268,7 @@
     {
       "name": "good",
       "back": "Good",
-      "front_description": "Opposite of bad",
+      "front_note": "Opposite of bad",
       "categories": [
         "Adjectives"
       ]
@@ -276,7 +276,7 @@
     {
       "name": "good_afternoon",
       "back": "Good afternoon",
-      "front_description": "Greet someone between lunch and early evening",
+      "front_note": "Greet someone between lunch and early evening",
       "categories": [
         "Society"
       ]
@@ -284,7 +284,7 @@
     {
       "name": "good_evening",
       "back": "Good evening",
-      "front_description": "Greet someone after 6 PM until nighttime",
+      "front_note": "Greet someone after 6 PM until nighttime",
       "categories": [
         "Society"
       ]
@@ -292,7 +292,7 @@
     {
       "name": "good_morning",
       "back": "Good morning",
-      "front_description": "Greet someone early in the day",
+      "front_note": "Greet someone early in the day",
       "categories": [
         "Society"
       ]
@@ -300,7 +300,7 @@
     {
       "name": "good_night",
       "back": "Good night",
-      "front_description": "Greet someone late in the evening before sleeping",
+      "front_note": "Greet someone late in the evening before sleeping",
       "categories": [
         "Society"
       ]
@@ -308,7 +308,7 @@
     {
       "name": "goodbye",
       "back": "Goodbye",
-      "front_description": "A polite way to say farewell or see you later",
+      "front_note": "A polite way to say farewell or see you later",
       "categories": [
         "Society"
       ]
@@ -337,7 +337,7 @@
     {
       "name": "head",
       "back": "Head",
-      "front_description": "The top part of the body that holds the brain, eyes, ears, nose, and mouth",
+      "front_note": "The top part of the body that holds the brain, eyes, ears, nose, and mouth",
       "categories": [
         "Body"
       ]
@@ -359,7 +359,7 @@
     {
       "name": "hello",
       "back": "Hello",
-      "front_description": "Greeting between friends",
+      "front_note": "Greeting between friends",
       "categories": [
         "Society"
       ]
@@ -444,7 +444,7 @@
     {
       "name": "no",
       "back": "No",
-      "front_description": "Opposite of yes",
+      "front_note": "Opposite of yes",
       "categories": [
         "Miscellaneous"
       ]
@@ -529,7 +529,7 @@
     {
       "name": "road",
       "back": "Road",
-      "front_description": "Path connecting places, town or countryside",
+      "front_note": "Path connecting places, town or countryside",
       "categories": [
         "Location"
       ]
@@ -628,7 +628,7 @@
     {
       "name": "song",
       "back": "Song",
-      "front_description": "She is singing a ________",
+      "front_note": "She is singing a ________",
       "categories": [
         "Art"
       ]
@@ -643,7 +643,7 @@
     {
       "name": "street",
       "back": "Street",
-      "front_description": "Road in a town with buildings",
+      "front_note": "Road in a town with buildings",
       "categories": [
         "Location"
       ]
@@ -707,7 +707,7 @@
     {
       "name": "wind",
       "back": "Wind",
-      "front_description": "Air in motion",
+      "front_note": "Air in motion",
       "categories": [
         "Nature"
       ]
@@ -715,7 +715,7 @@
     {
       "name": "yes",
       "back": "Yes",
-      "front_description": "Opposite of no",
+      "front_note": "Opposite of no",
       "categories": [
         "Miscellaneous"
       ]
