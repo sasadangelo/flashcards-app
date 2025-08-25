@@ -5,420 +5,720 @@
   "cards": [
     {
       "name": "airplane",
-      "back": "Airplane"
+      "back": "Airplane",
+      "categories": [
+        "Transportation"
+      ]
     },
     {
       "name": "animal",
       "back": "Animal",
-      "front_description": "A living creature like a giraffe, elephant, or tiger"
+      "front_description": "A living creature like a giraffe, elephant, or tiger",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "arm",
-      "back": "Arm"
-    },
-    {
-      "name": "back",
-      "back": "Back"
+      "back": "Arm",
+      "categories": [
+        "Body"
+      ]
     },
     {
       "name": "bad",
       "back": "Bad",
-      "front_description": "Opposite of good"
+      "front_description": "Opposite of good",
+      "categories": [
+        "Adjectives"
+      ]
+    },
+    {
+      "name": "back_body",
+      "back": "Back",
+      "categories": [
+        "Body"
+      ]
     },
     {
       "name": "ball",
-      "back": "Ball"
+      "back": "Ball",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "bat",
-      "back": "Bat"
+      "back": "Bat",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "bee",
-      "back": "Bee"
+      "back": "Bee",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "bell",
-      "back": "Bell"
+      "back": "Bell",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "boat",
-      "back": "Boat"
+      "back": "Boat",
+      "categories": [
+        "Transportation"
+      ]
     },
     {
       "name": "body",
-      "back": "Body"
+      "back": "Body",
+      "categories": [
+        "Body"
+      ]
     },
     {
       "name": "bottle",
-      "back": "Bottle"
+      "back": "Bottle",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "brother",
-      "back": "Brother"
+      "back": "Brother",
+      "categories": [
+        "People"
+      ]
     },
     {
       "name": "bus",
-      "back": "Bus"
+      "back": "Bus",
+      "categories": [
+        "Transportation"
+      ]
     },
     {
       "name": "chick",
-      "back": "Chick"
+      "back": "Chick",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "city",
-      "back": "City"
+      "back": "City",
+      "categories": [
+        "Location"
+      ]
     },
     {
       "name": "color",
-      "back": "Color"
+      "back": "Color",
+      "categories": [
+        "Colors"
+      ]
     },
     {
       "name": "cricket",
-      "back": "Cricket"
+      "back": "Cricket",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "cupboard",
-      "back": "Cupboard"
+      "back": "Cupboard",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "dance",
-      "back": "Dance"
+      "back": "Dance",
+      "categories": [
+        "Verb"
+      ]
     },
     {
       "name": "dress",
-      "back": "Dress"
+      "back": "Dress",
+      "categories": [
+        "Clothing"
+      ]
     },
     {
       "name": "drum",
-      "back": "Drum"
+      "back": "Drum",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "ear",
-      "back": "Ear"
+      "back": "Ear",
+      "categories": [
+        "Body"
+      ]
     },
     {
       "name": "eighteen",
-      "back": "Eighteen"
+      "back": "Eighteen",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "eleven",
-      "back": "Eleven"
+      "back": "Eleven",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "eye",
-      "back": "Eye"
+      "back": "Eye",
+      "categories": [
+        "Body"
+      ]
     },
     {
       "name": "face",
       "back": "Face",
-      "front_description": "The front part of the head showing eyes, nose, mouth, and expression"
+      "front_description": "The front part of the head showing eyes, nose, mouth, and expression",
+      "categories": [
+        "Body"
+      ]
     },
     {
       "name": "fifteen",
-      "back": "Fifteen"
+      "back": "Fifteen",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "finger",
-      "back": "Finger"
+      "back": "Finger",
+      "categories": [
+        "Body"
+      ]
     },
     {
       "name": "foot",
-      "back": "Foot"
+      "back": "Foot",
+      "categories": [
+        "Body"
+      ]
     },
     {
       "name": "fourteen",
-      "back": "Fourteen"
+      "back": "Fourteen",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "fox",
-      "back": "Fox"
+      "back": "Fox",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "game",
-      "back": "Game"
+      "back": "Game",
+      "categories": [
+        "Society"
+      ]
     },
     {
       "name": "garden",
-      "back": "Garden"
+      "back": "Garden",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "giraffe",
-      "back": "Giraffe"
+      "back": "Giraffe",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "glasses",
-      "back": "Glasses"
+      "back": "Glasses",
+      "categories": [
+        "Clothing"
+      ]
     },
     {
       "name": "glove",
-      "back": "Glove"
+      "back": "Glove",
+      "categories": [
+        "Clothing"
+      ]
     },
     {
       "name": "good",
       "back": "Good",
-      "front_description": "Opposite of bad"
+      "front_description": "Opposite of bad",
+      "categories": [
+        "Adjectives"
+      ]
     },
     {
       "name": "good_afternoon",
       "back": "Good afternoon",
-      "front_description": "Greet someone between lunch and early evening"
+      "front_description": "Greet someone between lunch and early evening",
+      "categories": [
+        "Society"
+      ]
     },
     {
       "name": "good_evening",
       "back": "Good evening",
-      "front_description": "Greet someone after 6 PM until nighttime"
+      "front_description": "Greet someone after 6 PM until nighttime",
+      "categories": [
+        "Society"
+      ]
     },
     {
       "name": "good_morning",
       "back": "Good morning",
-      "front_description": "Greet someone early in the day"
+      "front_description": "Greet someone early in the day",
+      "categories": [
+        "Society"
+      ]
     },
     {
       "name": "good_night",
       "back": "Good night",
-      "front_description": "Greet someone late in the evening before sleeping"
+      "front_description": "Greet someone late in the evening before sleeping",
+      "categories": [
+        "Society"
+      ]
     },
     {
       "name": "goodbye",
       "back": "Goodbye",
-      "front_description": "A polite way to say farewell or see you later"
+      "front_description": "A polite way to say farewell or see you later",
+      "categories": [
+        "Society"
+      ]
     },
     {
       "name": "grey",
-      "back": "Grey"
+      "back": "Grey",
+      "categories": [
+        "Colors"
+      ]
     },
     {
       "name": "hair",
-      "back": "Hair"
+      "back": "Hair",
+      "categories": [
+        "Body"
+      ]
     },
     {
       "name": "hand",
-      "back": "Hand"
+      "back": "Hand",
+      "categories": [
+        "Body"
+      ]
     },
     {
       "name": "head",
       "back": "Head",
-      "front_description": "The top part of the body that holds the brain, eyes, ears, nose, and mouth"
+      "front_description": "The top part of the body that holds the brain, eyes, ears, nose, and mouth",
+      "categories": [
+        "Body"
+      ]
     },
     {
       "name": "heart",
-      "back": "Heart"
+      "back": "Heart",
+      "categories": [
+        "Body"
+      ]
     },
     {
       "name": "helicopter",
-      "back": "Helicopter"
+      "back": "Helicopter",
+      "categories": [
+        "Transportation"
+      ]
     },
     {
       "name": "hello",
       "back": "Hello",
-      "front_description": "Greeting between friends"
+      "front_description": "Greeting between friends",
+      "categories": [
+        "Society"
+      ]
     },
     {
       "name": "house",
-      "back": "House"
+      "back": "House",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "ice",
-      "back": "Ice"
+      "back": "Ice",
+      "categories": [
+        "Nature"
+      ]
     },
     {
       "name": "knee",
-      "back": "Knee"
+      "back": "Knee",
+      "categories": [
+        "Body"
+      ]
     },
     {
       "name": "leg",
-      "back": "Leg"
+      "back": "Leg",
+      "categories": [
+        "Body"
+      ]
     },
     {
       "name": "lemon",
-      "back": "Lemon"
+      "back": "Lemon",
+      "categories": [
+        "Food"
+      ]
     },
     {
       "name": "marker",
-      "back": "Marker"
+      "back": "Marker",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "mountain",
-      "back": "Mountain"
+      "back": "Mountain",
+      "categories": [
+        "Nature"
+      ]
     },
     {
       "name": "mouth",
-      "back": "Mouth"
+      "back": "Mouth",
+      "categories": [
+        "Body"
+      ]
     },
     {
       "name": "music",
-      "back": "Music"
+      "back": "Music",
+      "categories": [
+        "Art"
+      ]
     },
     {
       "name": "neck",
-      "back": "Neck"
+      "back": "Neck",
+      "categories": [
+        "Body"
+      ]
     },
     {
       "name": "nineteen",
-      "back": "Nineteen"
+      "back": "Nineteen",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "no",
       "back": "No",
-      "front_description": "Opposite of yes"
+      "front_description": "Opposite of yes",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "nose",
-      "back": "Nose"
+      "back": "Nose",
+      "categories": [
+        "Body"
+      ]
     },
     {
       "name": "notebook",
-      "back": "Notebook"
+      "back": "Notebook",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "pants",
-      "back": "Pants"
+      "back": "Pants",
+      "categories": [
+        "Clothing"
+      ]
     },
     {
       "name": "park",
-      "back": "Park"
+      "back": "Park",
+      "categories": [
+        "Location"
+      ]
     },
     {
       "name": "parrot",
-      "back": "Parrot"
+      "back": "Parrot",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "pear",
-      "back": "Pear"
+      "back": "Pear",
+      "categories": [
+        "Food"
+      ]
     },
     {
       "name": "pencil",
-      "back": "Pencil"
+      "back": "Pencil",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "pencil_case",
-      "back": "Pencil case"
+      "back": "Pencil case",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "pizza",
-      "back": "Pizza"
+      "back": "Pizza",
+      "categories": [
+        "Food"
+      ]
     },
     {
       "name": "rainbow",
-      "back": "Rainbow"
+      "back": "Rainbow",
+      "categories": [
+        "Nature"
+      ]
     },
     {
       "name": "river",
-      "back": "River"
+      "back": "River",
+      "categories": [
+        "Nature"
+      ]
     },
     {
       "name": "road",
       "back": "Road",
-      "front_description": "Path connecting places, town or countryside"
+      "front_description": "Path connecting places, town or countryside",
+      "categories": [
+        "Location"
+      ]
     },
     {
       "name": "rubber",
-      "back": "Rubber"
+      "back": "Rubber",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "ruler",
-      "back": "Ruler"
+      "back": "Ruler",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "seventeen",
-      "back": "Seventeen"
+      "back": "Seventeen",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "sharpener",
-      "back": "Sharpener"
+      "back": "Sharpener",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "ship",
-      "back": "Ship"
+      "back": "Ship",
+      "categories": [
+        "Transportation"
+      ]
     },
     {
       "name": "shirt",
-      "back": "Shirt"
+      "back": "Shirt",
+      "categories": [
+        "Clothing"
+      ]
     },
     {
       "name": "shoe",
-      "back": "Shoe"
+      "back": "Shoe",
+      "categories": [
+        "Clothing"
+      ]
     },
     {
       "name": "shoulder",
-      "back": "Shoulder"
+      "back": "Shoulder",
+      "categories": [
+        "Body"
+      ]
     },
     {
       "name": "sister",
-      "back": "Sister"
+      "back": "Sister",
+      "categories": [
+        "People"
+      ]
     },
     {
       "name": "sixteen",
-      "back": "Sixteen"
+      "back": "Sixteen",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "skirt",
-      "back": "Skirt"
+      "back": "Skirt",
+      "categories": [
+        "Clothing"
+      ]
     },
     {
       "name": "sky",
-      "back": "Sky"
+      "back": "Sky",
+      "categories": [
+        "Nature"
+      ]
     },
     {
       "name": "sock",
-      "back": "Sock"
+      "back": "Sock",
+      "categories": [
+        "Clothing"
+      ]
     },
     {
       "name": "song",
       "back": "Song",
-      "front_description": "She is singing a ________"
+      "front_description": "She is singing a ________",
+      "categories": [
+        "Art"
+      ]
     },
     {
       "name": "spider",
-      "back": "Spider"
+      "back": "Spider",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "street",
       "back": "Street",
-      "front_description": "Road in a town with buildings"
+      "front_description": "Road in a town with buildings",
+      "categories": [
+        "Location"
+      ]
     },
     {
       "name": "thirteen",
-      "back": "Thirteen"
+      "back": "Thirteen",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "toe",
-      "back": "Toe"
+      "back": "Toe",
+      "categories": [
+        "Body"
+      ]
     },
     {
       "name": "tooth",
-      "back": "Tooth"
+      "back": "Tooth",
+      "categories": [
+        "Body"
+      ]
     },
     {
       "name": "toy",
-      "back": "Toy"
+      "back": "Toy",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "train",
-      "back": "Train"
+      "back": "Train",
+      "categories": [
+        "Transportation"
+      ]
     },
     {
       "name": "turtle",
-      "back": "Turtle"
+      "back": "Turtle",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "twelve",
-      "back": "Twelve"
+      "back": "Twelve",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "twenty",
-      "back": "Twenty"
+      "back": "Twenty",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "wind",
       "back": "Wind",
-      "front_description": "Air in motion"
+      "front_description": "Air in motion",
+      "categories": [
+        "Nature"
+      ]
     },
     {
       "name": "yes",
       "back": "Yes",
-      "front_description": "Opposite of no"
+      "front_description": "Opposite of no",
+      "categories": [
+        "Miscellaneous"
+      ]
     }
   ]
 }

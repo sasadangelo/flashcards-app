@@ -5,404 +5,705 @@
   "cards": [
     {
       "name": "apple",
-      "back": "Apple"
+      "back": "Apple",
+      "categories": [
+        "Food"
+      ]
     },
     {
       "name": "baby",
-      "back": "Baby"
+      "back": "Baby",
+      "categories": [
+        "People"
+      ]
     },
     {
       "name": "bag",
-      "back": "Bag"
+      "back": "Bag",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "banana",
-      "back": "Banana"
+      "back": "Banana",
+      "categories": [
+        "Food"
+      ]
     },
     {
       "name": "bear",
-      "back": "Bear"
+      "back": "Bear",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "bed",
-      "back": "Bed"
+      "back": "Bed",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "bicycle",
-      "back": "Bicycle"
+      "back": "Bicycle",
+      "categories": [
+        "Transportation"
+      ]
     },
     {
       "name": "bird",
-      "back": "Bird"
+      "back": "Bird",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "black",
-      "back": "Black"
+      "back": "Black",
+      "categories": [
+        "Colors"
+      ]
     },
     {
       "name": "blue",
-      "back": "Blue"
+      "back": "Blue",
+      "categories": [
+        "Colors"
+      ]
     },
     {
       "name": "book",
-      "back": "Book"
+      "back": "Book",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "boy",
-      "back": "Boy"
+      "back": "Boy",
+      "categories": [
+        "People"
+      ]
     },
     {
       "name": "bread",
-      "back": "Bread"
+      "back": "Bread",
+      "categories": [
+        "Food"
+      ]
     },
     {
       "name": "brown",
-      "back": "Brown"
+      "back": "Brown",
+      "categories": [
+        "Colors"
+      ]
     },
     {
       "name": "butter",
-      "back": "Butter"
+      "back": "Butter",
+      "categories": [
+        "Food"
+      ]
     },
     {
       "name": "cake",
-      "back": "Cake"
+      "back": "Cake",
+      "categories": [
+        "Food"
+      ]
     },
     {
       "name": "car",
-      "back": "Car"
+      "back": "Car",
+      "categories": [
+        "Transportation"
+      ]
     },
     {
       "name": "carrot",
-      "back": "Carrot"
+      "back": "Carrot",
+      "categories": [
+        "Food"
+      ]
     },
     {
       "name": "cat",
-      "back": "Cat"
+      "back": "Cat",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "chair",
-      "back": "Chair"
+      "back": "Chair",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "cheese",
-      "back": "Cheese"
+      "back": "Cheese",
+      "categories": [
+        "Food"
+      ]
     },
     {
       "name": "chicken",
-      "back": "Chicken"
+      "back": "Chicken",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "child",
-      "back": "Child"
+      "back": "Child",
+      "categories": [
+        "People"
+      ]
     },
     {
       "name": "clock",
-      "back": "Clock"
+      "back": "Clock",
+      "categories": [
+        "Electronics"
+      ]
     },
     {
       "name": "cloud",
-      "back": "Cloud"
+      "back": "Cloud",
+      "categories": [
+        "Nature"
+      ]
     },
     {
       "name": "cookie",
-      "back": "Cookie"
+      "back": "Cookie",
+      "categories": [
+        "Food"
+      ]
     },
     {
       "name": "cow",
-      "back": "Cow"
+      "back": "Cow",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "cup",
-      "back": "Cup"
+      "back": "Cup",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "dog",
-      "back": "Dog"
+      "back": "Dog",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "door",
-      "back": "Door"
+      "back": "Door",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "duck",
-      "back": "Duck"
+      "back": "Duck",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "egg",
-      "back": "Egg"
+      "back": "Egg",
+      "categories": [
+        "Food"
+      ]
     },
     {
       "name": "eight",
-      "back": "Eight"
+      "back": "Eight",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "elephant",
-      "back": "Elephant"
+      "back": "Elephant",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "father",
-      "back": "Father"
+      "back": "Father",
+      "categories": [
+        "People"
+      ]
     },
     {
       "name": "fire",
-      "back": "Fire"
+      "back": "Fire",
+      "categories": [
+        "Nature"
+      ]
     },
     {
       "name": "fish",
-      "back": "Fish"
+      "back": "Fish",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "five",
-      "back": "Five"
+      "back": "Five",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "flower",
-      "back": "Flower"
+      "back": "Flower",
+      "categories": [
+        "Nature"
+      ]
     },
     {
       "name": "fork",
-      "back": "Fork"
+      "back": "Fork",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "four",
-      "back": "Four"
+      "back": "Four",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "friends",
-      "back": "Friends"
+      "back": "Friends",
+      "categories": [
+        "People"
+      ]
     },
     {
       "name": "frog",
-      "back": "Frog"
+      "back": "Frog",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "girl",
-      "back": "Girl"
+      "back": "Girl",
+      "categories": [
+        "People"
+      ]
     },
     {
       "name": "goat",
-      "back": "Goat"
+      "back": "Goat",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "grape",
-      "back": "Grape"
+      "back": "Grape",
+      "categories": [
+        "Food"
+      ]
     },
     {
       "name": "grass",
-      "back": "Grass"
+      "back": "Grass",
+      "categories": [
+        "Nature"
+      ]
     },
     {
       "name": "green",
-      "back": "Green"
+      "back": "Green",
+      "categories": [
+        "Colors"
+      ]
     },
     {
       "name": "hat",
-      "back": "Hat"
+      "back": "Hat",
+      "categories": [
+        "Clothing"
+      ]
     },
     {
       "name": "horse",
-      "back": "Horse"
+      "back": "Horse",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "ice_cream",
-      "back": "Ice Cream"
+      "back": "Ice Cream",
+      "categories": [
+        "Food"
+      ]
     },
     {
       "name": "key",
-      "back": "Key"
+      "back": "Key",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "lamp",
-      "back": "Lamp"
+      "back": "Lamp",
+      "categories": [
+        "Electronics"
+      ]
     },
     {
       "name": "lion",
-      "back": "Lion"
+      "back": "Lion",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "man",
-      "back": "Man"
+      "back": "Man",
+      "categories": [
+        "People"
+      ]
     },
     {
       "name": "meat",
-      "back": "Meat"
+      "back": "Meat",
+      "categories": [
+        "Food"
+      ]
     },
     {
       "name": "milk",
-      "back": "Milk"
+      "back": "Milk",
+      "categories": [
+        "Beverages"
+      ]
     },
     {
       "name": "monkey",
-      "back": "Monkey"
+      "back": "Monkey",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "moon",
-      "back": "Moon"
+      "back": "Moon",
+      "categories": [
+        "Nature"
+      ]
     },
     {
       "name": "mother",
-      "back": "Mother"
+      "back": "Mother",
+      "categories": [
+        "People"
+      ]
     },
     {
       "name": "mouse",
-      "back": "Mouse"
+      "back": "Mouse",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "nine",
-      "back": "Nine"
+      "back": "Nine",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "one",
-      "back": "One"
+      "back": "One",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "orange_color",
-      "back": "Orange"
+      "back": "Orange",
+      "categories": [
+        "Colors"
+      ]
     },
     {
       "name": "orange_fruit",
-      "back": "Orange"
+      "back": "Orange",
+      "categories": [
+        "Food"
+      ]
     },
     {
       "name": "pasta",
-      "back": "Pasta"
+      "back": "Pasta",
+      "categories": [
+        "Food"
+      ]
     },
     {
       "name": "pen",
-      "back": "Pen"
+      "back": "Pen",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "telephone",
-      "back": "Telephone"
+      "back": "Telephone",
+      "categories": [
+        "Electronics"
+      ]
     },
     {
       "name": "pig",
-      "back": "Pig"
+      "back": "Pig",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "pink",
-      "back": "Pink"
+      "back": "Pink",
+      "categories": [
+        "Colors"
+      ]
     },
     {
       "name": "plate",
-      "back": "Plate"
+      "back": "Plate",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "potato",
-      "back": "Potato"
+      "back": "Potato",
+      "categories": [
+        "Food"
+      ]
     },
     {
       "name": "purple",
-      "back": "Purple"
+      "back": "Purple",
+      "categories": [
+        "Colors"
+      ]
     },
     {
       "name": "rabbit",
-      "back": "Rabbit"
+      "back": "Rabbit",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "rain",
-      "back": "Rain"
+      "back": "Rain",
+      "categories": [
+        "Nature"
+      ]
     },
     {
       "name": "red",
-      "back": "Red"
+      "back": "Red",
+      "categories": [
+        "Colors"
+      ]
     },
     {
       "name": "rice",
-      "back": "Rice"
+      "back": "Rice",
+      "categories": [
+        "Food"
+      ]
     },
     {
       "name": "seven",
-      "back": "Seven"
+      "back": "Seven",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "sheep",
-      "back": "Sheep"
+      "back": "Sheep",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "shoe",
-      "back": "Shoe"
+      "back": "Shoe",
+      "categories": [
+        "Clothing"
+      ]
     },
     {
       "name": "six",
-      "back": "Six"
+      "back": "Six",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "snake",
-      "back": "Snake"
+      "back": "Snake",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "snow",
-      "back": "Snow"
+      "back": "Snow",
+      "categories": [
+        "Nature",
+        "Seasons"
+      ]
     },
     {
       "name": "soup",
-      "back": "Soup"
+      "back": "Soup",
+      "categories": [
+        "Food"
+      ]
     },
     {
       "name": "spoon",
       "back": "Spoon",
-      "front_description": "A general eating utensil with a shallow bowl and a handle"
+      "front_description": "A general eating utensil with a shallow bowl and a handle",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "star",
-      "back": "Star"
+      "back": "Star",
+      "categories": [
+        "Nature"
+      ]
     },
     {
       "name": "sun",
-      "back": "Sun"
+      "back": "Sun",
+      "categories": [
+        "Nature"
+      ]
     },
     {
       "name": "table",
-      "back": "Table"
+      "back": "Table",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "teacher",
-      "back": "Teacher"
+      "back": "Teacher",
+      "categories": [
+        "Job"
+      ]
     },
     {
       "name": "ten",
-      "back": "Ten"
+      "back": "Ten",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "three",
-      "back": "Three"
+      "back": "Three",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "tiger",
-      "back": "Tiger"
+      "back": "Tiger",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "tomato",
-      "back": "Tomato"
+      "back": "Tomato",
+      "categories": [
+        "Food"
+      ]
     },
     {
       "name": "tree",
-      "back": "Tree"
+      "back": "Tree",
+      "categories": [
+        "Nature"
+      ]
     },
     {
       "name": "two",
-      "back": "Two"
+      "back": "Two",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "water",
-      "back": "Water"
+      "back": "Water",
+      "categories": [
+        "Beverages"
+      ]
     },
     {
       "name": "white",
-      "back": "White"
+      "back": "White",
+      "categories": [
+        "Colors"
+      ]
     },
     {
       "name": "window",
-      "back": "Window"
+      "back": "Window",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "woman",
-      "back": "Woman"
+      "back": "Woman",
+      "categories": [
+        "People"
+      ]
     },
     {
       "name": "yellow",
-      "back": "Yellow"
+      "back": "Yellow",
+      "categories": [
+        "Colors"
+      ]
     }
   ]
 }
