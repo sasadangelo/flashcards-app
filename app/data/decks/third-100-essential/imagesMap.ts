@@ -55,7 +55,7 @@ export const imagesMap: { [key: string]: any } = {
   "ninety_one": require('./images/ninety_one.png'),
   "ninety_two": require('./images/ninety_two.png'),
   "oil": require('./images/oil.png'),
-  "old": require('./images/old.png'),
+  "old_object": require('./images/old_object.png'),
   "one_hundred": require('./images/one_hundred.png'),
   "paper": require('./images/paper.png'),
   "plant": require('./images/plant.png'),

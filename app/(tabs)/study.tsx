@@ -148,6 +148,17 @@ export default function StudyScreen() {
                         {card.front_description && (
                             <Text style={styles.frontDescription}>{card.front_description}</Text>
                         )}
+
+                        {card.categories && card.categories.length > 0 && (
+                            <View style={styles.categoriesContainer}>
+                                {card.categories.map((cat: string, index: number) => (
+                                    <View key={index} style={styles.categoryBadge}>
+                                        <Ionicons name="pricetag" size={16} color="#555" style={{ marginRight: 4 }} />
+                                        <Text style={styles.categoryText}>{cat}</Text>
+                                    </View>
+                                ))}
+                            </View>
+                        )}
                     </>
                 ) : (
                     <>
@@ -233,5 +244,26 @@ const styles = StyleSheet.create({
         fontSize: 18,
         marginBottom: 5,
         color: '#888',
+    },
+    categoriesContainer: {
+        flexDirection: 'row',
+        flexWrap: 'wrap',
+        justifyContent: 'center',
+        marginTop: 8,
+        width: '100%',
+    },
+    categoryBadge: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        backgroundColor: '#eee',
+        paddingHorizontal: 6,
+        paddingVertical: 2,
+        borderRadius: 8,
+        marginRight: 6,
+        marginBottom: 6,
+    },
+    categoryText: {
+        fontSize: 12,
+        color: '#333',
     },
 });

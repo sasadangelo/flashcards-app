@@ -7,6 +7,7 @@ export interface CardData {
     name: string;
     back: string;
     front_description?: string;
+    categories: string[];
 }
 
 const logger = log.extend('Card');
@@ -16,12 +17,14 @@ export class Card {
     name: string;
     back: string;
     front_description?: string;
+    categories: string[];
 
-    constructor({ id, name, back, front_description }: CardData) {
+    constructor({ id, name, back, front_description, categories }: CardData) {
         this.id = id;
         this.name = name;
         this.back = back;
         this.front_description = front_description;
+        this.categories = categories;
     }
 
     async getNextReviewDate(): Promise<Date | null> {
