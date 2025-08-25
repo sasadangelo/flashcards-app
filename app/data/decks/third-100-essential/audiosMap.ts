@@ -55,7 +55,7 @@ export const audiosMap: { [key: string]: any } = {
   "ninety_one": require('./audio/ninety_one.mp3'),
   "ninety_two": require('./audio/ninety_two.mp3'),
   "oil": require('./audio/oil.mp3'),
-  "old": require('./audio/old.mp3'),
+  "old_object": require('./audio/old_object.mp3'),
   "one_hundred": require('./audio/one_hundred.mp3'),
   "paper": require('./audio/paper.mp3'),
   "plant": require('./audio/plant.mp3'),

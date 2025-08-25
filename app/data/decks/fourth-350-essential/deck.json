@@ -5,1461 +5,2511 @@
   "cards": [
     {
       "name": "adult",
-      "back": "Adult"
+      "back": "Adult",
+      "categories": [
+        "People"
+      ]
     },
     {
       "name": "afternoon",
       "back": "Afternoon",
-      "front_description": "Part of the day between 12:00 PM and 6:00 PM"
+      "front_description": "Part of the day between 12:00 PM and 6:00 PM",
+      "categories": [
+        "Time"
+      ]
     },
     {
       "name": "air",
       "back": "Air",
-      "front_description": "________ fills space around us"
+      "front_description": "________ fills space around us",
+      "categories": [
+        "Nature"
+      ]
     },
     {
       "name": "airport",
-      "back": "Airport"
+      "back": "Airport",
+      "categories": [
+        "Location"
+      ]
     },
     {
       "name": "ant",
-      "back": "Ant"
+      "back": "Ant",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "apartment",
       "back": "Apartment",
-      "front_description": "A set of rooms in a building for living"
+      "front_description": "A set of rooms in a building for living",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "april",
       "back": "April",
-      "front_description": "The 4th Month of the Year"
+      "front_description": "The 4th Month of the Year",
+      "categories": [
+        "Months"
+      ]
     },
     {
       "name": "armchair",
-      "back": "Armchair"
+      "back": "Armchair",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "art",
       "back": "Art",
-      "front_description": "She is making ________ (three letters)"
+      "front_description": "She is making ________ (three letters)",
+      "categories": [
+        "Art"
+      ]
     },
     {
       "name": "august",
       "back": "August",
-      "front_description": "The 8th Month of the Year"
+      "front_description": "The 8th Month of the Year",
+      "categories": [
+        "Months"
+      ]
     },
     {
-      "name": "back",
-      "back": "Back"
+      "name": "back_side",
+      "back": "Back",
+      "categories": [
+        "Body"
+      ]
     },
     {
       "name": "baseball",
-      "back": "Baseball"
+      "back": "Baseball",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "basketball",
-      "back": "Basketball"
+      "back": "Basketball",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "bath",
-      "back": "Bath"
+      "back": "Bath",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "beat",
-      "back": "Beat"
+      "back": "Beat",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "beer",
-      "back": "Beer"
+      "back": "Beer",
+      "categories": [
+        "Beverages"
+      ]
     },
     {
       "name": "beverages",
-      "back": "Beverages"
+      "back": "Beverages",
+      "categories": [
+        "Beverages"
+      ]
     },
     {
       "name": "bill",
-      "back": "Bill"
+      "back": "Bill",
+      "categories": [
+        "Society"
+      ]
     },
     {
       "name": "blackboard",
-      "back": "Blackboard"
+      "back": "Blackboard",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "blood",
-      "back": "Blood"
+      "back": "Blood",
+      "categories": [
+        "Body"
+      ]
     },
     {
       "name": "blueberry",
-      "back": "Blueberry"
+      "back": "Blueberry",
+      "categories": [
+        "Food"
+      ]
     },
     {
       "name": "boot",
-      "back": "Boot"
+      "back": "Boot",
+      "categories": [
+        "Clothing"
+      ]
     },
     {
       "name": "bottom",
-      "back": "Bottom"
+      "back": "Bottom",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "brain",
-      "back": "Brain"
+      "back": "Brain",
+      "categories": [
+        "Body"
+      ]
     },
     {
       "name": "break",
-      "back": "Break"
+      "back": "Break",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "breakfast",
       "back": "Breakfast",
-      "front_description": "Morning meal"
+      "front_description": "Morning meal",
+      "categories": [
+        "Food"
+      ]
     },
     {
       "name": "build",
-      "back": "Build"
+      "back": "Build",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "building",
-      "back": "Building"
+      "back": "Building",
+      "categories": [
+        "Location"
+      ]
     },
     {
       "name": "burn",
-      "back": "Burn"
+      "back": "Burn",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "business",
-      "back": "Business"
+      "back": "Business",
+      "categories": [
+        "Society"
+      ]
     },
     {
       "name": "button",
-      "back": "Button"
+      "back": "Button",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "buy",
-      "back": "Buy"
+      "back": "Buy",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "call",
-      "back": "Call"
+      "back": "Call",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "camera",
-      "back": "Camera"
+      "back": "Camera",
+      "categories": [
+        "Electronics"
+      ]
     },
     {
       "name": "camp",
-      "back": "Camp"
+      "back": "Camp",
+      "categories": [
+        "Location"
+      ]
     },
     {
       "name": "can",
-      "back": "Can"
+      "back": "Can",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "candle",
-      "back": "Candle"
+      "back": "Candle",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "card",
-      "back": "Card"
+      "back": "Card",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "carpet",
-      "back": "Carpet"
+      "back": "Carpet",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "carry",
-      "back": "Carry"
+      "back": "Carry",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "castle",
-      "back": "Castle"
+      "back": "Castle",
+      "categories": [
+        "Location"
+      ]
     },
     {
       "name": "catch",
-      "back": "Catch"
+      "back": "Catch",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "ceiling",
-      "back": "Ceiling"
+      "back": "Ceiling",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "centimeter",
       "back": "Centimeter",
-      "front_description": "1 __________ = 0.01 meter"
+      "front_description": "1 __________ = 0.01 meter",
+      "categories": [
+        "Math/Measurements"
+      ]
     },
     {
       "name": "chalk",
-      "back": "Chalk"
+      "back": "Chalk",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "chat",
-      "back": "Chat"
+      "back": "Chat",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "chemistry",
-      "back": "Chemistry"
+      "back": "Chemistry",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "chocolate",
-      "back": "Chocolate"
+      "back": "Chocolate",
+      "categories": [
+        "Food"
+      ]
     },
     {
       "name": "church",
-      "back": "Church"
+      "back": "Church",
+      "categories": [
+        "Location"
+      ]
     },
     {
       "name": "cinema",
       "back": "Cinema",
-      "front_description": "A place where people go to watch movies"
+      "front_description": "A place where people go to watch movies",
+      "categories": [
+        "Location"
+      ]
     },
     {
       "name": "classroom",
-      "back": "Classroom"
+      "back": "Classroom",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "clay",
-      "back": "Clay"
+      "back": "Clay",
+      "categories": [
+        "Materials"
+      ]
     },
     {
       "name": "clean",
-      "back": "Clean"
+      "back": "Clean",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "climb",
-      "back": "Climb"
+      "back": "Climb",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "close",
-      "back": "Close"
+      "back": "Close",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "clothes",
-      "back": "Clothes"
+      "back": "Clothes",
+      "categories": [
+        "Clothing"
+      ]
     },
     {
       "name": "comb",
-      "back": "Comb"
+      "back": "Comb",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "come",
-      "back": "Come"
+      "back": "Come",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "concert",
-      "back": "Concert"
+      "back": "Concert",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "cook",
-      "back": "Cook"
+      "back": "Cook",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "cool",
-      "back": "Cool"
+      "back": "Cool",
+      "categories": [
+        "Adjectives"
+      ]
     },
     {
       "name": "corn",
-      "back": "Corn"
+      "back": "Corn",
+      "categories": [
+        "Food"
+      ]
     },
     {
       "name": "corner",
-      "back": "Corner"
+      "back": "Corner",
+      "categories": [
+        "Location",
+        "Math/Measurements"
+      ]
     },
     {
       "name": "country",
       "back": "Country",
-      "front_description": "Nation with land and government"
+      "front_description": "Nation with land and government",
+      "categories": [
+        "Location"
+      ]
     },
     {
       "name": "cover",
-      "back": "Cover"
+      "back": "Cover",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "crash",
-      "back": "Crash"
+      "back": "Crash",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "crocodile",
-      "back": "Crocodile"
+      "back": "Crocodile",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "cry",
-      "back": "Cry"
+      "back": "Cry",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "cut",
-      "back": "Cut"
+      "back": "Cut",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "dark",
-      "back": "Dark"
+      "back": "Dark",
+      "categories": [
+        "Adjectives"
+      ]
     },
     {
       "name": "day",
       "back": "Day",
-      "front_description": "1 ________ = 24 hours"
+      "front_description": "1 ________ = 24 hours",
+      "categories": [
+        "Time"
+      ]
     },
     {
       "name": "death",
-      "back": "Death"
+      "back": "Death",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "december",
       "back": "December",
-      "front_description": "The 12th Month of the Year"
+      "front_description": "The 12th Month of the Year",
+      "categories": [
+        "Months"
+      ]
     },
     {
       "name": "deep",
-      "back": "Deep"
+      "back": "Deep",
+      "categories": [
+        "Adjectives"
+      ]
     },
     {
       "name": "desk",
-      "back": "Desk"
+      "back": "Desk",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "dictionary",
-      "back": "Dictionary"
+      "back": "Dictionary",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "die",
-      "back": "Die"
+      "back": "Die",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "dig",
-      "back": "Dig"
+      "back": "Dig",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "dinner",
       "back": "Dinner",
-      "front_description": "Evening meal"
+      "front_description": "Evening meal",
+      "categories": [
+        "Food"
+      ]
     },
     {
       "name": "direction",
-      "back": "Direction"
+      "back": "Direction",
+      "categories": [
+        "Directions"
+      ]
     },
     {
       "name": "dirty",
-      "back": "Dirty"
+      "back": "Dirty",
+      "categories": [
+        "Adjectives"
+      ]
     },
     {
       "name": "distance",
-      "back": "Distance"
+      "back": "Distance",
+      "categories": [
+        "Math/Measurements"
+      ]
     },
     {
       "name": "dollar",
-      "back": "Dollar"
+      "back": "Dollar",
+      "categories": [
+        "Society"
+      ]
     },
     {
       "name": "down",
-      "back": "Down"
+      "back": "Down",
+      "categories": [
+        "Directions"
+      ]
     },
     {
       "name": "dragon",
-      "back": "Dragon"
+      "back": "Dragon",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "draw",
-      "back": "Draw"
+      "back": "Draw",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "dream",
-      "back": "Dream"
+      "back": "Dream",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "drink",
-      "back": "Drink"
+      "back": "Drink",
+      "categories": [
+        "Beverages"
+      ]
     },
     {
       "name": "drive",
-      "back": "Drive"
+      "back": "Drive",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "drop",
-      "back": "Drop"
+      "back": "Drop",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "dry",
-      "back": "Dry"
+      "back": "Dry",
+      "categories": [
+        "Adjectives"
+      ]
     },
     {
       "name": "dust",
-      "back": "Dust"
+      "back": "Dust",
+      "categories": [
+        "Materials"
+      ]
     },
     {
       "name": "earth",
-      "back": "Earth"
+      "back": "Earth",
+      "categories": [
+        "Nature"
+      ]
     },
     {
       "name": "east",
-      "back": "East"
+      "back": "East",
+      "categories": [
+        "Directions"
+      ]
     },
     {
       "name": "eat",
-      "back": "Eat"
+      "back": "Eat",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "edge",
-      "back": "Edge"
+      "back": "Edge",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "elevator",
-      "back": "Elevator"
+      "back": "Elevator",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "empty",
-      "back": "Empty"
+      "back": "Empty",
+      "categories": [
+        "Adjectives"
+      ]
     },
     {
       "name": "engine",
-      "back": "Engine"
+      "back": "Engine",
+      "categories": [
+        "Electronics"
+      ]
     },
     {
       "name": "evening",
       "back": "Evening",
-      "front_description": "Part of the day between 6:00 PM and 9:00 PM"
+      "front_description": "Part of the day between 6:00 PM and 9:00 PM",
+      "categories": [
+        "Time"
+      ]
     },
     {
       "name": "exam",
-      "back": "Exam"
+      "back": "Exam",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "exercise",
-      "back": "Exercise"
+      "back": "Exercise",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "explode",
-      "back": "Explode"
+      "back": "Explode",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "fan",
-      "back": "Fan"
+      "back": "Fan",
+      "categories": [
+        "Electronics"
+      ]
     },
     {
       "name": "farm",
-      "back": "Farm"
+      "back": "Farm",
+      "categories": [
+        "Location"
+      ]
     },
     {
       "name": "fast",
-      "back": "Fast"
+      "back": "Fast",
+      "categories": [
+        "Adjectives"
+      ]
     },
     {
       "name": "fat",
-      "back": "Fat"
+      "back": "Fat",
+      "categories": [
+        "Adjectives"
+      ]
     },
     {
       "name": "feather",
-      "back": "Feather"
+      "back": "Feather",
+      "categories": [
+        "Nature"
+      ]
     },
     {
       "name": "february",
       "back": "February",
-      "front_description": "The 2nd Month of the Year"
+      "front_description": "The 2nd Month of the Year",
+      "categories": [
+        "Months"
+      ]
     },
     {
       "name": "feed",
-      "back": "Feed"
+      "back": "Feed",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "female",
-      "back": "Female"
+      "back": "Female",
+      "categories": [
+        "People"
+      ]
     },
     {
       "name": "festival",
-      "back": "Festival"
+      "back": "Festival",
+      "categories": [
+        "Society"
+      ]
     },
     {
       "name": "field",
       "back": "Field",
-      "front_description": "Soccer ________"
+      "front_description": "Soccer ________",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "fight",
-      "back": "Fight"
+      "back": "Fight",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "find",
-      "back": "Find"
-    },
-    {
-      "name": "finger",
-      "back": "Finger"
+      "back": "Find",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "first",
-      "back": "First"
+      "back": "First",
+      "categories": [
+        "Math/Measurements"
+      ]
     },
     {
       "name": "flag",
-      "back": "Flag"
+      "back": "Flag",
+      "categories": [
+        "Society"
+      ]
     },
     {
       "name": "fly",
-      "back": "Fly"
-    },
-    {
-      "name": "foot",
-      "back": "Foot"
+      "back": "Fly",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "football",
-      "back": "Football"
+      "back": "Football",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "footstep",
-      "back": "Footstep"
+      "back": "Footstep",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "forest",
-      "back": "Forest"
+      "back": "Forest",
+      "categories": [
+        "Nature"
+      ]
     },
     {
       "name": "form",
-      "back": "Form"
+      "back": "Form",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "friday",
       "back": "Friday",
-      "front_description": "The 5th Day of the Week"
+      "front_description": "The 5th Day of the Week",
+      "categories": [
+        "Day of the Week"
+      ]
     },
     {
       "name": "fridge",
-      "back": "Fridge"
+      "back": "Fridge",
+      "categories": [
+        "Electronics"
+      ]
     },
     {
       "name": "front",
-      "back": "Front"
+      "back": "Front",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "fruit",
-      "back": "Fruit"
+      "back": "Fruit",
+      "categories": [
+        "Food"
+      ]
     },
     {
       "name": "full",
-      "back": "Full"
+      "back": "Full",
+      "categories": [
+        "Adjectives"
+      ]
     },
     {
       "name": "future",
-      "back": "Future"
+      "back": "Future",
+      "categories": [
+        "Time"
+      ]
     },
     {
       "name": "garage",
-      "back": "Garage"
+      "back": "Garage",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "gas",
-      "back": "Gas"
+      "back": "Gas",
+      "categories": [
+        "Materials"
+      ]
     },
     {
       "name": "gate",
-      "back": "Gate"
+      "back": "Gate",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "give",
-      "back": "Give"
+      "back": "Give",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "go",
-      "back": "Go"
+      "back": "Go",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "god",
-      "back": "God"
+      "back": "God",
+      "categories": [
+        "Society"
+      ]
     },
     {
       "name": "gold",
-      "back": "Gold"
+      "back": "Gold",
+      "categories": [
+        "Materials"
+      ]
     },
     {
       "name": "government",
       "back": "Government",
-      "front_description": "Palace's ________"
+      "front_description": "Palace's ________",
+      "categories": [
+        "Society"
+      ]
     },
     {
       "name": "ground",
-      "back": "Ground"
+      "back": "Ground",
+      "categories": [
+        "Nature"
+      ]
     },
     {
       "name": "group",
-      "back": "Group"
+      "back": "Group",
+      "categories": [
+        "Society"
+      ]
     },
     {
       "name": "grow",
-      "back": "Grow"
+      "back": "Grow",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "guitar",
-      "back": "Guitar"
+      "back": "Guitar",
+      "categories": [
+        "Art"
+      ]
     },
     {
       "name": "gun",
-      "back": "Gun"
+      "back": "Gun",
+      "categories": [
+        "Society"
+      ]
     },
     {
       "name": "half",
-      "back": "Half"
+      "back": "Half",
+      "categories": [
+        "Math/Measurements"
+      ]
     },
     {
       "name": "hammer",
-      "back": "Hammer"
+      "back": "Hammer",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "happy",
-      "back": "Happy"
+      "back": "Happy",
+      "categories": [
+        "Adjectives"
+      ]
     },
     {
       "name": "hard",
-      "back": "Hard"
+      "back": "Hard",
+      "categories": [
+        "Adjectives"
+      ]
     },
     {
       "name": "health",
-      "back": "Health"
-    },
-    {
-      "name": "heart",
-      "back": "Heart"
+      "back": "Health",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "heat",
       "back": "Heat",
-      "front_description": "The energy that makes the air and objects very warm"
+      "front_description": "The energy that makes the air and objects very warm",
+      "categories": [
+        "Nature"
+      ]
     },
     {
       "name": "heaven",
       "back": "Heaven",
-      "front_description": "Place of God and angels"
+      "front_description": "Place of God and angels",
+      "categories": [
+        "Society"
+      ]
     },
     {
       "name": "heavy",
-      "back": "Heavy"
+      "back": "Heavy",
+      "categories": [
+        "Adjectives"
+      ]
     },
     {
       "name": "hell",
-      "back": "Hell"
+      "back": "Hell",
+      "categories": [
+        "Society"
+      ]
     },
     {
       "name": "help",
-      "back": "Help"
+      "back": "Help",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "hill",
-      "back": "Hill"
+      "back": "Hill",
+      "categories": [
+        "Nature"
+      ]
     },
     {
       "name": "hippo",
-      "back": "Hippo"
+      "back": "Hippo",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "hobby",
       "back": "Hobby",
-      "front_description": "An activity you enjoy doing in your free time"
+      "front_description": "An activity you enjoy doing in your free time",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "hole",
-      "back": "Hole"
+      "back": "Hole",
+      "categories": [
+        "Nature"
+      ]
     },
     {
       "name": "holiday",
-      "back": "Holiday"
+      "back": "Holiday",
+      "categories": [
+        "Society"
+      ]
     },
     {
       "name": "hot",
       "back": "Hot",
-      "front_description": "The temperature is ________"
+      "front_description": "The temperature is ________",
+      "categories": [
+        "Adjectives"
+      ]
     },
     {
       "name": "hour",
       "back": "Hour",
-      "front_description": "1 ________ = 60 minutes"
+      "front_description": "1 ________ = 60 minutes",
+      "categories": [
+        "Time"
+      ]
     },
     {
       "name": "idea",
-      "back": "Idea"
+      "back": "Idea",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "inch",
       "back": "Inch",
-      "front_description": "1 ________ = 2,54 cm"
+      "front_description": "1 ________ = 2,54 cm",
+      "categories": [
+        "Math/Measurements"
+      ]
     },
     {
       "name": "inside",
-      "back": "Inside"
+      "back": "Inside",
+      "categories": [
+        "Directions"
+      ]
     },
     {
       "name": "internet",
-      "back": "Internet"
+      "back": "Internet",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "invention",
-      "back": "Invention"
+      "back": "Invention",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "island",
       "back": "Island",
-      "front_description": "Land surrounded by water"
+      "front_description": "Land surrounded by water",
+      "categories": [
+        "Nature"
+      ]
     },
     {
       "name": "jail",
-      "back": "Jail"
+      "back": "Jail",
+      "categories": [
+        "Location"
+      ]
     },
     {
       "name": "january",
       "back": "January",
-      "front_description": "The 1st Month of the Year"
+      "front_description": "The 1st Month of the Year",
+      "categories": [
+        "Months"
+      ]
     },
     {
       "name": "jeans",
-      "back": "Jeans"
+      "back": "Jeans",
+      "categories": [
+        "Clothing"
+      ]
     },
     {
       "name": "job",
       "back": "Job",
-      "front_description": "Work done to earn money"
+      "front_description": "Work done to earn money",
+      "categories": [
+        "Job"
+      ]
     },
     {
       "name": "july",
       "back": "July",
-      "front_description": "The 7th Month of the Year"
+      "front_description": "The 7th Month of the Year",
+      "categories": [
+        "Months"
+      ]
     },
     {
       "name": "jump",
-      "back": "Jump"
+      "back": "Jump",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "june",
       "back": "June",
-      "front_description": "The 6th Month of the Year"
+      "front_description": "The 6th Month of the Year",
+      "categories": [
+        "Months"
+      ]
     },
     {
       "name": "kangaroo",
-      "back": "Kangaroo"
+      "back": "Kangaroo",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "kick",
-      "back": "Kick"
+      "back": "Kick",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "kid",
       "back": "Kid",
-      "front_description": "A child, young person"
+      "front_description": "A child, young person",
+      "categories": [
+        "People"
+      ]
     },
     {
       "name": "kill",
-      "back": "Kill"
+      "back": "Kill",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "kilogram",
-      "back": "Kilogram"
+      "back": "Kilogram",
+      "categories": [
+        "Math/Measurements"
+      ]
     },
     {
       "name": "kiss",
-      "back": "Kiss"
+      "back": "Kiss",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "kitchen",
-      "back": "Kitchen"
+      "back": "Kitchen",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "lake",
-      "back": "Lake"
+      "back": "Lake",
+      "categories": [
+        "Nature"
+      ]
     },
     {
       "name": "laptop",
-      "back": "Laptop"
+      "back": "Laptop",
+      "categories": [
+        "Electronics"
+      ]
     },
     {
       "name": "laugh",
-      "back": "Laugh"
+      "back": "Laugh",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "leaf",
-      "back": "Leaf"
+      "back": "Leaf",
+      "categories": [
+        "Nature"
+      ]
     },
     {
       "name": "left",
-      "back": "Left"
+      "back": "Left",
+      "categories": [
+        "Directions"
+      ]
     },
     {
       "name": "letter",
       "back": "Letter",
-      "front_description": "A written message sent to someone by mail"
+      "front_description": "A written message sent to someone by mail",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "library",
-      "back": "Library"
+      "back": "Library",
+      "categories": [
+        "Location"
+      ]
     },
     {
       "name": "lift",
-      "back": "Lift"
+      "back": "Lift",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
-      "name": "light",
-      "back": "Light"
+      "name": "light_adjective",
+      "back": "Light",
+      "categories": [
+        "Adjectives"
+      ]
     },
     {
       "name": "line",
-      "back": "Line"
+      "back": "Line",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "listen",
-      "back": "Listen"
+      "back": "Listen",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "liver",
-      "back": "Liver"
+      "back": "Liver",
+      "categories": [
+        "Body"
+      ]
     },
     {
       "name": "lizard",
-      "back": "Lizard"
+      "back": "Lizard",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "lock",
-      "back": "Lock"
+      "back": "Lock",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "log",
-      "back": "Log"
+      "back": "Log",
+      "categories": [
+        "Nature"
+      ]
     },
     {
       "name": "lunch",
       "back": "Lunch",
-      "front_description": "Midday meal"
+      "front_description": "Midday meal",
+      "categories": [
+        "Food"
+      ]
     },
     {
       "name": "machine",
-      "back": "Machine"
+      "back": "Machine",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "magazine",
       "back": "Magazine",
-      "front_description": "A weekly or monthly publication with articles and pictures"
+      "front_description": "A weekly or monthly publication with articles and pictures",
+      "categories": [
+        "Society"
+      ]
     },
     {
       "name": "male",
-      "back": "Male"
+      "back": "Male",
+      "categories": [
+        "People"
+      ]
     },
     {
       "name": "manager",
-      "back": "Manager"
+      "back": "Manager",
+      "categories": [
+        "Job"
+      ]
     },
     {
       "name": "march",
       "back": "March",
-      "front_description": "The 3rd Month of the Year"
+      "front_description": "The 3rd Month of the Year",
+      "categories": [
+        "Months"
+      ]
     },
     {
       "name": "market",
       "back": "Market",
-      "front_description": "Place to buy and sell goods"
+      "front_description": "Place to buy and sell goods",
+      "categories": [
+        "Location"
+      ]
     },
     {
       "name": "marriage",
-      "back": "Marriage"
+      "back": "Marriage",
+      "categories": [
+        "Society"
+      ]
     },
     {
       "name": "materials",
       "back": "Materials",
-      "front_description": "Substances for creating or constructing objects"
+      "front_description": "Substances for creating or constructing objects",
+      "categories": [
+        "Materials"
+      ]
     },
     {
       "name": "mathematics",
-      "back": "Mathematics"
+      "back": "Mathematics",
+      "categories": [
+        "Math/Measurements"
+      ]
     },
     {
       "name": "may",
       "back": "May",
-      "front_description": "The 5th Month of the Year"
+      "front_description": "The 5th Month of the Year",
+      "categories": [
+        "Months"
+      ]
     },
     {
       "name": "meal",
       "back": "Meal",
-      "front_description": "Breakfast, Lunch, Dinner are ________"
+      "front_description": "Breakfast, Lunch, Dinner are ________",
+      "categories": [
+        "Food"
+      ]
     },
     {
       "name": "medicine",
-      "back": "Medicine"
+      "back": "Medicine",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "meeting",
-      "back": "Meeting"
+      "back": "Meeting",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "minute",
       "back": "Minute",
-      "front_description": "1 ________ = 60 seconds"
+      "front_description": "1 ________ = 60 seconds",
+      "categories": [
+        "Time"
+      ]
     },
     {
       "name": "mirror",
-      "back": "Mirror"
+      "back": "Mirror",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "monday",
       "back": "Monday",
-      "front_description": "The 1st Day of the Week"
+      "front_description": "The 1st Day of the Week",
+      "categories": [
+        "Day of the Week"
+      ]
     },
     {
       "name": "month",
       "back": "Month",
-      "front_description": "1 ________ = 30 days"
+      "front_description": "1 ________ = 30 days",
+      "categories": [
+        "Time"
+      ]
     },
     {
       "name": "motorbike",
-      "back": "Motorbike"
+      "back": "Motorbike",
+      "categories": [
+        "Transportation"
+      ]
     },
     {
       "name": "mushroom",
-      "back": "Mushroom"
+      "back": "Mushroom",
+      "categories": [
+        "Food"
+      ]
     },
     {
       "name": "napkin",
-      "back": "Napkin"
+      "back": "Napkin",
+      "categories": [
+        "Home",
+      ]
     },
     {
       "name": "nature",
       "back": "Nature",
-      "front_description": "Plants, animals, and land are part of the ________"
+      "front_description": "Plants, animals, and land are part of the ________",
+      "categories": [
+        "Nature"
+      ]
     },
     {
       "name": "needle",
-      "back": "Needle"
+      "back": "Needle",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "network",
-      "back": "Network"
+      "back": "Network",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "newspaper",
-      "back": "Newspaper"
+      "back": "Newspaper",
+      "categories": [
+        "Society"
+      ]
     },
     {
       "name": "noise",
-      "back": "Noise"
+      "back": "Noise",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "north",
-      "back": "North"
+      "back": "North",
+      "categories": [
+        "Directions"
+      ]
     },
     {
       "name": "note",
-      "back": "Note"
+      "back": "Note",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "november",
       "back": "November",
-      "front_description": "The 11th Month of the Year"
+      "front_description": "The 11th Month of the Year",
+      "categories": [
+        "Months"
+      ]
     },
     {
       "name": "nurse",
-      "back": "Nurse"
+      "back": "Nurse",
+      "categories": [
+        "Job"
+      ]
     },
     {
       "name": "nuts",
-      "back": "Nuts"
+      "back": "Nuts",
+      "categories": [
+        "Food"
+      ]
     },
     {
       "name": "ocean",
       "back": "Ocean",
-      "front_description": ""
+      "categories": [
+        "Nature"
+      ]
     },
     {
       "name": "october",
       "back": "October",
-      "front_description": "The 10th Month of the Year"
+      "front_description": "The 10th Month of the Year",
+      "categories": [
+        "Months"
+      ]
     },
     {
       "name": "office",
-      "back": "Office"
+      "back": "Office",
+      "categories": [
+        "Location"
+      ]
     },
     {
-      "name": "old",
-      "back": "Old"
+      "name": "old_person",
+      "back": "Old",
+      "categories": [
+        "People"
+      ]
     },
     {
       "name": "one_billion",
-      "back": "One billion"
+      "back": "One billion",
+      "categories": [
+        "Math/Measurements"
+      ]
     },
     {
       "name": "one_hundred_one",
-      "back": "One hundred one"
-    },
-    {
-      "name": "one_hundred_ten",
-      "back": "One hundred ten"
-    },
-    {
-      "name": "one_hundred_thousands",
-      "back": "One hundred thousands"
+      "back": "One hundred one",
+      "categories": [
+        "Math/Measurements"
+      ]
     },
     {
       "name": "one_hundred_two",
-      "back": "One hundred two"
+      "back": "One hundred two",
+      "categories": [
+        "Math/Measurements"
+      ]
+    },
+    {
+      "name": "one_hundred_ten",
+      "back": "One hundred ten",
+      "categories": [
+        "Math/Measurements"
+      ]
+    },
+    {
+      "name": "one_hundred_thousands",
+      "back": "One hundred thousands",
+      "categories": [
+        "Math/Measurements"
+      ]
     },
     {
       "name": "one_million",
-      "back": "One million"
+      "back": "One million",
+      "categories": [
+        "Math/Measurements"
+      ]
     },
     {
       "name": "one_thousand",
-      "back": "One thousand"
+      "back": "One thousand",
+      "categories": [
+        "Math/Measurements"
+      ]
     },
     {
       "name": "open",
-      "back": "Open"
+      "back": "Open",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "organ",
-      "back": "Organ"
+      "back": "Organ",
+      "categories": [
+        "Art"
+      ]
     },
     {
       "name": "outside",
-      "back": "Outside"
+      "back": "Outside",
+      "categories": [
+        "Directions"
+      ]
     },
     {
       "name": "oven",
-      "back": "Oven"
+      "back": "Oven",
+      "categories": [
+        "Electronics"
+      ]
     },
     {
       "name": "page",
-      "back": "Page"
+      "back": "Page",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "pain",
-      "back": "Pain"
+      "back": "Pain",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "paint",
-      "back": "Paint"
+      "back": "Paint",
+      "categories": [
+        "Art"
+      ]
     },
     {
       "name": "party",
-      "back": "Party"
+      "back": "Party",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "patient",
-      "back": "Patient"
+      "back": "Patient",
+      "categories": [
+        "People"
+      ]
     },
     {
       "name": "peace",
-      "back": "Peace"
+      "back": "Peace",
+      "categories": [
+        "Society"
+      ]
     },
     {
       "name": "pepper",
-      "back": "Pepper"
+      "back": "Pepper",
+      "categories": [
+        "Food"
+      ]
     },
     {
       "name": "photo",
-      "back": "Photo"
+      "back": "Photo",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "piano",
-      "back": "Piano"
+      "back": "Piano",
+      "categories": [
+        "Art"
+      ]
     },
     {
       "name": "picture",
-      "back": "Picture"
+      "back": "Picture",
+      "categories": [
+        "Art"
+      ]
     },
     {
       "name": "plastic",
       "back": "Plastic",
-      "front_description": "________ objects"
+      "front_description": "________ objects",
+      "categories": [
+        "Materials"
+      ]
     },
     {
       "name": "play",
-      "back": "Play"
+      "back": "Play",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "player",
-      "back": "Player"
+      "back": "Player",
+      "categories": [
+        "People"
+      ]
     },
     {
       "name": "pocket",
-      "back": "Pocket"
+      "back": "Pocket",
+      "categories": [
+        "Clothing"
+      ]
     },
     {
       "name": "police",
       "back": "Police",
-      "front_description": "________ officer"
+      "front_description": "________ officer",
+      "categories": [
+        "Society"
+      ]
     },
     {
       "name": "pool",
-      "back": "Pool"
+      "back": "Pool",
+      "categories": [
+        "Location"
+      ]
     },
     {
       "name": "poor",
-      "back": "Poor"
+      "back": "Poor",
+      "categories": [
+        "Adjectives"
+      ]
     },
     {
       "name": "pork",
-      "back": "Pork"
+      "back": "Pork",
+      "categories": [
+        "Food"
+      ]
     },
     {
       "name": "pray",
-      "back": "Pray"
+      "back": "Pray",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "present",
-      "back": "Present"
+      "back": "Present",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "president",
-      "back": "President"
+      "back": "President",
+      "categories": [
+        "Job"
+      ]
     },
     {
       "name": "priest",
-      "back": "Priest"
+      "back": "Priest",
+      "categories": [
+        "Job"
+      ]
     },
     {
       "name": "printer",
-      "back": "Printer"
+      "back": "Printer",
+      "categories": [
+        "Electronics"
+      ]
     },
     {
       "name": "pull",
-      "back": "Pull"
+      "back": "Pull",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "push",
-      "back": "Push"
+      "back": "Push",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "radio",
-      "back": "Radio"
+      "back": "Radio",
+      "categories": [
+        "Electronics"
+      ]
     },
     {
       "name": "raincoat",
-      "back": "Raincoat"
+      "back": "Raincoat",
+      "categories": [
+        "Clothing"
+      ]
     },
     {
       "name": "rat",
-      "back": "Rat"
+      "back": "Rat",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "read",
-      "back": "Read"
+      "back": "Read",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "religion",
-      "back": "Religion"
+      "back": "Religion",
+      "categories": [
+        "Society"
+      ]
     },
     {
       "name": "reporter",
-      "back": "Reporter"
+      "back": "Reporter",
+      "categories": [
+        "Job"
+      ]
     },
     {
       "name": "rich",
-      "back": "Rich"
+      "back": "Rich",
+      "categories": [
+        "Adjectives"
+      ]
     },
     {
       "name": "ride",
-      "back": "Ride"
+      "back": "Ride",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "right",
-      "back": "Right"
+      "back": "Right",
+      "categories": [
+        "Directions"
+      ]
     },
     {
       "name": "ring",
-      "back": "Ring"
+      "back": "Ring",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "robot",
-      "back": "Robot"
+      "back": "Robot",
+      "categories": [
+        "Electronics"
+      ]
     },
     {
       "name": "run",
-      "back": "Run"
+      "back": "Run",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "salad",
-      "back": "Salad"
+      "back": "Salad",
+      "categories": [
+        "Food"
+      ]
     },
     {
       "name": "sand",
-      "back": "Sand"
+      "back": "Sand",
+      "categories": [
+        "Nature"
+      ]
     },
     {
       "name": "saturday",
       "back": "Saturday",
-      "front_description": "The 6th Day of the Week"
+      "front_description": "The 6th Day of the Week",
+      "categories": [
+        "Day of the Week"
+      ]
     },
     {
       "name": "science",
-      "back": "Science"
+      "back": "Science",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "screen",
-      "back": "Screen"
+      "back": "Screen",
+      "categories": [
+        "Electronics"
+      ]
     },
     {
       "name": "sea",
-      "back": "Sea"
+      "back": "Sea",
+      "categories": [
+        "Nature"
+      ]
     },
     {
       "name": "secretary",
-      "back": "Secretary"
+      "back": "Secretary",
+      "categories": [
+        "Job"
+      ]
     },
     {
       "name": "seed",
-      "back": "Seed"
+      "back": "Seed",
+      "categories": [
+        "Nature"
+      ]
     },
     {
       "name": "september",
       "back": "September",
-      "front_description": "The 9th Month of the Year"
+      "front_description": "The 9th Month of the Year",
+      "categories": [
+        "Months"
+      ]
     },
     {
       "name": "sex",
-      "back": "Sex"
+      "back": "Sex",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "shallow",
-      "back": "Shallow"
+      "back": "Shallow",
+      "categories": [
+        "Adjectives"
+      ]
     },
     {
       "name": "shapes",
-      "back": "Shapes"
+      "back": "Shapes",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "shark",
-      "back": "Shark"
+      "back": "Shark",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "shop",
-      "back": "Shop"
+      "back": "Shop",
+      "categories": [
+        "Location"
+      ]
     },
     {
       "name": "short",
-      "back": "Short"
+      "back": "Short",
+      "categories": [
+        "Adjectives"
+      ]
     },
     {
       "name": "shower",
-      "back": "Shower"
+      "back": "Shower",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "sick",
-      "back": "Sick"
+      "back": "Sick",
+      "categories": [
+        "Adjectives"
+      ]
     },
     {
       "name": "silver",
-      "back": "Silver"
+      "back": "Silver",
+      "categories": [
+        "Materials"
+      ]
     },
     {
       "name": "sleep",
-      "back": "Sleep"
+      "back": "Sleep",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "slow",
-      "back": "Slow"
+      "back": "Slow",
+      "categories": [
+        "Adjectives"
+      ]
     },
     {
       "name": "smile",
-      "back": "Smile"
+      "back": "Smile",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "soap",
-      "back": "Soap"
+      "back": "Soap",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "sofa",
-      "back": "Sofa"
+      "back": "Sofa",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "soft",
-      "back": "Soft"
+      "back": "Soft",
+      "categories": [
+        "Adjectives"
+      ]
     },
     {
       "name": "soldier",
-      "back": "Soldier"
+      "back": "Soldier",
+      "categories": [
+        "Job"
+      ]
     },
     {
       "name": "south",
-      "back": "South"
+      "back": "South",
+      "categories": [
+        "Directions"
+      ]
     },
     {
       "name": "speak",
-      "back": "Speak"
+      "back": "Speak",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "sport",
-      "back": "Sport"
+      "back": "Sport",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "stain",
-      "back": "Stain"
+      "back": "Stain",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "stairs",
-      "back": "Stairs"
+      "back": "Stairs",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "stone",
-      "back": "Stone"
+      "back": "Stone",
+      "categories": [
+        "Materials"
+      ]
     },
     {
       "name": "stop",
-      "back": "Stop"
+      "back": "Stop",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "strawberry",
-      "back": "Strawberry"
+      "back": "Strawberry",
+      "categories": [
+        "Food"
+      ]
     },
     {
       "name": "strong",
-      "back": "Strong"
+      "back": "Strong",
+      "categories": [
+        "Adjectives"
+      ]
     },
     {
       "name": "sunday",
       "back": "Sunday",
-      "front_description": "The 7th Day of the Week"
+      "front_description": "The 7th Day of the Week",
+      "categories": [
+        "Day of the Week"
+      ]
     },
     {
       "name": "swan",
-      "back": "Swan"
+      "back": "Swan",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "swim",
-      "back": "Swim"
+      "back": "Swim",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "tail",
-      "back": "Tail"
+      "back": "Tail",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "tall",
-      "back": "Tall"
+      "back": "Tall",
+      "categories": [
+        "Adjectives"
+      ]
     },
     {
       "name": "taxi",
-      "back": "Taxi"
+      "back": "Taxi",
+      "categories": [
+        "Transportation"
+      ]
     },
     {
       "name": "technology",
       "back": "Technology",
-      "front_description": "Use of science to make tools"
+      "front_description": "Use of science to make tools",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "television",
-      "back": "Television"
+      "back": "Television",
+      "categories": [
+        "Electronics"
+      ]
     },
     {
       "name": "thin",
-      "back": "Thin"
+      "back": "Thin",
+      "categories": [
+        "Adjectives"
+      ]
     },
     {
       "name": "thursday",
       "back": "Thursday",
-      "front_description": "The 4th Day of the Week"
+      "front_description": "The 4th Day of the Week",
+      "categories": [
+        "Day of the Week"
+      ]
+    },
+    {
+      "name": "ticket",
+      "back": "Ticket",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "time",
       "back": "Time",
-      "front_description": "Continuous passing of moments"
+      "front_description": "Continuous passing of moments",
+      "categories": [
+        "Time"
+      ]
+    },
+    {
+      "name": "tire",
+      "back": "Tire",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "toilet",
-      "back": "Toilet"
+      "back": "Toilet",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "tongue",
-      "back": "Tongue"
+      "back": "Tongue",
+      "categories": [
+        "Body"
+      ]
     },
     {
       "name": "tool",
-      "back": "Tool"
+      "back": "Tool",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "top",
-      "back": "Top"
+      "back": "Top",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "tower",
-      "back": "Tower"
+      "back": "Tower",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "truck",
-      "back": "Truck"
+      "back": "Truck",
+      "categories": [
+        "Transportation"
+      ]
     },
     {
       "name": "tuesday",
       "back": "Tuesday",
-      "front_description": "The 2nd Day of the Week"
+      "front_description": "The 2nd Day of the Week",
+      "categories": [
+        "Day of the Week"
+      ]
     },
     {
       "name": "up",
-      "back": "Up"
+      "back": "Up",
+      "categories": [
+        "Directions"
+      ]
     },
     {
       "name": "university",
       "back": "University",
-      "front_description": "Place of study after high school"
+      "front_description": "Place of study after high school",
+      "categories": [
+        "Location"
+      ]
     },
     {
       "name": "waiter",
-      "back": "Waiter"
+      "back": "Waiter",
+      "categories": [
+        "Job"
+      ]
     },
     {
       "name": "warm",
-      "back": "Warm"
+      "back": "Warm",
+      "categories": [
+        "Adjectives"
+      ]
     },
     {
       "name": "wave",
-      "back": "Wave"
+      "back": "Wave",
+      "categories": [
+        "Nature"
+      ]
     },
     {
       "name": "weak",
-      "back": "Weak"
+      "back": "Weak",
+      "categories": [
+        "Adjectives"
+      ]
     },
     {
       "name": "wake_up",
-      "back": "Wake up"
+      "back": "Wake up",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "wednesday",
       "back": "Wednesday",
-      "front_description": "The 3rd Day of the Week"
+      "front_description": "The 3rd Day of the Week",
+      "categories": [
+        "Day of the Week"
+      ]
     },
     {
       "name": "week",
       "back": "Week",
-      "front_description": "1 ________ = 7 days"
+      "front_description": "1 ________ = 7 days",
+      "categories": [
+        "Time"
+      ]
     },
     {
       "name": "weight",
-      "back": "Weight"
+      "back": "Weight",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "west",
-      "back": "West"
+      "back": "West",
+      "categories": [
+        "Directions"
+      ]
     },
     {
       "name": "wet",
-      "back": "Wet"
+      "back": "Wet",
+      "categories": [
+        "Adjectives"
+      ]
     },
     {
       "name": "whale",
-      "back": "Whale"
+      "back": "Whale",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "wine",
-      "back": "Wine"
+      "back": "Wine",
+      "categories": [
+        "Food"
+      ]
+    },
+    {
+      "name": "wing",
+      "back": "Wing",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "wood",
-      "back": "Wood"
+      "back": "Wood",
+      "categories": [
+        "Materials"
+      ]
     },
     {
       "name": "work",
-      "back": "Work"
+      "back": "Work",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "write",
-      "back": "Write"
+      "back": "Write",
+      "categories": [
+        "Verbs"
+      ]
     },
     {
       "name": "year",
       "back": "Year",
-      "front_description": "1 ________ = 12 months"
+      "front_description": "1 ________ = 12 months",
+      "categories": [
+        "Time"
+      ]
     },
     {
       "name": "young",
-      "back": "Young"
+      "back": "Young",
+      "categories": [
+        "Adjectives"
+      ]
     }
   ]
 }

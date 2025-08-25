@@ -6,418 +6,718 @@
     {
       "name": "autumn",
       "back": "Autumn",
-      "front_description": "The season after Summer"
+      "front_description": "The season after Summer",
+      "categories": [
+        "Seasons"
+      ]
     },
     {
       "name": "balloon",
-      "back": "Balloon"
+      "back": "Balloon",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "bar",
-      "back": "Bar"
+      "back": "Bar",
+      "categories": [
+        "Location"
+      ]
     },
     {
       "name": "bathroom",
-      "back": "Bathroom"
+      "back": "Bathroom",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "beard",
-      "back": "Beard"
+      "back": "Beard",
+      "categories": [
+        "Body"
+      ]
     },
     {
       "name": "bedroom",
-      "back": "Bedroom"
+      "back": "Bedroom",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "big",
-      "back": "Big"
+      "back": "Big",
+      "categories": [
+        "Adjectives"
+      ]
     },
     {
       "name": "bone",
-      "back": "Bone"
+      "back": "Bone",
+      "categories": [
+        "Body"
+      ]
     },
     {
       "name": "box",
-      "back": "Box"
+      "back": "Box",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "bridge",
-      "back": "Bridge"
+      "back": "Bridge",
+      "categories": [
+        "Location"
+      ]
     },
     {
       "name": "butterfly",
-      "back": "Butterfly"
+      "back": "Butterfly",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "coat",
-      "back": "Coat"
+      "back": "Coat",
+      "categories": [
+        "Clothing"
+      ]
     },
     {
       "name": "chocolate",
-      "back": "Chocolate"
+      "back": "Chocolate",
+      "categories": [
+        "Food"
+      ]
     },
     {
       "name": "chips",
-      "back": "Chips"
+      "back": "Chips",
+      "categories": [
+        "Food"
+      ]
     },
     {
       "name": "christmas_tree",
-      "back": "Christmas tree"
+      "back": "Christmas tree",
+      "categories": [
+        "Nature"
+      ]
     },
     {
       "name": "coffee",
-      "back": "Coffee"
+      "back": "Coffee",
+      "categories": [
+        "Beverages"
+      ]
     },
     {
       "name": "computer",
-      "back": "Computer"
+      "back": "Computer",
+      "categories": [
+        "Electronics"
+      ]
     },
     {
       "name": "day",
-      "back": "Day"
+      "back": "Day",
+      "categories": [
+        "Time"
+      ]
     },
     {
       "name": "daughter",
       "back": "Daughter",
-      "front_description": "A female child in a Family"
+      "front_description": "A female child in a Family",
+      "categories": [
+        "People"
+      ]
     },
     {
       "name": "dinosaur",
-      "back": "Dinosaur"
+      "back": "Dinosaur",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "doctor",
-      "back": "Doctor"
+      "back": "Doctor",
+      "categories": [
+        "Job"
+      ]
     },
     {
       "name": "eighty",
-      "back": "Eighty"
+      "back": "Eighty",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "eighty_one",
-      "back": "Eighty one"
+      "back": "Eighty one",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "eighty_two",
-      "back": "Eighty two"
+      "back": "Eighty two",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "family",
-      "back": "Family"
+      "back": "Family",
+      "categories": [
+        "People"
+      ]
     },
     {
       "name": "fifty",
-      "back": "Fifty"
+      "back": "Fifty",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "fifty_one",
-      "back": "Fifty one"
+      "back": "Fifty one",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "fifty_two",
-      "back": "Fifty two"
+      "back": "Fifty two",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "floor",
-      "back": "Floor"
+      "back": "Floor",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "food",
-      "back": "Food"
+      "back": "Food",
+      "categories": [
+        "Food"
+      ]
     },
     {
       "name": "fourty",
-      "back": "Fourty"
+      "back": "Fourty",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "fourty_one",
-      "back": "Fourty one"
+      "back": "Fourty one",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "fourty_two",
-      "back": "Fourty two"
+      "back": "Fourty two",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "glass",
-      "back": "Glass"
+      "back": "Glass",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "grandfather",
       "back": "Grandfather",
-      "front_description": "The father of your parent"
+      "front_description": "The father of your parent",
+      "categories": [
+        "People"
+      ]
     },
     {
       "name": "grandmother",
       "back": "Grandmother",
-      "front_description": "The mother of your parent"
+      "front_description": "The mother of your parent",
+      "categories": [
+        "People"
+      ]
     },
     {
       "name": "hospital",
-      "back": "Hospital"
+      "back": "Hospital",
+      "categories": [
+        "Location"
+      ]
     },
     {
       "name": "hotel",
-      "back": "Hotel"
+      "back": "Hotel",
+      "categories": [
+        "Location"
+      ]
     },
     {
       "name": "husband",
       "back": "Husband",
-      "front_description": "A man in a marriage"
+      "front_description": "A man in a marriage",
+      "categories": [
+        "People"
+      ]
     },
     {
       "name": "insects",
-      "back": "Insects"
+      "back": "Insects",
+      "categories": [
+        "Animals"
+      ]
     },
     {
       "name": "jacket",
-      "back": "Jacket"
+      "back": "Jacket",
+      "categories": [
+        "Clothing"
+      ]
     },
     {
       "name": "juice",
-      "back": "Juice"
+      "back": "Juice",
+      "categories": [
+        "Beverages"
+      ]
     },
     {
       "name": "kitchen",
-      "back": "Kitchen"
+      "back": "Kitchen",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "knife",
-      "back": "Knife"
+      "back": "Knife",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "livingroom",
-      "back": "Livingroom"
+      "back": "Livingroom",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "long",
-      "back": "Long"
+      "back": "Long",
+      "categories": [
+        "Adjectives"
+      ]
     },
     {
       "name": "map",
-      "back": "Map"
+      "back": "Map",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "money",
-      "back": "Money"
+      "back": "Money",
+      "categories": [
+        "Society"
+      ]
     },
     {
       "name": "morning",
       "back": "Morning",
-      "front_description": "Part of the day between 6:00 AM and 12:00 PM"
+      "front_description": "Part of the day between 6:00 AM and 12:00 PM",
+      "categories": [
+        "Time"
+      ]
     },
     {
       "name": "movie",
       "back": "Movie",
-      "front_description": "A film or story shown on a screen"
+      "front_description": "A film or story shown on a screen",
+      "categories": [
+        "Art"
+      ]
     },
     {
       "name": "new",
-      "back": "New"
+      "back": "New",
+      "categories": [
+        "Adjectives"
+      ]
     },
     {
       "name": "night",
       "back": "Night",
-      "front_description": "Part of the day between 9: 00 PM and 6: 00 AM"
+      "front_description": "Part of the day between 9: 00 PM and 6: 00 AM",
+      "categories": [
+        "Time"
+      ]
     },
     {
       "name": "ninety",
-      "back": "Ninety"
+      "back": "Ninety",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "ninety_one",
-      "back": "Ninety one"
+      "back": "Ninety one",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "ninety_two",
-      "back": "Ninety two"
+      "back": "Ninety two",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "oil",
-      "back": "Oil"
+      "back": "Oil",
+      "categories": [
+        "Food"
+      ]
     },
     {
-      "name": "old",
-      "back": "Old"
+      "name": "old_object",
+      "back": "Old",
+      "categories": [
+        "Adjectives"
+      ]
     },
     {
       "name": "one_hundred",
-      "back": "One hundred"
+      "back": "One hundred",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "paper",
-      "back": "Paper"
+      "back": "Paper",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "plant",
-      "back": "Plant"
+      "back": "Plant",
+      "categories": [
+        "Nature"
+      ]
     },
     {
       "name": "policeman",
-      "back": "Policeman"
+      "back": "Policeman",
+      "categories": [
+        "Job"
+      ]
     },
     {
       "name": "prince",
-      "back": "Prince"
+      "back": "Prince",
+      "categories": [
+        "People"
+      ]
     },
     {
       "name": "princess",
-      "back": "Princess"
+      "back": "Princess",
+      "categories": [
+        "People"
+      ]
     },
     {
       "name": "pyjamas",
-      "back": "Pyjamas"
+      "back": "Pyjamas",
+      "categories": [
+        "Clothing"
+      ]
     },
     {
       "name": "queen",
       "back": "Queen",
-      "front_description": "________ Elizabeth"
+      "front_description": "________ Elizabeth",
+      "categories": [
+        "People"
+      ]
     },
     {
       "name": "restaurant",
-      "back": "Restaurant"
+      "back": "Restaurant",
+      "categories": [
+        "Location"
+      ]
     },
     {
       "name": "roof",
-      "back": "Roof"
+      "back": "Roof",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "room",
-      "back": "Room"
+      "back": "Room",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "salt",
-      "back": "Salt"
+      "back": "Salt",
+      "categories": [
+        "Food"
+      ]
     },
     {
       "name": "sandwich",
-      "back": "Sandwich"
+      "back": "Sandwich",
+      "categories": [
+        "Food"
+      ]
     },
     {
       "name": "santa_claus",
-      "back": "Santa claus"
+      "back": "Santa claus",
+      "categories": [
+        "People"
+      ]
     },
     {
       "name": "school",
       "back": "School",
-      "front_description": "A place where children study"
+      "front_description": "A place where children study",
+      "categories": [
+        "Location"
+      ]
     },
     {
       "name": "season",
       "back": "Season",
-      "front_description": "Spring, summer, autumn, or winter"
+      "front_description": "Spring, summer, autumn, or winter",
+      "categories": [
+        "Seasons"
+      ]
     },
     {
       "name": "seventy",
-      "back": "Seventy"
+      "back": "Seventy",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "seventy_one",
-      "back": "Seventy one"
+      "back": "Seventy one",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "seventy_two",
-      "back": "Seventy two"
+      "back": "Seventy two",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "shirt",
-      "back": "Shirt"
+      "back": "Shirt",
+      "categories": [
+        "Clothing"
+      ]
     },
     {
       "name": "short",
-      "back": "Short"
+      "back": "Short",
+      "categories": [
+        "Adjectives"
+      ]
     },
     {
       "name": "sixty",
-      "back": "Sixty"
+      "back": "Sixty",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "sixty_one",
-      "back": "Sixty one"
+      "back": "Sixty one",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "sixty_two",
-      "back": "Sixty two"
+      "back": "Sixty two",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "small",
-      "back": "Small"
+      "back": "Small",
+      "categories": [
+        "Adjectives"
+      ]
     },
     {
       "name": "son",
       "back": "Son",
-      "front_description": "A male child in a Family"
+      "front_description": "A male child in a Family",
+      "categories": [
+        "People"
+      ]
     },
     {
       "name": "space",
-      "back": "Space"
+      "back": "Space",
+      "categories": [
+        "Nature"
+      ]
     },
     {
       "name": "spring",
       "back": "Spring",
-      "front_description": "The season after Winter"
+      "front_description": "The season after Winter",
+      "categories": [
+        "Seasons"
+      ]
     },
     {
       "name": "student",
-      "back": "Student"
+      "back": "Student",
+      "categories": [
+        "Job"
+      ]
     },
     {
       "name": "summer",
       "back": "Summer",
-      "front_description": "The season after Spring"
+      "front_description": "The season after Spring",
+      "categories": [
+        "Seasons"
+      ]
     },
     {
       "name": "teaspoon",
       "back": "Teaspoon",
-      "front_description": "A small spoon used for stirring tea or coffee"
+      "front_description": "A small spoon used for stirring tea or coffee",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "tea",
-      "back": "Tea"
+      "back": "Tea",
+      "categories": [
+        "Beverages"
+      ]
     },
     {
       "name": "thirty",
-      "back": "Thirty"
+      "back": "Thirty",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "thirty_one",
-      "back": "Thirty one"
+      "back": "Thirty one",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "thirty_two",
-      "back": "Thirty two"
+      "back": "Thirty two",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "transportation",
-      "back": "Transportation"
+      "back": "Transportation",
+      "categories": [
+        "Transportation"
+      ]
     },
     {
       "name": "toast",
-      "back": "Toast"
+      "back": "Toast",
+      "categories": [
+        "Food"
+      ]
     },
     {
       "name": "t-shirt",
-      "back": "T-Shirt"
+      "back": "T-Shirt",
+      "categories": [
+        "Clothing"
+      ]
     },
     {
       "name": "twenty_one",
-      "back": "Twenty one"
+      "back": "Twenty one",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "twenty_two",
-      "back": "Twenty two"
+      "back": "Twenty two",
+      "categories": [
+        "Numbers"
+      ]
     },
     {
       "name": "umbrella",
-      "back": "Umbrella"
+      "back": "Umbrella",
+      "categories": [
+        "Miscellaneous"
+      ]
     },
     {
       "name": "wall",
-      "back": "Wall"
+      "back": "Wall",
+      "categories": [
+        "Home"
+      ]
     },
     {
       "name": "winter",
       "back": "Winter",
-      "front_description": "The season after Autumn"
+      "front_description": "The season after Autumn",
+      "categories": [
+        "Seasons"
+      ]
     }
   ]
 }
