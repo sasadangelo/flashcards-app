@@ -145,8 +145,8 @@ export default function StudyScreen() {
                 {!showBack ? (
                     <>
                         <Image source={imageSource} style={styles.image} />
-                        {card.front_description && (
-                            <Text style={styles.frontDescription}>{card.front_description}</Text>
+                        {card.front_note && (
+                            <Text style={styles.frontDescription}>{card.front_note}</Text>
                         )}
 
                         {card.categories && card.categories.length > 0 && (

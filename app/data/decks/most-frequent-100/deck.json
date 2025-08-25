@@ -595,7 +595,7 @@
     {
       "name": "spoon",
       "back": "Spoon",
-      "front_description": "A general eating utensil with a shallow bowl and a handle",
+      "front_note": "A general eating utensil with a shallow bowl and a handle",
       "categories": [
         "Home"
       ]

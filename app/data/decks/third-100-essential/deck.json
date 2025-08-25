@@ -6,7 +6,7 @@
     {
       "name": "autumn",
       "back": "Autumn",
-      "front_description": "The season after Summer",
+      "front_note": "The season after Summer",
       "categories": [
         "Seasons"
       ]
@@ -133,7 +133,7 @@
     {
       "name": "daughter",
       "back": "Daughter",
-      "front_description": "A female child in a Family",
+      "front_note": "A female child in a Family",
       "categories": [
         "People"
       ]
@@ -246,7 +246,7 @@
     {
       "name": "grandfather",
       "back": "Grandfather",
-      "front_description": "The father of your parent",
+      "front_note": "The father of your parent",
       "categories": [
         "People"
       ]
@@ -254,7 +254,7 @@
     {
       "name": "grandmother",
       "back": "Grandmother",
-      "front_description": "The mother of your parent",
+      "front_note": "The mother of your parent",
       "categories": [
         "People"
       ]
@@ -276,7 +276,7 @@
     {
       "name": "husband",
       "back": "Husband",
-      "front_description": "A man in a marriage",
+      "front_note": "A man in a marriage",
       "categories": [
         "People"
       ]
@@ -347,7 +347,7 @@
     {
       "name": "morning",
       "back": "Morning",
-      "front_description": "Part of the day between 6:00 AM and 12:00 PM",
+      "front_note": "Part of the day between 6:00 AM and 12:00 PM",
       "categories": [
         "Time"
       ]
@@ -355,7 +355,7 @@
     {
       "name": "movie",
       "back": "Movie",
-      "front_description": "A film or story shown on a screen",
+      "front_note": "A film or story shown on a screen",
       "categories": [
         "Art"
       ]
@@ -370,7 +370,7 @@
     {
       "name": "night",
       "back": "Night",
-      "front_description": "Part of the day between 9: 00 PM and 6: 00 AM",
+      "front_note": "Part of the day between 9: 00 PM and 6: 00 AM",
       "categories": [
         "Time"
       ]
@@ -462,7 +462,7 @@
     {
       "name": "queen",
       "back": "Queen",
-      "front_description": "________ Elizabeth",
+      "front_note": "________ Elizabeth",
       "categories": [
         "People"
       ]
@@ -512,7 +512,7 @@
     {
       "name": "school",
       "back": "School",
-      "front_description": "A place where children study",
+      "front_note": "A place where children study",
       "categories": [
         "Location"
       ]
@@ -520,7 +520,7 @@
     {
       "name": "season",
       "back": "Season",
-      "front_description": "Spring, summer, autumn, or winter",
+      "front_note": "Spring, summer, autumn, or winter",
       "categories": [
         "Seasons"
       ]
@@ -591,7 +591,7 @@
     {
       "name": "son",
       "back": "Son",
-      "front_description": "A male child in a Family",
+      "front_note": "A male child in a Family",
       "categories": [
         "People"
       ]
@@ -606,7 +606,7 @@
     {
       "name": "spring",
       "back": "Spring",
-      "front_description": "The season after Winter",
+      "front_note": "The season after Winter",
       "categories": [
         "Seasons"
       ]
@@ -621,7 +621,7 @@
     {
       "name": "summer",
       "back": "Summer",
-      "front_description": "The season after Spring",
+      "front_note": "The season after Spring",
       "categories": [
         "Seasons"
       ]
@@ -629,7 +629,7 @@
     {
       "name": "teaspoon",
       "back": "Teaspoon",
-      "front_description": "A small spoon used for stirring tea or coffee",
+      "front_note": "A small spoon used for stirring tea or coffee",
       "categories": [
         "Home"
       ]
@@ -714,7 +714,7 @@
     {
       "name": "winter",
       "back": "Winter",
-      "front_description": "The season after Autumn",
+      "front_note": "The season after Autumn",
       "categories": [
         "Seasons"
       ]

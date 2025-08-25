@@ -13,7 +13,7 @@
     {
       "name": "afternoon",
       "back": "Afternoon",
-      "front_description": "Part of the day between 12:00 PM and 6:00 PM",
+      "front_note": "Part of the day between 12:00 PM and 6:00 PM",
       "categories": [
         "Time"
       ]
@@ -21,7 +21,7 @@
     {
       "name": "air",
       "back": "Air",
-      "front_description": "________ fills space around us",
+      "front_note": "________ fills space around us",
       "categories": [
         "Nature"
       ]
@@ -43,7 +43,7 @@
     {
       "name": "apartment",
       "back": "Apartment",
-      "front_description": "A set of rooms in a building for living",
+      "front_note": "A set of rooms in a building for living",
       "categories": [
         "Home"
       ]
@@ -51,7 +51,7 @@
     {
       "name": "april",
       "back": "April",
-      "front_description": "The 4th Month of the Year",
+      "front_note": "The 4th Month of the Year",
       "categories": [
         "Months"
       ]
@@ -66,7 +66,7 @@
     {
       "name": "art",
       "back": "Art",
-      "front_description": "She is making ________ (three letters)",
+      "front_note": "She is making ________ (three letters)",
       "categories": [
         "Art"
       ]
@@ -74,7 +74,7 @@
     {
       "name": "august",
       "back": "August",
-      "front_description": "The 8th Month of the Year",
+      "front_note": "The 8th Month of the Year",
       "categories": [
         "Months"
       ]
@@ -187,7 +187,7 @@
     {
       "name": "breakfast",
       "back": "Breakfast",
-      "front_description": "Morning meal",
+      "front_note": "Morning meal",
       "categories": [
         "Food"
       ]
@@ -314,7 +314,7 @@
     {
       "name": "centimeter",
       "back": "Centimeter",
-      "front_description": "1 __________ = 0.01 meter",
+      "front_note": "1 __________ = 0.01 meter",
       "categories": [
         "Math/Measurements"
       ]
@@ -357,7 +357,7 @@
     {
       "name": "cinema",
       "back": "Cinema",
-      "front_description": "A place where people go to watch movies",
+      "front_note": "A place where people go to watch movies",
       "categories": [
         "Location"
       ]
@@ -457,7 +457,7 @@
     {
       "name": "country",
       "back": "Country",
-      "front_description": "Nation with land and government",
+      "front_note": "Nation with land and government",
       "categories": [
         "Location"
       ]
@@ -507,7 +507,7 @@
     {
       "name": "day",
       "back": "Day",
-      "front_description": "1 ________ = 24 hours",
+      "front_note": "1 ________ = 24 hours",
       "categories": [
         "Time"
       ]
@@ -522,7 +522,7 @@
     {
       "name": "december",
       "back": "December",
-      "front_description": "The 12th Month of the Year",
+      "front_note": "The 12th Month of the Year",
       "categories": [
         "Months"
       ]
@@ -565,7 +565,7 @@
     {
       "name": "dinner",
       "back": "Dinner",
-      "front_description": "Evening meal",
+      "front_note": "Evening meal",
       "categories": [
         "Food"
       ]
@@ -713,7 +713,7 @@
     {
       "name": "evening",
       "back": "Evening",
-      "front_description": "Part of the day between 6:00 PM and 9:00 PM",
+      "front_note": "Part of the day between 6:00 PM and 9:00 PM",
       "categories": [
         "Time"
       ]
@@ -777,7 +777,7 @@
     {
       "name": "february",
       "back": "February",
-      "front_description": "The 2nd Month of the Year",
+      "front_note": "The 2nd Month of the Year",
       "categories": [
         "Months"
       ]
@@ -806,7 +806,7 @@
     {
       "name": "field",
       "back": "Field",
-      "front_description": "Soccer ________",
+      "front_note": "Soccer ________",
       "categories": [
         "Miscellaneous"
       ]
@@ -877,7 +877,7 @@
     {
       "name": "friday",
       "back": "Friday",
-      "front_description": "The 5th Day of the Week",
+      "front_note": "The 5th Day of the Week",
       "categories": [
         "Day of the Week"
       ]
@@ -969,7 +969,7 @@
     {
       "name": "government",
       "back": "Government",
-      "front_description": "Palace's ________",
+      "front_note": "Palace's ________",
       "categories": [
         "Society"
       ]
@@ -1047,7 +1047,7 @@
     {
       "name": "heat",
       "back": "Heat",
-      "front_description": "The energy that makes the air and objects very warm",
+      "front_note": "The energy that makes the air and objects very warm",
       "categories": [
         "Nature"
       ]
@@ -1055,7 +1055,7 @@
     {
       "name": "heaven",
       "back": "Heaven",
-      "front_description": "Place of God and angels",
+      "front_note": "Place of God and angels",
       "categories": [
         "Society"
       ]
@@ -1098,7 +1098,7 @@
     {
       "name": "hobby",
       "back": "Hobby",
-      "front_description": "An activity you enjoy doing in your free time",
+      "front_note": "An activity you enjoy doing in your free time",
       "categories": [
         "Miscellaneous"
       ]
@@ -1120,7 +1120,7 @@
     {
       "name": "hot",
       "back": "Hot",
-      "front_description": "The temperature is ________",
+      "front_note": "The temperature is ________",
       "categories": [
         "Adjectives"
       ]
@@ -1128,7 +1128,7 @@
     {
       "name": "hour",
       "back": "Hour",
-      "front_description": "1 ________ = 60 minutes",
+      "front_note": "1 ________ = 60 minutes",
       "categories": [
         "Time"
       ]
@@ -1143,7 +1143,7 @@
     {
       "name": "inch",
       "back": "Inch",
-      "front_description": "1 ________ = 2,54 cm",
+      "front_note": "1 ________ = 2,54 cm",
       "categories": [
         "Math/Measurements"
       ]
@@ -1172,7 +1172,7 @@
     {
       "name": "island",
       "back": "Island",
-      "front_description": "Land surrounded by water",
+      "front_note": "Land surrounded by water",
       "categories": [
         "Nature"
       ]
@@ -1187,7 +1187,7 @@
     {
       "name": "january",
       "back": "January",
-      "front_description": "The 1st Month of the Year",
+      "front_note": "The 1st Month of the Year",
       "categories": [
         "Months"
       ]
@@ -1202,7 +1202,7 @@
     {
       "name": "job",
       "back": "Job",
-      "front_description": "Work done to earn money",
+      "front_note": "Work done to earn money",
       "categories": [
         "Job"
       ]
@@ -1210,7 +1210,7 @@
     {
       "name": "july",
       "back": "July",
-      "front_description": "The 7th Month of the Year",
+      "front_note": "The 7th Month of the Year",
       "categories": [
         "Months"
       ]
@@ -1225,7 +1225,7 @@
     {
       "name": "june",
       "back": "June",
-      "front_description": "The 6th Month of the Year",
+      "front_note": "The 6th Month of the Year",
       "categories": [
         "Months"
       ]
@@ -1247,7 +1247,7 @@
     {
       "name": "kid",
       "back": "Kid",
-      "front_description": "A child, young person",
+      "front_note": "A child, young person",
       "categories": [
         "People"
       ]
@@ -1318,7 +1318,7 @@
     {
       "name": "letter",
       "back": "Letter",
-      "front_description": "A written message sent to someone by mail",
+      "front_note": "A written message sent to someone by mail",
       "categories": [
         "Home"
       ]
@@ -1389,7 +1389,7 @@
     {
       "name": "lunch",
       "back": "Lunch",
-      "front_description": "Midday meal",
+      "front_note": "Midday meal",
       "categories": [
         "Food"
       ]
@@ -1404,7 +1404,7 @@
     {
       "name": "magazine",
       "back": "Magazine",
-      "front_description": "A weekly or monthly publication with articles and pictures",
+      "front_note": "A weekly or monthly publication with articles and pictures",
       "categories": [
         "Society"
       ]
@@ -1426,7 +1426,7 @@
     {
       "name": "march",
       "back": "March",
-      "front_description": "The 3rd Month of the Year",
+      "front_note": "The 3rd Month of the Year",
       "categories": [
         "Months"
       ]
@@ -1434,7 +1434,7 @@
     {
       "name": "market",
       "back": "Market",
-      "front_description": "Place to buy and sell goods",
+      "front_note": "Place to buy and sell goods",
       "categories": [
         "Location"
       ]
@@ -1449,7 +1449,7 @@
     {
       "name": "materials",
       "back": "Materials",
-      "front_description": "Substances for creating or constructing objects",
+      "front_note": "Substances for creating or constructing objects",
       "categories": [
         "Materials"
       ]
@@ -1464,7 +1464,7 @@
     {
       "name": "may",
       "back": "May",
-      "front_description": "The 5th Month of the Year",
+      "front_note": "The 5th Month of the Year",
       "categories": [
         "Months"
       ]
@@ -1472,7 +1472,7 @@
     {
       "name": "meal",
       "back": "Meal",
-      "front_description": "Breakfast, Lunch, Dinner are ________",
+      "front_note": "Breakfast, Lunch, Dinner are ________",
       "categories": [
         "Food"
       ]
@@ -1494,7 +1494,7 @@
     {
       "name": "minute",
       "back": "Minute",
-      "front_description": "1 ________ = 60 seconds",
+      "front_note": "1 ________ = 60 seconds",
       "categories": [
         "Time"
       ]
@@ -1509,7 +1509,7 @@
     {
       "name": "monday",
       "back": "Monday",
-      "front_description": "The 1st Day of the Week",
+      "front_note": "The 1st Day of the Week",
       "categories": [
         "Day of the Week"
       ]
@@ -1517,7 +1517,7 @@
     {
       "name": "month",
       "back": "Month",
-      "front_description": "1 ________ = 30 days",
+      "front_note": "1 ________ = 30 days",
       "categories": [
         "Time"
       ]
@@ -1546,7 +1546,7 @@
     {
       "name": "nature",
       "back": "Nature",
-      "front_description": "Plants, animals, and land are part of the ________",
+      "front_note": "Plants, animals, and land are part of the ________",
       "categories": [
         "Nature"
       ]
@@ -1596,7 +1596,7 @@
     {
       "name": "november",
       "back": "November",
-      "front_description": "The 11th Month of the Year",
+      "front_note": "The 11th Month of the Year",
       "categories": [
         "Months"
       ]
@@ -1625,7 +1625,7 @@
     {
       "name": "october",
       "back": "October",
-      "front_description": "The 10th Month of the Year",
+      "front_note": "The 10th Month of the Year",
       "categories": [
         "Months"
       ]
@@ -1794,7 +1794,7 @@
     {
       "name": "plastic",
       "back": "Plastic",
-      "front_description": "________ objects",
+      "front_note": "________ objects",
       "categories": [
         "Materials"
       ]
@@ -1823,7 +1823,7 @@
     {
       "name": "police",
       "back": "Police",
-      "front_description": "________ officer",
+      "front_note": "________ officer",
       "categories": [
         "Society"
       ]
@@ -1999,7 +1999,7 @@
     {
       "name": "saturday",
       "back": "Saturday",
-      "front_description": "The 6th Day of the Week",
+      "front_note": "The 6th Day of the Week",
       "categories": [
         "Day of the Week"
       ]
@@ -2042,7 +2042,7 @@
     {
       "name": "september",
       "back": "September",
-      "front_description": "The 9th Month of the Year",
+      "front_note": "The 9th Month of the Year",
       "categories": [
         "Months"
       ]
@@ -2225,7 +2225,7 @@
     {
       "name": "sunday",
       "back": "Sunday",
-      "front_description": "The 7th Day of the Week",
+      "front_note": "The 7th Day of the Week",
       "categories": [
         "Day of the Week"
       ]
@@ -2268,7 +2268,7 @@
     {
       "name": "technology",
       "back": "Technology",
-      "front_description": "Use of science to make tools",
+      "front_note": "Use of science to make tools",
       "categories": [
         "Miscellaneous"
       ]
@@ -2290,7 +2290,7 @@
     {
       "name": "thursday",
       "back": "Thursday",
-      "front_description": "The 4th Day of the Week",
+      "front_note": "The 4th Day of the Week",
       "categories": [
         "Day of the Week"
       ]
@@ -2305,7 +2305,7 @@
     {
       "name": "time",
       "back": "Time",
-      "front_description": "Continuous passing of moments",
+      "front_note": "Continuous passing of moments",
       "categories": [
         "Time"
       ]
@@ -2362,7 +2362,7 @@
     {
       "name": "tuesday",
       "back": "Tuesday",
-      "front_description": "The 2nd Day of the Week",
+      "front_note": "The 2nd Day of the Week",
       "categories": [
         "Day of the Week"
       ]
@@ -2377,7 +2377,7 @@
     {
       "name": "university",
       "back": "University",
-      "front_description": "Place of study after high school",
+      "front_note": "Place of study after high school",
       "categories": [
         "Location"
       ]
@@ -2420,7 +2420,7 @@
     {
       "name": "wednesday",
       "back": "Wednesday",
-      "front_description": "The 3rd Day of the Week",
+      "front_note": "The 3rd Day of the Week",
       "categories": [
         "Day of the Week"
       ]
@@ -2428,7 +2428,7 @@
     {
       "name": "week",
       "back": "Week",
-      "front_description": "1 ________ = 7 days",
+      "front_note": "1 ________ = 7 days",
       "categories": [
         "Time"
       ]
@@ -2499,7 +2499,7 @@
     {
       "name": "year",
       "back": "Year",
-      "front_description": "1 ________ = 12 months",
+      "front_note": "1 ________ = 12 months",
       "categories": [
         "Time"
       ]

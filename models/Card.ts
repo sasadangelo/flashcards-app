@@ -6,7 +6,7 @@ export interface CardData {
     id: string;
     name: string;
     back: string;
-    front_description?: string;
+    front_note?: string;
     categories: string[];
 }
 
@@ -16,14 +16,14 @@ export class Card {
     id: string;
     name: string;
     back: string;
-    front_description?: string;
+    front_note?: string;
     categories: string[];
 
-    constructor({ id, name, back, front_description, categories }: CardData) {
+    constructor({ id, name, back, front_note, categories }: CardData) {
         this.id = id;
         this.name = name;
         this.back = back;
-        this.front_description = front_description;
+        this.front_note = front_note;
         this.categories = categories;
     }
 
