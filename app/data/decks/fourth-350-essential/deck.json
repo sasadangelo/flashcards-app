@@ -87,6 +87,13 @@
       ]
     },
     {
+      "name": "bank",
+      "back": "Bank",
+      "categories": [
+        "Location"
+      ]
+    },
+    {
       "name": "baseball",
       "back": "Baseball",
       "categories": [
@@ -96,6 +103,7 @@
     {
       "name": "basketball",
       "back": "Basketball",
+      "abbreviation": "Basket",
       "categories": [
         "Miscellaneous"
       ]
@@ -145,6 +153,7 @@
     {
       "name": "blood",
       "back": "Blood",
+      "front_note": "The red liquid that flows through the body",
       "categories": [
         "Body"
       ]
@@ -341,13 +350,6 @@
       ]
     },
     {
-      "name": "chocolate",
-      "back": "Chocolate",
-      "categories": [
-        "Food"
-      ]
-    },
-    {
       "name": "church",
       "back": "Church",
       "categories": [
@@ -505,7 +507,7 @@
       ]
     },
     {
-      "name": "day",
+      "name": "day_time",
       "back": "Day",
       "front_note": "1 ________ = 24 hours",
       "categories": [
@@ -539,6 +541,13 @@
       "back": "Desk",
       "categories": [
         "Home"
+      ]
+    },
+    {
+      "name": "diamond",
+      "back": "Diamond",
+      "categories": [
+        "Materials"
       ]
     },
     {
@@ -1089,8 +1098,9 @@
       ]
     },
     {
-      "name": "hippo",
-      "back": "Hippo",
+      "name": "hippopotamus",
+      "back": "Hippopotamus",
+      "abbreviation": "Hippo",
       "categories": [
         "Animals"
       ]
@@ -1180,6 +1190,9 @@
     {
       "name": "jail",
       "back": "Jail",
+      "synonyms": [
+        "Prison"
+      ],
       "categories": [
         "Location"
       ]
@@ -1271,13 +1284,6 @@
       "back": "Kiss",
       "categories": [
         "Verbs"
-      ]
-    },
-    {
-      "name": "kitchen",
-      "back": "Kitchen",
-      "categories": [
-        "Home"
       ]
     },
     {
@@ -1540,7 +1546,7 @@
       "name": "napkin",
       "back": "Napkin",
       "categories": [
-        "Home",
+        "Home"
       ]
     },
     {
@@ -1771,8 +1777,9 @@
       ]
     },
     {
-      "name": "photo",
-      "back": "Photo",
+      "name": "photograph",
+      "back": "Photograph",
+      "abbreviation": "Photo",
       "categories": [
         "Miscellaneous"
       ]
@@ -2083,7 +2090,7 @@
       ]
     },
     {
-      "name": "short",
+      "name": "short_height",
       "back": "Short",
       "categories": [
         "Adjectives"
@@ -2276,6 +2283,7 @@
     {
       "name": "television",
       "back": "Television",
+      "abbreviation": "TV",
       "categories": [
         "Electronics"
       ]

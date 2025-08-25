@@ -164,8 +164,69 @@ export default function StudyScreen() {
                     <>
                         <Text style={styles.word}>{card.back}</Text>
                         <TouchableOpacity onPress={playSound} style={styles.playButton}>
-                            <Ionicons name="volume-high" size={28} color="lightgrey" />
+                            <Ionicons name="volume-high" size={28} color="grey" />
                         </TouchableOpacity>
+
+                        {card.abbreviation && (
+                            <View style={styles.abbreviationContainer}>
+                                <Text style={styles.abbreviationText}>Abbr.: {card.abbreviation}</Text>
+                                <TouchableOpacity
+                                    onPress={async () => {
+                                        const abbr = card.abbreviation;
+                                        if (!abbr) return;
+
+                                        if (soundRef.current) {
+                                            await soundRef.current.unloadAsync();
+                                            soundRef.current = null;
+                                        }
+
+                                        // Genera la chiave come name + '_' + abbreviation
+                                        const key = `${card.name}_${abbr}`.toLowerCase();
+                                        const audioSource = audiosMaps[session.deck.slug]?.[key];
+                                        if (!audioSource) return; // se non c'è, non fa nulla
+
+                                        const { sound } = await Audio.Sound.createAsync(audioSource);
+                                        soundRef.current = sound;
+                                        await sound.playAsync();
+                                    }}
+                                    style={styles.playButtonSmall}
+                                >
+                                    <Ionicons name="volume-high" size={20} color="lightgrey" />
+                                </TouchableOpacity>
+                            </View>
+                        )}
+
+                        {card.synonyms && card.synonyms.length > 0 && (
+                            <View style={styles.synonymsContainer}>
+                                {card.synonyms.map((syn, index) => (
+                                    <View key={index} style={styles.synonymRow}>
+                                        <Text style={styles.synonymText}>Synonyms: {syn}</Text>
+                                        <TouchableOpacity
+                                            onPress={async () => {
+                                                if (!syn) return;
+
+                                                if (soundRef.current) {
+                                                    await soundRef.current.unloadAsync();
+                                                    soundRef.current = null;
+                                                }
+
+                                                // genera chiave come name + '_' + synonym
+                                                const key = `${card.name}_${syn}`.toLowerCase();
+                                                const audioSource = audiosMaps[session.deck.slug]?.[key];
+                                                if (!audioSource) return;
+
+                                                const { sound } = await Audio.Sound.createAsync(audioSource);
+                                                soundRef.current = sound;
+                                                await sound.playAsync();
+                                            }}
+                                            style={styles.playButtonSmall}
+                                        >
+                                            <Ionicons name="volume-high" size={20} color="lightgrey" />
+                                        </TouchableOpacity>
+                                    </View>
+                                ))}
+                            </View>
+                        )}
                     </>
                 )}
             </View>
@@ -175,15 +236,17 @@ export default function StudyScreen() {
                 onPress={() => setShowBack(!showBack)}
             />
 
-            {showBack && (
-                <View style={styles.buttons}>
-                    <Button title="Ripeti" onPress={() => handleAnswer('again')} color="#e74c3c" />
-                    <Button title="Difficile" onPress={() => handleAnswer('hard')} color="#f39c12" />
-                    <Button title="Buono" onPress={() => handleAnswer('good')} color="#27ae60" />
-                    <Button title="Facile" onPress={() => handleAnswer('easy')} color="#2ecc71" />
-                </View>
-            )}
-        </View>
+            {
+                showBack && (
+                    <View style={styles.buttons}>
+                        <Button title="Ripeti" onPress={() => handleAnswer('again')} color="#e74c3c" />
+                        <Button title="Difficile" onPress={() => handleAnswer('hard')} color="#f39c12" />
+                        <Button title="Buono" onPress={() => handleAnswer('good')} color="#27ae60" />
+                        <Button title="Facile" onPress={() => handleAnswer('easy')} color="#2ecc71" />
+                    </View>
+                )
+            }
+        </View >
     );
 
     async function handleAnswer(difficulty: Difficulty) {
@@ -265,5 +328,33 @@ const styles = StyleSheet.create({
     categoryText: {
         fontSize: 12,
         color: '#333',
+    },
+    abbreviationContainer: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        marginTop: 30,
+    },
+    abbreviationText: {
+        fontSize: 16,
+        color: '#666',
+        marginRight: 6,
+        fontStyle: 'italic',
+    },
+    playButtonSmall: {
+        padding: 4,
+    },
+    synonymsContainer: {
+        marginTop: 20,
+        alignItems: 'center',
+    },
+    synonymRow: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        marginBottom: 6,
+    },
+    synonymText: {
+        fontSize: 16,
+        color: '#555',
+        marginRight: 6,
     },
 });

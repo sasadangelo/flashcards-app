@@ -48,6 +48,7 @@
     {
       "name": "bicycle",
       "back": "Bicycle",
+      "abbreviation": "Bike",
       "categories": [
         "Transportation"
       ]
@@ -160,6 +161,9 @@
     {
       "name": "child",
       "back": "Child",
+      "synonyms": [
+        "Kid"
+      ],
       "categories": [
         "People"
       ]
@@ -244,6 +248,9 @@
     {
       "name": "father",
       "back": "Father",
+      "synonyms": [
+        "Dad"
+      ],
       "categories": [
         "People"
       ]
@@ -419,6 +426,9 @@
     {
       "name": "mother",
       "back": "Mother",
+      "synonyms": [
+        "Mom"
+      ],
       "categories": [
         "People"
       ]
@@ -475,6 +485,7 @@
     {
       "name": "telephone",
       "back": "Telephone",
+      "abbreviation": "Phone",
       "categories": [
         "Electronics"
       ]

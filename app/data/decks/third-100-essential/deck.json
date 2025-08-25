@@ -7,6 +7,9 @@
       "name": "autumn",
       "back": "Autumn",
       "front_note": "The season after Summer",
+      "synonyms": [
+        "Fall"
+      ],
       "categories": [
         "Seasons"
       ]
@@ -33,6 +36,14 @@
       ]
     },
     {
+      "name": "beach",
+      "back": "Beach",
+      "front_note": "Sandy place near the sea",
+      "categories": [
+        "Location"
+      ]
+    },
+    {
       "name": "beard",
       "back": "Beard",
       "categories": [
@@ -49,6 +60,9 @@
     {
       "name": "big",
       "back": "Big",
+      "synonyms": [
+        "Large"
+      ],
       "categories": [
         "Adjectives"
       ]
@@ -89,13 +103,6 @@
       ]
     },
     {
-      "name": "chocolate",
-      "back": "Chocolate",
-      "categories": [
-        "Food"
-      ]
-    },
-    {
       "name": "chips",
       "back": "Chips",
       "categories": [
@@ -124,7 +131,7 @@
       ]
     },
     {
-      "name": "day",
+      "name": "day_morning",
       "back": "Day",
       "categories": [
         "Time"
@@ -420,6 +427,7 @@
     {
       "name": "paper",
       "back": "Paper",
+      "front_note": "A thin material used for writing, printing, or drawing on",
       "categories": [
         "Home"
       ]
@@ -547,14 +555,7 @@
       ]
     },
     {
-      "name": "shirt",
-      "back": "Shirt",
-      "categories": [
-        "Clothing"
-      ]
-    },
-    {
-      "name": "short",
+      "name": "short_length",
       "back": "Short",
       "categories": [
         "Adjectives"
@@ -616,6 +617,13 @@
       "back": "Student",
       "categories": [
         "Job"
+      ]
+    },
+    {
+      "name": "sugar",
+      "back": "Sugar",
+      "categories": [
+        "Food"
       ]
     },
     {

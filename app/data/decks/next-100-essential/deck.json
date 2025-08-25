@@ -6,6 +6,7 @@
     {
       "name": "airplane",
       "back": "Airplane",
+      "abbreviation": "Plane",
       "categories": [
         "Transportation"
       ]
@@ -308,6 +309,7 @@
     {
       "name": "goodbye",
       "back": "Goodbye",
+      "abbreviation": "Bye",
       "front_note": "A polite way to say farewell or see you later",
       "categories": [
         "Society"
@@ -577,13 +579,6 @@
       ]
     },
     {
-      "name": "shoe",
-      "back": "Shoe",
-      "categories": [
-        "Clothing"
-      ]
-    },
-    {
       "name": "shoulder",
       "back": "Shoulder",
       "categories": [
@@ -631,6 +626,13 @@
       "front_note": "She is singing a ________",
       "categories": [
         "Art"
+      ]
+    },
+    {
+      "name": "sound",
+      "back": "Sound",
+      "categories": [
+        "Miscellaneous"
       ]
     },
     {
