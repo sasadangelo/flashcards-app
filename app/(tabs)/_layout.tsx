@@ -47,6 +47,13 @@ export default function TabLayout() {
           tabBarButton: () => null, // Nasconde il tab dalla barra
         }}
       />
+      <Tabs.Screen
+        name="copyright"
+        options={{
+          title: "Copyright",
+          tabBarIcon: ({ color }) => <Ionicons name="information-circle" size={24} color={color} />,
+        }}
+      />
     </Tabs>
   );
 }
