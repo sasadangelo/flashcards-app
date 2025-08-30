@@ -144,6 +144,11 @@ export default function StudyScreen() {
             <View style={styles.card}>
                 {!showBack ? (
                     <>
+                        {card.region && (
+                            <Text style={styles.regionFlag}>
+                                {card.region === 'UK' ? '🇬🇧' : card.region === 'US' ? '🇺🇸' : card.region === 'AU' ? '🇦🇺' : ''}
+                            </Text>
+                        )}
                         <Image source={imageSource} style={styles.image} />
                         {card.front_note && (
                             <Text style={styles.frontDescription}>{card.front_note}</Text>
@@ -226,6 +231,10 @@ export default function StudyScreen() {
                                     </View>
                                 ))}
                             </View>
+                        )}
+
+                        {card.back_note && (
+                            <Text style={styles.backNote}>{card.back_note}</Text>
                         )}
                     </>
                 )}
@@ -356,5 +365,18 @@ const styles = StyleSheet.create({
         fontSize: 16,
         color: '#555',
         marginRight: 6,
+    },
+    regionFlag: {
+        position: 'absolute',
+        top: 8,
+        right: 8,
+        fontSize: 28,
+    },
+    backNote: {
+        fontSize: 14,
+        color: '#444',
+        textAlign: 'center',
+        marginTop: 20,
+        fontStyle: 'italic',
     },
 });

@@ -363,6 +363,7 @@
       "name": "movie",
       "back": "Movie",
       "front_note": "A film or story shown on a screen",
+      "synonyms": "Film",
       "categories": [
         "Art"
       ]

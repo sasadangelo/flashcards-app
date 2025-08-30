@@ -44,6 +44,7 @@
       "name": "apartment",
       "back": "Apartment",
       "front_note": "A set of rooms in a building for living",
+      "region": "US",
       "categories": [
         "Home"
       ]
@@ -701,6 +702,7 @@
     {
       "name": "elevator",
       "back": "Elevator",
+      "region": "US",
       "categories": [
         "Home"
       ]

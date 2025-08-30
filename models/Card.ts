@@ -8,8 +8,10 @@ export interface CardData {
     back: string;
     front_note?: string;
     abbreviation?: string;
-    categories: string[];
     synonyms: string[];
+    back_note?: string;
+    region?: string;
+    categories: string[];
 }
 
 const logger = log.extend('Card');
@@ -20,17 +22,21 @@ export class Card {
     back: string;
     front_note?: string;
     abbreviation?: string;
-    categories: string[];
     synonyms: string[];
+    back_note?: string;
+    region?: string;
+    categories: string[];
 
-    constructor({ id, name, back, front_note, abbreviation, categories, synonyms }: CardData) {
+    constructor({ id, name, back, front_note, abbreviation, synonyms, back_note, region, categories }: CardData) {
         this.id = id;
         this.name = name;
         this.back = back;
         this.front_note = front_note;
         this.abbreviation = abbreviation;
-        this.categories = categories;
         this.synonyms = synonyms || [];
+        this.back_note = back_note;
+        this.region = region;
+        this.categories = categories;
     }
 
     async getNextReviewDate(): Promise<Date | null> {

@@ -241,6 +241,7 @@
     {
       "name": "garden",
       "back": "Garden",
+      "region": "US",
       "categories": [
         "Home"
       ]
@@ -318,6 +319,7 @@
     {
       "name": "grey",
       "back": "Grey",
+      "region": "UK",
       "categories": [
         "Colors"
       ]
@@ -468,6 +470,7 @@
     {
       "name": "pants",
       "back": "Pants",
+      "region": "US",
       "categories": [
         "Clothing"
       ]
@@ -539,6 +542,7 @@
     {
       "name": "rubber",
       "back": "Rubber",
+      "region": "UK",
       "categories": [
         "Home"
       ]

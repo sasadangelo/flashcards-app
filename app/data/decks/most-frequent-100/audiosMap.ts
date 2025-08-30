@@ -1,5 +1,6 @@
 export const audiosMap: { [key: string]: any } = {
     apple: require('./audio/apple.mp3'),
+    baby: require('./audio/baby.mp3'),
     bag: require('./audio/bag.mp3'),
     banana: require('./audio/banana.mp3'),
     bed: require('./audio/bed.mp3'),

@@ -265,6 +265,7 @@
     {
       "name": "fish",
       "back": "Fish",
+      "back_note": "Plural is always 'fish'",
       "categories": [
         "Animals"
       ]
@@ -592,8 +593,7 @@
       "name": "snow",
       "back": "Snow",
       "categories": [
-        "Nature",
-        "Seasons"
+        "Nature"
       ]
     },
     {
