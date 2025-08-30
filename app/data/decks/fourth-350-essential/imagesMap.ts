@@ -152,7 +152,7 @@ export const imagesMap: { [key: string]: any } = {
   "hell": require('./images/hell.png'),
   "help": require('./images/help.png'),
   "hill": require('./images/hill.png'),
-  "hippo": require('./images/hippo.png'),
+  "hippopotamus": require('./images/hippopotamus.png'),
   "hobby": require('./images/hobby.png'),
   "hole": require('./images/hole.png'),
   "holiday": require('./images/holiday.png'),
