@@ -254,6 +254,7 @@
       "name": "grandfather",
       "back": "Grandfather",
       "front_note": "The father of your parent",
+      "abbreviation": "Grandad",
       "categories": [
         "People"
       ]
@@ -262,6 +263,7 @@
       "name": "grandmother",
       "back": "Grandmother",
       "front_note": "The mother of your parent",
+      "abbreviation": "Granny",
       "categories": [
         "People"
       ]
@@ -429,6 +431,7 @@
       "name": "paper",
       "back": "Paper",
       "front_note": "A thin material used for writing, printing, or drawing on",
+      "synonyms": "Sheet",
       "categories": [
         "Home"
       ]
@@ -443,6 +446,7 @@
     {
       "name": "policeman",
       "back": "Policeman",
+      "synonyms": "cop",
       "categories": [
         "Job"
       ]
@@ -586,6 +590,7 @@
     {
       "name": "small",
       "back": "Small",
+      "synonyms": "Little",
       "categories": [
         "Adjectives"
       ]

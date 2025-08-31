@@ -73,7 +73,6 @@ export const imagesMap: { [key: string]: any } = {
     pizza: require('./images/pizza.png'),
     rainbow: require('./images/rainbow.png'),
     river: require('./images/river.png'),
-    road: require('./images/road.png'),
     rubber: require('./images/rubber.png'),
     ruler: require('./images/ruler.png'),
     sharpener: require('./images/sharpener.png'),

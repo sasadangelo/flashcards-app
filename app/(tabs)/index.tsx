@@ -7,6 +7,7 @@ import { Deck } from '../../models/Deck';
 import { ConfigManager } from '../../utils/ConfigManager';
 import { ProgressTracker } from '../../utils/ProgressTracker';
 
+import deckData5 from '../data/decks/fifth-350-essential/deck.json';
 import deckData4 from '../data/decks/fourth-350-essential/deck.json';
 import deckData1 from '../data/decks/most-frequent-100/deck.json';
 import deckData2 from '../data/decks/next-100-essential/deck.json';
@@ -25,7 +26,7 @@ export default function HomeScreen() {
   const { manager, setManager, setCurrentSession } = useStudySession();
 
   // Initialize decks
-  const decks = [new Deck(deckData1), new Deck(deckData2), new Deck(deckData3), new Deck(deckData4)];
+  const decks = [new Deck(deckData1), new Deck(deckData2), new Deck(deckData3), new Deck(deckData4), new Deck(deckData5)];
   const groupName = decks[0].group;
 
   const [counts, setCounts] = useState<Record<string, DeckCounts>>({});

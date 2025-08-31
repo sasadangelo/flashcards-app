@@ -18,8 +18,9 @@
       ]
     },
     {
-      "name": "bag",
-      "back": "Bag",
+      "name": "schoolbag",
+      "back": "Schoolbag",
+      "abbreviation": "Bag",
       "categories": [
         "Home"
       ]
@@ -265,7 +266,7 @@
     {
       "name": "fish",
       "back": "Fish",
-      "back_note": "Plural is always 'fish'",
+      "back_note": "Plural is always 'Fish'",
       "categories": [
         "Animals"
       ]
@@ -564,6 +565,7 @@
     {
       "name": "sheep",
       "back": "Sheep",
+      "back_note": "Plural is always 'Sheep'",
       "categories": [
         "Animals"
       ]
@@ -635,6 +637,7 @@
     {
       "name": "teacher",
       "back": "Teacher",
+      "synonyms": "Professor",
       "categories": [
         "Job"
       ]

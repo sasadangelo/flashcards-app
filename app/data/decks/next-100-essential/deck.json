@@ -371,6 +371,7 @@
     {
       "name": "house",
       "back": "House",
+      "synonyms": "Home",
       "categories": [
         "Home"
       ]
@@ -532,14 +533,6 @@
       ]
     },
     {
-      "name": "road",
-      "back": "Road",
-      "front_note": "Path connecting places, town or countryside",
-      "categories": [
-        "Location"
-      ]
-    },
-    {
       "name": "rubber",
       "back": "Rubber",
       "region": "UK",
@@ -649,7 +642,7 @@
     {
       "name": "street",
       "back": "Street",
-      "front_note": "Road in a town with buildings",
+      "synonyms": "Road",
       "categories": [
         "Location"
       ]
@@ -724,6 +717,13 @@
       "front_note": "Opposite of no",
       "categories": [
         "Miscellaneous"
+      ]
+    },
+    {
+      "name": "zero",
+      "back": "Zero",
+      "categories": [
+        "Numbers"
       ]
     }
   ]

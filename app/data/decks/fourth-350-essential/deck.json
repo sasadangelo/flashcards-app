@@ -894,8 +894,9 @@
       ]
     },
     {
-      "name": "fridge",
-      "back": "Fridge",
+      "name": "refrigerator",
+      "back": "Refrigerator",
+      "abbreviation": "Fridge",
       "categories": [
         "Electronics"
       ]
@@ -1125,6 +1126,7 @@
     {
       "name": "holiday",
       "back": "Holiday",
+      "front_note": "A day when people rest or celebrate",
       "categories": [
         "Society"
       ]
@@ -1233,6 +1235,7 @@
     {
       "name": "jump",
       "back": "Jump",
+      "synonyms": "Hop",
       "categories": [
         "Verbs"
       ]
@@ -1369,6 +1372,7 @@
     {
       "name": "liver",
       "back": "Liver",
+      "front_note": "An organ that cleans blood and helps digestion",
       "categories": [
         "Body"
       ]
@@ -2150,6 +2154,7 @@
     {
       "name": "sofa",
       "back": "Sofa",
+      "region": "UK",
       "categories": [
         "Home"
       ]
