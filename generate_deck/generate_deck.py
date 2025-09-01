@@ -19,6 +19,20 @@ def parse_input_file(file_path):
     return words
 
 
+def load_custom_prompts(prompt_file: str):
+    """Carica prompt personalizzati da un file prompt.txt nel formato word=prompt"""
+    prompts = {}
+    if os.path.exists(prompt_file):
+        with open(prompt_file, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line or "=" not in line:
+                    continue
+                word, custom_prompt = line.split("=", 1)
+                prompts[word.strip().lower()] = custom_prompt.strip()
+    return prompts
+
+
 def generate_image(word: str, prompt: str, save_dir: str, width: int = 640, height: int = 640):
     """Genera un'immagine da pollinations.ai e la salva nella cartella save_dir."""
     prompt_unique = f"{prompt}-{uuid.uuid4()}"
@@ -40,7 +54,7 @@ def generate_image(word: str, prompt: str, save_dir: str, width: int = 640, heig
         print(f"Error generating image for '{word}': {e}")
 
 
-def generate_images_from_deck(deck_json_path: str, images_folder: str):
+def generate_images_from_deck(deck_json_path: str, images_folder: str, prompt_file: str = None):
     """Scarica immagini per ogni parola nel deck JSON e le salva in images_folder."""
     os.makedirs(images_folder, exist_ok=True)
 
@@ -48,6 +62,9 @@ def generate_images_from_deck(deck_json_path: str, images_folder: str):
         deck = json.load(f)
 
     cards = deck.get("cards", deck)
+
+    # carica prompt custom
+    custom_prompts = load_custom_prompts(prompt_file) if prompt_file else {}
 
     for card in cards:
         word = card["name"]
@@ -58,10 +75,21 @@ def generate_images_from_deck(deck_json_path: str, images_folder: str):
             print(f"Image for '{word}' already exists, skipping.")
             continue
 
-        prompt = (
-            # f'A simple flat vector illustration of "{word}", without any text or writing, no watermarks, no logos, no background other than pure white. Show only the essential features that clearly represent the concept. Suitable for educational use in flashcards for children.'
-            f"Generate a clipart of a '{word}' with white background and no shadow."
-        )
+        # se esiste un prompt personalizzato, usa quello
+        if word in custom_prompts:
+            prompt = custom_prompts[word]
+        else:
+            # prompt generico migliorato (vedi sotto 👇)
+            prompt = (
+                f"A colorful flat vector clipart of '{word}', "
+                f"with pure white background, no shadow, don't write text. "
+                f"Minimal, clear and recognizable, suitable for children's flashcards."
+            )
+
+            # prompt = (
+            #     f'A simple flat vector illustration of "{word}", without any text or writing, no watermarks, no logos, no background other than pure white. Show only the essential features that clearly represent the concept. Suitable for educational use in flashcards for children.'
+            #     f"Generate a clipart of a '{word}' with white background and no shadow"
+            # )
         generate_image(word, prompt, images_folder)
         time.sleep(0.5)
 
@@ -156,7 +184,8 @@ def main():
     generate_audio_files_from_deck(deck_json_path, audio_folder)
 
     image_folder = os.path.join(base_path, "images")
-    generate_images_from_deck(deck_json_path, image_folder)
+    prompt_file = os.path.join(base_path, "prompt.txt")
+    generate_images_from_deck(deck_json_path, image_folder, prompt_file)
 
     print(f"Deck generated with {len(words)} cards.")
 
