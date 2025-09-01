@@ -29,7 +29,7 @@ export const imagesMap: { [key: string]: any } = {
     face: require('./images/face.png'),
     fifteen: require('./images/fifteen.png'),
     finger: require('./images/finger.png'),
-    foot: require('./images/foot.png'),
+    foot_noun: require('./images/foot_noun.png'),
     fourteen: require('./images/fourteen.png'),
     fox: require('./images/fox.png'),
     game: require('./images/game.png'),
@@ -87,6 +87,7 @@ export const imagesMap: { [key: string]: any } = {
     sky: require('./images/sky.png'),
     sock: require('./images/sock.png'),
     song: require('./images/song.png'),
+    sound: require('./images/sound.png'),
     spider: require('./images/spider.png'),
     street: require('./images/street.png'),
     thirteen: require('./images/thirteen.png'),
@@ -99,4 +100,5 @@ export const imagesMap: { [key: string]: any } = {
     turtle: require('./images/turtle.png'),
     wind: require('./images/wind.png'),
     yes: require('./images/yes.png'),
+    zero: require('./images/zero.png'),
 };

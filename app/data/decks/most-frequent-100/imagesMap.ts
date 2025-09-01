@@ -19,7 +19,7 @@ export const imagesMap: { [key: string]: any } = {
     cat: require('./images/cat.png'),
     chair: require('./images/chair.png'),
     cheese: require('./images/cheese.png'),
-    chicken: require('./images/chicken.png'),
+    chicken_animal: require('./images/chicken_animal.png'),
     child: require('./images/child.png'),
     clock: require('./images/clock.png'),
     cloud: require('./images/cloud.png'),

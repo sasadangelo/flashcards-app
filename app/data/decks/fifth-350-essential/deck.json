@@ -1,0 +1,2457 @@
+{
+  "group": "English Flashcards",
+  "name": "Fifth 350 Essential",
+  "slug": "fifth-350-essential",
+  "cards": [
+    {
+      "name": "above",
+      "back": "Above",
+      "categories": [
+        "Prepositions"
+      ]
+    },
+    {
+      "name": "actor",
+      "back": "Actor",
+      "categories": [
+        "Job"
+      ]
+    },
+    {
+      "name": "address",
+      "back": "Address",
+      "categories": [
+        "Home"
+      ]
+    },
+    {
+      "name": "adjective",
+      "back": "Adjective",
+      "categories": [
+        "Adjectives"
+      ]
+    },
+    {
+      "name": "always",
+      "back": "Always",
+      "categories": [
+        "Adverbs"
+      ]
+    },
+    {
+      "name": "angel",
+      "back": "Angel",
+      "categories": [
+        "Society"
+      ]
+    },
+    {
+      "name": "ankle",
+      "back": "Ankle",
+      "categories": [
+        "Body"
+      ]
+    },
+    {
+      "name": "artist",
+      "back": "Artist",
+      "categories": [
+        "Job"
+      ]
+    },
+    {
+      "name": "astronaut",
+      "back": "Astronaut",
+      "categories": [
+        "Job"
+      ]
+    },
+    {
+      "name": "aunt",
+      "back": "Aunt",
+      "categories": [
+        "People"
+      ]
+    },
+    {
+      "name": "australia",
+      "back": "Australia",
+      "categories": [
+        "Nationality"
+      ]
+    },
+    {
+      "name": "austria",
+      "back": "Austria",
+      "categories": [
+        "Nationality"
+      ]
+    },
+    {
+      "name": "author",
+      "back": "Author",
+      "categories": [
+        "Job"
+      ]
+    },
+    {
+      "name": "avenue",
+      "back": "Avenue",
+      "categories": [
+        "Location"
+      ]
+    },
+    {
+      "name": "bakery",
+      "back": "Bakery",
+      "categories": [
+        "Location"
+      ]
+    },
+    {
+      "name": "balcony",
+      "back": "Balcony",
+      "categories": [
+        "Home"
+      ]
+    },
+    {
+      "name": "band",
+      "back": "Band",
+      "categories": [
+        "People"
+      ]
+    },
+    {
+      "name": "barber",
+      "back": "Barber",
+      "categories": [
+        "Job"
+      ]
+    },
+    {
+      "name": "barber_shop",
+      "back": "Barber shop",
+      "categories": [
+        "Location"
+      ]
+    },
+    {
+      "name": "bathrobe",
+      "back": "Bathrobe",
+      "categories": [
+        "Clothing"
+      ]
+    },
+    {
+      "name": "bean",
+      "back": "Bean",
+      "categories": [
+        "Food"
+      ]
+    },
+    {
+      "name": "beautiful",
+      "back": "Beautiful",
+      "categories": [
+        "Adjectives"
+      ]
+    },
+    {
+      "name": "beef",
+      "back": "Beef",
+      "categories": [
+        "Food"
+      ]
+    },
+    {
+      "name": "behind",
+      "back": "Behind",
+      "categories": [
+        "Prepositions"
+      ]
+    },
+    {
+      "name": "belgium",
+      "back": "Belgium",
+      "categories": [
+        "Nationality"
+      ]
+    },
+    {
+      "name": "belt",
+      "back": "Belt",
+      "categories": [
+        "Clothing"
+      ]
+    },
+    {
+      "name": "bend",
+      "back": "Bend",
+      "categories": [
+        "Verbs"
+      ]
+    },
+    {
+      "name": "between",
+      "back": "Between",
+      "categories": [
+        "Prepositions"
+      ]
+    },
+    {
+      "name": "bite",
+      "back": "Bite",
+      "categories": [
+        "Verbs"
+      ]
+    },
+    {
+      "name": "boss",
+      "back": "Boss",
+      "categories": [
+        "People"
+      ]
+    },
+    {
+      "name": "bowl",
+      "back": "Bowl",
+      "categories": [
+        "Home"
+      ]
+    },
+    {
+      "name": "boxe",
+      "back": "Boxe",
+      "categories": [
+        "Society"
+      ]
+    },
+    {
+      "name": "bracelet",
+      "back": "Bracelet",
+      "categories": [
+        "Clothing"
+      ]
+    },
+    {
+      "name": "brazil",
+      "back": "Brazil",
+      "categories": [
+        "Nationality"
+      ]
+    },
+    {
+      "name": "brush",
+      "back": "Brush",
+      "categories": [
+        "Home"
+      ]
+    },
+    {
+      "name": "bucket",
+      "back": "Bucket",
+      "categories": [
+        "Home"
+      ]
+    },
+    {
+      "name": "bug",
+      "back": "Bug",
+      "categories": [
+        "Animals"
+      ]
+    },
+    {
+      "name": "bus_stop",
+      "back": "Bus stop",
+      "categories": [
+        "Location"
+      ]
+    },
+    {
+      "name": "bush",
+      "back": "Bush",
+      "categories": [
+        "Nature"
+      ]
+    },
+    {
+      "name": "butcher",
+      "back": "Butcher",
+      "categories": [
+        "Job"
+      ]
+    },
+    {
+      "name": "button_cloth",
+      "back": "Button",
+      "categories": [
+        "Clothing"
+      ]
+    },
+    {
+      "name": "cafeteria",
+      "back": "Cafeteria",
+      "categories": [
+        "Location"
+      ]
+    },
+    {
+      "name": "calculator",
+      "back": "Calculator",
+      "categories": [
+        "Electronics"
+      ]
+    },
+    {
+      "name": "canada",
+      "back": "Canada",
+      "categories": [
+        "Nationality"
+      ]
+    },
+    {
+      "name": "candy_shop",
+      "back": "Candy shop",
+      "categories": [
+        "Location"
+      ]
+    },
+    {
+      "name": "cap",
+      "back": "Cap",
+      "categories": [
+        "Clothing"
+      ]
+    },
+    {
+      "name": "capital",
+      "back": "Capital",
+      "categories": [
+        "Society"
+      ]
+    },
+    {
+      "name": "carnival",
+      "back": "Carnival",
+      "categories": [
+        "Society"
+      ]
+    },
+    {
+      "name": "carpenter",
+      "back": "Carpenter",
+      "categories": [
+        "Job"
+      ]
+    },
+    {
+      "name": "cash",
+      "back": "Cash",
+      "categories": [
+        "Society"
+      ]
+    },
+    {
+      "name": "cd",
+      "back": "Cd",
+      "categories": [
+        "Electronics"
+      ]
+    },
+    {
+      "name": "cell_phone",
+      "back": "Cell phone",
+      "categories": [
+        "Electronics"
+      ]
+    },
+    {
+      "name": "cent",
+      "back": "Cent",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "name": "center",
+      "back": "Center",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "name": "chain",
+      "back": "Chain",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "name": "cheap",
+      "back": "Cheap",
+      "categories": [
+        "Adjectives"
+      ]
+    },
+    {
+      "name": "chef",
+      "back": "Chef",
+      "categories": [
+        "Job"
+      ]
+    },
+    {
+      "name": "chemist",
+      "back": "Chemist",
+      "categories": [
+        "Job"
+      ]
+    },
+    {
+      "name": "chess",
+      "back": "Chess",
+      "categories": [
+        "Society"
+      ]
+    },
+    {
+      "name": "chicken_food",
+      "back": "Chicken",
+      "categories": [
+        "Food"
+      ]
+    },
+    {
+      "name": "chimney",
+      "back": "Chimney",
+      "categories": [
+        "Home"
+      ]
+    },
+    {
+      "name": "china",
+      "back": "China",
+      "categories": [
+        "Nationality"
+      ]
+    },
+    {
+      "name": "clothes_shop",
+      "back": "Clothes shop",
+      "categories": [
+        "Location"
+      ]
+    },
+    {
+      "name": "club",
+      "back": "Club",
+      "categories": [
+        "Society"
+      ]
+    },
+    {
+      "name": "coffee_cup",
+      "back": "Coffee cup",
+      "categories": [
+        "Beverages"
+      ]
+    },
+    {
+      "name": "coffee_machine",
+      "back": "Coffee machine",
+      "categories": [
+        "Electronics"
+      ]
+    },
+    {
+      "name": "comic",
+      "back": "Comic",
+      "categories": [
+        "Art"
+      ]
+    },
+    {
+      "name": "company",
+      "back": "Company",
+      "categories": [
+        "Society"
+      ]
+    },
+    {
+      "name": "consonant",
+      "back": "Consonant",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "name": "continent",
+      "back": "Continent",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "name": "cook_verb",
+      "back": "Cook",
+      "categories": [
+        "Verbs"
+      ]
+    },
+    {
+      "name": "copper",
+      "back": "Copper",
+      "categories": [
+        "Materials"
+      ]
+    },
+    {
+      "name": "couch",
+      "back": "Couch",
+      "categories": [
+        "Home"
+      ]
+    },
+    {
+      "name": "count",
+      "back": "Count",
+      "categories": [
+        "Verbs"
+      ]
+    },
+    {
+      "name": "cousin",
+      "back": "Cousin",
+      "categories": [
+        "People"
+      ]
+    },
+    {
+      "name": "curtain",
+      "back": "Curtain",
+      "categories": [
+        "Home"
+      ]
+    },
+    {
+      "name": "curve",
+      "back": "Curve",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "name": "dairy",
+      "back": "Dairy",
+      "categories": [
+        "Food"
+      ]
+    },
+    {
+      "name": "denmark",
+      "back": "Denmark",
+      "categories": [
+        "Nationality"
+      ]
+    },
+    {
+      "name": "dessert",
+      "back": "Dessert",
+      "categories": [
+        "Food"
+      ]
+    },
+    {
+      "name": "diving",
+      "back": "Diving",
+      "categories": [
+        "Society"
+      ]
+    },
+    {
+      "name": "diy_store",
+      "back": "Diy store",
+      "categories": [
+        "Location"
+      ]
+    },
+    {
+      "name": "doll",
+      "back": "Doll",
+      "categories": [
+        "Home"
+      ]
+    },
+    {
+      "name": "door_lock",
+      "back": "Door lock",
+      "categories": [
+        "Home"
+      ]
+    },
+    {
+      "name": "dot",
+      "back": "Dot",
+      "categories": [
+        "Math/Measurements"
+      ]
+    },
+    {
+      "name": "drawer",
+      "back": "Drawer",
+      "categories": [
+        "Home"
+      ]
+    },
+    {
+      "name": "drink_verb",
+      "back": "Drink",
+      "categories": [
+        "Verbs"
+      ]
+    },
+    {
+      "name": "drug",
+      "back": "Drug",
+      "categories": [
+        "Society"
+      ]
+    },
+    {
+      "name": "duster",
+      "back": "Duster",
+      "categories": [
+        "Home"
+      ]
+    },
+    {
+      "name": "dvd",
+      "back": "Dvd",
+      "categories": [
+        "Electronics"
+      ]
+    },
+    {
+      "name": "dvd_player",
+      "back": "Dvd player",
+      "categories": [
+        "Electronics"
+      ]
+    },
+    {
+      "name": "earrings",
+      "back": "Earrings",
+      "categories": [
+        "Clothing"
+      ]
+    },
+    {
+      "name": "electrician",
+      "back": "Electrician",
+      "categories": [
+        "Job"
+      ]
+    },
+    {
+      "name": "email",
+      "back": "Email",
+      "categories": [
+        "Electronics"
+      ]
+    },
+    {
+      "name": "energy",
+      "back": "Energy",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "name": "engineer",
+      "back": "Engineer",
+      "categories": [
+        "Job"
+      ]
+    },
+    {
+      "name": "england",
+      "back": "England",
+      "categories": [
+        "Nationality"
+      ]
+    },
+    {
+      "name": "enter",
+      "back": "Enter",
+      "categories": [
+        "Verb"
+      ]
+    },
+    {
+      "name": "envelope",
+      "back": "Envelope",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "name": "equal",
+      "back": "Equal",
+      "categories": [
+        "Math/Measurements"
+      ]
+    },
+    {
+      "name": "exit",
+      "back": "Exit",
+      "categories": [
+        "Verb"
+      ]
+    },
+    {
+      "name": "expensive",
+      "back": "Expensive",
+      "categories": [
+        "Adjectives"
+      ]
+    },
+    {
+      "name": "fall_verb",
+      "back": "Fall",
+      "categories": [
+        "Verbs"
+      ]
+    },
+    {
+      "name": "famous",
+      "back": "Famous",
+      "categories": [
+        "Adjectives"
+      ]
+    },
+    {
+      "name": "fan_vip",
+      "back": "Fan",
+      "categories": [
+        "People"
+      ]
+    },
+    {
+      "name": "farmer",
+      "back": "Farmer",
+      "categories": [
+        "Job"
+      ]
+    },
+    {
+      "name": "fence",
+      "back": "Fence",
+      "categories": [
+        "Home"
+      ]
+    },
+    {
+      "name": "fire_station",
+      "back": "Fire station",
+      "categories": [
+        "Location"
+      ]
+    },
+    {
+      "name": "fishing_pole",
+      "back": "Fishing pole",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "name": "flat",
+      "back": "Flat",
+      "categories": [
+        "Adjectives"
+      ]
+    },
+    {
+      "name": "flight",
+      "back": "Flight",
+      "categories": [
+        "Transportation"
+      ]
+    },
+    {
+      "name": "florist",
+      "back": "Florist",
+      "categories": [
+        "Job"
+      ]
+    },
+    {
+      "name": "flowers_shop",
+      "back": "Flowers shop",
+      "categories": [
+        "Location"
+      ]
+    },
+    {
+      "name": "fog",
+      "back": "Fog",
+      "categories": [
+        "Nature"
+      ]
+    },
+    {
+      "name": "foot_measure",
+      "back": "Foot",
+      "categories": [
+        "Math/Measurements"
+      ]
+    },
+    {
+      "name": "fortune",
+      "back": "Fortune",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "name": "fourth",
+      "back": "Fourth",
+      "categories": [
+        "Math/Measurements"
+      ]
+    },
+    {
+      "name": "france",
+      "back": "France",
+      "categories": [
+        "Nationality"
+      ]
+    },
+    {
+      "name": "frequently",
+      "back": "Frequently",
+      "categories": [
+        "Adverbs"
+      ]
+    },
+    {
+      "name": "gabbage",
+      "back": "Gabbage",
+      "categories": [
+        "Food"
+      ]
+    },
+    {
+      "name": "gallery",
+      "back": "Gallery",
+      "categories": [
+        "Location"
+      ]
+    },
+    {
+      "name": "garlic",
+      "back": "Garlic",
+      "categories": [
+        "Food"
+      ]
+    },
+    {
+      "name": "germany",
+      "back": "Germany",
+      "categories": [
+        "Nationality"
+      ]
+    },
+    {
+      "name": "goose",
+      "back": "Goose",
+      "categories": [
+        "Animals"
+      ]
+    },
+    {
+      "name": "gray",
+      "back": "Gray",
+      "categories": [
+        "Colors"
+      ]
+    },
+    {
+      "name": "grocery",
+      "back": "Grocery",
+      "categories": [
+        "Food"
+      ]
+    },
+    {
+      "name": "grocery_shop",
+      "back": "Grocery shop",
+      "categories": [
+        "Location"
+      ]
+    },
+    {
+      "name": "guests",
+      "back": "Guests",
+      "categories": [
+        "People"
+      ]
+    },
+    {
+      "name": "guide",
+      "back": "Guide",
+      "categories": [
+        "Job"
+      ]
+    },
+    {
+      "name": "gym",
+      "back": "Gym",
+      "categories": [
+        "Location"
+      ]
+    },
+    {
+      "name": "hairdryier",
+      "back": "Hairdryier",
+      "categories": [
+        "Electronics"
+      ]
+    },
+    {
+      "name": "ham",
+      "back": "Ham",
+      "categories": [
+        "Food"
+      ]
+    },
+    {
+      "name": "hamburger",
+      "back": "Hamburger",
+      "categories": [
+        "Food"
+      ]
+    },
+    {
+      "name": "handbag",
+      "back": "Handbag",
+      "categories": [
+        "Clothing"
+      ]
+    },
+    {
+      "name": "handle",
+      "back": "Handle",
+      "categories": [
+        "Home"
+      ]
+    },
+    {
+      "name": "handlebars",
+      "back": "Handlebars",
+      "categories": [
+        "Transportation"
+      ]
+    },
+    {
+      "name": "hang",
+      "back": "Hang",
+      "categories": [
+        "Verbs"
+      ]
+    },
+    {
+      "name": "he",
+      "back": "He",
+      "categories": [
+        "Pronouns"
+      ]
+    },
+    {
+      "name": "healthy",
+      "back": "Healthy",
+      "categories": [
+        "Adjectives"
+      ]
+    },
+    {
+      "name": "hen",
+      "back": "Hen",
+      "categories": [
+        "Animals"
+      ]
+    },
+    {
+      "name": "high",
+      "back": "High",
+      "categories": [
+        "Adjectives"
+      ]
+    },
+    {
+      "name": "highway",
+      "back": "Highway",
+      "categories": [
+        "Location"
+      ]
+    },
+    {
+      "name": "holland",
+      "back": "Holland",
+      "categories": [
+        "Nationality"
+      ]
+    },
+    {
+      "name": "homework",
+      "back": "Homework",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "name": "human",
+      "back": "Human",
+      "categories": [
+        "People"
+      ]
+    },
+    {
+      "name": "i",
+      "back": "I",
+      "categories": [
+        "Prepositions"
+      ]
+    },
+    {
+      "name": "in",
+      "back": "In",
+      "categories": [
+        "Prepositions"
+      ]
+    },
+    {
+      "name": "in_front_of",
+      "back": "In front of",
+      "categories": [
+        "Prepositions"
+      ]
+    },
+    {
+      "name": "information",
+      "back": "Information",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "name": "injury",
+      "back": "Injury",
+      "categories": [
+        "Body"
+      ]
+    },
+    {
+      "name": "instrument",
+      "back": "Instrument",
+      "categories": [
+        "Art"
+      ]
+    },
+    {
+      "name": "into",
+      "back": "Into",
+      "categories": [
+        "Prepositions"
+      ]
+    },
+    {
+      "name": "it",
+      "back": "It",
+      "categories": [
+        "Pronouns"
+      ]
+    },
+    {
+      "name": "italy",
+      "back": "Italy",
+      "categories": [
+        "Nationality"
+      ]
+    },
+    {
+      "name": "japan",
+      "back": "Japan",
+      "categories": [
+        "Nationality"
+      ]
+    },
+    {
+      "name": "keychain",
+      "back": "Keychain",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "name": "kite",
+      "back": "Kite",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "name": "kitten",
+      "back": "Kitten",
+      "categories": [
+        "Animals"
+      ]
+    },
+    {
+      "name": "korea",
+      "back": "Korea",
+      "categories": [
+        "Nationality"
+      ]
+    },
+    {
+      "name": "last",
+      "back": "Last",
+      "categories": [
+        "Adjectives"
+      ]
+    },
+    {
+      "name": "learn",
+      "back": "Learn",
+      "categories": [
+        "Verbs"
+      ]
+    },
+    {
+      "name": "lemonade",
+      "back": "Lemonade",
+      "categories": [
+        "Beverages"
+      ]
+    },
+    {
+      "name": "lie_down",
+      "back": "Lie down",
+      "categories": [
+        "Verbs"
+      ]
+    },
+    {
+      "name": "lift_elevator",
+      "back": "Lift",
+      "categories": [
+        "Home"
+      ]
+    },
+    {
+      "name": "light",
+      "back": "Light",
+      "categories": [
+        "Electronics"
+      ]
+    },
+    {
+      "name": "light_bulb",
+      "back": "Light bulb",
+      "categories": [
+        "Electronics"
+      ]
+    },
+    {
+      "name": "lime",
+      "back": "Lime",
+      "categories": [
+        "Food"
+      ]
+    },
+    {
+      "name": "lip",
+      "back": "Lip",
+      "categories": [
+        "Body"
+      ]
+    },
+    {
+      "name": "liter",
+      "back": "Liter",
+      "categories": [
+        "Math/Measurements"
+      ]
+    },
+    {
+      "name": "location",
+      "back": "Location",
+      "categories": [
+        "Location"
+      ]
+    },
+    {
+      "name": "look",
+      "back": "Look",
+      "categories": [
+        "Verbs"
+      ]
+    },
+    {
+      "name": "loose",
+      "back": "Loose",
+      "categories": [
+        "Adjectives"
+      ]
+    },
+    {
+      "name": "lose",
+      "back": "Lose",
+      "categories": [
+        "Verbs"
+      ]
+    },
+    {
+      "name": "loud",
+      "back": "Loud",
+      "categories": [
+        "Adjectives"
+      ]
+    },
+    {
+      "name": "love",
+      "back": "Love",
+      "categories": [
+        "Verbs"
+      ]
+    },
+    {
+      "name": "low",
+      "back": "Low",
+      "categories": [
+        "Adjectives"
+      ]
+    },
+    {
+      "name": "luggage",
+      "back": "Luggage",
+      "categories": [
+        "Transportation"
+      ]
+    },
+    {
+      "name": "mail",
+      "back": "Mail",
+      "categories": [
+        "Society"
+      ]
+    },
+    {
+      "name": "mandarin",
+      "back": "Mandarin",
+      "categories": [
+        "Food"
+      ]
+    },
+    {
+      "name": "mango",
+      "back": "Mango",
+      "categories": [
+        "Food"
+      ]
+    },
+    {
+      "name": "marmalade",
+      "back": "Marmalade",
+      "categories": [
+        "Food"
+      ]
+    },
+    {
+      "name": "mask",
+      "back": "Mask",
+      "categories": [
+        "Clothing"
+      ]
+    },
+    {
+      "name": "measure",
+      "back": "Measure",
+      "categories": [
+        "Verbs"
+      ]
+    },
+    {
+      "name": "melon",
+      "back": "Melon",
+      "categories": [
+        "Food"
+      ]
+    },
+    {
+      "name": "merry",
+      "back": "Merry",
+      "categories": [
+        "Adjectives"
+      ]
+    },
+    {
+      "name": "metal",
+      "back": "Metal",
+      "categories": [
+        "Materials"
+      ]
+    },
+    {
+      "name": "meter",
+      "back": "Meter",
+      "categories": [
+        "Math/Measurements"
+      ]
+    },
+    {
+      "name": "mexico",
+      "back": "Mexico",
+      "categories": [
+        "Nationality"
+      ]
+    },
+    {
+      "name": "microwave",
+      "back": "Microwave",
+      "categories": [
+        "Home"
+      ]
+    },
+    {
+      "name": "middle",
+      "back": "Middle",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "name": "minus",
+      "back": "Minus",
+      "categories": [
+        "Math/Measurements"
+      ]
+    },
+    {
+      "name": "mix",
+      "back": "Mix",
+      "categories": [
+        "Verbs"
+      ]
+    },
+    {
+      "name": "museum",
+      "back": "Museum",
+      "categories": [
+        "Location"
+      ]
+    },
+    {
+      "name": "musician",
+      "back": "Musician",
+      "categories": [
+        "People"
+      ]
+    },
+    {
+      "name": "nail",
+      "back": "Nail",
+      "categories": [
+        "Body"
+      ]
+    },
+    {
+      "name": "narrow",
+      "back": "Narrow",
+      "categories": [
+        "Adjectives"
+      ]
+    },
+    {
+      "name": "near",
+      "back": "Near",
+      "categories": [
+        "Prepositions"
+      ]
+    },
+    {
+      "name": "necklace",
+      "back": "Necklace",
+      "categories": [
+        "Clothing"
+      ]
+    },
+    {
+      "name": "neighbor",
+      "back": "Neighbor",
+      "categories": [
+        "People"
+      ]
+    },
+    {
+      "name": "never",
+      "back": "Never",
+      "categories": [
+        "Adverbs"
+      ]
+    },
+    {
+      "name": "next_to",
+      "back": "Next to",
+      "categories": [
+        "Prepositions"
+      ]
+    },
+    {
+      "name": "nice",
+      "back": "Nice",
+      "categories": [
+        "Adjectives"
+      ]
+    },
+    {
+      "name": "norway",
+      "back": "Norway",
+      "categories": [
+        "Nationality"
+      ]
+    },
+    {
+      "name": "noun",
+      "back": "Noun",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "name": "nuclear",
+      "back": "Nuclear",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "name": "numbers",
+      "back": "Numbers",
+      "categories": [
+        "Math/Measurements"
+      ]
+    },
+    {
+      "name": "occasionally",
+      "back": "Occasionally",
+      "categories": [
+        "Adverbs"
+      ]
+    },
+    {
+      "name": "often",
+      "back": "Often",
+      "categories": [
+        "Adverbs"
+      ]
+    },
+    {
+      "name": "on",
+      "back": "On",
+      "categories": [
+        "Prepositions"
+      ]
+    },
+    {
+      "name": "onion",
+      "back": "Onion",
+      "categories": [
+        "Food"
+      ]
+    },
+    {
+      "name": "out_of",
+      "back": "Out of",
+      "categories": [
+        "Prepositions"
+      ]
+    },
+    {
+      "name": "outlet",
+      "back": "Outlet",
+      "categories": [
+        "Electronics"
+      ]
+    },
+    {
+      "name": "package",
+      "back": "Package",
+      "categories": [
+        "Society"
+      ]
+    },
+    {
+      "name": "paint_verb",
+      "back": "Paint",
+      "categories": [
+        "Verbs"
+      ]
+    },
+    {
+      "name": "pan",
+      "back": "Pan",
+      "categories": [
+        "Home"
+      ]
+    },
+    {
+      "name": "panda",
+      "back": "Panda",
+      "categories": [
+        "Animals"
+      ]
+    },
+    {
+      "name": "paradise",
+      "back": "Paradise",
+      "categories": [
+        "Nature"
+      ]
+    },
+    {
+      "name": "pass",
+      "back": "Pass",
+      "categories": [
+        "Verbs"
+      ]
+    },
+    {
+      "name": "passport",
+      "back": "Passport",
+      "categories": [
+        "Society"
+      ]
+    },
+    {
+      "name": "password",
+      "back": "Password",
+      "categories": [
+        "Society"
+      ]
+    },
+    {
+      "name": "pattern",
+      "back": "Pattern",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "name": "pay",
+      "back": "Pay",
+      "categories": [
+        "Verbs"
+      ]
+    },
+    {
+      "name": "pea",
+      "back": "Pea",
+      "categories": [
+        "Food"
+      ]
+    },
+    {
+      "name": "pedals",
+      "back": "Pedals",
+      "categories": [
+        "Transportation"
+      ]
+    },
+    {
+      "name": "person",
+      "back": "Person",
+      "categories": [
+        "People"
+      ]
+    },
+    {
+      "name": "pet_shop",
+      "back": "Pet shop",
+      "categories": [
+        "Location"
+      ]
+    },
+    {
+      "name": "piece",
+      "back": "Piece",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "name": "pillow",
+      "back": "Pillow",
+      "categories": [
+        "Home"
+      ]
+    },
+    {
+      "name": "pilot",
+      "back": "Pilot",
+      "categories": [
+        "Job"
+      ]
+    },
+    {
+      "name": "pineapple",
+      "back": "Pineapple",
+      "categories": [
+        "Food"
+      ]
+    },
+    {
+      "name": "pirate",
+      "back": "Pirate",
+      "categories": [
+        "People"
+      ]
+    },
+    {
+      "name": "place",
+      "back": "Place",
+      "categories": [
+        "Location"
+      ]
+    },
+    {
+      "name": "plan",
+      "back": "Plan",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "name": "play_music",
+      "back": "Play",
+      "categories": [
+        "Verbs"
+      ]
+    },
+    {
+      "name": "please",
+      "back": "Please",
+      "categories": [
+        "Verbs"
+      ]
+    },
+    {
+      "name": "plug",
+      "back": "Plug",
+      "categories": [
+        "Electronics"
+      ]
+    },
+    {
+      "name": "plumber",
+      "back": "Plumber",
+      "categories": [
+        "Job"
+      ]
+    },
+    {
+      "name": "poison",
+      "back": "Poison",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "name": "pond",
+      "back": "Pond",
+      "categories": [
+        "Nature"
+      ]
+    },
+    {
+      "name": "portugal",
+      "back": "Portugal",
+      "categories": [
+        "Nationality"
+      ]
+    },
+    {
+      "name": "pot",
+      "back": "Pot",
+      "categories": [
+        "Home"
+      ]
+    },
+    {
+      "name": "pound",
+      "back": "Pound",
+      "categories": [
+        "Math/Measurements"
+      ]
+    },
+    {
+      "name": "price",
+      "back": "Price",
+      "categories": [
+        "Society"
+      ]
+    },
+    {
+      "name": "program",
+      "back": "Program",
+      "categories": [
+        "Electronics"
+      ]
+    },
+    {
+      "name": "purse",
+      "back": "Purse",
+      "categories": [
+        "Clothing"
+      ]
+    },
+    {
+      "name": "puzzle",
+      "back": "Puzzle",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "name": "quiet",
+      "back": "Quiet",
+      "categories": [
+        "Adjectives"
+      ]
+    },
+    {
+      "name": "race",
+      "back": "Race",
+      "categories": [
+        "Society"
+      ]
+    },
+    {
+      "name": "rag",
+      "back": "Rag",
+      "categories": [
+        "Job"
+      ]
+    },
+    {
+      "name": "rarely",
+      "back": "Rarely",
+      "categories": [
+        "Adverbs"
+      ]
+    },
+    {
+      "name": "razor",
+      "back": "Razor",
+      "categories": [
+        "Home"
+      ]
+    },
+    {
+      "name": "receipt",
+      "back": "Receipt",
+      "categories": [
+        "Society"
+      ]
+    },
+    {
+      "name": "referee",
+      "back": "Referee",
+      "categories": [
+        "Job"
+      ]
+    },
+    {
+      "name": "reindeer",
+      "back": "Reindeer",
+      "categories": [
+        "Animals"
+      ]
+    },
+    {
+      "name": "remote_control",
+      "back": "Remote control",
+      "categories": [
+        "Home"
+      ]
+    },
+    {
+      "name": "rock",
+      "back": "Rock",
+      "categories": [
+        "Nature"
+      ]
+    },
+    {
+      "name": "roll",
+      "back": "Roll",
+      "categories": [
+        "Verbs"
+      ]
+    },
+    {
+      "name": "roof_tile",
+      "back": "Roof tile",
+      "categories": [
+        "Home"
+      ]
+    },
+    {
+      "name": "rooster",
+      "back": "Rooster",
+      "categories": [
+        "Animals"
+      ]
+    },
+    {
+      "name": "root",
+      "back": "Root",
+      "categories": [
+        "Nature"
+      ]
+    },
+    {
+      "name": "sailor",
+      "back": "Sailor",
+      "categories": [
+        "Job"
+      ]
+    },
+    {
+      "name": "sausage",
+      "back": "Sausage",
+      "categories": [
+        "Food"
+      ]
+    },
+    {
+      "name": "scooter",
+      "back": "Scooter",
+      "categories": [
+        "Transportation"
+      ]
+    },
+    {
+      "name": "seat",
+      "back": "Seat",
+      "categories": [
+        "Home"
+      ]
+    },
+    {
+      "name": "second",
+      "back": "Second",
+      "categories": [
+        "Math/Measurements"
+      ]
+    },
+    {
+      "name": "see",
+      "back": "See",
+      "categories": [
+        "Verbs"
+      ]
+    },
+    {
+      "name": "seldom",
+      "back": "Seldom",
+      "categories": [
+        "Adverbs"
+      ]
+    },
+    {
+      "name": "sell",
+      "back": "Sell",
+      "categories": [
+        "Verbs"
+      ]
+    },
+    {
+      "name": "shake",
+      "back": "Shake",
+      "categories": [
+        "Verbs"
+      ]
+    },
+    {
+      "name": "she",
+      "back": "She",
+      "categories": [
+        "Prepositions"
+      ]
+    },
+    {
+      "name": "shelf",
+      "back": "Shelf",
+      "categories": [
+        "Home"
+      ]
+    },
+    {
+      "name": "shoot",
+      "back": "Shoot",
+      "categories": [
+        "Verbs"
+      ]
+    },
+    {
+      "name": "side",
+      "back": "Side",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "name": "sign",
+      "back": "Sign",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "name": "signature",
+      "back": "Signature",
+      "categories": [
+        "Society"
+      ]
+    },
+    {
+      "name": "sing",
+      "back": "Sing",
+      "categories": [
+        "Verbs"
+      ]
+    },
+    {
+      "name": "singlet",
+      "back": "Singlet",
+      "categories": [
+        "Clothing"
+      ]
+    },
+    {
+      "name": "sink",
+      "back": "Sink",
+      "categories": [
+        "Home"
+      ]
+    },
+    {
+      "name": "sit",
+      "back": "Sit",
+      "categories": [
+        "Verbs"
+      ]
+    },
+    {
+      "name": "skin",
+      "back": "Skin",
+      "categories": [
+        "Body"
+      ]
+    },
+    {
+      "name": "slide",
+      "back": "Slide",
+      "categories": [
+        "Home"
+      ]
+    },
+    {
+      "name": "smell",
+      "back": "Smell",
+      "categories": [
+        "Verbs"
+      ]
+    },
+    {
+      "name": "snickers",
+      "back": "Snickers",
+      "categories": [
+        "Clothing"
+      ]
+    },
+    {
+      "name": "soccer",
+      "back": "Soccer",
+      "categories": [
+        "Society"
+      ]
+    },
+    {
+      "name": "soil",
+      "back": "Soil",
+      "categories": [
+        "Nature"
+      ]
+    },
+    {
+      "name": "sometimes",
+      "back": "Sometimes",
+      "categories": [
+        "Adverbs"
+      ]
+    },
+    {
+      "name": "spain",
+      "back": "Spain",
+      "categories": [
+        "Nationality"
+      ]
+    },
+    {
+      "name": "square",
+      "back": "Square",
+      "categories": [
+        "Math/Measurements"
+      ]
+    },
+    {
+      "name": "stand",
+      "back": "Stand",
+      "categories": [
+        "Verbs"
+      ]
+    },
+    {
+      "name": "straight",
+      "back": "Straight",
+      "categories": [
+        "Adjectives"
+      ]
+    },
+    {
+      "name": "suit",
+      "back": "Suit",
+      "categories": [
+        "Clothing"
+      ]
+    },
+    {
+      "name": "surf",
+      "back": "Surf",
+      "categories": [
+        "Society"
+      ]
+    },
+    {
+      "name": "sweat",
+      "back": "Sweat",
+      "categories": [
+        "Verbs"
+      ]
+    },
+    {
+      "name": "sweden",
+      "back": "Sweden",
+      "categories": [
+        "Nationality"
+      ]
+    },
+    {
+      "name": "swing",
+      "back": "Swing",
+      "categories": [
+        "Home"
+      ]
+    },
+    {
+      "name": "switzerland",
+      "back": "Switzerland",
+      "categories": [
+        "Nationality"
+      ]
+    },
+    {
+      "name": "taste",
+      "back": "Taste",
+      "categories": [
+        "Verbs"
+      ]
+    },
+    {
+      "name": "teach",
+      "back": "Teach",
+      "categories": [
+        "Verbs"
+      ]
+    },
+    {
+      "name": "team",
+      "back": "Team",
+      "categories": [
+        "People"
+      ]
+    },
+    {
+      "name": "tear",
+      "back": "Tear",
+      "categories": [
+        "Body"
+      ]
+    },
+    {
+      "name": "temperature",
+      "back": "Temperature",
+      "categories": [
+        "Math/Measurements"
+      ]
+    },
+    {
+      "name": "theater",
+      "back": "Theater",
+      "categories": [
+        "Home"
+      ]
+    },
+    {
+      "name": "they",
+      "back": "They",
+      "categories": [
+        "Prepositions"
+      ]
+    },
+    {
+      "name": "thick",
+      "back": "Thick",
+      "categories": [
+        "Adjectives"
+      ]
+    },
+    {
+      "name": "thin_thick",
+      "back": "Thin",
+      "categories": [
+        "Adjectives"
+      ]
+    },
+    {
+      "name": "think",
+      "back": "Think",
+      "categories": [
+        "Verbs"
+      ]
+    },
+    {
+      "name": "third",
+      "back": "Third",
+      "categories": [
+        "Math/Measurements"
+      ]
+    },
+    {
+      "name": "throw",
+      "back": "Throw",
+      "categories": [
+        "Verbs"
+      ]
+    },
+    {
+      "name": "toilet_paper",
+      "back": "Toilet paper",
+      "categories": [
+        "Home"
+      ]
+    },
+    {
+      "name": "touch",
+      "back": "Touch",
+      "categories": [
+        "Verbs"
+      ]
+    },
+    {
+      "name": "tourist",
+      "back": "Tourist",
+      "categories": [
+        "People"
+      ]
+    },
+    {
+      "name": "towel",
+      "back": "Towel",
+      "categories": [
+        "Home"
+      ]
+    },
+    {
+      "name": "town",
+      "back": "Town",
+      "categories": [
+        "Location"
+      ]
+    },
+    {
+      "name": "tractor",
+      "back": "Tractor",
+      "categories": [
+        "Transportation"
+      ]
+    },
+    {
+      "name": "traffic",
+      "back": "Traffic",
+      "categories": [
+        "Society"
+      ]
+    },
+    {
+      "name": "train_station",
+      "back": "Train station",
+      "categories": [
+        "Location"
+      ]
+    },
+    {
+      "name": "tray",
+      "back": "Tray",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "name": "trash_bin",
+      "back": "Trash bin",
+      "categories": [
+        "Home"
+      ]
+    },
+    {
+      "name": "treasure",
+      "back": "Treasure",
+      "categories": [
+        "Society"
+      ]
+    },
+    {
+      "name": "triangle",
+      "back": "Triangle",
+      "categories": [
+        "Math/Measurements"
+      ]
+    },
+    {
+      "name": "trolley",
+      "back": "Trolley",
+      "categories": [
+        "Transportation"
+      ]
+    },
+    {
+      "name": "ugly",
+      "back": "Ugly",
+      "categories": [
+        "Adjectives"
+      ]
+    },
+    {
+      "name": "uncle",
+      "back": "Uncle",
+      "categories": [
+        "People"
+      ]
+    },
+    {
+      "name": "under",
+      "back": "Under",
+      "categories": [
+        "Prepositions"
+      ]
+    },
+    {
+      "name": "united_states",
+      "back": "United states",
+      "categories": [
+        "Nationality"
+      ]
+    },
+    {
+      "name": "usually",
+      "back": "Usually",
+      "categories": [
+        "Adverbs"
+      ]
+    },
+    {
+      "name": "valley",
+      "back": "Valley",
+      "categories": [
+        "Nature"
+      ]
+    },
+    {
+      "name": "vegetable",
+      "back": "Vegetable",
+      "categories": [
+        "Food"
+      ]
+    },
+    {
+      "name": "verb",
+      "back": "Verb",
+      "categories": [
+        "Verbs"
+      ]
+    },
+    {
+      "name": "violin",
+      "back": "Violin",
+      "categories": [
+        "Art"
+      ]
+    },
+    {
+      "name": "voice",
+      "back": "Voice",
+      "categories": [
+        "Body"
+      ]
+    },
+    {
+      "name": "vowel",
+      "back": "Vowel",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "name": "waitress",
+      "back": "Waitress",
+      "categories": [
+        "Job"
+      ]
+    },
+    {
+      "name": "wallet",
+      "back": "Wallet",
+      "categories": [
+        "Clothing"
+      ]
+    },
+    {
+      "name": "wash",
+      "back": "Wash",
+      "categories": [
+        "Verbs"
+      ]
+    },
+    {
+      "name": "washing_machine",
+      "back": "Washing machine",
+      "categories": [
+        "Electronics"
+      ]
+    },
+    {
+      "name": "watch",
+      "back": "Watch",
+      "categories": [
+        "Electronics"
+      ]
+    },
+    {
+      "name": "waterfall",
+      "back": "Waterfall",
+      "categories": [
+        "Nature"
+      ]
+    },
+    {
+      "name": "watermelon",
+      "back": "Watermelon",
+      "categories": [
+        "Food"
+      ]
+    },
+    {
+      "name": "we",
+      "back": "We",
+      "categories": [
+        "Prepositions"
+      ]
+    },
+    {
+      "name": "wear",
+      "back": "Wear",
+      "categories": [
+        "Verbs"
+      ]
+    },
+    {
+      "name": "weight_scale",
+      "back": "Weight scale",
+      "categories": [
+        "Home"
+      ]
+    },
+    {
+      "name": "wide",
+      "back": "Wide",
+      "categories": [
+        "Adjectives"
+      ]
+    },
+    {
+      "name": "wife",
+      "back": "Wife",
+      "categories": [
+        "People"
+      ]
+    },
+    {
+      "name": "win",
+      "back": "Win",
+      "categories": [
+        "Verbs"
+      ]
+    },
+    {
+      "name": "wrist",
+      "back": "Wrist",
+      "categories": [
+        "Body"
+      ]
+    },
+    {
+      "name": "yard",
+      "back": "Yard",
+      "categories": [
+        "Home"
+      ]
+    },
+    {
+      "name": "yogurt",
+      "back": "Yogurt",
+      "categories": [
+        "Food"
+      ]
+    },
+    {
+      "name": "you",
+      "back": "You",
+      "categories": [
+        "Prepositions"
+      ]
+    },
+    {
+      "name": "zebra",
+      "back": "Zebra",
+      "categories": [
+        "Animals"
+      ]
+    }
+  ]
+}

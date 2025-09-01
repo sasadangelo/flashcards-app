@@ -429,7 +429,7 @@
       ]
     },
     {
-      "name": "cook",
+      "name": "cook_noun",
       "back": "Cook",
       "categories": [
         "Verbs"
@@ -637,7 +637,7 @@
       ]
     },
     {
-      "name": "drink",
+      "name": "drink_beverage",
       "back": "Drink",
       "categories": [
         "Beverages"
@@ -937,8 +937,9 @@
       ]
     },
     {
-      "name": "gas",
-      "back": "Gas",
+      "name": "gasoline",
+      "back": "Gasoline",
+      "abbreviation": "Gas",
       "categories": [
         "Materials"
       ]
@@ -1342,7 +1343,7 @@
       ]
     },
     {
-      "name": "lift",
+      "name": "lift_verb",
       "back": "Lift",
       "categories": [
         "Verbs"
@@ -1365,6 +1366,7 @@
     {
       "name": "listen",
       "back": "Listen",
+      "synonyms": "Hear",
       "categories": [
         "Verbs"
       ]
@@ -1524,6 +1526,14 @@
       "front_note": "The 1st Day of the Week",
       "categories": [
         "Day of the Week"
+      ]
+    },
+    {
+      "name": "monitor",
+      "back": "Monitor",
+      "synonyms": "Screen",
+      "categories": [
+        "Electronics"
       ]
     },
     {
@@ -1748,7 +1758,7 @@
       ]
     },
     {
-      "name": "paint",
+      "name": "paint_noun",
       "back": "Paint",
       "categories": [
         "Art"
@@ -1800,6 +1810,7 @@
     {
       "name": "picture",
       "back": "Picture",
+      "synonyms": "Image",
       "categories": [
         "Art"
       ]
@@ -1813,7 +1824,7 @@
       ]
     },
     {
-      "name": "play",
+      "name": "play_game",
       "back": "Play",
       "categories": [
         "Verbs"
@@ -2022,13 +2033,6 @@
       "back": "Science",
       "categories": [
         "Miscellaneous"
-      ]
-    },
-    {
-      "name": "screen",
-      "back": "Screen",
-      "categories": [
-        "Electronics"
       ]
     },
     {

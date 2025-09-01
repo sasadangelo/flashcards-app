@@ -20,7 +20,7 @@ export const audiosMap: { [key: string]: any } = {
     cat: require('./audio/cat.mp3'),
     chair: require('./audio/chair.mp3'),
     cheese: require('./audio/cheese.mp3'),
-    chicken: require('./audio/chicken.mp3'),
+    chicken_animal: require('./audio/chicken_animal.mp3'),
     child: require('./audio/child.mp3'),
     child_kid: require('./audio/child_kid.mp3'),
     clock: require('./audio/clock.mp3'),

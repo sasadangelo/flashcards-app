@@ -2,4 +2,4 @@ autumn,balloon,bar,bathroom,beach,beard,bedroom,big,bone,box,bridge,butterfly,co
 doctor,eighty,eighty_one,eighty_two,family,fifty,fifty_one,fifty_two,floor,food,fourty,fourty_one,fourty_two,glass,grandfather,grandmother,hospital,hotel,husband,insects,
 jacket,juice,kitchen,knife,livingroom,long,map,money,morning,movie,new,night,ninety,ninety_one,ninety_two,oil,old_object,one_hundred,paper,plant,
 policeman,prince,princess,pyjamas,queen,restaurant,roof,room,salt,sandwich,santa_claus,school,season,seventy,seventy_one,seventy_two,short_length,sixty,sixty_one,sixty_two,
-small,son,space,spring,student,sugar,summer,teaspoon,tea,thirty,thirty_one,thirty_two,transportation,toast,t-shirt,twenty_one,twenty_two,umbrella,wall,winter,
+small,son,space,spring,student,sugar,summer,teaspoon,tea,thirty,thirty_one,thirty_two,transportation,toast,tshirt,twenty_one,twenty_two,umbrella,wall,winter,
