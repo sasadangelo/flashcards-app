@@ -580,6 +580,10 @@
       "back": "Human"
     },
     {
+      "name": "i",
+      "back": "I"
+    },
+    {
       "name": "image",
       "back": "Image"
     },
@@ -1078,6 +1082,10 @@
     {
       "name": "see",
       "back": "See"
+    },
+    {
+      "name": "she",
+      "back": "She"
     },
     {
       "name": "shelf",
