@@ -488,6 +488,10 @@
       "back": "Gallery"
     },
     {
+      "name": "germany",
+      "back": "Germany"
+    },
+    {
       "name": "goose",
       "back": "Goose"
     },
@@ -662,10 +666,6 @@
     {
       "name": "lime",
       "back": "Lime"
-    },
-    {
-      "name": "line",
-      "back": "Line"
     },
     {
       "name": "lip",
@@ -896,24 +896,12 @@
       "back": "Pea"
     },
     {
-      "name": "peace",
-      "back": "Peace"
-    },
-    {
-      "name": "pepper",
-      "back": "Pepper"
-    },
-    {
       "name": "person",
       "back": "Person"
     },
     {
       "name": "pet_shop",
       "back": "Pet shop"
-    },
-    {
-      "name": "piano",
-      "back": "Piano"
     },
     {
       "name": "piece",
@@ -1054,10 +1042,6 @@
     {
       "name": "rooster",
       "back": "Rooster"
-    },
-    {
-      "name": "room",
-      "back": "Room"
     },
     {
       "name": "sailor",
