@@ -1,6 +1,6 @@
 {
-  "group": "English Flashcards",
-  "name": "Fifth 350 Essential",
+  "group": "Flashcard Inglese",
+  "name": "Quinte 350 parole essenziali",
   "slug": "fifth-350-essential",
   "cards": [
     {
@@ -1147,6 +1147,7 @@
     {
       "name": "lift_elevator",
       "back": "Lift",
+      "region": "UK",
       "categories": [
         "Home"
       ]
@@ -2428,6 +2429,7 @@
     {
       "name": "yard",
       "back": "Yard",
+      "region": "UK",
       "categories": [
         "Home"
       ]

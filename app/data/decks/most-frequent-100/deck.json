@@ -637,7 +637,9 @@
     {
       "name": "teacher",
       "back": "Teacher",
-      "synonyms": "Professor",
+      "synonyms": [
+        "Professor"
+      ],
       "categories": [
         "Job"
       ]
