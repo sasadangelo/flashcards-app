@@ -6,6 +6,7 @@ Watch (verb)
 Tresure -> Pantaloni
 Yard -> misura
 College
+Eraser -> UK
 
 (to) Die
 (to) Follow

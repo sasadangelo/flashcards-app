@@ -365,7 +365,9 @@
       "name": "movie",
       "back": "Movie",
       "front_note": "A film or story shown on a screen",
-      "synonyms": "Film",
+      "synonyms": [
+        "Film"
+      ],
       "categories": [
         "Art"
       ]
@@ -431,7 +433,9 @@
       "name": "paper",
       "back": "Paper",
       "front_note": "A thin material used for writing, printing, or drawing on",
-      "synonyms": "Sheet",
+      "synonyms": [
+        "Sheet"
+      ],
       "categories": [
         "Home"
       ]
@@ -446,7 +450,9 @@
     {
       "name": "policeman",
       "back": "Policeman",
-      "synonyms": "cop",
+      "synonyms": [
+        "cop"
+      ],
       "categories": [
         "Job"
       ]
@@ -590,7 +596,9 @@
     {
       "name": "small",
       "back": "Small",
-      "synonyms": "Little",
+      "synonyms": [
+        "Little"
+      ],
       "categories": [
         "Adjectives"
       ]

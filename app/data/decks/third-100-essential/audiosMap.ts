@@ -53,6 +53,7 @@ export const audiosMap: { [key: string]: any } = {
   "money": require('./audio/money.mp3'),
   "morning": require('./audio/morning.mp3'),
   "movie": require('./audio/movie.mp3'),
+  "movie_film": require('./audio/movie_film.mp3'),
   "new": require('./audio/new.mp3'),
   "night": require('./audio/night.mp3'),
   "ninety": require('./audio/ninety.mp3'),

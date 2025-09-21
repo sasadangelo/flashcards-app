@@ -979,6 +979,7 @@
     {
       "name": "hen",
       "back": "Hen",
+      "front_note": "An adult female chicken that lays eggs.",
       "categories": [
         "Animals"
       ]

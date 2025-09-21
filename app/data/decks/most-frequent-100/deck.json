@@ -155,6 +155,7 @@
     {
       "name": "chicken_animal",
       "back": "Chicken",
+      "front_note": "A common farm bird kept for its eggs and meat.",
       "categories": [
         "Animals"
       ]

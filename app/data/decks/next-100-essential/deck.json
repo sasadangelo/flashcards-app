@@ -371,7 +371,9 @@
     {
       "name": "house",
       "back": "House",
-      "synonyms": "Home",
+      "synonyms": [
+        "Home"
+      ],
       "categories": [
         "Home"
       ]
@@ -642,7 +644,9 @@
     {
       "name": "street",
       "back": "Street",
-      "synonyms": "Road",
+      "synonyms": [
+        "Road"
+      ],
       "categories": [
         "Location"
       ]
