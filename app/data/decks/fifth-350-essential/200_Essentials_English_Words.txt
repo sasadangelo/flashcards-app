@@ -7,6 +7,8 @@ Tresure -> Pantaloni
 Yard -> misura
 College
 Eraser -> UK
+Stamp
+Flat -> US (apartment)
 
 (to) Die
 (to) Follow

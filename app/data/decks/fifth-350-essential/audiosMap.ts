@@ -1,4 +1,4 @@
-export const audioMap: { [key: string]: any } = {
+export const audiosMap: { [key: string]: any } = {
   "above": require('./audio/above.mp3'),
   "actor": require('./audio/actor.mp3'),
   "address": require('./audio/address.mp3'),
@@ -142,6 +142,7 @@ export const audioMap: { [key: string]: any } = {
   "high": require('./audio/high.mp3'),
   "highway": require('./audio/highway.mp3'),
   "holland": require('./audio/holland.mp3'),
+  "holland_netherlands": require('./audio/holland_netherlands.mp3'),
   "homework": require('./audio/homework.mp3'),
   "human": require('./audio/human.mp3'),
   "i": require('./audio/i.mp3'),

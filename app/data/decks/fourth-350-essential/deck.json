@@ -431,6 +431,7 @@
     {
       "name": "cook_noun",
       "back": "Cook",
+      "front_note": "A person who prepares food, at home or in a simple job",
       "categories": [
         "Verbs"
       ]
@@ -1891,6 +1892,9 @@
     {
       "name": "present",
       "back": "Present",
+      "synonyms": [
+        "Gift"
+      ],
       "categories": [
         "Miscellaneous"
       ]
@@ -1968,6 +1972,9 @@
     {
       "name": "reporter",
       "back": "Reporter",
+      "synonyms": [
+        "Journalist"
+      ],
       "categories": [
         "Job"
       ]
@@ -2404,6 +2411,7 @@
     {
       "name": "university",
       "back": "University",
+      "region": "UK",
       "front_note": "Place of study after high school",
       "categories": [
         "Location"

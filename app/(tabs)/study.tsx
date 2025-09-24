@@ -1,8 +1,10 @@
+import { audiosMap as fifth350Audio } from '@/app/data/decks/fifth-350-essential/audiosMap';
 import { audiosMap as fourth350Audio } from '@/app/data/decks/fourth-350-essential/audiosMap';
 import { audiosMap as mf100Audio } from '@/app/data/decks/most-frequent-100/audiosMap';
 import { audiosMap as next100Audio } from '@/app/data/decks/next-100-essential/audiosMap';
 import { audiosMap as third100Audio } from '@/app/data/decks/third-100-essential/audiosMap';
 
+import { imagesMap as fifth350Image } from '@/app/data/decks/fifth-350-essential/imagesMap';
 import { imagesMap as fourth350Image } from '@/app/data/decks/fourth-350-essential/imagesMap';
 import { imagesMap as mf100Image } from '@/app/data/decks/most-frequent-100/imagesMap';
 import { imagesMap as next100Image } from '@/app/data/decks/next-100-essential/imagesMap';
@@ -21,6 +23,7 @@ export const audiosMaps: Record<string, any> = {
     'next-100-essential': next100Audio,
     'third-100-essential': third100Audio,
     'fourth-350-essential': fourth350Audio,
+    'fifth-350-essential': fifth350Audio,
 };
 
 export const imagesMaps: Record<string, any> = {
@@ -28,6 +31,7 @@ export const imagesMaps: Record<string, any> = {
     'next-100-essential': next100Image,
     'third-100-essential': third100Image,
     'fourth-350-essential': fourth350Image,
+    'fifth-350-essential': fifth350Image,
 };
 
 type Difficulty = 'again' | 'hard' | 'good' | 'easy';
