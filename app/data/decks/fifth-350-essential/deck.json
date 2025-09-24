@@ -1142,6 +1142,7 @@
     {
       "name": "learn",
       "back": "Learn",
+      "front_note": "The student is getting knowledge from the book",
       "categories": [
         "Verbs"
       ]
@@ -1234,6 +1235,7 @@
     {
       "name": "loud",
       "back": "Loud",
+      "front_note": "The speaker is very ________",
       "categories": [
         "Adjectives"
       ]
@@ -1248,6 +1250,7 @@
     {
       "name": "low",
       "back": "Low",
+      "front_note": "The battery is ________",
       "categories": [
         "Adjectives"
       ]
@@ -1374,6 +1377,7 @@
     {
       "name": "musician",
       "back": "Musician",
+      "front_note": "a person who plays an instrument or makes music",
       "categories": [
         "People"
       ]
@@ -1430,6 +1434,7 @@
     {
       "name": "nice",
       "back": "Nice",
+      "front_note": "good and kind",
       "categories": [
         "Adjectives"
       ]
@@ -1535,6 +1540,7 @@
     {
       "name": "paradise",
       "back": "Paradise",
+      "front_note": "a perfect, beautiful, peaceful place, like a tropical island",
       "categories": [
         "Nature"
       ]
@@ -1570,6 +1576,7 @@
     {
       "name": "pay",
       "back": "Pay",
+      "front_note": "to give money for something",
       "categories": [
         "Verbs"
       ]
@@ -1864,6 +1871,7 @@
     {
       "name": "seat",
       "back": "Seat",
+      "front_note": "a place to sit, for example in a chair, a car, or a cinema",
       "categories": [
         "Home"
       ]
@@ -2039,6 +2047,7 @@
     {
       "name": "stand",
       "back": "Stand",
+      "front_note": "to be on your feet, not sitting or lying down",
       "categories": [
         "Verbs"
       ]
@@ -2046,6 +2055,7 @@
     {
       "name": "straight",
       "back": "Straight",
+      "front_note": "not curved or bent; going in one direction",
       "categories": [
         "Adjectives"
       ]
@@ -2102,6 +2112,7 @@
     {
       "name": "teach",
       "back": "Teach",
+      "front_note": "to give someone knowledge or explain something",
       "categories": [
         "Verbs"
       ]
@@ -2424,6 +2435,7 @@
     {
       "name": "wife",
       "back": "Wife",
+      "front_note": "A woman in a marriage",
       "categories": [
         "People"
       ]

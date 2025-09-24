@@ -852,6 +852,15 @@
       ]
     },
     {
+      "name": "flat",
+      "back": "Flat",
+      "front_note": "A set of rooms in a building for living",
+      "region": "UK",
+      "categories": [
+        "Home"
+      ]
+    },
+    {
       "name": "fly",
       "back": "Fly",
       "categories": [
@@ -1267,14 +1276,6 @@
       ]
     },
     {
-      "name": "kid",
-      "back": "Kid",
-      "front_note": "A child, young person",
-      "categories": [
-        "People"
-      ]
-    },
-    {
       "name": "kill",
       "back": "Kill",
       "categories": [
@@ -1461,6 +1462,9 @@
     {
       "name": "marriage",
       "back": "Marriage",
+      "synonyms": [
+        "Wedding"
+      ],
       "categories": [
         "Society"
       ]

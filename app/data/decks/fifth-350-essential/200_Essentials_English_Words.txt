@@ -8,7 +8,9 @@ Yard -> misura
 College
 Eraser -> UK
 Stamp
-Flat -> US (apartment)
+Vacation -> US
+Place
+Second (time)
 
 (to) Die
 (to) Follow
