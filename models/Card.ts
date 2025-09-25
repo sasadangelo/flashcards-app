@@ -11,6 +11,8 @@ export interface CardData {
     synonyms: string[];
     back_note?: string;
     region?: string;
+    nationality?: string;
+    languages: string[];
     categories: string[];
 }
 
@@ -25,9 +27,11 @@ export class Card {
     synonyms: string[];
     back_note?: string;
     region?: string;
+    nationality?: string;
+    languages: string[];
     categories: string[];
 
-    constructor({ id, name, back, front_note, abbreviation, synonyms, back_note, region, categories }: CardData) {
+    constructor({ id, name, back, front_note, abbreviation, synonyms, back_note, region, nationality, languages, categories }: CardData) {
         this.id = id;
         this.name = name;
         this.back = back;
@@ -36,6 +40,8 @@ export class Card {
         this.synonyms = synonyms || [];
         this.back_note = back_note;
         this.region = region;
+        this.nationality = nationality;
+        this.languages = languages || [];
         this.categories = categories;
     }
 

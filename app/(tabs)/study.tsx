@@ -237,6 +237,67 @@ export default function StudyScreen() {
                             </View>
                         )}
 
+                        {card.nationality && (
+                            <View style={styles.nationalityContainer}>
+                                <Text style={styles.nationalityText}>Nationality: {card.nationality}</Text>
+                                <TouchableOpacity
+                                    onPress={async () => {
+                                        const nationality = card.nationality;
+                                        if (!nationality) return;
+
+                                        if (soundRef.current) {
+                                            await soundRef.current.unloadAsync();
+                                            soundRef.current = null;
+                                        }
+
+                                        // Genera la chiave come name + '_' + abbreviation
+                                        const key = `${card.name}_${nationality}`.toLowerCase();
+                                        const audioSource = audiosMaps[session.deck.slug]?.[key];
+                                        if (!audioSource) return; // se non c'è, non fa nulla
+
+                                        const { sound } = await Audio.Sound.createAsync(audioSource);
+                                        soundRef.current = sound;
+                                        await sound.playAsync();
+                                    }}
+                                    style={styles.playButtonSmall}
+                                >
+                                    <Ionicons name="volume-high" size={20} color="lightgrey" />
+                                </TouchableOpacity>
+                            </View>
+                        )}
+
+                        {card.languages && card.languages.length > 0 && (
+                            <View style={styles.languagesContainer}>
+                                {card.languages.map((lang, index) => (
+                                    <View key={index} style={styles.languagesRow}>
+                                        <Text style={styles.languagesText}>Languages: {lang}</Text>
+                                        <TouchableOpacity
+                                            onPress={async () => {
+                                                if (!lang) return;
+
+                                                if (soundRef.current) {
+                                                    await soundRef.current.unloadAsync();
+                                                    soundRef.current = null;
+                                                }
+
+                                                // genera chiave come name + '_' + synonym
+                                                const key = `${card.name}_${lang}`.toLowerCase();
+                                                const audioSource = audiosMaps[session.deck.slug]?.[key];
+                                                if (!audioSource) return;
+
+                                                const { sound } = await Audio.Sound.createAsync(audioSource);
+                                                soundRef.current = sound;
+                                                await sound.playAsync();
+                                            }}
+                                            style={styles.playButtonSmall}
+                                        >
+                                            <Ionicons name="volume-high" size={20} color="lightgrey" />
+                                        </TouchableOpacity>
+                                    </View>
+                                ))}
+                            </View>
+                        )}
+
                         {card.back_note && (
                             <Text style={styles.backNote}>{card.back_note}</Text>
                         )}
@@ -367,14 +428,41 @@ const styles = StyleSheet.create({
     },
     synonymText: {
         fontSize: 16,
-        color: '#555',
+        color: '#666',
         marginRight: 6,
+        fontStyle: 'italic',
     },
     regionFlag: {
         position: 'absolute',
         top: 8,
         right: 8,
         fontSize: 28,
+    },
+    nationalityContainer: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        marginTop: 30,
+    },
+    nationalityText: {
+        fontSize: 16,
+        color: '#666',
+        marginRight: 6,
+        fontStyle: 'italic',
+    },
+    languagesContainer: {
+        marginTop: 20,
+        alignItems: 'center',
+    },
+    languagesRow: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        marginBottom: 6,
+    },
+    languagesText: {
+        fontSize: 16,
+        color: '#666',
+        marginRight: 6,
+        fontStyle: 'italic',
     },
     backNote: {
         fontSize: 14,
