@@ -11,6 +11,8 @@ Stamp
 Vacation -> US
 Place
 Second (time)
+Sex -> act
+Pill
 
 (to) Die
 (to) Follow

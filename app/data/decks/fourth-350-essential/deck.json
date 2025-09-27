@@ -833,6 +833,9 @@
     {
       "name": "find",
       "back": "Find",
+      "synonyms": [
+        "Search"
+      ],
       "categories": [
         "Verbs"
       ]
@@ -1138,6 +1141,7 @@
       "name": "holiday",
       "back": "Holiday",
       "front_note": "A day when people rest or celebrate",
+      "region": "UK",
       "categories": [
         "Society"
       ]
@@ -1439,6 +1443,7 @@
     {
       "name": "manager",
       "back": "Manager",
+      "front_note": "The person who organizes work and is responsible for a team or project",
       "categories": [
         "Job"
       ]

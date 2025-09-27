@@ -98,6 +98,7 @@
     {
       "name": "author",
       "back": "Author",
+      "front_note": "A person who writes books or stories",
       "categories": [
         "Job"
       ]
@@ -161,6 +162,7 @@
     {
       "name": "beautiful",
       "back": "Beautiful",
+      "front_note": "She is ________",
       "categories": [
         "Adjectives"
       ]
@@ -224,6 +226,7 @@
     {
       "name": "boss",
       "back": "Boss",
+      "front_note": "The person who has authority over workers and gives orders",
       "categories": [
         "People"
       ]
@@ -352,6 +355,7 @@
     {
       "name": "capital",
       "back": "Capital",
+      "front_note": "The main city of a country where the government is",
       "categories": [
         "Society"
       ]
@@ -506,6 +510,7 @@
     {
       "name": "company",
       "back": "Company",
+      "front_note": "A business or organization where people work",
       "categories": [
         "Society"
       ]
@@ -520,6 +525,7 @@
     {
       "name": "continent",
       "back": "Continent",
+      "front_note": "Africa is a ________",
       "categories": [
         "Miscellaneous"
       ]
@@ -570,6 +576,7 @@
     {
       "name": "curve",
       "back": "Curve",
+      "front_note": "A part of a road that bends or turns",
       "categories": [
         "Miscellaneous"
       ]
@@ -649,8 +656,11 @@
       ]
     },
     {
-      "name": "drug",
-      "back": "Drug",
+      "name": "pill",
+      "back": "Pill",
+      "synonyms": [
+        "Drug"
+      ],
       "categories": [
         "Society"
       ]
@@ -694,6 +704,7 @@
     {
       "name": "email",
       "back": "Email",
+      "front_note": "A message sent on a computer or phone",
       "categories": [
         "Electronics"
       ]
@@ -768,6 +779,7 @@
     {
       "name": "famous",
       "back": "Famous",
+      "front_note": "She is very ________",
       "categories": [
         "Adjectives"
       ]
@@ -1009,6 +1021,7 @@
     {
       "name": "hang",
       "back": "Hang",
+      "front_note": "To put something on a hook or hanger so it stays up",
       "categories": [
         "Verbs"
       ]
