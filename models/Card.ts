@@ -3,36 +3,33 @@ import log from '../utils/logger';
 
 // Dati base letti da JSON, senza deckSlug
 export interface CardData {
-    id: string;
     name: string;
     back: string;
     front_note?: string;
     abbreviation?: string;
-    synonyms: string[];
+    synonyms?: string[];
     back_note?: string;
     region?: string;
     nationality?: string;
-    languages: string[];
+    languages?: string[];
     categories: string[];
 }
 
 const logger = log.extend('Card');
 
 export class Card {
-    id: string;
     name: string;
     back: string;
     front_note?: string;
     abbreviation?: string;
-    synonyms: string[];
+    synonyms?: string[];
     back_note?: string;
     region?: string;
     nationality?: string;
-    languages: string[];
+    languages?: string[];
     categories: string[];
 
-    constructor({ id, name, back, front_note, abbreviation, synonyms, back_note, region, nationality, languages, categories }: CardData) {
-        this.id = id;
+    constructor({ name, back, front_note, abbreviation, synonyms, back_note, region, nationality, languages, categories }: CardData) {
         this.name = name;
         this.back = back;
         this.front_note = front_note;

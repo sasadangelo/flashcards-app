@@ -574,9 +574,9 @@
       ]
     },
     {
-      "name": "curve",
+      "name": "curve_adjective",
       "back": "Curve",
-      "front_note": "A part of a road that bends or turns",
+      "front_note": "The monitor is ________",
       "categories": [
         "Miscellaneous"
       ]
@@ -820,8 +820,9 @@
       ]
     },
     {
-      "name": "flat",
+      "name": "flat_adjective",
       "back": "Flat",
+      "front_note": "The monitor is ________",
       "categories": [
         "Adjectives"
       ]

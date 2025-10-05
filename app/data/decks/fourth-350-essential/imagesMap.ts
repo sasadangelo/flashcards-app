@@ -117,7 +117,7 @@ export const imagesMap: { [key: string]: any } = {
   "find": require('./images/find.png'),
   "first": require('./images/first.png'),
   "flag": require('./images/flag.png'),
-  "flat": require('./images/flat.png'),
+  "flat_apartment": require('./images/flat_apartment.png'),
   "fly": require('./images/fly.png'),
   "football": require('./images/football.png'),
   "footstep": require('./images/footstep.png'),

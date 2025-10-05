@@ -59,3 +59,41 @@ npx expo start
 - Your phone and computer must be on the same local network to connect.
 - This mode is intended for development and testing, with live reload enabled.
 - For production or standalone app installs, use EAS Build to generate APK/AAB files.
+
+### Build WordBuddy APK (Official)
+
+To generate an official Android APK that can be installed on any device:
+
+1. Login to Expo:
+
+```bash
+eas login
+```
+
+2. Configure EAS Build (only if you haven't yet) to generate the `eas.jons` file:
+
+```bash
+eas build:configure
+```
+
+**Note**: this must be done only the first time you build the APK.
+
+3. Build the APK using the production profile from eas.json:
+
+```bash
+eas build --platform android --profile production
+```
+
+4. Monitor the build:
+After running the command, EAS will provide a URL to track the build status, for example:
+
+```bash
+https://expo.dev/accounts/<your-account>/projects/word-buddy/builds/<build-id>
+```
+
+5. Download the APK:
+Once the build completes, open the URL provided by EAS and download the APK. You can then install it on your Android device.
+
+**Notes**:
+
+Make sure your device allows installation from unknown sources.

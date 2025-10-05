@@ -5,6 +5,7 @@ import { StatusBar } from 'expo-status-bar';
 import 'react-native-reanimated';
 
 import { useColorScheme } from '@/hooks/useColorScheme';
+import { DeckProvider } from './contexts/DeckContext';
 import { StudySessionProvider } from './contexts/StudySessionContext';
 
 export default function RootLayout() {
@@ -20,13 +21,15 @@ export default function RootLayout() {
 
   return (
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
-      <StudySessionProvider>
-        <Stack>
-          <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-          <Stack.Screen name="+not-found" />
-        </Stack>
-        <StatusBar style="auto" />
-      </StudySessionProvider>
+      <DeckProvider>
+        <StudySessionProvider>
+          <Stack>
+            <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+            <Stack.Screen name="+not-found" />
+          </Stack>
+          <StatusBar style="auto" />
+        </StudySessionProvider>
+      </DeckProvider>
     </ThemeProvider>
   );
 }

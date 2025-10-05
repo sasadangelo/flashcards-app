@@ -119,7 +119,7 @@ export const audiosMap: { [key: string]: any } = {
   "find_search": require('./audio/find_search.mp3'),
   "first": require('./audio/first.mp3'),
   "flag": require('./audio/flag.mp3'),
-  "flat": require('./audio/flat.mp3'),
+  "flat_apartment": require('./audio/flat_apartment.mp3'),
   "fly": require('./audio/fly.mp3'),
   "football": require('./audio/football.mp3'),
   "footstep": require('./audio/footstep.mp3'),

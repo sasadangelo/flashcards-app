@@ -855,7 +855,7 @@
       ]
     },
     {
-      "name": "flat",
+      "name": "flat_apartment",
       "back": "Flat",
       "front_note": "A set of rooms in a building for living",
       "region": "UK",
