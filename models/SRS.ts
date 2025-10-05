@@ -14,6 +14,29 @@ const difficultyMap: Record<Difficulty, number> = {
 
 const logger = log.extend('SRS');
 
+// Restituisce newInterval con variazione random in base al difficulty
+function applyRandomness(interval: number, difficulty: Difficulty): number {
+    let randomness = 0;
+
+    switch (difficulty) {
+        case 'again':
+            randomness = 0;   // nessuna variazione
+            break;
+        case 'hard':
+            randomness = 0.05; // ±5%
+            break;
+        case 'good':
+            randomness = 0.10; // ±10%
+            break;
+        case 'easy':
+            randomness = 0.15; // ±15%
+            break;
+    }
+
+    const variation = (Math.random() * 2 - 1) * randomness; // tra -randomness e +randomness
+    return Math.max(1, Math.round(interval * (1 + variation)));
+}
+
 export class SRS {
     // Ottieni la base della chiave per una card
     getKeyBase(card: Card): string {
@@ -53,6 +76,8 @@ export class SRS {
             } else {
                 newInterval = Math.round(interval * newEase);
             }
+            // Applica la randomness in base al difficulty
+            newInterval = applyRandomness(newInterval, difficulty);
         }
 
         // Calcola la data del prossimo review
