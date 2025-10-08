@@ -1038,8 +1038,10 @@
     {
       "name": "half",
       "back": "Half",
+      "plural": "Halves",
       "categories": [
-        "Math/Measurements"
+        "Math/Measurements",
+        "Irregular Nouns"
       ]
     },
     {

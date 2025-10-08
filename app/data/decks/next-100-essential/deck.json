@@ -213,8 +213,10 @@
     {
       "name": "foot_noun",
       "back": "Foot",
+      "plural": "Feet",
       "categories": [
-        "Body"
+        "Body",
+        "Irregular Nouns"
       ]
     },
     {
@@ -668,8 +670,10 @@
     {
       "name": "tooth",
       "back": "Tooth",
+      "plural": "Teeth",
       "categories": [
-        "Body"
+        "Body",
+        "Irregular Nouns"
       ]
     },
     {

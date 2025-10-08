@@ -858,8 +858,10 @@
     {
       "name": "foot_measure",
       "back": "Foot",
+      "plural": "Feet",
       "categories": [
-        "Math/Measurements"
+        "Math/Measurements",
+        "Irregular Nouns"
       ]
     },
     {
@@ -930,8 +932,10 @@
     {
       "name": "goose",
       "back": "Goose",
+      "plural": "Geese",
       "categories": [
-        "Animals"
+        "Animals",
+        "Irregular Nouns"
       ]
     },
     {
@@ -1679,8 +1683,10 @@
     {
       "name": "person",
       "back": "Person",
+      "plural": "People",
       "categories": [
-        "People"
+        "People",
+        "Irregular Nouns"
       ]
     },
     {

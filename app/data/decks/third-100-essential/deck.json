@@ -321,8 +321,10 @@
     {
       "name": "knife",
       "back": "Knife",
+      "plural": "Knives",
       "categories": [
-        "Home"
+        "Home",
+        "Irregular Nouns"
       ]
     },
     {

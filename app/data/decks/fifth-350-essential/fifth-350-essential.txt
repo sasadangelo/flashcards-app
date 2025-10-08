@@ -1,5 +1,3 @@
-Total words: 350
-
 above,actor,address,adjective,always,angel,ankle,artist,astronaut,aunt,australia,austria,author,avenue,bakery,balcony,band,barber,barber_shop,bathrobe,
 bean,beautiful,beef,behind,belgium,belt,bend,between,bite,boss,bowl,boxe,bracelet,brazil,brush,bucket,bug,bus_stop,bush,butcher,
 button_cloth,cafeteria,calculator,canada,candy_shop,cap,capital,carnival,carpenter,cash,cd,cell_phone,cent,center,chain,cheap,chef,chemist,chess,chicken_food,

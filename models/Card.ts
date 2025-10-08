@@ -12,6 +12,7 @@ export interface CardData {
     region?: string;
     nationality?: string;
     languages?: string[];
+    plural?: string;
     categories: string[];
 }
 
@@ -27,9 +28,10 @@ export class Card {
     region?: string;
     nationality?: string;
     languages?: string[];
+    plural?: string;
     categories: string[];
 
-    constructor({ name, back, front_note, abbreviation, synonyms, back_note, region, nationality, languages, categories }: CardData) {
+    constructor({ name, back, front_note, abbreviation, synonyms, back_note, region, nationality, languages, plural, categories }: CardData) {
         this.name = name;
         this.back = back;
         this.front_note = front_note;
@@ -39,6 +41,7 @@ export class Card {
         this.region = region;
         this.nationality = nationality;
         this.languages = languages || [];
+        this.plural = plural;
         this.categories = categories;
     }
 

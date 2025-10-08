@@ -47,6 +47,7 @@ export const audiosMap: { [key: string]: any } = {
   "juice": require('./audio/juice.mp3'),
   "kitchen": require('./audio/kitchen.mp3'),
   "knife": require('./audio/knife.mp3'),
+  "knife_knives": require('./audio/knife_knives.mp3'),
   "livingroom": require('./audio/livingroom.mp3'),
   "long": require('./audio/long.mp3'),
   "map": require('./audio/map.mp3'),

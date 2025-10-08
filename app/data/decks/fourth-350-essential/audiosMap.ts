@@ -145,6 +145,7 @@ export const audiosMap: { [key: string]: any } = {
   "guitar": require('./audio/guitar.mp3'),
   "gun": require('./audio/gun.mp3'),
   "half": require('./audio/half.mp3'),
+  "half_halves": require('./audio/half_halves.mp3'),
   "hammer": require('./audio/hammer.mp3'),
   "happy": require('./audio/happy.mp3'),
   "hard": require('./audio/hard.mp3'),

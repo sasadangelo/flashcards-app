@@ -298,6 +298,35 @@ export default function StudyScreen() {
                             </View>
                         )}
 
+                        {card.plural && (
+                            <View style={styles.pluralContainer}>
+                                <Text style={styles.pluralText}>Plural: {card.plural}</Text>
+                                <TouchableOpacity
+                                    onPress={async () => {
+                                        const plural = card.plural;
+                                        if (!plural) return;
+
+                                        if (soundRef.current) {
+                                            await soundRef.current.unloadAsync();
+                                            soundRef.current = null;
+                                        }
+
+                                        // Genera la chiave come name + '_' + abbreviation
+                                        const key = `${card.name}_${plural}`.toLowerCase();
+                                        const audioSource = audiosMaps[session.deck.slug]?.[key];
+                                        if (!audioSource) return; // se non c'è, non fa nulla
+
+                                        const { sound } = await Audio.Sound.createAsync(audioSource);
+                                        soundRef.current = sound;
+                                        await sound.playAsync();
+                                    }}
+                                    style={styles.playButtonSmall}
+                                >
+                                    <Ionicons name="volume-high" size={20} color="lightgrey" />
+                                </TouchableOpacity>
+                            </View>
+                        )}
+
                         {card.back_note && (
                             <Text style={styles.backNote}>{card.back_note}</Text>
                         )}
@@ -469,6 +498,17 @@ const styles = StyleSheet.create({
         color: '#444',
         textAlign: 'center',
         marginTop: 20,
+        fontStyle: 'italic',
+    },
+    pluralContainer: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        marginTop: 30,
+    },
+    pluralText: {
+        fontSize: 16,
+        color: '#666',
+        marginRight: 6,
         fontStyle: 'italic',
     },
 });

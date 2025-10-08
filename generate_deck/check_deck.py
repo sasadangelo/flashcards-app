@@ -25,6 +25,7 @@ def check_deck(folder: str):
     audio_variants = []  # name, name_abbreviation, name_synonym
     abbrev_count = 0
     syn_count = 0
+    plural_count = 0
     missing_categories = []
 
     for card in cards:
@@ -45,6 +46,12 @@ def check_deck(folder: str):
             for syn in card["synonyms"]:
                 audio_variants.append(f"{name}_{normalize(syn)}")
                 syn_count += 1
+
+        # abbreviation → name_abbreviation
+        if "plural" in card:
+            plural = normalize(card["plural"])
+            audio_variants.append(f"{name}_{plural}")
+            plural_count += 1
 
         # check categorie
         if "categories" not in card or not card["categories"]:
@@ -88,7 +95,8 @@ def check_deck(folder: str):
     # --- Report ---
     print(f"🔎 Totali carte: {len(cards)}")
     print(f"🔎 Varianti audio da abbreviazioni: {abbrev_count}")
-    print(f"🔎 Varianti audio da sinonimi: {syn_count}\n")
+    print(f"🔎 Varianti audio da sinonimi: {syn_count}")
+    print(f"🔎 Varianti audio da plurali: {plural_count}\n")
 
     print(f"❌ Mancano in audiosMap.ts: {len(missing_in_audio_map)} -> {missing_in_audio_map}")
     print(f"❌ Mancano in imagesMap.ts: {len(missing_in_image_map)} -> {missing_in_image_map}\n")

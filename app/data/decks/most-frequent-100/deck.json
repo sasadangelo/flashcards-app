@@ -163,11 +163,13 @@
     {
       "name": "child",
       "back": "Child",
+      "plural": "Children",
       "synonyms": [
         "Kid"
       ],
       "categories": [
-        "People"
+        "People",
+        "Irregular Nouns"
       ]
     },
     {
@@ -267,9 +269,10 @@
     {
       "name": "fish",
       "back": "Fish",
-      "back_note": "Plural is always 'Fish'",
+      "plural": "Fish",
       "categories": [
-        "Animals"
+        "Animals",
+        "Irregular Nouns"
       ]
     },
     {
@@ -394,8 +397,10 @@
     {
       "name": "man",
       "back": "Man",
+      "plural": "Men",
       "categories": [
-        "People"
+        "People",
+        "Irregular Nouns"
       ]
     },
     {
@@ -439,8 +444,10 @@
     {
       "name": "mouse",
       "back": "Mouse",
+      "plural": "Mice",
       "categories": [
-        "Animals"
+        "Animals",
+        "Irregular Nouns"
       ]
     },
     {
@@ -566,9 +573,10 @@
     {
       "name": "sheep",
       "back": "Sheep",
-      "back_note": "Plural is always 'Sheep'",
+      "plural": "Sheep",
       "categories": [
-        "Animals"
+        "Animals",
+        "Irregular Nouns"
       ]
     },
     {
@@ -711,8 +719,10 @@
     {
       "name": "woman",
       "back": "Woman",
+      "plural": "Women",
       "categories": [
-        "People"
+        "People",
+        "Irregular Nouns"
       ]
     },
     {

@@ -5,7 +5,7 @@ Butcher's
 Watch (verb)
 Tresure -> Pantaloni
 Yard -> misura
-College
+College -> US
 Eraser -> UK
 Stamp
 Vacation -> US
