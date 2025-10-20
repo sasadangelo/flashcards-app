@@ -8,14 +8,16 @@
       "back": "Apple",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "ˈæp.əl"
     },
     {
       "name": "baby",
       "back": "Baby",
       "categories": [
         "People"
-      ]
+      ],
+      "ipa": "ˈbeɪbi"
     },
     {
       "name": "schoolbag",
@@ -23,28 +25,32 @@
       "abbreviation": "Bag",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "ˈskuːl.bæɡ"
     },
     {
       "name": "banana",
       "back": "Banana",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "bəˈnɑːnə"
     },
     {
       "name": "bear",
       "back": "Bear",
       "categories": [
         "Animals"
-      ]
+      ],
+      "ipa": "bɛə(ɹ)"
     },
     {
       "name": "bed",
       "back": "Bed",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "bed"
     },
     {
       "name": "bicycle",
@@ -52,105 +58,120 @@
       "abbreviation": "Bike",
       "categories": [
         "Transportation"
-      ]
+      ],
+      "ipa": "ˈbaɪsɪkl̩"
     },
     {
       "name": "bird",
       "back": "Bird",
       "categories": [
         "Animals"
-      ]
+      ],
+      "ipa": "bɜd"
     },
     {
       "name": "black",
       "back": "Black",
       "categories": [
         "Colors"
-      ]
+      ],
+      "ipa": "blak"
     },
     {
       "name": "blue",
       "back": "Blue",
       "categories": [
         "Colors"
-      ]
+      ],
+      "ipa": "bluː"
     },
     {
       "name": "book",
       "back": "Book",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "buːk"
     },
     {
       "name": "boy",
       "back": "Boy",
       "categories": [
         "People"
-      ]
+      ],
+      "ipa": "bɔːə"
     },
     {
       "name": "bread",
       "back": "Bread",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "bɹeːd"
     },
     {
       "name": "brown",
       "back": "Brown",
       "categories": [
         "Colors"
-      ]
+      ],
+      "ipa": "bɹaʊn"
     },
     {
       "name": "butter",
       "back": "Butter",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "ˈbʊtə"
     },
     {
       "name": "cake",
       "back": "Cake",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "keɪk"
     },
     {
       "name": "car",
       "back": "Car",
       "categories": [
         "Transportation"
-      ]
+      ],
+      "ipa": "kɑː"
     },
     {
       "name": "carrot",
       "back": "Carrot",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "ˈkæɹ.ət"
     },
     {
       "name": "cat",
       "back": "Cat",
       "categories": [
         "Animals"
-      ]
+      ],
+      "ipa": "kat"
     },
     {
       "name": "chair",
       "back": "Chair",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "t͡ʃɛə(ɹ)"
     },
     {
       "name": "cheese",
       "back": "Cheese",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "t͡ʃiz"
     },
     {
       "name": "chicken_animal",
@@ -158,7 +179,8 @@
       "front_note": "A common farm bird kept for its eggs and meat.",
       "categories": [
         "Animals"
-      ]
+      ],
+      "ipa": "ˈt͡ʃɪkɪn"
     },
     {
       "name": "child",
@@ -170,84 +192,96 @@
       "categories": [
         "People",
         "Irregular Nouns"
-      ]
+      ],
+      "ipa": "t͡ʃaɪld"
     },
     {
       "name": "clock",
       "back": "Clock",
       "categories": [
         "Electronics"
-      ]
+      ],
+      "ipa": "klɒk"
     },
     {
       "name": "cloud",
       "back": "Cloud",
       "categories": [
         "Nature"
-      ]
+      ],
+      "ipa": "klaʊd"
     },
     {
       "name": "cookie",
       "back": "Cookie",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "ˈkuːki"
     },
     {
       "name": "cow",
       "back": "Cow",
       "categories": [
         "Animals"
-      ]
+      ],
+      "ipa": "kaʊ"
     },
     {
       "name": "cup",
       "back": "Cup",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "kʌp"
     },
     {
       "name": "dog",
       "back": "Dog",
       "categories": [
         "Animals"
-      ]
+      ],
+      "ipa": "dɑɡ"
     },
     {
       "name": "door",
       "back": "Door",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "dɔː"
     },
     {
       "name": "duck",
       "back": "Duck",
       "categories": [
         "Animals"
-      ]
+      ],
+      "ipa": "dʌk"
     },
     {
       "name": "egg",
       "back": "Egg",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "eɪɡ"
     },
     {
       "name": "eight",
       "back": "Eight",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "eɪt"
     },
     {
       "name": "elephant",
       "back": "Elephant",
       "categories": [
         "Animals"
-      ]
+      ],
+      "ipa": "ˈɛləfənt"
     },
     {
       "name": "father",
@@ -257,14 +291,16 @@
       ],
       "categories": [
         "People"
-      ]
+      ],
+      "ipa": "ˈfaːðə"
     },
     {
       "name": "fire",
       "back": "Fire",
       "categories": [
         "Nature"
-      ]
+      ],
+      "ipa": "ˈfɑeə(ɹ)"
     },
     {
       "name": "fish",
@@ -273,18 +309,21 @@
       "categories": [
         "Animals",
         "Irregular Nouns"
-      ]
+      ],
+      "ipa": "fɪʃ"
     },
     {
       "name": "five",
       "back": "Five",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "fɑev"
     },
     {
       "name": "flower",
       "back": "Flower",
+      "ipa": "flaʊər",
       "categories": [
         "Nature"
       ]
@@ -294,105 +333,120 @@
       "back": "Fork",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "fɔːk"
     },
     {
       "name": "four",
       "back": "Four",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "foː"
     },
     {
       "name": "friends",
       "back": "Friends",
       "categories": [
         "People"
-      ]
+      ],
+      "ipa": "fɹɛn(d)z"
     },
     {
       "name": "frog",
       "back": "Frog",
       "categories": [
         "Animals"
-      ]
+      ],
+      "ipa": "fɹɒɡ"
     },
     {
       "name": "girl",
       "back": "Girl",
       "categories": [
         "People"
-      ]
+      ],
+      "ipa": "ɡɵːl"
     },
     {
       "name": "goat",
       "back": "Goat",
       "categories": [
         "Animals"
-      ]
+      ],
+      "ipa": "ɡɐ̟ʉt"
     },
     {
       "name": "grape",
       "back": "Grape",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "ɡɹeɪp"
     },
     {
       "name": "grass",
       "back": "Grass",
       "categories": [
         "Nature"
-      ]
+      ],
+      "ipa": "ɡɹ̠äːs"
     },
     {
       "name": "green",
       "back": "Green",
       "categories": [
         "Colors"
-      ]
+      ],
+      "ipa": "ɡɹiːn"
     },
     {
       "name": "hat",
       "back": "Hat",
       "categories": [
         "Clothing"
-      ]
+      ],
+      "ipa": "hat"
     },
     {
       "name": "horse",
       "back": "Horse",
       "categories": [
         "Animals"
-      ]
+      ],
+      "ipa": "hɔːs"
     },
     {
       "name": "ice_cream",
       "back": "Ice Cream",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "ʌɪs"
     },
     {
       "name": "key",
       "back": "Key",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "kiː"
     },
     {
       "name": "lamp",
       "back": "Lamp",
       "categories": [
         "Electronics"
-      ]
+      ],
+      "ipa": "læmp"
     },
     {
       "name": "lion",
       "back": "Lion",
       "categories": [
         "Animals"
-      ]
+      ],
+      "ipa": "ˈlaɪən"
     },
     {
       "name": "man",
@@ -401,39 +455,45 @@
       "categories": [
         "People",
         "Irregular Nouns"
-      ]
+      ],
+      "ipa": "mɛn"
     },
     {
       "name": "meat",
       "back": "Meat",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "miːt"
     },
     {
       "name": "milk",
       "back": "Milk",
       "categories": [
         "Beverages"
-      ]
+      ],
+      "ipa": "mɛlk"
     },
     {
       "name": "monkey",
       "back": "Monkey",
       "categories": [
         "Animals"
-      ]
+      ],
+      "ipa": "ˈmʌŋki"
     },
     {
       "name": "moon",
       "back": "Moon",
       "categories": [
         "Nature"
-      ]
+      ],
+      "ipa": "muːn"
     },
     {
       "name": "mother",
       "back": "Mother",
+      "ipa": "ˈmʌð.ər",
       "synonyms": [
         "Mom"
       ],
@@ -445,6 +505,7 @@
       "name": "mouse",
       "back": "Mouse",
       "plural": "Mice",
+      "ipa": "maʊs",
       "categories": [
         "Animals",
         "Irregular Nouns"
@@ -455,42 +516,48 @@
       "back": "Nine",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "naɪn"
     },
     {
       "name": "one",
       "back": "One",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "wan"
     },
     {
       "name": "orange_color",
       "back": "Orange",
       "categories": [
         "Colors"
-      ]
+      ],
+      "ipa": "ˈɔɹɪ̈nd͡ʒ"
     },
     {
       "name": "orange_fruit",
       "back": "Orange",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "ˈɔɹɪ̈nd͡ʒ"
     },
     {
       "name": "pasta",
       "back": "Pasta",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "ˈpɐːstə"
     },
     {
       "name": "pen",
       "back": "Pen",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "pɛn"
     },
     {
       "name": "telephone",
@@ -498,77 +565,88 @@
       "abbreviation": "Phone",
       "categories": [
         "Electronics"
-      ]
+      ],
+      "ipa": "ˈtɛləfəʊn"
     },
     {
       "name": "pig",
       "back": "Pig",
       "categories": [
         "Animals"
-      ]
+      ],
+      "ipa": "ˈpɪɡ"
     },
     {
       "name": "pink",
       "back": "Pink",
       "categories": [
         "Colors"
-      ]
+      ],
+      "ipa": "pɪŋk"
     },
     {
       "name": "plate",
       "back": "Plate",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "pleɪt"
     },
     {
       "name": "potato",
       "back": "Potato",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "pəˈteɪ.təʊ"
     },
     {
       "name": "purple",
       "back": "Purple",
       "categories": [
         "Colors"
-      ]
+      ],
+      "ipa": "ˈpɜː(ɹ).pəl"
     },
     {
       "name": "rabbit",
       "back": "Rabbit",
       "categories": [
         "Animals"
-      ]
+      ],
+      "ipa": "ˈɹæbət"
     },
     {
       "name": "rain",
       "back": "Rain",
       "categories": [
         "Nature"
-      ]
+      ],
+      "ipa": "ɹeɪn"
     },
     {
       "name": "red",
       "back": "Red",
       "categories": [
         "Colors"
-      ]
+      ],
+      "ipa": "ɹɛd"
     },
     {
       "name": "rice",
       "back": "Rice",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "ɹaɪs"
     },
     {
       "name": "seven",
       "back": "Seven",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "ˈsɛv.ən"
     },
     {
       "name": "sheep",
@@ -577,18 +655,21 @@
       "categories": [
         "Animals",
         "Irregular Nouns"
-      ]
+      ],
+      "ipa": "ʃiːp"
     },
     {
       "name": "shoe",
       "back": "Shoe",
       "categories": [
         "Clothing"
-      ]
+      ],
+      "ipa": "ʃuː"
     },
     {
       "name": "six",
       "back": "Six",
+      "ipa": "sɪks",
       "categories": [
         "Numbers"
       ]
@@ -598,21 +679,24 @@
       "back": "Snake",
       "categories": [
         "Animals"
-      ]
+      ],
+      "ipa": "ˈsneɪk"
     },
     {
       "name": "snow",
       "back": "Snow",
       "categories": [
         "Nature"
-      ]
+      ],
+      "ipa": "snəʊ"
     },
     {
       "name": "soup",
       "back": "Soup",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "suːp"
     },
     {
       "name": "spoon",
@@ -620,25 +704,29 @@
       "front_note": "A general eating utensil with a shallow bowl and a handle",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "spuːn"
     },
     {
       "name": "star",
       "back": "Star",
       "categories": [
         "Nature"
-      ]
+      ],
+      "ipa": "stɑː(ɹ)"
     },
     {
       "name": "sun",
       "back": "Sun",
       "categories": [
         "Nature"
-      ]
+      ],
+      "ipa": "sʌn"
     },
     {
       "name": "table",
       "back": "Table",
+      "ipa": "ˈteɪ.bəl",
       "categories": [
         "Home"
       ]
@@ -651,70 +739,80 @@
       ],
       "categories": [
         "Job"
-      ]
+      ],
+      "ipa": "ˈtiːt͡ʃə"
     },
     {
       "name": "ten",
       "back": "Ten",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "tɛn"
     },
     {
       "name": "three",
       "back": "Three",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "θɹiː"
     },
     {
       "name": "tiger",
       "back": "Tiger",
       "categories": [
         "Animals"
-      ]
+      ],
+      "ipa": "ˈtaɪɡə"
     },
     {
       "name": "tomato",
       "back": "Tomato",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "tʰə̥ˈmɐːtʰɐʉ"
     },
     {
       "name": "tree",
       "back": "Tree",
       "categories": [
         "Nature"
-      ]
+      ],
+      "ipa": "tɹiː"
     },
     {
       "name": "two",
       "back": "Two",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "tuː"
     },
     {
       "name": "water",
       "back": "Water",
       "categories": [
         "Beverages"
-      ]
+      ],
+      "ipa": "ˈwoːtə"
     },
     {
       "name": "white",
       "back": "White",
       "categories": [
         "Colors"
-      ]
+      ],
+      "ipa": "waɪt"
     },
     {
       "name": "window",
       "back": "Window",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "ˈwɪndəʊ"
     },
     {
       "name": "woman",
@@ -723,14 +821,16 @@
       "categories": [
         "People",
         "Irregular Nouns"
-      ]
+      ],
+      "ipa": "ˈwʊmɘn"
     },
     {
       "name": "yellow",
       "back": "Yellow",
       "categories": [
         "Colors"
-      ]
+      ],
+      "ipa": "jɛlə"
     }
   ]
 }

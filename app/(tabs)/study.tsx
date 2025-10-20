@@ -327,8 +327,11 @@ export default function StudyScreen() {
                             </View>
                         )}
 
+                        {card.ipa && (
+                            <Text style={styles.ipa}>IPA: {card.ipa}</Text>
+                        )}
                         {card.back_note && (
-                            <Text style={styles.backNote}>{card.back_note}</Text>
+                            <Text style={styles.ipa}>{card.back_note}</Text>
                         )}
                     </>
                 )}
@@ -509,6 +512,13 @@ const styles = StyleSheet.create({
         fontSize: 16,
         color: '#666',
         marginRight: 6,
+        fontStyle: 'italic',
+    },
+    ipa: {
+        fontSize: 14,
+        color: '#444',
+        textAlign: 'center',
+        marginTop: 20,
         fontStyle: 'italic',
     },
 });

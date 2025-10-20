@@ -9,7 +9,8 @@
       "abbreviation": "Plane",
       "categories": [
         "Transportation"
-      ]
+      ],
+      "ipa": "ˈɛəpleɪn"
     },
     {
       "name": "animal",
@@ -17,14 +18,16 @@
       "front_note": "A living creature like a giraffe, elephant, or tiger",
       "categories": [
         "Animals"
-      ]
+      ],
+      "ipa": "ˈænɪməl"
     },
     {
       "name": "arm",
       "back": "Arm",
       "categories": [
         "Body"
-      ]
+      ],
+      "ipa": "ɑːm"
     },
     {
       "name": "bad",
@@ -32,161 +35,184 @@
       "front_note": "Opposite of good",
       "categories": [
         "Adjectives"
-      ]
+      ],
+      "ipa": "bæːd"
     },
     {
       "name": "back_body",
       "back": "Back",
       "categories": [
         "Body"
-      ]
+      ],
+      "ipa": "bæk"
     },
     {
       "name": "ball",
       "back": "Ball",
       "categories": [
         "Miscellaneous"
-      ]
+      ],
+      "ipa": "bɔːl"
     },
     {
       "name": "bat",
       "back": "Bat",
       "categories": [
         "Animals"
-      ]
+      ],
+      "ipa": "bæt"
     },
     {
       "name": "bee",
       "back": "Bee",
       "categories": [
         "Animals"
-      ]
+      ],
+      "ipa": "ˈbiː"
     },
     {
       "name": "bell",
       "back": "Bell",
       "categories": [
         "Miscellaneous"
-      ]
+      ],
+      "ipa": "bɛl"
     },
     {
       "name": "boat",
       "back": "Boat",
       "categories": [
         "Transportation"
-      ]
+      ],
+      "ipa": "bəʊt"
     },
     {
       "name": "body",
       "back": "Body",
       "categories": [
         "Body"
-      ]
+      ],
+      "ipa": "ˈbɒdi"
     },
     {
       "name": "bottle",
       "back": "Bottle",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "ˈbɑ.təl"
     },
     {
       "name": "brother",
       "back": "Brother",
       "categories": [
         "People"
-      ]
+      ],
+      "ipa": "ˈbɹɐðɘ(ɹ)"
     },
     {
       "name": "bus",
       "back": "Bus",
       "categories": [
         "Transportation"
-      ]
+      ],
+      "ipa": "bɐs"
     },
     {
       "name": "chick",
       "back": "Chick",
       "categories": [
         "Animals"
-      ]
+      ],
+      "ipa": "t͡ʃɪk"
     },
     {
       "name": "city",
       "back": "City",
       "categories": [
         "Location"
-      ]
+      ],
+      "ipa": "sɪtɪ"
     },
     {
       "name": "color",
       "back": "Color",
       "categories": [
         "Colors"
-      ]
+      ],
+      "ipa": "ˈkʌl.ə(ɹ)"
     },
     {
       "name": "cricket",
       "back": "Cricket",
       "categories": [
         "Animals"
-      ]
+      ],
+      "ipa": "ˈkrɪk.ɪt"
     },
     {
       "name": "cupboard",
       "back": "Cupboard",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "ˈkʌb.əd"
     },
     {
       "name": "dance",
       "back": "Dance",
       "categories": [
         "Verb"
-      ]
+      ],
+      "ipa": "dæːns"
     },
     {
       "name": "dress",
       "back": "Dress",
       "categories": [
         "Clothing"
-      ]
+      ],
+      "ipa": "dɹɛs"
     },
     {
       "name": "drum",
       "back": "Drum",
       "categories": [
         "Miscellaneous"
-      ]
+      ],
+      "ipa": "ˈdɹʌm"
     },
     {
       "name": "ear",
       "back": "Ear",
       "categories": [
         "Body"
-      ]
+      ],
+      "ipa": "ɪər"
     },
     {
       "name": "eighteen",
       "back": "Eighteen",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "ˈeɪ.tiːn"
     },
     {
       "name": "eleven",
       "back": "Eleven",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "ɪˈlev.ən"
     },
     {
       "name": "eye",
       "back": "Eye",
       "categories": [
         "Body"
-      ]
+      ],
+      "ipa": "aɪ"
     },
     {
       "name": "face",
@@ -194,21 +220,24 @@
       "front_note": "The front part of the head showing eyes, nose, mouth, and expression",
       "categories": [
         "Body"
-      ]
+      ],
+      "ipa": "feɪs"
     },
     {
       "name": "fifteen",
       "back": "Fifteen",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "fɪfˈtiːn"
     },
     {
       "name": "finger",
       "back": "Finger",
       "categories": [
         "Body"
-      ]
+      ],
+      "ipa": "ˈfɪŋəɹ"
     },
     {
       "name": "foot_noun",
@@ -217,28 +246,32 @@
       "categories": [
         "Body",
         "Irregular Nouns"
-      ]
+      ],
+      "ipa": "fʊt̚"
     },
     {
       "name": "fourteen",
       "back": "Fourteen",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "ˈfɔː.tiːn"
     },
     {
       "name": "fox",
       "back": "Fox",
       "categories": [
         "Animals"
-      ]
+      ],
+      "ipa": "fɒks"
     },
     {
       "name": "game",
       "back": "Game",
       "categories": [
         "Society"
-      ]
+      ],
+      "ipa": "ɡeɪm"
     },
     {
       "name": "garden",
@@ -246,28 +279,32 @@
       "region": "US",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "ˈɡɑː.dən"
     },
     {
       "name": "giraffe",
       "back": "Giraffe",
       "categories": [
         "Animals"
-      ]
+      ],
+      "ipa": "dʒɪˈɹɑːf"
     },
     {
       "name": "glasses",
       "back": "Glasses",
       "categories": [
         "Clothing"
-      ]
+      ],
+      "ipa": "ˈɡlasɪz"
     },
     {
       "name": "glove",
       "back": "Glove",
       "categories": [
         "Clothing"
-      ]
+      ],
+      "ipa": "ɡlʌv"
     },
     {
       "name": "good",
@@ -275,7 +312,8 @@
       "front_note": "Opposite of bad",
       "categories": [
         "Adjectives"
-      ]
+      ],
+      "ipa": "ɡʊd"
     },
     {
       "name": "good_afternoon",
@@ -283,7 +321,8 @@
       "front_note": "Greet someone between lunch and early evening",
       "categories": [
         "Society"
-      ]
+      ],
+      "ipa": "ˌɡʊd ˌɑːf.təˈnuːn"
     },
     {
       "name": "good_evening",
@@ -291,7 +330,8 @@
       "front_note": "Greet someone after 6 PM until nighttime",
       "categories": [
         "Society"
-      ]
+      ],
+      "ipa": "ˌɡʊd ˈiːv.nɪŋ"
     },
     {
       "name": "good_morning",
@@ -299,7 +339,8 @@
       "front_note": "Greet someone early in the day",
       "categories": [
         "Society"
-      ]
+      ],
+      "ipa": "ˌɡʊd ˈmɔː.nɪŋ"
     },
     {
       "name": "good_night",
@@ -307,7 +348,8 @@
       "front_note": "Greet someone late in the evening before sleeping",
       "categories": [
         "Society"
-      ]
+      ],
+      "ipa": "ˌɡʊd ˈnaɪt"
     },
     {
       "name": "goodbye",
@@ -316,7 +358,8 @@
       "front_note": "A polite way to say farewell or see you later",
       "categories": [
         "Society"
-      ]
+      ],
+      "ipa": "ɡʊdˈbaɪ"
     },
     {
       "name": "grey",
@@ -324,21 +367,24 @@
       "region": "UK",
       "categories": [
         "Colors"
-      ]
+      ],
+      "ipa": "ɡɹeɪ"
     },
     {
       "name": "hair",
       "back": "Hair",
       "categories": [
         "Body"
-      ]
+      ],
+      "ipa": "heː"
     },
     {
       "name": "hand",
       "back": "Hand",
       "categories": [
         "Body"
-      ]
+      ],
+      "ipa": "hænd"
     },
     {
       "name": "head",
@@ -346,21 +392,24 @@
       "front_note": "The top part of the body that holds the brain, eyes, ears, nose, and mouth",
       "categories": [
         "Body"
-      ]
+      ],
+      "ipa": "hɛd"
     },
     {
       "name": "heart",
       "back": "Heart",
       "categories": [
         "Body"
-      ]
+      ],
+      "ipa": "hɑːt"
     },
     {
       "name": "helicopter",
       "back": "Helicopter",
       "categories": [
         "Transportation"
-      ]
+      ],
+      "ipa": "ˈheliˌkɔptə(ɹ)"
     },
     {
       "name": "hello",
@@ -368,7 +417,8 @@
       "front_note": "Greeting between friends",
       "categories": [
         "Society"
-      ]
+      ],
+      "ipa": "heˈləʊ"
     },
     {
       "name": "house",
@@ -378,77 +428,88 @@
       ],
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "hʌʊs"
     },
     {
       "name": "ice",
       "back": "Ice",
       "categories": [
         "Nature"
-      ]
+      ],
+      "ipa": "ʌɪs"
     },
     {
       "name": "knee",
       "back": "Knee",
       "categories": [
         "Body"
-      ]
+      ],
+      "ipa": "niː"
     },
     {
       "name": "leg",
       "back": "Leg",
       "categories": [
         "Body"
-      ]
+      ],
+      "ipa": "leɪɡ"
     },
     {
       "name": "lemon",
       "back": "Lemon",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "ˈlɛmən"
     },
     {
       "name": "marker",
       "back": "Marker",
       "categories": [
         "Miscellaneous"
-      ]
+      ],
+      "ipa": "ˈmɑː.kər"
     },
     {
       "name": "mountain",
       "back": "Mountain",
       "categories": [
         "Nature"
-      ]
+      ],
+      "ipa": "ˈmaʊntɪn"
     },
     {
       "name": "mouth",
       "back": "Mouth",
       "categories": [
         "Body"
-      ]
+      ],
+      "ipa": "mʌʊθ"
     },
     {
       "name": "music",
       "back": "Music",
       "categories": [
         "Art"
-      ]
+      ],
+      "ipa": "ˈmjuːzɪk"
     },
     {
       "name": "neck",
       "back": "Neck",
       "categories": [
         "Body"
-      ]
+      ],
+      "ipa": "nɛk"
     },
     {
       "name": "nineteen",
       "back": "Nineteen",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "naɪnˈtiːn"
     },
     {
       "name": "no",
@@ -456,21 +517,24 @@
       "front_note": "Opposite of yes",
       "categories": [
         "Miscellaneous"
-      ]
+      ],
+      "ipa": "nəʊ"
     },
     {
       "name": "nose",
       "back": "Nose",
       "categories": [
         "Body"
-      ]
+      ],
+      "ipa": "nəʊz"
     },
     {
       "name": "notebook",
       "back": "Notebook",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "ˈnəʊtˌbʊk"
     },
     {
       "name": "pants",
@@ -478,63 +542,72 @@
       "region": "US",
       "categories": [
         "Clothing"
-      ]
+      ],
+      "ipa": "pænts"
     },
     {
       "name": "park",
       "back": "Park",
       "categories": [
         "Location"
-      ]
+      ],
+      "ipa": "paːk"
     },
     {
       "name": "parrot",
       "back": "Parrot",
       "categories": [
         "Animals"
-      ]
+      ],
+      "ipa": "ˈpæɹət"
     },
     {
       "name": "pear",
       "back": "Pear",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "peər"
     },
     {
       "name": "pencil",
       "back": "Pencil",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "ˈpɛnsɪl"
     },
     {
       "name": "pencil_case",
       "back": "Pencil case",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "ˈpɛnsɪl"
     },
     {
       "name": "pizza",
       "back": "Pizza",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "ˈpiːt.sə"
     },
     {
       "name": "rainbow",
       "back": "Rainbow",
       "categories": [
         "Nature"
-      ]
+      ],
+      "ipa": "ˈɹeɪnbəʊ"
     },
     {
       "name": "river",
       "back": "River",
       "categories": [
         "Nature"
-      ]
+      ],
+      "ipa": "ˈɹɪvə"
     },
     {
       "name": "rubber",
@@ -542,84 +615,96 @@
       "region": "UK",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "ˈrʌb.ər"
     },
     {
       "name": "ruler",
       "back": "Ruler",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "ˈɹuːlə(ɹ)"
     },
     {
       "name": "seventeen",
       "back": "Seventeen",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "ˈsɛv.ən.tiːn"
     },
     {
       "name": "sharpener",
       "back": "Sharpener",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "ˈʃɑː(ɹ)pənə(ɹ)"
     },
     {
       "name": "ship",
       "back": "Ship",
       "categories": [
         "Transportation"
-      ]
+      ],
+      "ipa": "ʃɪp"
     },
     {
       "name": "shirt",
       "back": "Shirt",
       "categories": [
         "Clothing"
-      ]
+      ],
+      "ipa": "ʃɜːt"
     },
     {
       "name": "shoulder",
       "back": "Shoulder",
       "categories": [
         "Body"
-      ]
+      ],
+      "ipa": "ˈʃəʊldə"
     },
     {
       "name": "sister",
       "back": "Sister",
       "categories": [
         "People"
-      ]
+      ],
+      "ipa": "ˈsɪs.tə"
     },
     {
       "name": "sixteen",
       "back": "Sixteen",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "ˈsɪks.tiːn"
     },
     {
       "name": "skirt",
       "back": "Skirt",
       "categories": [
         "Clothing"
-      ]
+      ],
+      "ipa": "skɜːt"
     },
     {
       "name": "sky",
       "back": "Sky",
       "categories": [
         "Nature"
-      ]
+      ],
+      "ipa": "skaɪ"
     },
     {
       "name": "sock",
       "back": "Sock",
       "categories": [
         "Clothing"
-      ]
+      ],
+      "ipa": "sɒk"
     },
     {
       "name": "song",
@@ -627,21 +712,24 @@
       "front_note": "She is singing a ________",
       "categories": [
         "Art"
-      ]
+      ],
+      "ipa": "sɒŋ"
     },
     {
       "name": "sound",
       "back": "Sound",
       "categories": [
         "Miscellaneous"
-      ]
+      ],
+      "ipa": "saʊnd"
     },
     {
       "name": "spider",
       "back": "Spider",
       "categories": [
         "Animals"
-      ]
+      ],
+      "ipa": "ˈspaɪ.dər"
     },
     {
       "name": "street",
@@ -651,21 +739,24 @@
       ],
       "categories": [
         "Location"
-      ]
+      ],
+      "ipa": "stɹiːt"
     },
     {
       "name": "thirteen",
       "back": "Thirteen",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "ˌθɜːˈtiːn"
     },
     {
       "name": "toe",
       "back": "Toe",
       "categories": [
         "Body"
-      ]
+      ],
+      "ipa": "təʊ"
     },
     {
       "name": "tooth",
@@ -674,42 +765,48 @@
       "categories": [
         "Body",
         "Irregular Nouns"
-      ]
+      ],
+      "ipa": "tuːθ"
     },
     {
       "name": "toy",
       "back": "Toy",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "tɔɪ"
     },
     {
       "name": "train",
       "back": "Train",
       "categories": [
         "Transportation"
-      ]
+      ],
+      "ipa": "tɹeɪn"
     },
     {
       "name": "turtle",
       "back": "Turtle",
       "categories": [
         "Animals"
-      ]
+      ],
+      "ipa": "ˈtɜː.təl"
     },
     {
       "name": "twelve",
       "back": "Twelve",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "twɛlv"
     },
     {
       "name": "twenty",
       "back": "Twenty",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "ˈtwɛnti"
     },
     {
       "name": "wind",
@@ -717,7 +814,8 @@
       "front_note": "Air in motion",
       "categories": [
         "Nature"
-      ]
+      ],
+      "ipa": "ˈwaɪnd"
     },
     {
       "name": "yes",
@@ -725,14 +823,16 @@
       "front_note": "Opposite of no",
       "categories": [
         "Miscellaneous"
-      ]
+      ],
+      "ipa": "jɛs"
     },
     {
       "name": "zero",
       "back": "Zero",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "ˈzɪəɹəʊ"
     }
   ]
 }

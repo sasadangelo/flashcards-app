@@ -27,6 +27,7 @@ def check_deck(folder: str):
     syn_count = 0
     plural_count = 0
     missing_categories = []
+    missing_ipa = []
 
     for card in cards:
         name = normalize(card["name"])
@@ -47,7 +48,7 @@ def check_deck(folder: str):
                 audio_variants.append(f"{name}_{normalize(syn)}")
                 syn_count += 1
 
-        # abbreviation → name_abbreviation
+        # plural → name_plural
         if "plural" in card:
             plural = normalize(card["plural"])
             audio_variants.append(f"{name}_{plural}")
@@ -56,6 +57,10 @@ def check_deck(folder: str):
         # check categorie
         if "categories" not in card or not card["categories"]:
             missing_categories.append(name)
+
+        # check ipa
+        if "ipa" not in card or not card["ipa"]:
+            missing_ipa.append(name)
 
     # Carica i file TS come testo
     with open(audio_map_file, "r", encoding="utf-8") as f:
@@ -104,6 +109,7 @@ def check_deck(folder: str):
     print(f"📂 File audio mancanti: {len(missing_audio_files)} -> {missing_audio_files}")
     print(f"📂 File immagini mancanti: {len(missing_image_files)} -> {missing_image_files}")
     print(f"📂 Carte senza categoria: {len(missing_categories)} -> {missing_categories}")
+    print(f"📂 Carte senza ipa: {len(missing_ipa)} -> {missing_ipa}")
 
 
 if __name__ == "__main__":

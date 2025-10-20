@@ -12,28 +12,32 @@
       ],
       "categories": [
         "Seasons"
-      ]
+      ],
+      "ipa": "ˈɔːtəm"
     },
     {
       "name": "balloon",
       "back": "Balloon",
       "categories": [
         "Miscellaneous"
-      ]
+      ],
+      "ipa": "bəˈluːn"
     },
     {
       "name": "bar",
       "back": "Bar",
       "categories": [
         "Location"
-      ]
+      ],
+      "ipa": "bɑː"
     },
     {
       "name": "bathroom",
       "back": "Bathroom",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "ˈbæθ.ɹuːm"
     },
     {
       "name": "beach",
@@ -41,21 +45,24 @@
       "front_note": "Sandy place near the sea",
       "categories": [
         "Location"
-      ]
+      ],
+      "ipa": "biːt͡ʃ"
     },
     {
       "name": "beard",
       "back": "Beard",
       "categories": [
         "Body"
-      ]
+      ],
+      "ipa": "bɪəd"
     },
     {
       "name": "bedroom",
       "back": "Bedroom",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "ˈbɛdɹʊm"
     },
     {
       "name": "big",
@@ -65,77 +72,88 @@
       ],
       "categories": [
         "Adjectives"
-      ]
+      ],
+      "ipa": "bɪɡ"
     },
     {
       "name": "bone",
       "back": "Bone",
       "categories": [
         "Body"
-      ]
+      ],
+      "ipa": "bəʉn"
     },
     {
       "name": "box",
       "back": "Box",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "bɒks"
     },
     {
       "name": "bridge",
       "back": "Bridge",
       "categories": [
         "Location"
-      ]
+      ],
+      "ipa": "bɹɪd͡ʒ"
     },
     {
       "name": "butterfly",
       "back": "Butterfly",
       "categories": [
         "Animals"
-      ]
+      ],
+      "ipa": "ˈbʌtə(ɹ)flaɪ"
     },
     {
       "name": "coat",
       "back": "Coat",
       "categories": [
         "Clothing"
-      ]
+      ],
+      "ipa": "kəʊt"
     },
     {
       "name": "chips",
       "back": "Chips",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "tʃɪps"
     },
     {
       "name": "christmas_tree",
       "back": "Christmas tree",
       "categories": [
         "Nature"
-      ]
+      ],
+      "ipa": "ˈkrɪs.məs ˌtriː"
     },
     {
       "name": "coffee",
       "back": "Coffee",
       "categories": [
         "Beverages"
-      ]
+      ],
+      "ipa": "ˈkɑ.fi"
     },
     {
       "name": "computer",
       "back": "Computer",
       "categories": [
         "Electronics"
-      ]
+      ],
+      "ipa": "kəmˈpjuːtə"
     },
     {
       "name": "day_morning",
       "back": "Day",
       "categories": [
         "Time"
-      ]
+      ],
+      "ipa": "deɪ"
     },
     {
       "name": "daughter",
@@ -143,112 +161,128 @@
       "front_note": "A female child in a Family",
       "categories": [
         "People"
-      ]
+      ],
+      "ipa": "ˈdɑ.tɚ"
     },
     {
       "name": "dinosaur",
       "back": "Dinosaur",
       "categories": [
         "Animals"
-      ]
+      ],
+      "ipa": "ˈdaɪnəsɔː(ɹ)"
     },
     {
       "name": "doctor",
       "back": "Doctor",
       "categories": [
         "Job"
-      ]
+      ],
+      "ipa": "ˈdɒktə"
     },
     {
       "name": "eighty",
       "back": "Eighty",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "ˈ(ʔ)eɪ̯ɾi"
     },
     {
       "name": "eighty_one",
       "back": "Eighty one",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "ˈ(ʔ)eɪ̯ɾi wʌn"
     },
     {
       "name": "eighty_two",
       "back": "Eighty two",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "ˈ(ʔ)eɪ̯ɾi tuː"
     },
     {
       "name": "family",
       "back": "Family",
       "categories": [
         "People"
-      ]
+      ],
+      "ipa": "ˈfɛm(ɘ)li"
     },
     {
       "name": "fifty",
       "back": "Fifty",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "ˈfɪfti"
     },
     {
       "name": "fifty_one",
       "back": "Fifty one",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "ˈfɪfti wʌn"
     },
     {
       "name": "fifty_two",
       "back": "Fifty two",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "ˈfɪfti tuː"
     },
     {
       "name": "floor",
       "back": "Floor",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "flɔː"
     },
     {
       "name": "food",
       "back": "Food",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "fuːd"
     },
     {
-      "name": "fourty",
-      "back": "Fourty",
+      "name": "forty",
+      "back": "Forty",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "ˈfɔː.ti"
     },
     {
-      "name": "fourty_one",
-      "back": "Fourty one",
+      "name": "forty_one",
+      "back": "Forty one",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "ˈfɔː.ti wʌn"
     },
     {
-      "name": "fourty_two",
-      "back": "Fourty two",
+      "name": "forty_two",
+      "back": "Forty two",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "ˈfɔː.ti tuː"
     },
     {
       "name": "glass",
       "back": "Glass",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "ɡlɑːs"
     },
     {
       "name": "grandfather",
@@ -257,7 +291,8 @@
       "abbreviation": "Grandad",
       "categories": [
         "People"
-      ]
+      ],
+      "ipa": "ˈɡræn.fɑː.ðər"
     },
     {
       "name": "grandmother",
@@ -266,21 +301,24 @@
       "abbreviation": "Granny",
       "categories": [
         "People"
-      ]
+      ],
+      "ipa": "ˈɡɹæn(d)ˌmʌðə(r)"
     },
     {
       "name": "hospital",
       "back": "Hospital",
       "categories": [
         "Location"
-      ]
+      ],
+      "ipa": "ˈhɒs.pɪ.tl̩"
     },
     {
       "name": "hotel",
       "back": "Hotel",
       "categories": [
         "Location"
-      ]
+      ],
+      "ipa": "(h)əʊˈtɛl"
     },
     {
       "name": "husband",
@@ -288,35 +326,40 @@
       "front_note": "A man in a marriage",
       "categories": [
         "People"
-      ]
+      ],
+      "ipa": "ˈhʌz.bənd"
     },
     {
       "name": "insects",
       "back": "Insects",
       "categories": [
         "Animals"
-      ]
+      ],
+      "ipa": "ˈɪnsɛkts"
     },
     {
       "name": "jacket",
       "back": "Jacket",
       "categories": [
         "Clothing"
-      ]
+      ],
+      "ipa": "ˈd͡ʒæk.ɪt"
     },
     {
       "name": "juice",
       "back": "Juice",
       "categories": [
         "Beverages"
-      ]
+      ],
+      "ipa": "d͡ʒuːs"
     },
     {
       "name": "kitchen",
       "back": "Kitchen",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "ˈkɪt͡ʃən"
     },
     {
       "name": "knife",
@@ -325,35 +368,40 @@
       "categories": [
         "Home",
         "Irregular Nouns"
-      ]
+      ],
+      "ipa": "naɪf"
     },
     {
       "name": "livingroom",
       "back": "Livingroom",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "ˈlɪv.ɪŋ ˌruːm"
     },
     {
       "name": "long",
       "back": "Long",
       "categories": [
         "Adjectives"
-      ]
+      ],
+      "ipa": "ˈlɔːŋ"
     },
     {
       "name": "map",
       "back": "Map",
       "categories": [
         "Miscellaneous"
-      ]
+      ],
+      "ipa": "mæp"
     },
     {
       "name": "money",
       "back": "Money",
       "categories": [
         "Society"
-      ]
+      ],
+      "ipa": "ˈmʌni"
     },
     {
       "name": "morning",
@@ -361,7 +409,8 @@
       "front_note": "Part of the day between 6:00 AM and 12:00 PM",
       "categories": [
         "Time"
-      ]
+      ],
+      "ipa": "ˈmɔːnɪŋ"
     },
     {
       "name": "movie",
@@ -372,14 +421,16 @@
       ],
       "categories": [
         "Art"
-      ]
+      ],
+      "ipa": "ˈmuːvi"
     },
     {
       "name": "new",
       "back": "New",
       "categories": [
         "Adjectives"
-      ]
+      ],
+      "ipa": "njʉː"
     },
     {
       "name": "night",
@@ -387,49 +438,56 @@
       "front_note": "Part of the day between 9: 00 PM and 6: 00 AM",
       "categories": [
         "Time"
-      ]
+      ],
+      "ipa": "naɪt"
     },
     {
       "name": "ninety",
       "back": "Ninety",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "ˈnaɪn.ti"
     },
     {
       "name": "ninety_one",
       "back": "Ninety one",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "ˈnaɪn.ti wʌn"
     },
     {
       "name": "ninety_two",
       "back": "Ninety two",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "ˈnaɪn.ti tuː"
     },
     {
       "name": "oil",
       "back": "Oil",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "ɔɪl"
     },
     {
       "name": "old_object",
       "back": "Old",
       "categories": [
         "Adjectives"
-      ]
+      ],
+      "ipa": "ˈɒʊld"
     },
     {
       "name": "one_hundred",
       "back": "One hundred",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "wʌn ˈhʌn.drəd"
     },
     {
       "name": "paper",
@@ -440,14 +498,16 @@
       ],
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "ˈpeɪpə"
     },
     {
       "name": "plant",
       "back": "Plant",
       "categories": [
         "Nature"
-      ]
+      ],
+      "ipa": "plænt"
     },
     {
       "name": "policeman",
@@ -457,28 +517,32 @@
       ],
       "categories": [
         "Job"
-      ]
+      ],
+      "ipa": "pəˈliːsmən"
     },
     {
       "name": "prince",
       "back": "Prince",
       "categories": [
         "People"
-      ]
+      ],
+      "ipa": "pɹɪns"
     },
     {
       "name": "princess",
       "back": "Princess",
       "categories": [
         "People"
-      ]
+      ],
+      "ipa": "pɹɪnˈsɛs"
     },
     {
       "name": "pyjamas",
       "back": "Pyjamas",
       "categories": [
         "Clothing"
-      ]
+      ],
+      "ipa": "paɪˈd͡ʒɑːməz"
     },
     {
       "name": "queen",
@@ -486,49 +550,56 @@
       "front_note": "________ Elizabeth",
       "categories": [
         "People"
-      ]
+      ],
+      "ipa": "kwiːn"
     },
     {
       "name": "restaurant",
       "back": "Restaurant",
       "categories": [
         "Location"
-      ]
+      ],
+      "ipa": "ˈɹɛs.t(ə).ɹ(ə)nt"
     },
     {
       "name": "roof",
       "back": "Roof",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "ɹuːf"
     },
     {
       "name": "room",
       "back": "Room",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "ɹuːm"
     },
     {
       "name": "salt",
       "back": "Salt",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "sɔlt"
     },
     {
       "name": "sandwich",
       "back": "Sandwich",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "ˈsæmwɪd͡ʒ"
     },
     {
       "name": "santa_claus",
       "back": "Santa claus",
       "categories": [
         "People"
-      ]
+      ],
+      "ipa": "ˈsæn.tə ˌklɔːz"
     },
     {
       "name": "school",
@@ -536,7 +607,8 @@
       "front_note": "A place where children study",
       "categories": [
         "Location"
-      ]
+      ],
+      "ipa": "skuːl"
     },
     {
       "name": "season",
@@ -544,56 +616,64 @@
       "front_note": "Spring, summer, autumn, or winter",
       "categories": [
         "Seasons"
-      ]
+      ],
+      "ipa": "ˈsiː.zən"
     },
     {
       "name": "seventy",
       "back": "Seventy",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "ˈsɛv.ən.di"
     },
     {
       "name": "seventy_one",
       "back": "Seventy one",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "ˈsɛv.ən.di wʌn"
     },
     {
       "name": "seventy_two",
       "back": "Seventy two",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "ˈsɛv.ən.di tuː"
     },
     {
       "name": "short_length",
       "back": "Short",
       "categories": [
         "Adjectives"
-      ]
+      ],
+      "ipa": "ʃoːt"
     },
     {
       "name": "sixty",
       "back": "Sixty",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "ˈsɪkstɪ"
     },
     {
       "name": "sixty_one",
       "back": "Sixty one",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "ˈsɪkstɪ wʌn"
     },
     {
       "name": "sixty_two",
       "back": "Sixty two",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "ˈsɪkstɪ tuː"
     },
     {
       "name": "small",
@@ -603,7 +683,8 @@
       ],
       "categories": [
         "Adjectives"
-      ]
+      ],
+      "ipa": "smoːl"
     },
     {
       "name": "son",
@@ -611,14 +692,16 @@
       "front_note": "A male child in a Family",
       "categories": [
         "People"
-      ]
+      ],
+      "ipa": "sɒn"
     },
     {
       "name": "space",
       "back": "Space",
       "categories": [
         "Nature"
-      ]
+      ],
+      "ipa": "speɪs"
     },
     {
       "name": "spring",
@@ -626,21 +709,24 @@
       "front_note": "The season after Winter",
       "categories": [
         "Seasons"
-      ]
+      ],
+      "ipa": "spɹɪŋ"
     },
     {
       "name": "student",
       "back": "Student",
       "categories": [
         "Job"
-      ]
+      ],
+      "ipa": "ˈstjuː.dənt"
     },
     {
       "name": "sugar",
       "back": "Sugar",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "ˈʃʊɡə(ɹ)"
     },
     {
       "name": "summer",
@@ -648,7 +734,8 @@
       "front_note": "The season after Spring",
       "categories": [
         "Seasons"
-      ]
+      ],
+      "ipa": "ˈsʌmə(ɹ)"
     },
     {
       "name": "teaspoon",
@@ -656,84 +743,96 @@
       "front_note": "A small spoon used for stirring tea or coffee",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "ˈtiː.spuːn"
     },
     {
       "name": "tea",
       "back": "Tea",
       "categories": [
         "Beverages"
-      ]
+      ],
+      "ipa": "tiː"
     },
     {
       "name": "thirty",
       "back": "Thirty",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "ˈθɜːti"
     },
     {
       "name": "thirty_one",
       "back": "Thirty one",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "ˈθɜː.ti.wʌn"
     },
     {
       "name": "thirty_two",
       "back": "Thirty two",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "ˈθɜː.ti.tuː"
     },
     {
       "name": "transportation",
       "back": "Transportation",
       "categories": [
         "Transportation"
-      ]
+      ],
+      "ipa": "tɹænspɔːˈteɪʃən"
     },
     {
       "name": "toast",
       "back": "Toast",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "təʊst"
     },
     {
       "name": "tshirt",
       "back": "T-Shirt",
       "categories": [
         "Clothing"
-      ]
+      ],
+      "ipa": "ˈtiː.ʃɜːt"
     },
     {
       "name": "twenty_one",
       "back": "Twenty one",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "ˈtwen.ti wʌn"
     },
     {
       "name": "twenty_two",
       "back": "Twenty two",
       "categories": [
         "Numbers"
-      ]
+      ],
+      "ipa": "ˈtwen.ti tuː"
     },
     {
       "name": "umbrella",
       "back": "Umbrella",
       "categories": [
         "Miscellaneous"
-      ]
+      ],
+      "ipa": "ʌmˈbɹɛlə"
     },
     {
       "name": "wall",
       "back": "Wall",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "wɔːl"
     },
     {
       "name": "winter",
@@ -741,7 +840,8 @@
       "front_note": "The season after Autumn",
       "categories": [
         "Seasons"
-      ]
+      ],
+      "ipa": "ˈwɪntɚ"
     }
   ]
 }

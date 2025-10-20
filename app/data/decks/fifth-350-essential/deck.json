@@ -8,70 +8,80 @@
       "back": "Above",
       "categories": [
         "Prepositions"
-      ]
+      ],
+      "ipa": "əˈbʌv"
     },
     {
       "name": "actor",
       "back": "Actor",
       "categories": [
         "Job"
-      ]
+      ],
+      "ipa": "ˈæk.tə"
     },
     {
       "name": "address",
       "back": "Address",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "æˈdɹɛs"
     },
     {
       "name": "adjective",
       "back": "Adjective",
       "categories": [
         "Adjectives"
-      ]
+      ],
+      "ipa": "ˈæ.d͡ʒə(k).tɪv"
     },
     {
       "name": "always",
       "back": "Always",
       "categories": [
         "Adverbs"
-      ]
+      ],
+      "ipa": "ˈɔː(l).weɪz"
     },
     {
       "name": "angel",
       "back": "Angel",
       "categories": [
         "Society"
-      ]
+      ],
+      "ipa": "ˈeɪn.dʒəl"
     },
     {
       "name": "ankle",
       "back": "Ankle",
       "categories": [
         "Body"
-      ]
+      ],
+      "ipa": "ˈæŋ.kəl"
     },
     {
       "name": "artist",
       "back": "Artist",
       "categories": [
         "Job"
-      ]
+      ],
+      "ipa": "ˈɑːtɪst"
     },
     {
       "name": "astronaut",
       "back": "Astronaut",
       "categories": [
         "Job"
-      ]
+      ],
+      "ipa": "ˈæstɹəˌnɒt"
     },
     {
       "name": "aunt",
       "back": "Aunt",
       "categories": [
         "People"
-      ]
+      ],
+      "ipa": "ɑ(ː)nt"
     },
     {
       "name": "australia",
@@ -82,7 +92,8 @@
       ],
       "categories": [
         "Nationality"
-      ]
+      ],
+      "ipa": "ɒsˈtreɪ.li.ə"
     },
     {
       "name": "austria",
@@ -93,7 +104,8 @@
       ],
       "categories": [
         "Nationality"
-      ]
+      ],
+      "ipa": "ˈɒs.tri.ə"
     },
     {
       "name": "author",
@@ -101,63 +113,72 @@
       "front_note": "A person who writes books or stories",
       "categories": [
         "Job"
-      ]
+      ],
+      "ipa": "ˈɔː.θə"
     },
     {
       "name": "avenue",
       "back": "Avenue",
       "categories": [
         "Location"
-      ]
+      ],
+      "ipa": "ˈæv.əˌnjuː"
     },
     {
       "name": "bakery",
       "back": "Bakery",
       "categories": [
         "Location"
-      ]
+      ],
+      "ipa": "ˈbeɪ.kə.ɹi"
     },
     {
       "name": "balcony",
       "back": "Balcony",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "ˈbælkəni"
     },
     {
       "name": "band",
       "back": "Band",
       "categories": [
         "People"
-      ]
+      ],
+      "ipa": "bænd"
     },
     {
       "name": "barber",
       "back": "Barber",
       "categories": [
         "Job"
-      ]
+      ],
+      "ipa": "ˈbɑː.bə"
     },
     {
       "name": "barber_shop",
       "back": "Barber shop",
       "categories": [
         "Location"
-      ]
+      ],
+      "ipa": "ˈbɑː.bə · ʃɒp"
     },
     {
       "name": "bathrobe",
       "back": "Bathrobe",
       "categories": [
         "Clothing"
-      ]
+      ],
+      "ipa": "ˈbɑːθ.ɹəʊb"
     },
     {
       "name": "bean",
       "back": "Bean",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "biːn"
     },
     {
       "name": "beautiful",
@@ -165,21 +186,24 @@
       "front_note": "She is ________",
       "categories": [
         "Adjectives"
-      ]
+      ],
+      "ipa": "ˈbjuːtɪfəl"
     },
     {
       "name": "beef",
       "back": "Beef",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "biːf"
     },
     {
       "name": "behind",
       "back": "Behind",
       "categories": [
         "Prepositions"
-      ]
+      ],
+      "ipa": "bəˈhaɪnd"
     },
     {
       "name": "belgium",
@@ -192,28 +216,32 @@
       ],
       "categories": [
         "Nationality"
-      ]
+      ],
+      "ipa": "ˈbel.dʒəm"
     },
     {
       "name": "belt",
       "back": "Belt",
       "categories": [
         "Clothing"
-      ]
+      ],
+      "ipa": "bɛlt"
     },
     {
       "name": "bend",
       "back": "Bend",
       "categories": [
         "Verbs"
-      ]
+      ],
+      "ipa": "bɛnd"
     },
     {
       "name": "between",
       "back": "Between",
       "categories": [
         "Prepositions"
-      ]
+      ],
+      "ipa": "bɪˈtwiːn"
     },
     {
       "name": "bite",
@@ -221,7 +249,8 @@
       "front_note": "To use your teeth to cut a small piece of food",
       "categories": [
         "Verbs"
-      ]
+      ],
+      "ipa": "bʌɪt"
     },
     {
       "name": "boss",
@@ -229,28 +258,32 @@
       "front_note": "The person who has authority over workers and gives orders",
       "categories": [
         "People"
-      ]
+      ],
+      "ipa": "bɑs"
     },
     {
       "name": "bowl",
       "back": "Bowl",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "bəʊɫ"
     },
     {
       "name": "boxe",
       "back": "Boxe",
       "categories": [
         "Society"
-      ]
+      ],
+      "ipa": "'bɔks"
     },
     {
       "name": "bracelet",
       "back": "Bracelet",
       "categories": [
         "Clothing"
-      ]
+      ],
+      "ipa": "ˈbɹeɪslət"
     },
     {
       "name": "brazil",
@@ -261,70 +294,80 @@
       ],
       "categories": [
         "Nationality"
-      ]
+      ],
+      "ipa": "bɹə.ˈzɪl"
     },
     {
       "name": "brush",
       "back": "Brush",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "bɹʌʃ"
     },
     {
       "name": "bucket",
       "back": "Bucket",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "ˈbʌkɪt"
     },
     {
       "name": "bug",
       "back": "Bug",
       "categories": [
         "Animals"
-      ]
+      ],
+      "ipa": "bʌɡ"
     },
     {
       "name": "bus_stop",
       "back": "Bus stop",
       "categories": [
         "Location"
-      ]
+      ],
+      "ipa": "bɐs · stɒp"
     },
     {
       "name": "bush",
       "back": "Bush",
       "categories": [
         "Nature"
-      ]
+      ],
+      "ipa": "bʊʃ"
     },
     {
       "name": "butcher",
       "back": "Butcher",
       "categories": [
         "Job"
-      ]
+      ],
+      "ipa": "ˈbʊtʃ.ə(ɹ)"
     },
     {
       "name": "button_cloth",
       "back": "Button",
       "categories": [
         "Clothing"
-      ]
+      ],
+      "ipa": "ˈbʌtn̩"
     },
     {
       "name": "cafeteria",
       "back": "Cafeteria",
       "categories": [
         "Location"
-      ]
+      ],
+      "ipa": "ˌkæf·əˈtɪə·ri·ə"
     },
     {
       "name": "calculator",
       "back": "Calculator",
       "categories": [
         "Electronics"
-      ]
+      ],
+      "ipa": "kæl.kjə.leɪ.təɹ"
     },
     {
       "name": "canada",
@@ -336,21 +379,24 @@
       ],
       "categories": [
         "Nationality"
-      ]
+      ],
+      "ipa": "ˈkæn.ə.də"
     },
     {
       "name": "candy_shop",
       "back": "Candy shop",
       "categories": [
         "Location"
-      ]
+      ],
+      "ipa": "ˈkændi · ʃɒp"
     },
     {
       "name": "cap",
       "back": "Cap",
       "categories": [
         "Clothing"
-      ]
+      ],
+      "ipa": "kæp"
     },
     {
       "name": "capital",
@@ -358,28 +404,32 @@
       "front_note": "The main city of a country where the government is",
       "categories": [
         "Society"
-      ]
+      ],
+      "ipa": "ˈkæp.ɪ.təl"
     },
     {
       "name": "carnival",
       "back": "Carnival",
       "categories": [
         "Society"
-      ]
+      ],
+      "ipa": "kɑɹnəˈvɑl"
     },
     {
       "name": "carpenter",
       "back": "Carpenter",
       "categories": [
         "Job"
-      ]
+      ],
+      "ipa": "ˈkɑː.pən.tə"
     },
     {
       "name": "cash",
       "back": "Cash",
       "categories": [
         "Society"
-      ]
+      ],
+      "ipa": "kæʃ"
     },
     {
       "name": "cd",
@@ -387,42 +437,48 @@
       "front_note": "A disc used to store music or small files",
       "categories": [
         "Electronics"
-      ]
+      ],
+      "ipa": "ˌsiːˈdiː"
     },
     {
       "name": "cell_phone",
       "back": "Cell phone",
       "categories": [
         "Electronics"
-      ]
+      ],
+      "ipa": "sɛl · fəʊ̯n"
     },
     {
       "name": "cent",
       "back": "Cent",
       "categories": [
         "Miscellaneous"
-      ]
+      ],
+      "ipa": "sɛnt"
     },
     {
       "name": "center",
       "back": "Center",
       "categories": [
         "Miscellaneous"
-      ]
+      ],
+      "ipa": "ˈsɛn.tə(ɹ)"
     },
     {
       "name": "chain",
       "back": "Chain",
       "categories": [
         "Miscellaneous"
-      ]
+      ],
+      "ipa": "ˈt͡ʃeɪn"
     },
     {
       "name": "cheap",
       "back": "Cheap",
       "categories": [
         "Adjectives"
-      ]
+      ],
+      "ipa": "t͡ʃiːp"
     },
     {
       "name": "chef",
@@ -430,35 +486,40 @@
       "front_note": "A professional head cook in a restaurant or hotel",
       "categories": [
         "Job"
-      ]
+      ],
+      "ipa": "ʃɛf"
     },
     {
       "name": "chemist",
       "back": "Chemist",
       "categories": [
         "Job"
-      ]
+      ],
+      "ipa": "ˈkɛmɪst"
     },
     {
       "name": "chess",
       "back": "Chess",
       "categories": [
         "Society"
-      ]
+      ],
+      "ipa": "t͡ʃɛs"
     },
     {
       "name": "chicken_food",
       "back": "Chicken",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "ˈt͡ʃɪkɪn"
     },
     {
       "name": "chimney",
       "back": "Chimney",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "tʃɪmni"
     },
     {
       "name": "china",
@@ -469,14 +530,16 @@
       ],
       "categories": [
         "Nationality"
-      ]
+      ],
+      "ipa": "tʃʌɪnə"
     },
     {
       "name": "clothes_shop",
       "back": "Clothes shop",
       "categories": [
         "Location"
-      ]
+      ],
+      "ipa": "kləʊ(ð)z · ʃɒp"
     },
     {
       "name": "club",
@@ -484,28 +547,32 @@
       "front_note": "A group of people who meet because they share the same interest",
       "categories": [
         "Society"
-      ]
+      ],
+      "ipa": "klʌb"
     },
     {
       "name": "coffee_cup",
       "back": "Coffee cup",
       "categories": [
         "Beverages"
-      ]
+      ],
+      "ipa": "ˈkɑ.fi · kʌp"
     },
     {
       "name": "coffee_machine",
       "back": "Coffee machine",
       "categories": [
         "Electronics"
-      ]
+      ],
+      "ipa": "ˈkɑ.fi · məˈʃin"
     },
     {
       "name": "comic",
       "back": "Comic",
       "categories": [
         "Art"
-      ]
+      ],
+      "ipa": "ˈkɒmɪk"
     },
     {
       "name": "company",
@@ -513,14 +580,16 @@
       "front_note": "A business or organization where people work",
       "categories": [
         "Society"
-      ]
+      ],
+      "ipa": "ˈkʌmp(ə)ni"
     },
     {
       "name": "consonant",
       "back": "Consonant",
       "categories": [
         "Miscellaneous"
-      ]
+      ],
+      "ipa": "ˈkɒn.sə.nənt"
     },
     {
       "name": "continent",
@@ -528,21 +597,24 @@
       "front_note": "Africa is a ________",
       "categories": [
         "Miscellaneous"
-      ]
+      ],
+      "ipa": "ˈkɒntɪnənt"
     },
     {
       "name": "cook_verb",
       "back": "Cook",
       "categories": [
         "Verbs"
-      ]
+      ],
+      "ipa": "kuːk"
     },
     {
       "name": "copper",
       "back": "Copper",
       "categories": [
         "Materials"
-      ]
+      ],
+      "ipa": "ˈkɔp.ə"
     },
     {
       "name": "couch",
@@ -550,28 +622,32 @@
       "region": "US",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "kaʊtʃ"
     },
     {
       "name": "count",
       "back": "Count",
       "categories": [
         "Verbs"
-      ]
+      ],
+      "ipa": "kaʊnt"
     },
     {
       "name": "cousin",
       "back": "Cousin",
       "categories": [
         "People"
-      ]
+      ],
+      "ipa": "ˈkʌz.n̩"
     },
     {
       "name": "curtain",
       "back": "Curtain",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "ˈkɜːtn̩"
     },
     {
       "name": "curve_adjective",
@@ -579,14 +655,16 @@
       "front_note": "The monitor is ________",
       "categories": [
         "Miscellaneous"
-      ]
+      ],
+      "ipa": "kɜːv"
     },
     {
       "name": "dairy",
       "back": "Dairy",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "ˈdɛəɹi"
     },
     {
       "name": "denmark",
@@ -597,63 +675,72 @@
       ],
       "categories": [
         "Nationality"
-      ]
+      ],
+      "ipa": "ˈden.mɑːk"
     },
     {
       "name": "dessert",
       "back": "Dessert",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "dɪˈzɜːt"
     },
     {
       "name": "diving",
       "back": "Diving",
       "categories": [
         "Society"
-      ]
+      ],
+      "ipa": "ˈdaɪvɪŋ"
     },
     {
       "name": "diy_store",
       "back": "Diy store",
       "categories": [
         "Location"
-      ]
+      ],
+      "ipa": "ˌdiː.aɪˈwaɪ.stɔː"
     },
     {
       "name": "doll",
       "back": "Doll",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "dɒl"
     },
     {
       "name": "door_lock",
       "back": "Door lock",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "dɔː · lɒk"
     },
     {
       "name": "dot",
       "back": "Dot",
       "categories": [
         "Math/Measurements"
-      ]
+      ],
+      "ipa": "dɒt"
     },
     {
       "name": "drawer",
       "back": "Drawer",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "dɹɔː(ɹ)"
     },
     {
       "name": "drink_verb",
       "back": "Drink",
       "categories": [
         "Verbs"
-      ]
+      ],
+      "ipa": "dɹɪŋk"
     },
     {
       "name": "pill",
@@ -663,14 +750,16 @@
       ],
       "categories": [
         "Society"
-      ]
+      ],
+      "ipa": "pɪl"
     },
     {
       "name": "duster",
       "back": "Duster",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "ˈdʌstə"
     },
     {
       "name": "dvd",
@@ -678,28 +767,32 @@
       "front_note": "A disc like a CD but with more storage, often for movies",
       "categories": [
         "Electronics"
-      ]
+      ],
+      "ipa": "ˌdiː.viːˈdiː"
     },
     {
       "name": "dvd_player",
       "back": "Dvd player",
       "categories": [
         "Electronics"
-      ]
+      ],
+      "ipa": "ˌdiː.viːˈdiː.ˈpleɪə(ɹ)"
     },
     {
       "name": "earrings",
       "back": "Earrings",
       "categories": [
         "Clothing"
-      ]
+      ],
+      "ipa": "ˈɪə.rɪŋ"
     },
     {
       "name": "electrician",
       "back": "Electrician",
       "categories": [
         "Job"
-      ]
+      ],
+      "ipa": "ˌel.ɪkˈtrɪʃ.ən"
     },
     {
       "name": "email",
@@ -707,21 +800,24 @@
       "front_note": "A message sent on a computer or phone",
       "categories": [
         "Electronics"
-      ]
+      ],
+      "ipa": "ˈiːmeɪl"
     },
     {
       "name": "energy",
       "back": "Energy",
       "categories": [
         "Miscellaneous"
-      ]
+      ],
+      "ipa": "ˈɛnəd͡ʒi"
     },
     {
       "name": "engineer",
       "back": "Engineer",
       "categories": [
         "Job"
-      ]
+      ],
+      "ipa": "ˌɛnd͡ʒɪˈnɪə"
     },
     {
       "name": "england",
@@ -732,49 +828,56 @@
       ],
       "categories": [
         "Nationality"
-      ]
+      ],
+      "ipa": "ˈɪŋ.ɡlənd"
     },
     {
       "name": "enter",
       "back": "Enter",
       "categories": [
         "Verb"
-      ]
+      ],
+      "ipa": "ˈɛntə(ɹ)"
     },
     {
       "name": "envelope",
       "back": "Envelope",
       "categories": [
         "Miscellaneous"
-      ]
+      ],
+      "ipa": "ˈɒn.və.ləʊp"
     },
     {
       "name": "equal",
       "back": "Equal",
       "categories": [
         "Math/Measurements"
-      ]
+      ],
+      "ipa": "ˈiːkwəl"
     },
     {
       "name": "exit",
       "back": "Exit",
       "categories": [
         "Verb"
-      ]
+      ],
+      "ipa": "ˈɛksɪt"
     },
     {
       "name": "expensive",
       "back": "Expensive",
       "categories": [
         "Adjectives"
-      ]
+      ],
+      "ipa": "ɛkˈspɛnsɪv"
     },
     {
       "name": "fall_verb",
       "back": "Fall",
       "categories": [
         "Verbs"
-      ]
+      ],
+      "ipa": "fɔːl"
     },
     {
       "name": "famous",
@@ -782,42 +885,48 @@
       "front_note": "She is very ________",
       "categories": [
         "Adjectives"
-      ]
+      ],
+      "ipa": "ˈfeɪməs"
     },
     {
       "name": "fan_vip",
       "back": "Fan",
       "categories": [
         "People"
-      ]
+      ],
+      "ipa": "fæn"
     },
     {
       "name": "farmer",
       "back": "Farmer",
       "categories": [
         "Job"
-      ]
+      ],
+      "ipa": "fɑːmə"
     },
     {
       "name": "fence",
       "back": "Fence",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "fɛns"
     },
     {
       "name": "fire_station",
       "back": "Fire station",
       "categories": [
         "Location"
-      ]
+      ],
+      "ipa": "ˈfɑeə(ɹ) · ˈsteɪʃən"
     },
     {
       "name": "fishing_pole",
       "back": "Fishing pole",
       "categories": [
         "Miscellaneous"
-      ]
+      ],
+      "ipa": "ˈfɪʃɪŋ · pɔːl"
     },
     {
       "name": "flat_adjective",
@@ -825,35 +934,40 @@
       "front_note": "The monitor is ________",
       "categories": [
         "Adjectives"
-      ]
+      ],
+      "ipa": "flæt"
     },
     {
       "name": "flight",
       "back": "Flight",
       "categories": [
         "Transportation"
-      ]
+      ],
+      "ipa": "flaɪt"
     },
     {
       "name": "florist",
       "back": "Florist",
       "categories": [
         "Job"
-      ]
+      ],
+      "ipa": "ˈflɔːɹɪst"
     },
     {
       "name": "flowers_shop",
       "back": "Flowers shop",
       "categories": [
         "Location"
-      ]
+      ],
+      "ipa": "ˈflaʊ.əz · ʃɒp"
     },
     {
       "name": "fog",
       "back": "Fog",
       "categories": [
         "Nature"
-      ]
+      ],
+      "ipa": "fɒɡ"
     },
     {
       "name": "foot_measure",
@@ -862,7 +976,8 @@
       "categories": [
         "Math/Measurements",
         "Irregular Nouns"
-      ]
+      ],
+      "ipa": "fʊt̚"
     },
     {
       "name": "fortune",
@@ -870,14 +985,16 @@
       "front_note": "He earned a huge _____",
       "categories": [
         "Miscellaneous"
-      ]
+      ],
+      "ipa": "ˈfɔːtʃuːn"
     },
     {
       "name": "fourth",
       "back": "Fourth",
       "categories": [
         "Math/Measurements"
-      ]
+      ],
+      "ipa": "fɔːθ"
     },
     {
       "name": "france",
@@ -888,35 +1005,40 @@
       ],
       "categories": [
         "Nationality"
-      ]
+      ],
+      "ipa": "frɑːns"
     },
     {
       "name": "frequently",
       "back": "Frequently",
       "categories": [
         "Adverbs"
-      ]
+      ],
+      "ipa": "ˈfɹiː.kwənt.li"
     },
     {
       "name": "gabbage",
       "back": "Gabbage",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "ˈkæb.ɪdʒ"
     },
     {
       "name": "gallery",
       "back": "Gallery",
       "categories": [
         "Location"
-      ]
+      ],
+      "ipa": "ˈɡæləɹi"
     },
     {
       "name": "garlic",
       "back": "Garlic",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "ˈɡɑːlɪk"
     },
     {
       "name": "germany",
@@ -927,7 +1049,8 @@
       ],
       "categories": [
         "Nationality"
-      ]
+      ],
+      "ipa": "ˈdʒɜː.mə.ni"
     },
     {
       "name": "goose",
@@ -936,7 +1059,8 @@
       "categories": [
         "Animals",
         "Irregular Nouns"
-      ]
+      ],
+      "ipa": "ˈɡuːs"
     },
     {
       "name": "gray",
@@ -944,84 +1068,96 @@
       "region": "US",
       "categories": [
         "Colors"
-      ]
+      ],
+      "ipa": "ɡɹeɪ"
     },
     {
       "name": "grocery",
       "back": "Grocery",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "ˈɡɹəʊs(ə)ɹi"
     },
     {
       "name": "grocery_shop",
       "back": "Grocery shop",
       "categories": [
         "Location"
-      ]
+      ],
+      "ipa": "ˈɡɹəʊs(ə)ɹi · ʃɒp"
     },
     {
       "name": "guests",
       "back": "Guests",
       "categories": [
         "People"
-      ]
+      ],
+      "ipa": "ɡɛsts"
     },
     {
       "name": "guide",
       "back": "Guide",
       "categories": [
         "Job"
-      ]
+      ],
+      "ipa": "ɡaɪd"
     },
     {
       "name": "gym",
       "back": "Gym",
       "categories": [
         "Location"
-      ]
+      ],
+      "ipa": "dʒɪm"
     },
     {
       "name": "hairdryier",
       "back": "Hairdryier",
       "categories": [
         "Electronics"
-      ]
+      ],
+      "ipa": "ˈheəˌdraɪ.ər"
     },
     {
       "name": "ham",
       "back": "Ham",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "ˈhæːm"
     },
     {
       "name": "hamburger",
       "back": "Hamburger",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "ˈhæm.bə.ɡə"
     },
     {
       "name": "handbag",
       "back": "Handbag",
       "categories": [
         "Clothing"
-      ]
+      ],
+      "ipa": "ˈhæm.bəɡ"
     },
     {
       "name": "handle",
       "back": "Handle",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "ˈhæn.dl"
     },
     {
       "name": "handlebars",
       "back": "Handlebars",
       "categories": [
         "Transportation"
-      ]
+      ],
+      "ipa": "ˈhæn·dəlˌbɑrz"
     },
     {
       "name": "hang",
@@ -1029,21 +1165,24 @@
       "front_note": "To put something on a hook or hanger so it stays up",
       "categories": [
         "Verbs"
-      ]
+      ],
+      "ipa": "heɪŋ"
     },
     {
       "name": "he",
       "back": "He",
       "categories": [
         "Pronouns"
-      ]
+      ],
+      "ipa": "hi"
     },
     {
       "name": "healthy",
       "back": "Healthy",
       "categories": [
         "Adjectives"
-      ]
+      ],
+      "ipa": "ˈhɛl.θi"
     },
     {
       "name": "hen",
@@ -1051,7 +1190,8 @@
       "front_note": "An adult female chicken that lays eggs.",
       "categories": [
         "Animals"
-      ]
+      ],
+      "ipa": "hɛn"
     },
     {
       "name": "high",
@@ -1059,7 +1199,8 @@
       "front_note": "He is jumping very _____",
       "categories": [
         "Adjectives"
-      ]
+      ],
+      "ipa": "haɪ"
     },
     {
       "name": "highway",
@@ -1067,7 +1208,8 @@
       "front_note": "A big road for fast cars",
       "categories": [
         "Location"
-      ]
+      ],
+      "ipa": "ˈhaɪweɪ"
     },
     {
       "name": "netherlands",
@@ -1081,7 +1223,8 @@
       ],
       "categories": [
         "Nationality"
-      ]
+      ],
+      "ipa": "ˈneð.ə.ləndz"
     },
     {
       "name": "homework",
@@ -1089,70 +1232,80 @@
       "front_note": "She is doing her _____",
       "categories": [
         "Miscellaneous"
-      ]
+      ],
+      "ipa": "ˈhəʊmˌwɜːk"
     },
     {
       "name": "human",
       "back": "Human",
       "categories": [
         "People"
-      ]
+      ],
+      "ipa": "ˈhjuː.mən"
     },
     {
       "name": "i",
       "back": "I",
       "categories": [
         "Prepositions"
-      ]
+      ],
+      "ipa": "aɪ"
     },
     {
       "name": "in",
       "back": "In",
       "categories": [
         "Prepositions"
-      ]
+      ],
+      "ipa": "ɪn"
     },
     {
       "name": "in_front_of",
       "back": "In front of",
       "categories": [
         "Prepositions"
-      ]
+      ],
+      "ipa": "ɪn · fɹʌnt · ɔv"
     },
     {
       "name": "information",
       "back": "Information",
       "categories": [
         "Miscellaneous"
-      ]
+      ],
+      "ipa": "ˌɪnfəˈmeɪʃən"
     },
     {
       "name": "injury",
       "back": "Injury",
       "categories": [
         "Body"
-      ]
+      ],
+      "ipa": "ˈɪn.dʒə.ɹi"
     },
     {
       "name": "instrument",
       "back": "Instrument",
       "categories": [
         "Art"
-      ]
+      ],
+      "ipa": "ˈɪnstɹəmənt"
     },
     {
       "name": "into",
       "back": "Into",
       "categories": [
         "Prepositions"
-      ]
+      ],
+      "ipa": "ˈɪn.tuː"
     },
     {
       "name": "it",
       "back": "It",
       "categories": [
         "Pronouns"
-      ]
+      ],
+      "ipa": "ɪt"
     },
     {
       "name": "italy",
@@ -1163,7 +1316,8 @@
       ],
       "categories": [
         "Nationality"
-      ]
+      ],
+      "ipa": "ˈɪt.əl.i"
     },
     {
       "name": "japan",
@@ -1174,21 +1328,24 @@
       ],
       "categories": [
         "Nationality"
-      ]
+      ],
+      "ipa": "dʒəˈpæn"
     },
     {
       "name": "keychain",
       "back": "Keychain",
       "categories": [
         "Miscellaneous"
-      ]
+      ],
+      "ipa": "ˈkiːˌtʃeɪn"
     },
     {
       "name": "kite",
       "back": "Kite",
       "categories": [
         "Miscellaneous"
-      ]
+      ],
+      "ipa": "kaɪt"
     },
     {
       "name": "kitten",
@@ -1196,7 +1353,8 @@
       "front_note": "A tiny cat",
       "categories": [
         "Animals"
-      ]
+      ],
+      "ipa": "ˈkɪtən"
     },
     {
       "name": "korea",
@@ -1207,14 +1365,16 @@
       ],
       "categories": [
         "Nationality"
-      ]
+      ],
+      "ipa": "kəˈriː.ə"
     },
     {
       "name": "last",
       "back": "Last",
       "categories": [
         "Adjectives"
-      ]
+      ],
+      "ipa": "last"
     },
     {
       "name": "learn",
@@ -1222,21 +1382,24 @@
       "front_note": "The student is getting knowledge from the book",
       "categories": [
         "Verbs"
-      ]
+      ],
+      "ipa": "lɜːn"
     },
     {
       "name": "lemonade",
       "back": "Lemonade",
       "categories": [
         "Beverages"
-      ]
+      ],
+      "ipa": "ˌlɛmənˈeɪd"
     },
     {
       "name": "lie_down",
       "back": "Lie down",
       "categories": [
         "Verbs"
-      ]
+      ],
+      "ipa": "laɪ̯ · daʊn"
     },
     {
       "name": "lift_elevator",
@@ -1244,70 +1407,80 @@
       "region": "UK",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "lɪft"
     },
     {
       "name": "light",
       "back": "Light",
       "categories": [
         "Electronics"
-      ]
+      ],
+      "ipa": "lʌɪt"
     },
     {
       "name": "light_bulb",
       "back": "Light bulb",
       "categories": [
         "Electronics"
-      ]
+      ],
+      "ipa": "lʌɪt · bʌlb"
     },
     {
       "name": "lime",
       "back": "Lime",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "laɪm"
     },
     {
       "name": "lip",
       "back": "Lip",
       "categories": [
         "Body"
-      ]
+      ],
+      "ipa": "lɪp"
     },
     {
       "name": "liter",
       "back": "Liter",
       "categories": [
         "Math/Measurements"
-      ]
+      ],
+      "ipa": "ˈliː.tə"
     },
     {
       "name": "location",
       "back": "Location",
       "categories": [
         "Location"
-      ]
+      ],
+      "ipa": "ləʊˈkeɪʃən"
     },
     {
       "name": "look",
       "back": "Look",
       "categories": [
         "Verbs"
-      ]
+      ],
+      "ipa": "lʊk"
     },
     {
       "name": "loose",
       "back": "Loose",
       "categories": [
         "Adjectives"
-      ]
+      ],
+      "ipa": "luːs"
     },
     {
       "name": "lose",
       "back": "Lose",
       "categories": [
         "Verbs"
-      ]
+      ],
+      "ipa": "luːz"
     },
     {
       "name": "loud",
@@ -1315,14 +1488,16 @@
       "front_note": "The speaker is very ________",
       "categories": [
         "Adjectives"
-      ]
+      ],
+      "ipa": "laʊd"
     },
     {
       "name": "love",
       "back": "Love",
       "categories": [
         "Verbs"
-      ]
+      ],
+      "ipa": "lʊv"
     },
     {
       "name": "low",
@@ -1330,84 +1505,96 @@
       "front_note": "The battery is ________",
       "categories": [
         "Adjectives"
-      ]
+      ],
+      "ipa": "ləʊ"
     },
     {
       "name": "luggage",
       "back": "Luggage",
       "categories": [
         "Transportation"
-      ]
+      ],
+      "ipa": "ˈlʌɡɪd͡ʒ"
     },
     {
       "name": "mail",
       "back": "Mail",
       "categories": [
         "Society"
-      ]
+      ],
+      "ipa": "meɪ̯l"
     },
     {
       "name": "mandarin",
       "back": "Mandarin",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "ˈmæn.də.ɹɪn"
     },
     {
       "name": "mango",
       "back": "Mango",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "ˈmæŋɡəʊ"
     },
     {
       "name": "marmalade",
       "back": "Marmalade",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "ˈmɑː.mə.leɪd"
     },
     {
       "name": "mask",
       "back": "Mask",
       "categories": [
         "Clothing"
-      ]
+      ],
+      "ipa": "mæsk"
     },
     {
       "name": "measure",
       "back": "Measure",
       "categories": [
         "Verbs"
-      ]
+      ],
+      "ipa": "ˈmɛʒə"
     },
     {
       "name": "melon",
       "back": "Melon",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "ˈmɛlən"
     },
     {
       "name": "merry",
       "back": "Merry",
       "categories": [
         "Adjectives"
-      ]
+      ],
+      "ipa": "ˈmɛɹi"
     },
     {
       "name": "metal",
       "back": "Metal",
       "categories": [
         "Materials"
-      ]
+      ],
+      "ipa": "ˈmɛtəl"
     },
     {
       "name": "meter",
       "back": "Meter",
       "categories": [
         "Math/Measurements"
-      ]
+      ],
+      "ipa": "ˈmiːtə"
     },
     {
       "name": "mexico",
@@ -1418,42 +1605,48 @@
       ],
       "categories": [
         "Nationality"
-      ]
+      ],
+      "ipa": "ˈmek.sɪ.kəʊ"
     },
     {
       "name": "microwave",
       "back": "Microwave",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "ˈmaɪkɹəʊˌweɪv"
     },
     {
       "name": "middle",
       "back": "Middle",
       "categories": [
         "Miscellaneous"
-      ]
+      ],
+      "ipa": "ˈmɪdəl"
     },
     {
       "name": "minus",
       "back": "Minus",
       "categories": [
         "Math/Measurements"
-      ]
+      ],
+      "ipa": "ˈmaɪnəs"
     },
     {
       "name": "mix",
       "back": "Mix",
       "categories": [
         "Verbs"
-      ]
+      ],
+      "ipa": "ˈmɪks"
     },
     {
       "name": "museum",
       "back": "Museum",
       "categories": [
         "Location"
-      ]
+      ],
+      "ipa": "mjuːˈziːəm"
     },
     {
       "name": "musician",
@@ -1461,56 +1654,64 @@
       "front_note": "a person who plays an instrument or makes music",
       "categories": [
         "People"
-      ]
+      ],
+      "ipa": "mjuˈzɪʃən"
     },
     {
       "name": "nail",
       "back": "Nail",
       "categories": [
         "Body"
-      ]
+      ],
+      "ipa": "neɪl"
     },
     {
       "name": "narrow",
       "back": "Narrow",
       "categories": [
         "Adjectives"
-      ]
+      ],
+      "ipa": "ˈnæɹəʊ"
     },
     {
       "name": "near",
       "back": "Near",
       "categories": [
         "Prepositions"
-      ]
+      ],
+      "ipa": "nɪə(ɹ)"
     },
     {
       "name": "necklace",
       "back": "Necklace",
       "categories": [
         "Clothing"
-      ]
+      ],
+      "ipa": "ˈnɛkləs"
     },
     {
       "name": "neighbor",
       "back": "Neighbor",
       "categories": [
         "People"
-      ]
+      ],
+      "ipa": "ˈneɪ·bər"
     },
     {
       "name": "never",
       "back": "Never",
       "categories": [
         "Adverbs"
-      ]
+      ],
+      "ipa": "ˈnɛv.ə(ɹ)"
     },
     {
       "name": "next_to",
       "back": "Next to",
       "categories": [
         "Prepositions"
-      ]
+      ],
+      "ipa": "nɛkst · tʉː"
     },
     {
       "name": "nice",
@@ -1518,7 +1719,8 @@
       "front_note": "good and kind",
       "categories": [
         "Adjectives"
-      ]
+      ],
+      "ipa": "naɪs"
     },
     {
       "name": "norway",
@@ -1529,98 +1731,112 @@
       ],
       "categories": [
         "Nationality"
-      ]
+      ],
+      "ipa": "ˈnɔː.weɪ"
     },
     {
       "name": "noun",
       "back": "Noun",
       "categories": [
         "Miscellaneous"
-      ]
+      ],
+      "ipa": "naʊn"
     },
     {
       "name": "nuclear",
       "back": "Nuclear",
       "categories": [
         "Miscellaneous"
-      ]
+      ],
+      "ipa": "ˈn(j)ukliɚ"
     },
     {
       "name": "numbers",
       "back": "Numbers",
       "categories": [
         "Math/Measurements"
-      ]
+      ],
+      "ipa": "ˈnʌmbəz"
     },
     {
       "name": "occasionally",
       "back": "Occasionally",
       "categories": [
         "Adverbs"
-      ]
+      ],
+      "ipa": "əˈkeɪʒnəli"
     },
     {
       "name": "often",
       "back": "Often",
       "categories": [
         "Adverbs"
-      ]
+      ],
+      "ipa": "ˈɑf(t)ən"
     },
     {
       "name": "on",
       "back": "On",
       "categories": [
         "Prepositions"
-      ]
+      ],
+      "ipa": "ɒn"
     },
     {
       "name": "onion",
       "back": "Onion",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "ˈʌŋjɪn"
     },
     {
       "name": "out_of",
       "back": "Out of",
       "categories": [
         "Prepositions"
-      ]
+      ],
+      "ipa": "æɔt · ɔv"
     },
     {
       "name": "outlet",
       "back": "Outlet",
       "categories": [
         "Electronics"
-      ]
+      ],
+      "ipa": "ˈaʊtlɛt"
     },
     {
       "name": "package",
       "back": "Package",
       "categories": [
         "Society"
-      ]
+      ],
+      "ipa": "ˈpækɪdʒ"
     },
     {
       "name": "paint_verb",
       "back": "Paint",
       "categories": [
         "Verbs"
-      ]
+      ],
+      "ipa": "peɪnt"
     },
     {
       "name": "pan",
       "back": "Pan",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "pæn"
     },
     {
       "name": "panda",
       "back": "Panda",
       "categories": [
         "Animals"
-      ]
+      ],
+      "ipa": "ˈpændə"
     },
     {
       "name": "paradise",
@@ -1628,35 +1844,40 @@
       "front_note": "a perfect, beautiful, peaceful place, like a tropical island",
       "categories": [
         "Nature"
-      ]
+      ],
+      "ipa": "ˈpæ.ɹə.daɪs"
     },
     {
       "name": "pass",
       "back": "Pass",
       "categories": [
         "Verbs"
-      ]
+      ],
+      "ipa": "pʰäːs"
     },
     {
       "name": "passport",
       "back": "Passport",
       "categories": [
         "Society"
-      ]
+      ],
+      "ipa": "ˈpɑːspɔːt"
     },
     {
       "name": "password",
       "back": "Password",
       "categories": [
         "Society"
-      ]
+      ],
+      "ipa": "ˈpæswɜːd"
     },
     {
       "name": "pattern",
       "back": "Pattern",
       "categories": [
         "Miscellaneous"
-      ]
+      ],
+      "ipa": "ˈpat(ə)n"
     },
     {
       "name": "pay",
@@ -1664,21 +1885,24 @@
       "front_note": "to give money for something",
       "categories": [
         "Verbs"
-      ]
+      ],
+      "ipa": "peɪ"
     },
     {
       "name": "pea",
       "back": "Pea",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "piː"
     },
     {
       "name": "pedals",
       "back": "Pedals",
       "categories": [
         "Transportation"
-      ]
+      ],
+      "ipa": "ˈpɛdəlz"
     },
     {
       "name": "person",
@@ -1687,105 +1911,120 @@
       "categories": [
         "People",
         "Irregular Nouns"
-      ]
+      ],
+      "ipa": "ˈpɜːsən"
     },
     {
       "name": "pet_shop",
       "back": "Pet shop",
       "categories": [
         "Location"
-      ]
+      ],
+      "ipa": "pɛt · ʃɒp"
     },
     {
       "name": "piece",
       "back": "Piece",
       "categories": [
         "Miscellaneous"
-      ]
+      ],
+      "ipa": "piːs"
     },
     {
       "name": "pillow",
       "back": "Pillow",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "ˈpɪləʊ"
     },
     {
       "name": "pilot",
       "back": "Pilot",
       "categories": [
         "Job"
-      ]
+      ],
+      "ipa": "ˈpaɪlət"
     },
     {
       "name": "pineapple",
       "back": "Pineapple",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "ˈpaɪnəpəl"
     },
     {
       "name": "pirate",
       "back": "Pirate",
       "categories": [
         "People"
-      ]
+      ],
+      "ipa": "ˈpaɪ̯(ə)ɹət"
     },
     {
       "name": "place",
       "back": "Place",
       "categories": [
         "Location"
-      ]
+      ],
+      "ipa": "pleɪs"
     },
     {
       "name": "plan",
       "back": "Plan",
       "categories": [
         "Miscellaneous"
-      ]
+      ],
+      "ipa": "plæn"
     },
     {
       "name": "play_music",
       "back": "Play",
       "categories": [
         "Verbs"
-      ]
+      ],
+      "ipa": "pleɪ"
     },
     {
       "name": "please",
       "back": "Please",
       "categories": [
         "Verbs"
-      ]
+      ],
+      "ipa": "pliːz"
     },
     {
       "name": "plug",
       "back": "Plug",
       "categories": [
         "Electronics"
-      ]
+      ],
+      "ipa": "plʌɡ"
     },
     {
       "name": "plumber",
       "back": "Plumber",
       "categories": [
         "Job"
-      ]
+      ],
+      "ipa": "ˈplʌmə"
     },
     {
       "name": "poison",
       "back": "Poison",
       "categories": [
         "Miscellaneous"
-      ]
+      ],
+      "ipa": "ˈpɔɪz(ə)n"
     },
     {
       "name": "pond",
       "back": "Pond",
       "categories": [
         "Nature"
-      ]
+      ],
+      "ipa": "pɒnd"
     },
     {
       "name": "portugal",
@@ -1796,168 +2035,192 @@
       ],
       "categories": [
         "Nationality"
-      ]
+      ],
+      "ipa": "ˈpɔː.tʃə.ɡəl"
     },
     {
       "name": "pot",
       "back": "Pot",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "pɒt"
     },
     {
       "name": "pound",
       "back": "Pound",
       "categories": [
         "Math/Measurements"
-      ]
+      ],
+      "ipa": "paʊnd"
     },
     {
       "name": "price",
       "back": "Price",
       "categories": [
         "Society"
-      ]
+      ],
+      "ipa": "pɹaɪs"
     },
     {
       "name": "program",
       "back": "Program",
       "categories": [
         "Electronics"
-      ]
+      ],
+      "ipa": "ˈpɹoʊˌɡɹæm"
     },
     {
       "name": "purse",
       "back": "Purse",
       "categories": [
         "Clothing"
-      ]
+      ],
+      "ipa": "pɜːs"
     },
     {
       "name": "puzzle",
       "back": "Puzzle",
       "categories": [
         "Miscellaneous"
-      ]
+      ],
+      "ipa": "ˈpʌzəl"
     },
     {
       "name": "quiet",
       "back": "Quiet",
       "categories": [
         "Adjectives"
-      ]
+      ],
+      "ipa": "ˈkwaɪ.ət"
     },
     {
       "name": "race",
       "back": "Race",
       "categories": [
         "Society"
-      ]
+      ],
+      "ipa": "ɹeɪs"
     },
     {
       "name": "rag",
       "back": "Rag",
       "categories": [
         "Job"
-      ]
+      ],
+      "ipa": "ɹæɡ"
     },
     {
       "name": "rarely",
       "back": "Rarely",
       "categories": [
         "Adverbs"
-      ]
+      ],
+      "ipa": "ˈɹɛːli"
     },
     {
       "name": "razor",
       "back": "Razor",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "ˈɹeɪzə"
     },
     {
       "name": "receipt",
       "back": "Receipt",
       "categories": [
         "Society"
-      ]
+      ],
+      "ipa": "ɹɪˈsiːt"
     },
     {
       "name": "referee",
       "back": "Referee",
       "categories": [
         "Job"
-      ]
+      ],
+      "ipa": "ˌɹɛf.əˈɹiː"
     },
     {
       "name": "reindeer",
       "back": "Reindeer",
       "categories": [
         "Animals"
-      ]
+      ],
+      "ipa": "ˈɹeɪndɪə"
     },
     {
       "name": "remote_control",
       "back": "Remote control",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "ɹəˈməʊt · kənˈtɹəʊl"
     },
     {
       "name": "rock",
       "back": "Rock",
       "categories": [
         "Nature"
-      ]
+      ],
+      "ipa": "ɹɒk"
     },
     {
       "name": "roll",
       "back": "Roll",
       "categories": [
         "Verbs"
-      ]
+      ],
+      "ipa": "ɹəʊl"
     },
     {
       "name": "roof_tile",
       "back": "Roof tile",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "ɹuːf · taɪl"
     },
     {
       "name": "rooster",
       "back": "Rooster",
       "categories": [
         "Animals"
-      ]
+      ],
+      "ipa": "ˈɹuːstə"
     },
     {
       "name": "root",
       "back": "Root",
       "categories": [
         "Nature"
-      ]
+      ],
+      "ipa": "ɹuːt"
     },
     {
       "name": "sailor",
       "back": "Sailor",
       "categories": [
         "Job"
-      ]
+      ],
+      "ipa": "ˈseɪlə"
     },
     {
       "name": "sausage",
       "back": "Sausage",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "ˈsɑsɪd͡ʒ"
     },
     {
       "name": "scooter",
       "back": "Scooter",
       "categories": [
         "Transportation"
-      ]
+      ],
+      "ipa": "ˈskuːtə(ɹ)"
     },
     {
       "name": "seat",
@@ -1965,161 +2228,184 @@
       "front_note": "a place to sit, for example in a chair, a car, or a cinema",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "siːt"
     },
     {
       "name": "second",
       "back": "Second",
       "categories": [
         "Math/Measurements"
-      ]
+      ],
+      "ipa": "ˈsɛkɪnd"
     },
     {
       "name": "see",
       "back": "See",
       "categories": [
         "Verbs"
-      ]
+      ],
+      "ipa": "siː"
     },
     {
       "name": "seldom",
       "back": "Seldom",
       "categories": [
         "Adverbs"
-      ]
+      ],
+      "ipa": "ˈsɛldəm"
     },
     {
       "name": "sell",
       "back": "Sell",
       "categories": [
         "Verbs"
-      ]
+      ],
+      "ipa": "sɛl"
     },
     {
       "name": "shake",
       "back": "Shake",
       "categories": [
         "Verbs"
-      ]
+      ],
+      "ipa": "ˈʃeɪk"
     },
     {
       "name": "she",
       "back": "She",
       "categories": [
         "Prepositions"
-      ]
+      ],
+      "ipa": "ʃiː"
     },
     {
       "name": "shelf",
       "back": "Shelf",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "ʃɛlf"
     },
     {
       "name": "shoot",
       "back": "Shoot",
       "categories": [
         "Verbs"
-      ]
+      ],
+      "ipa": "ʃuːt"
     },
     {
       "name": "side",
       "back": "Side",
       "categories": [
         "Miscellaneous"
-      ]
+      ],
+      "ipa": "saɪd"
     },
     {
       "name": "sign",
       "back": "Sign",
       "categories": [
         "Miscellaneous"
-      ]
+      ],
+      "ipa": "saɪn"
     },
     {
       "name": "signature",
       "back": "Signature",
       "categories": [
         "Society"
-      ]
+      ],
+      "ipa": "ˈsɪɡnətʃə"
     },
     {
       "name": "sing",
       "back": "Sing",
       "categories": [
         "Verbs"
-      ]
+      ],
+      "ipa": "sɪŋ"
     },
     {
       "name": "singlet",
       "back": "Singlet",
       "categories": [
         "Clothing"
-      ]
+      ],
+      "ipa": "ˈsɪŋɡlɪt"
     },
     {
       "name": "sink",
       "back": "Sink",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "sɪŋk"
     },
     {
       "name": "sit",
       "back": "Sit",
       "categories": [
         "Verbs"
-      ]
+      ],
+      "ipa": "sɪt"
     },
     {
       "name": "skin",
       "back": "Skin",
       "categories": [
         "Body"
-      ]
+      ],
+      "ipa": "skɪn"
     },
     {
       "name": "slide",
       "back": "Slide",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "slaɪd"
     },
     {
       "name": "smell",
       "back": "Smell",
       "categories": [
         "Verbs"
-      ]
+      ],
+      "ipa": "smɛl"
     },
     {
       "name": "snickers",
       "back": "Snickers",
       "categories": [
         "Clothing"
-      ]
+      ],
+      "ipa": "ˈsnɪk.ər"
     },
     {
       "name": "soccer",
       "back": "Soccer",
       "categories": [
         "Society"
-      ]
+      ],
+      "ipa": "ˈsɒk.ə"
     },
     {
       "name": "soil",
       "back": "Soil",
       "categories": [
         "Nature"
-      ]
+      ],
+      "ipa": "sɔɪl"
     },
     {
       "name": "sometimes",
       "back": "Sometimes",
       "categories": [
         "Adverbs"
-      ]
+      ],
+      "ipa": "ˈsʌmtaɪmz"
     },
     {
       "name": "spain",
@@ -2130,14 +2416,16 @@
       ],
       "categories": [
         "Nationality"
-      ]
+      ],
+      "ipa": "speɪn"
     },
     {
       "name": "square",
       "back": "Square",
       "categories": [
         "Math/Measurements"
-      ]
+      ],
+      "ipa": "skwɛə(ɹ)"
     },
     {
       "name": "stand",
@@ -2145,7 +2433,8 @@
       "front_note": "to be on your feet, not sitting or lying down",
       "categories": [
         "Verbs"
-      ]
+      ],
+      "ipa": "stænd"
     },
     {
       "name": "straight",
@@ -2153,28 +2442,32 @@
       "front_note": "not curved or bent; going in one direction",
       "categories": [
         "Adjectives"
-      ]
+      ],
+      "ipa": "stɹeɪt"
     },
     {
       "name": "suit",
       "back": "Suit",
       "categories": [
         "Clothing"
-      ]
+      ],
+      "ipa": "s(j)uːt"
     },
     {
       "name": "surf",
       "back": "Surf",
       "categories": [
         "Society"
-      ]
+      ],
+      "ipa": "sɜːf"
     },
     {
       "name": "sweat",
       "back": "Sweat",
       "categories": [
         "Verbs"
-      ]
+      ],
+      "ipa": "swɛt"
     },
     {
       "name": "sweden",
@@ -2185,14 +2478,16 @@
       ],
       "categories": [
         "Nationality"
-      ]
+      ],
+      "ipa": "ˈswiː.dən"
     },
     {
       "name": "swing",
       "back": "Swing",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "ˈswɪŋ"
     },
     {
       "name": "switzerland",
@@ -2205,14 +2500,16 @@
       ],
       "categories": [
         "Nationality"
-      ]
+      ],
+      "ipa": "ˈswɪt.sə.lənd"
     },
     {
       "name": "taste",
       "back": "Taste",
       "categories": [
         "Verbs"
-      ]
+      ],
+      "ipa": "teɪst"
     },
     {
       "name": "teach",
@@ -2220,189 +2517,216 @@
       "front_note": "to give someone knowledge or explain something",
       "categories": [
         "Verbs"
-      ]
+      ],
+      "ipa": "tiːt͡ʃ"
     },
     {
       "name": "team",
       "back": "Team",
       "categories": [
         "People"
-      ]
+      ],
+      "ipa": "tiːm"
     },
     {
       "name": "tear",
       "back": "Tear",
       "categories": [
         "Body"
-      ]
+      ],
+      "ipa": "teər"
     },
     {
       "name": "temperature",
       "back": "Temperature",
       "categories": [
         "Math/Measurements"
-      ]
+      ],
+      "ipa": "ˈtɛmp(ə)ɹətʃə(ɹ)"
     },
     {
       "name": "theater",
       "back": "Theater",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "ˈθi(ə)tɚ"
     },
     {
       "name": "they",
       "back": "They",
       "categories": [
         "Prepositions"
-      ]
+      ],
+      "ipa": "ðeɪ"
     },
     {
       "name": "thick",
       "back": "Thick",
       "categories": [
         "Adjectives"
-      ]
+      ],
+      "ipa": "θɪk"
     },
     {
       "name": "thin_thick",
       "back": "Thin",
       "categories": [
         "Adjectives"
-      ]
+      ],
+      "ipa": "ˈθɪn"
     },
     {
       "name": "think",
       "back": "Think",
       "categories": [
         "Verbs"
-      ]
+      ],
+      "ipa": "θɪŋk"
     },
     {
       "name": "third",
       "back": "Third",
       "categories": [
         "Math/Measurements"
-      ]
+      ],
+      "ipa": "θɜːd"
     },
     {
       "name": "throw",
       "back": "Throw",
       "categories": [
         "Verbs"
-      ]
+      ],
+      "ipa": "θɹəʊ"
     },
     {
       "name": "toilet_paper",
       "back": "Toilet paper",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "ˈtɔɪ.lət · ˈpeɪpə"
     },
     {
       "name": "touch",
       "back": "Touch",
       "categories": [
         "Verbs"
-      ]
+      ],
+      "ipa": "tʌtʃ"
     },
     {
       "name": "tourist",
       "back": "Tourist",
       "categories": [
         "People"
-      ]
+      ],
+      "ipa": "ˈtʊəɹɪst"
     },
     {
       "name": "towel",
       "back": "Towel",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "taʊl"
     },
     {
       "name": "town",
       "back": "Town",
       "categories": [
         "Location"
-      ]
+      ],
+      "ipa": "taʊn"
     },
     {
       "name": "tractor",
       "back": "Tractor",
       "categories": [
         "Transportation"
-      ]
+      ],
+      "ipa": "ˈtɹæktə"
     },
     {
       "name": "traffic",
       "back": "Traffic",
       "categories": [
         "Society"
-      ]
+      ],
+      "ipa": "ˈtɹæfɪk"
     },
     {
       "name": "train_station",
       "back": "Train station",
       "categories": [
         "Location"
-      ]
+      ],
+      "ipa": "tɹeɪn · ˈsteɪʃən"
     },
     {
       "name": "tray",
       "back": "Tray",
       "categories": [
         "Miscellaneous"
-      ]
+      ],
+      "ipa": "tɹeɪ"
     },
     {
       "name": "trash_bin",
       "back": "Trash bin",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "tɹæʃ · bɪn"
     },
     {
       "name": "treasure",
       "back": "Treasure",
       "categories": [
         "Society"
-      ]
+      ],
+      "ipa": "ˈtɹɛʒə"
     },
     {
       "name": "triangle",
       "back": "Triangle",
       "categories": [
         "Math/Measurements"
-      ]
+      ],
+      "ipa": "ˈtɹaɪəŋɡəl"
     },
     {
       "name": "trolley",
       "back": "Trolley",
       "categories": [
         "Transportation"
-      ]
+      ],
+      "ipa": "ˈtrɒl.i"
     },
     {
       "name": "ugly",
       "back": "Ugly",
       "categories": [
         "Adjectives"
-      ]
+      ],
+      "ipa": "ˈʌɡli"
     },
     {
       "name": "uncle",
       "back": "Uncle",
       "categories": [
         "People"
-      ]
+      ],
+      "ipa": "ˈʌŋ.kəl"
     },
     {
       "name": "under",
       "back": "Under",
       "categories": [
         "Prepositions"
-      ]
+      ],
+      "ipa": "ˈʊndə"
     },
     {
       "name": "united_states",
@@ -2413,133 +2737,152 @@
       ],
       "categories": [
         "Nationality"
-      ]
+      ],
+      "ipa": "juːˈnaɪtɪd · steɪts"
     },
     {
       "name": "usually",
       "back": "Usually",
       "categories": [
         "Adverbs"
-      ]
+      ],
+      "ipa": "ˈjuːʒju(ə)li"
     },
     {
       "name": "valley",
       "back": "Valley",
       "categories": [
         "Nature"
-      ]
+      ],
+      "ipa": "ˈvæli"
     },
     {
       "name": "vegetable",
       "back": "Vegetable",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "ˈvɛd͡ʒtəbəl"
     },
     {
       "name": "verb",
       "back": "Verb",
       "categories": [
         "Verbs"
-      ]
+      ],
+      "ipa": "vɜːb"
     },
     {
       "name": "violin",
       "back": "Violin",
       "categories": [
         "Art"
-      ]
+      ],
+      "ipa": "ˌvɑe.ɘˈlɘn"
     },
     {
       "name": "voice",
       "back": "Voice",
       "categories": [
         "Body"
-      ]
+      ],
+      "ipa": "vɔɪs"
     },
     {
       "name": "vowel",
       "back": "Vowel",
       "categories": [
         "Miscellaneous"
-      ]
+      ],
+      "ipa": "vaʊl"
     },
     {
       "name": "waitress",
       "back": "Waitress",
       "categories": [
         "Job"
-      ]
+      ],
+      "ipa": "ˈweɪ.trəs"
     },
     {
       "name": "wallet",
       "back": "Wallet",
       "categories": [
         "Clothing"
-      ]
+      ],
+      "ipa": "ˈwɒlɪt"
     },
     {
       "name": "wash",
       "back": "Wash",
       "categories": [
         "Verbs"
-      ]
+      ],
+      "ipa": "wɑʃ"
     },
     {
       "name": "washing_machine",
       "back": "Washing machine",
       "categories": [
         "Electronics"
-      ]
+      ],
+      "ipa": "ˈwɒʃɪŋ · məˈʃin"
     },
     {
       "name": "watch",
       "back": "Watch",
       "categories": [
         "Electronics"
-      ]
+      ],
+      "ipa": "wɒt͡ʃ"
     },
     {
       "name": "waterfall",
       "back": "Waterfall",
       "categories": [
         "Nature"
-      ]
+      ],
+      "ipa": "ˈwɔːtəfɔːl"
     },
     {
       "name": "watermelon",
       "back": "Watermelon",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "ˈwɔːtəˌmɛlən"
     },
     {
       "name": "we",
       "back": "We",
       "categories": [
         "Prepositions"
-      ]
+      ],
+      "ipa": "wiː"
     },
     {
       "name": "wear",
       "back": "Wear",
       "categories": [
         "Verbs"
-      ]
+      ],
+      "ipa": "wɛə"
     },
     {
       "name": "weight_scale",
       "back": "Weight scale",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "weɪt · skeɪl"
     },
     {
       "name": "wide",
       "back": "Wide",
       "categories": [
         "Adjectives"
-      ]
+      ],
+      "ipa": "wɑed"
     },
     {
       "name": "wife",
@@ -2547,21 +2890,24 @@
       "front_note": "A woman in a marriage",
       "categories": [
         "People"
-      ]
+      ],
+      "ipa": "waɪf"
     },
     {
       "name": "win",
       "back": "Win",
       "categories": [
         "Verbs"
-      ]
+      ],
+      "ipa": "wɪn"
     },
     {
       "name": "wrist",
       "back": "Wrist",
       "categories": [
         "Body"
-      ]
+      ],
+      "ipa": "ɹɪst"
     },
     {
       "name": "yard",
@@ -2569,28 +2915,32 @@
       "region": "UK",
       "categories": [
         "Home"
-      ]
+      ],
+      "ipa": "jɑːd"
     },
     {
       "name": "yogurt",
       "back": "Yogurt",
       "categories": [
         "Food"
-      ]
+      ],
+      "ipa": "ˈjəʉɡət"
     },
     {
       "name": "you",
       "back": "You",
       "categories": [
         "Prepositions"
-      ]
+      ],
+      "ipa": "jʉː"
     },
     {
       "name": "zebra",
       "back": "Zebra",
       "categories": [
         "Animals"
-      ]
+      ],
+      "ipa": "ˈziːbɹə"
     }
   ]
 }
