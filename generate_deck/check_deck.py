@@ -26,6 +26,8 @@ def check_deck(folder: str):
     abbrev_count = 0
     syn_count = 0
     plural_count = 0
+    simple_past_count = 0
+    past_participle_count = 0
     missing_categories = []
     missing_ipa = []
 
@@ -53,6 +55,18 @@ def check_deck(folder: str):
             plural = normalize(card["plural"])
             audio_variants.append(f"{name}_{plural}")
             plural_count += 1
+
+        # simple_past → name_SimplePast_simple
+        if "simple_past" in card:
+            simple_past = normalize(card["simple_past"])
+            audio_variants.append(f"{name}_{simple_past}_simple")
+            simple_past_count += 1
+
+        # past_participle → name_PastParticiple_participle
+        if "past_participle" in card:
+            past_participle = normalize(card["past_participle"])
+            audio_variants.append(f"{name}_{past_participle}_participle")
+            past_participle_count += 1
 
         # check categorie
         if "categories" not in card or not card["categories"]:
@@ -101,7 +115,9 @@ def check_deck(folder: str):
     print(f"🔎 Totali carte: {len(cards)}")
     print(f"🔎 Varianti audio da abbreviazioni: {abbrev_count}")
     print(f"🔎 Varianti audio da sinonimi: {syn_count}")
-    print(f"🔎 Varianti audio da plurali: {plural_count}\n")
+    print(f"🔎 Varianti audio da plurali: {plural_count}")
+    print(f"🔎 Varianti audio da simple_past: {simple_past_count}")
+    print(f"🔎 Varianti audio da past_participle: {past_participle_count}\n")
 
     print(f"❌ Mancano in audiosMap.ts: {len(missing_in_audio_map)} -> {missing_in_audio_map}")
     print(f"❌ Mancano in imagesMap.ts: {len(missing_in_image_map)} -> {missing_in_image_map}\n")

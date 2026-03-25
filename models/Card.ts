@@ -15,6 +15,9 @@ export interface CardData {
     plural?: string;
     ipa: string;
     categories: string[];
+    // Irregular verb fields
+    simple_past?: string;
+    past_participle?: string;
 }
 
 const logger = log.extend('Card');
@@ -32,8 +35,11 @@ export class Card {
     plural?: string;
     ipa: string;
     categories: string[];
+    // Irregular verb fields
+    simple_past?: string;
+    past_participle?: string;
 
-    constructor({ name, back, front_note, abbreviation, synonyms, back_note, region, nationality, languages, plural, ipa, categories }: CardData) {
+    constructor({ name, back, front_note, abbreviation, synonyms, back_note, region, nationality, languages, plural, ipa, categories, simple_past, past_participle }: CardData) {
         this.name = name;
         this.back = back;
         this.front_note = front_note;
@@ -46,6 +52,8 @@ export class Card {
         this.plural = plural;
         this.ipa = ipa;
         this.categories = categories;
+        this.simple_past = simple_past;
+        this.past_participle = past_participle;
     }
 
     async getNextReviewDate(): Promise<Date | null> {

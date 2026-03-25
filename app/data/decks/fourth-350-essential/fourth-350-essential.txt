@@ -1,5 +1,3 @@
-Total words: 350
-
 adult,afternoon,air,airport,ant,apartment,april,armchair,art,august,back_side,bank,baseball,basketball,bath,beat,beer,beverages,bill,blackboard,
 blood,blueberry,boot,bottom,brain,break,breakfast,build,building,burn,business,button,buy,call,camera,camp,can,candle,card,carpet,
 carry,castle,catch,ceiling,centimeter,chalk,chat,chemistry,church,cinema,classroom,clay,clean,climb,close,clothes,comb,come,concert,cook_noun,

@@ -135,9 +135,11 @@
       "name": "beat",
       "back": "Beat",
       "categories": [
-        "Verbs"
+        "Irregular Verbs"
       ],
-      "ipa": "biːt"
+      "ipa": "biːt",
+      "simple_past": "Beat",
+      "past_participle": "Beaten"
     },
     {
       "name": "beer",
@@ -216,9 +218,11 @@
       "name": "break",
       "back": "Break",
       "categories": [
-        "Verbs"
+        "Irregular Verbs"
       ],
-      "ipa": "bɹeɪk"
+      "ipa": "bɹeɪk",
+      "simple_past": "Broke",
+      "past_participle": "Broken"
     },
     {
       "name": "breakfast",
@@ -233,9 +237,11 @@
       "name": "build",
       "back": "Build",
       "categories": [
-        "Verbs"
+        "Irregular Verbs"
       ],
-      "ipa": "bɪld"
+      "ipa": "bɪld",
+      "simple_past": "Built",
+      "past_participle": "Built"
     },
     {
       "name": "building",
@@ -249,9 +255,11 @@
       "name": "burn",
       "back": "Burn",
       "categories": [
-        "Verbs"
+        "Irregular Verbs"
       ],
-      "ipa": "bɜːn"
+      "ipa": "bɜːn",
+      "simple_past": "Burnt",
+      "past_participle": "Burnt"
     },
     {
       "name": "business",
@@ -273,9 +281,11 @@
       "name": "buy",
       "back": "Buy",
       "categories": [
-        "Verbs"
+        "Irregular Verbs"
       ],
-      "ipa": "baɪ"
+      "ipa": "baɪ",
+      "simple_past": "Bought",
+      "past_participle": "Bought"
     },
     {
       "name": "call",
@@ -353,9 +363,11 @@
       "name": "catch",
       "back": "Catch",
       "categories": [
-        "Verbs"
+        "Irregular Verbs"
       ],
-      "ipa": "kæt͡ʃ"
+      "ipa": "kæt͡ʃ",
+      "simple_past": "Caught",
+      "past_participle": "Caught"
     },
     {
       "name": "ceiling",
@@ -475,9 +487,11 @@
       "name": "come",
       "back": "Come",
       "categories": [
-        "Verbs"
+        "Irregular Verbs"
       ],
-      "ipa": "kʌm"
+      "ipa": "kʌm",
+      "simple_past": "Came",
+      "past_participle": "Come"
     },
     {
       "name": "concert",
@@ -492,7 +506,7 @@
       "back": "Cook",
       "front_note": "A person who prepares food, at home or in a simple job",
       "categories": [
-        "Verbs"
+        "Job"
       ],
       "ipa": "kuːk"
     },
@@ -566,9 +580,11 @@
       "name": "cut",
       "back": "Cut",
       "categories": [
-        "Verbs"
+        "Irregular Verbs"
       ],
-      "ipa": "kʌt"
+      "ipa": "kʌt",
+      "simple_past": "Cut",
+      "past_participle": "Cut"
     },
     {
       "name": "dark",
@@ -648,9 +664,11 @@
       "name": "dig",
       "back": "Dig",
       "categories": [
-        "Verbs"
+        "Irregular Verbs"
       ],
-      "ipa": "dɪɡ"
+      "ipa": "dɪɡ",
+      "simple_past": "Dug",
+      "past_participle": "Dug"
     },
     {
       "name": "dinner",
@@ -713,17 +731,22 @@
       "name": "draw",
       "back": "Draw",
       "categories": [
-        "Verbs"
+        "Irregular Verbs"
       ],
-      "ipa": "dɹɔː"
+      "ipa": "dɹɔː",
+      "simple_past": "Drew",
+      "past_participle": "Drawn"
     },
     {
       "name": "dream",
       "back": "Dream",
       "categories": [
-        "Verbs"
+        "Irregular Verbs"
       ],
-      "ipa": "dɹiːm"
+      "ipa": "dɹiːm",
+      "simple_past": "Dreamt",
+      "past_participle": "Dreamt",
+      "back_note": "Dreamed is used too"
     },
     {
       "name": "drink_beverage",
@@ -731,15 +754,19 @@
       "categories": [
         "Beverages"
       ],
-      "ipa": "dɹɪŋk"
+      "ipa": "dɹɪŋk",
+      "simple_past": "",
+      "past_participle": ""
     },
     {
       "name": "drive",
       "back": "Drive",
       "categories": [
-        "Verbs"
+        "Irregular Verbs"
       ],
-      "ipa": "dɹaɪv"
+      "ipa": "dɹaɪv",
+      "simple_past": "Drove",
+      "past_participle": "Driven"
     },
     {
       "name": "drop",
@@ -785,9 +812,11 @@
       "name": "eat",
       "back": "Eat",
       "categories": [
-        "Verbs"
+        "Irregular Verbs"
       ],
-      "ipa": "iːt"
+      "ipa": "iːt",
+      "simple_past": "Ate",
+      "past_participle": "Eaten"
     },
     {
       "name": "edge",
@@ -908,9 +937,11 @@
       "name": "feed",
       "back": "Feed",
       "categories": [
-        "Verbs"
+        "Irregular Verbs"
       ],
-      "ipa": "ˈfiːd"
+      "ipa": "ˈfiːd",
+      "simple_past": "Fed",
+      "past_participle": "Fed"
     },
     {
       "name": "female",
@@ -941,9 +972,11 @@
       "name": "fight",
       "back": "Fight",
       "categories": [
-        "Verbs"
+        "Irregular Verbs"
       ],
-      "ipa": "fʌɪt"
+      "ipa": "fʌɪt",
+      "simple_past": "Fought",
+      "past_participle": "Fought"
     },
     {
       "name": "find",
@@ -952,9 +985,11 @@
         "Search"
       ],
       "categories": [
-        "Verbs"
+        "Irregular Verbs"
       ],
-      "ipa": "faɪnd"
+      "ipa": "faɪnd",
+      "simple_past": "Found",
+      "past_participle": "Found"
     },
     {
       "name": "first",
@@ -986,9 +1021,11 @@
       "name": "fly",
       "back": "Fly",
       "categories": [
-        "Verbs"
+        "Irregular Verbs"
       ],
-      "ipa": "flaɪ"
+      "ipa": "flaɪ",
+      "simple_past": "Flew",
+      "past_participle": "Flown"
     },
     {
       "name": "football",
@@ -1101,17 +1138,21 @@
       "name": "give",
       "back": "Give",
       "categories": [
-        "Verbs"
+        "Irregular Verbs"
       ],
-      "ipa": "ɡɪv"
+      "ipa": "ɡɪv",
+      "simple_past": "Gave",
+      "past_participle": "Given"
     },
     {
       "name": "go",
       "back": "Go",
       "categories": [
-        "Verbs"
+        "Irregular Verbs"
       ],
-      "ipa": "ɡəʉ"
+      "ipa": "ɡəʉ",
+      "simple_past": "went",
+      "past_participle": "gone"
     },
     {
       "name": "god",
@@ -1158,9 +1199,11 @@
       "name": "grow",
       "back": "Grow",
       "categories": [
-        "Verbs"
+        "Irregular Verbs"
       ],
-      "ipa": "ɡɹəʊ"
+      "ipa": "ɡɹəʊ",
+      "simple_past": "Grew",
+      "past_participle": "Grown"
     },
     {
       "name": "guitar",
@@ -2238,9 +2281,11 @@
       "name": "read",
       "back": "Read",
       "categories": [
-        "Verbs"
+        "Irregular Verbs"
       ],
-      "ipa": "ɹiːd"
+      "ipa": "ɹiːd",
+      "simple_past": "Read",
+      "past_participle": "Read"
     },
     {
       "name": "religion",
@@ -2273,9 +2318,11 @@
       "name": "ride",
       "back": "Ride",
       "categories": [
-        "Verbs"
+        "Irregular Verbs"
       ],
-      "ipa": "ɹaɪd"
+      "ipa": "ɹaɪd",
+      "simple_past": "Rode",
+      "past_participle": "Ridden"
     },
     {
       "name": "right",
@@ -2305,9 +2352,11 @@
       "name": "run",
       "back": "Run",
       "categories": [
-        "Verbs"
+        "Irregular Verbs"
       ],
-      "ipa": "rʌn"
+      "ipa": "rʌn",
+      "simple_past": "Ran",
+      "past_participle": "Run"
     },
     {
       "name": "salad",
@@ -2451,9 +2500,11 @@
       "name": "sleep",
       "back": "Sleep",
       "categories": [
-        "Verbs"
+        "Irregular Verbs"
       ],
-      "ipa": "sliːp"
+      "ipa": "sliːp",
+      "simple_past": "Slept",
+      "past_participle": "Slept"
     },
     {
       "name": "slow",
@@ -2516,9 +2567,11 @@
       "name": "speak",
       "back": "Speak",
       "categories": [
-        "Verbs"
+        "Irregular Verbs"
       ],
-      "ipa": "spiːk"
+      "ipa": "spiːk",
+      "simple_past": "Spoke",
+      "past_participle": "Spoken"
     },
     {
       "name": "sport",
@@ -2597,9 +2650,11 @@
       "name": "swim",
       "back": "Swim",
       "categories": [
-        "Verbs"
+        "Irregular Verbs"
       ],
-      "ipa": "swɪm"
+      "ipa": "swɪm",
+      "simple_past": "Swam",
+      "past_participle": "Swum"
     },
     {
       "name": "tail",
@@ -2796,9 +2851,11 @@
       "name": "wake_up",
       "back": "Wake up",
       "categories": [
-        "Verbs"
+        "Irregular Verbs"
       ],
-      "ipa": "/ˈweɪk.ʌp/"
+      "ipa": "/ˈweɪk.ʌp/",
+      "simple_past": "Woke up",
+      "past_participle": "Woken up"
     },
     {
       "name": "wednesday",
@@ -2886,9 +2943,11 @@
       "name": "write",
       "back": "Write",
       "categories": [
-        "Verbs"
+        "Irregular Verbs"
       ],
-      "ipa": "ɹaɪt"
+      "ipa": "ɹaɪt",
+      "simple_past": "Wrote",
+      "past_participle": "Written"
     },
     {
       "name": "year",

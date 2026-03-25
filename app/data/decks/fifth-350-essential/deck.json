@@ -1478,9 +1478,11 @@
       "name": "lose",
       "back": "Lose",
       "categories": [
-        "Verbs"
+        "Irregular Verbs"
       ],
-      "ipa": "luːz"
+      "ipa": "luːz",
+      "simple_past": "Lost",
+      "past_participle": "Lost"
     },
     {
       "name": "loud",
@@ -1884,9 +1886,11 @@
       "back": "Pay",
       "front_note": "to give money for something",
       "categories": [
-        "Verbs"
+        "Irregular Verbs"
       ],
-      "ipa": "peɪ"
+      "ipa": "peɪ",
+      "simple_past": "Paid",
+      "past_participle": "Paid"
     },
     {
       "name": "pea",
@@ -2243,9 +2247,11 @@
       "name": "see",
       "back": "See",
       "categories": [
-        "Verbs"
+        "Irregular Verbs"
       ],
-      "ipa": "siː"
+      "ipa": "siː",
+      "simple_past": "Saw",
+      "past_participle": "Seen"
     },
     {
       "name": "seldom",
@@ -2259,9 +2265,11 @@
       "name": "sell",
       "back": "Sell",
       "categories": [
-        "Verbs"
+        "Irregular Verbs"
       ],
-      "ipa": "sɛl"
+      "ipa": "sɛl",
+      "simple_past": "Sold",
+      "past_participle": "Sold"
     },
     {
       "name": "shake",
@@ -2347,9 +2355,11 @@
       "name": "sit",
       "back": "Sit",
       "categories": [
-        "Verbs"
+        "Irregular Verbs"
       ],
-      "ipa": "sɪt"
+      "ipa": "sɪt",
+      "simple_past": "Sat",
+      "past_participle": "Sat"
     },
     {
       "name": "skin",
@@ -2432,9 +2442,11 @@
       "back": "Stand",
       "front_note": "to be on your feet, not sitting or lying down",
       "categories": [
-        "Verbs"
+        "Irregular Verbs"
       ],
-      "ipa": "stænd"
+      "ipa": "stænd",
+      "simple_past": "Stood",
+      "past_participle": "Stood"
     },
     {
       "name": "straight",
@@ -2516,9 +2528,11 @@
       "back": "Teach",
       "front_note": "to give someone knowledge or explain something",
       "categories": [
-        "Verbs"
+        "Irregular Verbs"
       ],
-      "ipa": "tiːt͡ʃ"
+      "ipa": "tiːt͡ʃ",
+      "simple_past": "Taught",
+      "past_participle": "Taught"
     },
     {
       "name": "team",
@@ -2580,9 +2594,11 @@
       "name": "think",
       "back": "Think",
       "categories": [
-        "Verbs"
+        "Irregular Verbs"
       ],
-      "ipa": "θɪŋk"
+      "ipa": "θɪŋk",
+      "simple_past": "Thought",
+      "past_participle": "Thought"
     },
     {
       "name": "third",
@@ -2596,9 +2612,11 @@
       "name": "throw",
       "back": "Throw",
       "categories": [
-        "Verbs"
+        "Irregular Verbs"
       ],
-      "ipa": "θɹəʊ"
+      "ipa": "θɹəʊ",
+      "simple_past": "Threw",
+      "past_participle": "Thrown"
     },
     {
       "name": "toilet_paper",
@@ -2864,9 +2882,11 @@
       "name": "wear",
       "back": "Wear",
       "categories": [
-        "Verbs"
+        "Irregular Verbs"
       ],
-      "ipa": "wɛə"
+      "ipa": "wɛə",
+      "simple_past": "Wore",
+      "past_participle": "Worn"
     },
     {
       "name": "weight_scale",
@@ -2897,9 +2917,11 @@
       "name": "win",
       "back": "Win",
       "categories": [
-        "Verbs"
+        "Irregular Verbs"
       ],
-      "ipa": "wɪn"
+      "ipa": "wɪn",
+      "simple_past": "Won",
+      "past_participle": "Won"
     },
     {
       "name": "wrist",

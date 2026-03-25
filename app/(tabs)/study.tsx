@@ -78,7 +78,9 @@ export default function StudyScreen() {
             playSound();
         } else {
             if (soundRef.current) {
-                soundRef.current.stopAsync();
+                soundRef.current.stopAsync().catch((error) => {
+                    console.log('Error stopping sound:', error);
+                });
             }
         }
     }, [showBack, autoAudio]);
@@ -327,6 +329,64 @@ export default function StudyScreen() {
                             </View>
                         )}
 
+                        {card.simple_past && (
+                            <View style={styles.simplePastContainer}>
+                                <Text style={styles.simplePastText}>Past Simple: {card.simple_past}</Text>
+                                <TouchableOpacity
+                                    onPress={async () => {
+                                        const simplePast = card.simple_past;
+                                        if (!simplePast) return;
+
+                                        if (soundRef.current) {
+                                            await soundRef.current.unloadAsync();
+                                            soundRef.current = null;
+                                        }
+
+                                        // Genera la chiave come name + '_' + simple_past + '_simple'
+                                        const key = `${card.name}_${simplePast}_simple`.toLowerCase();
+                                        const audioSource = audiosMaps[session.deck.slug]?.[key];
+                                        if (!audioSource) return; // se non c'è, non fa nulla
+
+                                        const { sound } = await Audio.Sound.createAsync(audioSource);
+                                        soundRef.current = sound;
+                                        await sound.playAsync();
+                                    }}
+                                    style={styles.playButtonSmall}
+                                >
+                                    <Ionicons name="volume-high" size={20} color="lightgrey" />
+                                </TouchableOpacity>
+                            </View>
+                        )}
+
+                        {card.past_participle && (
+                            <View style={styles.pastParticipleContainer}>
+                                <Text style={styles.pastParticipleText}>Past Participle: {card.past_participle}</Text>
+                                <TouchableOpacity
+                                    onPress={async () => {
+                                        const pastParticiple = card.past_participle;
+                                        if (!pastParticiple) return;
+
+                                        if (soundRef.current) {
+                                            await soundRef.current.unloadAsync();
+                                            soundRef.current = null;
+                                        }
+
+                                        // Genera la chiave come name + '_' + past_participle + '_participle'
+                                        const key = `${card.name}_${pastParticiple}_participle`.toLowerCase();
+                                        const audioSource = audiosMaps[session.deck.slug]?.[key];
+                                        if (!audioSource) return; // se non c'è, non fa nulla
+
+                                        const { sound } = await Audio.Sound.createAsync(audioSource);
+                                        soundRef.current = sound;
+                                        await sound.playAsync();
+                                    }}
+                                    style={styles.playButtonSmall}
+                                >
+                                    <Ionicons name="volume-high" size={20} color="lightgrey" />
+                                </TouchableOpacity>
+                            </View>
+                        )}
+
                         {card.ipa && (
                             <Text style={styles.ipa}>IPA: {card.ipa}</Text>
                         )}
@@ -519,6 +579,28 @@ const styles = StyleSheet.create({
         color: '#444',
         textAlign: 'center',
         marginTop: 20,
+        fontStyle: 'italic',
+    },
+    simplePastContainer: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        marginTop: 30,
+    },
+    simplePastText: {
+        fontSize: 16,
+        color: '#666',
+        marginRight: 6,
+        fontStyle: 'italic',
+    },
+    pastParticipleContainer: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        marginTop: 30,
+    },
+    pastParticipleText: {
+        fontSize: 16,
+        color: '#666',
+        marginRight: 6,
         fontStyle: 'italic',
     },
 });
